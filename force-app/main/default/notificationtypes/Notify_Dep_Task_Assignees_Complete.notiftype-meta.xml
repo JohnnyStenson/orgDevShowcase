@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomNotificationType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customNotifTypeName>Notify Dep Task Assignees Complete</customNotifTypeName>
+    <desktop>true</desktop>
+    <masterLabel>Notify Dep Task Assignees Complete</masterLabel>
+    <mobile>true</mobile>
+</CustomNotificationType>

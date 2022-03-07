@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Project_Repair_Work_Order</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Project: Repair_Work_Order</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Repair_Work_Order</recordTypeName>
+    <sobjectType>Krow__Project__c</sobjectType>
+    <targetField>Krow__Project_Status__c</targetField>
+    <targetFieldChangeToValues>Complete</targetFieldChangeToValues>
+</AnimationRule>

@@ -1,0 +1,12 @@
+<template>
+    <div class="slds-p-around_small">
+        <lightning-combobox 
+            name="ProductUsedFor" 
+            label="Add a Pay Item to this Group" 
+            value={pufValue} 
+            placeholder="- Add New Pay Item From -"
+            options={pufValues} 
+            onchange={handlePUFChange}>
+        </lightning-combobox> 
+    </div>
+</template>

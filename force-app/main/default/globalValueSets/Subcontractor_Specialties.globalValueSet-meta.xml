@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Blacktop</fullName>
+        <default>false</default>
+        <label>Blacktop</label>
+    </customValue>
+    <customValue>
+        <fullName>Block</fullName>
+        <default>false</default>
+        <label>Block</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue Stone</fullName>
+        <default>false</default>
+        <label>Blue Stone</label>
+    </customValue>
+    <customValue>
+        <fullName>Demolition</fullName>
+        <default>false</default>
+        <label>Demolition</label>
+    </customValue>
+    <customValue>
+        <fullName>Excavation</fullName>
+        <default>false</default>
+        <label>Excavation</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscaper</fullName>
+        <default>false</default>
+        <label>Landscaper</label>
+    </customValue>
+    <customValue>
+        <fullName>Pavers</fullName>
+        <default>false</default>
+        <label>Pavers</label>
+    </customValue>
+    <customValue>
+        <fullName>Poured Walls</fullName>
+        <default>false</default>
+        <label>Poured Walls</label>
+    </customValue>
+    <customValue>
+        <fullName>Retaining Walls</fullName>
+        <default>false</default>
+        <label>Retaining Walls</label>
+    </customValue>
+    <customValue>
+        <fullName>Slabs</fullName>
+        <default>false</default>
+        <label>Slabs</label>
+    </customValue>
+    <customValue>
+        <fullName>Stone Veneer</fullName>
+        <default>false</default>
+        <label>Stone Veneer</label>
+    </customValue>
+    <customValue>
+        <fullName>Tree Service</fullName>
+        <default>false</default>
+        <label>Tree Service</label>
+    </customValue>
+    <masterLabel>Subcontractor Specialties</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>Reset Inventory {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Reset Inventory</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Blank_All_Quant_Fields</name>
+        <label>Blank All Quant Fields</label>
+        <locationX>424</locationX>
+        <locationY>214</locationY>
+        <connector>
+            <targetReference>Unmark_Needs_to_be_Ordered</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>TrackIT__Location__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>a3W1U000000it28UAA</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>TrackIT__Quantity__c</field>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </inputAssignments>
+        <object>TrackIT__Inv_Location__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Unmark_Needs_to_be_Ordered</name>
+        <label>Unmark Needs to be Ordered</label>
+        <locationX>416</locationX>
+        <locationY>39</locationY>
+        <inputAssignments>
+            <field>Needs_to_be_Ordered__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>TrackIT__Inventory__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>84</locationX>
+        <locationY>135</locationY>
+        <connector>
+            <targetReference>Blank_All_Quant_Fields</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>

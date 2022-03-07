@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(0, 112, 210);
+}
+p {
+    font-family: 'Salesforce Sans', Arial, sans-serif;
+    color: rgb(62, 62, 60);
+}
+.app {
+    background-color: #fafaf9;
+}
+
+li {
+    font-size:1.3em;
+}
+
+.c-container {
+    border: 1px solid #d8dde6;
+    margin: 10px 0 20px 0;
+}
+.header-column {
+    padding: 0 2rem;
+}
+.field-title {
+    font-size: .75rem;
+    line-height: 1.25;
+    color: #54698d;
+    margin-bottom: .25rem;
+}
+
+.color-green{
+    color:green;
+}
+
+.color-blue{
+    color:blue;
+}

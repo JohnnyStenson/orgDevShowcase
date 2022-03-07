@@ -1,0 +1,20 @@
+<aura:component implements="lightning:recordHomeTemplate" 
+                description="2 columns flexible with header and footer." >
+    <aura:attribute name="header" type="Aura.Component[]" description="Header"/>
+    <aura:attribute name="column1" type="Aura.Component[]" description="Column1"/>
+    <aura:attribute name="column2" type="Aura.Component[]" description="Column2"/>
+    <aura:attribute name="footer" type="Aura.Component[]" description="Footer"/>
+    
+    <div>
+        <div>{!v.header}</div>
+        <lightning:layout  pullToBoundary="small">
+            <lightning:layoutItem flexibility="auto" padding="around-small">
+                {!v.column1}
+            </lightning:layoutItem>
+            <lightning:layoutItem size="6" padding="around-small">         
+                {!v.column2}
+            </lightning:layoutItem>
+        </lightning:layout>
+        <div>{!v.footer}</div>
+    </div> 
+</aura:component>

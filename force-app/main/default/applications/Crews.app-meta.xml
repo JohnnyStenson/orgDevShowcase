@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Crews</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>User_Krow_Task_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Krow__Task__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>User_Krow_Task_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Krow__Task__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>User_Krow_Task_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Krow__Task__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Clone Salesforce Platform User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>User_Krow_Task_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Krow__Task__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Clone Salesforce Platform User</profile>
+    </profileActionOverrides>
+    <tabs>My_Tasks1</tabs>
+    <tabs>Job__c</tabs>
+    <tabs>Concrete_Order__c</tabs>
+    <tabs>Purchase_Log__c</tabs>
+    <tabs>TrackIT__Location__c</tabs>
+    <tabs>TrackIT__Inventory__c</tabs>
+    <tabs>TrackIT__Item__c</tabs>
+    <tabs>Completed_Work_Log__c</tabs>
+    <tabs>Inventory_Left_on_Job__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Work_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>al_grwc__AL_Fieldset_Managed_Package_1</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>al_grwc__AL_Fieldset_Managed_Package_2</name>
+    </fieldSets>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Account Summary</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Slack Messages</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Concrete Supplier</layout>
+        <sections>
+            <label>Información adicional</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inventory Supplier</layout>
+        <sections>
+            <label>Información adicional</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Información de renovación/Plazo compartido</label>
+            <section>Renewal/Co-Term Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MMS Client</layout>
+        <sections>
+            <label></label>
+            <section>Account Summary</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Slack Messages</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Stock Supplier</layout>
+        <sections>
+            <label></label>
+            <section>Accounting Information</section>
+        </sections>
+        <sections>
+            <label>Información adicional</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Subcontractor Page Layout</layout>
+        <sections>
+            <label></label>
+            <section>Account Summary</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Slack Messages</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>New_RFP_to_Evaluate</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Client</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Concrete_Supplier</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Inventory_Supplier</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Subcontractor</name>
+    </recordTypes>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__Send_Survey</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Renew_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>synety__Export_to_Synety_Campaign</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>synety__Send_SMS</name>
+    </webLinks>
+</CustomObjectTranslation>

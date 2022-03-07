@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <assignments>
+        <name>Change_Krow_Task</name>
+        <label>Change Krow Task</label>
+        <locationX>176</locationX>
+        <locationY>518</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Krow_Task.Krow__Due_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>date_from_activity_datetime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Krow_Task.Krow__Planned_Due_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>date_from_activity_datetime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Krow_Task.Krow__Planned_Start_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>date_from_activity_datetime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Krow_Task.Krow__Start_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>date_from_activity_datetime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Krow_Task.Krow__End_Time__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>date_from_activity_datetime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Krow_Task.Krow__Start_Time__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>start_time</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Krow_Task.Krow__End_Time__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>start_time</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Krow_Task.Krow__Description__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>lead_task.Description</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Task_Assignment</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Change_Task_Assignment</name>
+        <label>Change Task Assignment</label>
+        <locationX>176</locationX>
+        <locationY>758</locationY>
+        <assignmentItems>
+            <assignToReference>Get_Task_Assignment.Krow__Start_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>date_from_activity_datetime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Task_Assignment.Krow__End_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>date_from_activity_datetime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Task_Assignment.Krow__User__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>lead_task.OwnerId</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Update_Due_Date_from_Activity_Date_Time</name>
+        <label>Update Due Date from Activity Date/Time</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <assignmentItems>
+            <assignToReference>lead_task.ActivityDate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>date_from_activity_datetime</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Lead_Task_Due_Date</targetReference>
+        </connector>
+    </assignments>
+    <formulas>
+        <name>date_from_activity_datetime</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE({!lead_task.synety__Actual_Date_Time_of_Call__c})</expression>
+    </formulas>
+    <formulas>
+        <name>start_time</name>
+        <dataType>String</dataType>
+        <expression>IF(
+  OR(
+    VALUE( MID( TEXT({!lead_task.synety__Actual_Date_Time_of_Call__c} - 5 ), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT({!lead_task.synety__Actual_Date_Time_of_Call__c} - 5/24), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT({!lead_task.synety__Actual_Date_Time_of_Call__c} - 5/24 ), 12, 2 ) ) 
+   -
+   IF( 
+     VALUE( MID( TEXT({!lead_task.synety__Actual_Date_Time_of_Call__c} -5 /24), 12, 2 ) ) &lt; 12, 
+     0, 
+     12 
+   ) 
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT({!lead_task.synety__Actual_Date_Time_of_Call__c} -5/24 ), 15, 2 )
+
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT({!lead_task.synety__Actual_Date_Time_of_Call__c} -5 /24), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)</expression>
+    </formulas>
+    <interviewLabel>Update Krow Task when Lead Task Changes {!$Flow.CurrentDateTime}Lead Task: {!lead_task.Id}</interviewLabel>
+    <label>Update Krow Task when Lead Task Changes</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Krow_Task</name>
+        <label>Get Krow Task</label>
+        <locationX>176</locationX>
+        <locationY>398</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Change_Krow_Task</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Krow__SFDC_TaskId__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>lead_task.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Krow__Task__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Task_Assignment</name>
+        <label>Get Task Assignment</label>
+        <locationX>176</locationX>
+        <locationY>638</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Change_Task_Assignment</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Krow__Krow_Task__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Krow_Task.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Krow__Task_Assignment__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Lead_Task_Due_Date</name>
+        <label>Update Lead Task Due Date</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <connector>
+            <targetReference>Get_Krow_Task</targetReference>
+        </connector>
+        <inputReference>lead_task</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Due_Date_from_Activity_Date_Time</targetReference>
+        </connector>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>lead_task</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Task</objectType>
+    </variables>
+</Flow>

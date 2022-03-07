@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1. Machine</fullName>
+        <default>false</default>
+        <label>1. Machine</label>
+    </customValue>
+    <customValue>
+        <fullName>2. Tool</fullName>
+        <default>false</default>
+        <label>2. Tool</label>
+    </customValue>
+    <customValue>
+        <fullName>2a. Concrete Form</fullName>
+        <default>false</default>
+        <label>2a. Concrete Form</label>
+    </customValue>
+    <customValue>
+        <fullName>3. Supply</fullName>
+        <default>false</default>
+        <label>3. Supply</label>
+    </customValue>
+    <customValue>
+        <fullName>4. Mechanic Tool</fullName>
+        <default>false</default>
+        <label>4. Mechanic Tool</label>
+    </customValue>
+    <customValue>
+        <fullName>5. Mechanic Supply</fullName>
+        <default>false</default>
+        <label>5. Mechanic Supply</label>
+    </customValue>
+    <customValue>
+        <fullName>6. Mechanic Box for Truck</fullName>
+        <default>false</default>
+        <label>6. Mechanic Box for Truck</label>
+    </customValue>
+    <customValue>
+        <fullName>7. Part</fullName>
+        <default>false</default>
+        <label>7. Part</label>
+    </customValue>
+    <customValue>
+        <fullName>8. Wishlist</fullName>
+        <default>false</default>
+        <label>8. Wishlist</label>
+    </customValue>
+    <customValue>
+        <fullName>10. MMS Inventory</fullName>
+        <default>false</default>
+        <label>10. MMS Inventory</label>
+    </customValue>
+    <masterLabel>Inventory Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

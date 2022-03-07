@@ -1,0 +1,24 @@
+<template>
+    <c-qgs-new-q-l-g-popup 
+        onrefreshqlgs={refreshQLGList}>
+    </c-qgs-new-q-l-g-popup>
+    
+    <lightning-card class="slds-p-around_x-small">
+        <div class="slds-text-heading_medium slds-p-around_small slds-p-top_none">Sales to Quote Bridge</div>
+        <div class="slds-m-horizontal_small">
+            <lightning-button 
+                label="New Quote Line Group" 
+                onclick={handleCreateQLG}>
+            </lightning-button>
+            <lightning-button 
+                label="Refresh Quote Line Groups after Adding a New One" 
+                onclick={handleRefreshQLGs}>
+            </lightning-button>
+            <c-qgs-quote-group-list 
+                quote-id={recordId} 
+                puf-values={pufValues} 
+                qlgs={qlgs}>
+            </c-qgs-quote-group-list>
+        </div>
+    </lightning-card>
+</template>

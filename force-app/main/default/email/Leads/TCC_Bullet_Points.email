@@ -1,0 +1,79 @@
+<messaging:emailTemplate subject="Tesla Concrete Cutting Information" recipientType="Lead" >
+<messaging:htmlEmailBody >
+    <html>      
+    <body>
+    <STYLE type="text/css">   
+        body{font-size: 1.3em; font-face: Arial;}  
+    </style>
+    <apex:outputpanel >
+        <img src="{!URLFOR($Resource.TeslaLogoPNG)}" alt="TeslaLogoPNG" /><br/>
+        <p>Hi {!recipient.FirstName},</p>
+        <p>{!recipient.Email_Introduction__c}</p>
+    </apex:outputpanel>
+    
+    <apex:outputpanel rendered="{!recipient.Service__c}">
+        <h2>Services</h2>
+        <p>Our #1 goal is your customer&apos;s full satisfaction. All of our services are performed and managed by our fully trained staff. Interior concrete cutting is performed with fully electric concrete saws that use water for dust suppression. This means zero carbon monoxide and zero dust. Our saws are powered by our high horsepower generators, not your customer&apos;s electric.<br /> The services are as follows:</p>
+        <ul>
+            <li>Concrete slab sawcutting</li>
+            <li>Concrete slab breaking and removal</li>
+            <li>Skilled trench backfilling and compaction after inspections<br />
+                The backfill crew will not change the slope of the sewer lines</li>
+            <li>Utility trench excavation by hand or by machine</li>
+            <li>Rebar doweled into the adjacent slab prior to pouring back concrete</li>
+            <li>Concrete slab pour back</li>
+            <li>Wide selection of protection services</li>
+            <li>Beam jacking for loli column installation</li>
+            <li>Pier footings</li>
+            <li>Drain and sump pit installation</li>
+            <li>Footing underpinning</li>
+            <li>Full Masonry Services</li>
+        </ul>
+    </apex:outputpanel>
+    <apex:outputpanel rendered="{!recipient.Protection_Safety__c}">
+        <h2>Protection &amp; Safety</h2>
+        <p>The nature of concrete cutting and breaking is heavy cumbersome work. Removing concrete from a kitchen or basement has its challenges. We understand that scratching the sheetrock or denting a door can result in unhappy customers and costly repairs. We offer several different levels of protection to best service your needs and budget. You can pick and choose what works on a per project basis. For example if there are no stairs that we need to use, then we will not add stair protection to the proposal. The services are as follows:</p>
+        <ul>
+            <li>Protection of exterior surfaces such as front steps, driveway, lawn etc.</li>
+            <li>Protection of exterior door jambs and saddles</li>
+            <li>Protection of interior floors</li>
+            <li>Protection of interior walls</li>
+            <li>Protection of interior doors</li>
+            <li>Protection of stair wells</li>
+            <li>Protection of window frames</li>
+            <li>Containment of flying concrete chips from jackhammer</li>
+            <li>Concrete sawcutting slurry containment</li>
+            <li>Confined space air suction</li>
+        </ul>
+    </apex:outputpanel>
+    <apex:outputpanel rendered="{!recipient.Your_Customer__c}">
+        <h2>Your Customer</h2>
+        <p>At Tesla Concrete Sawcutting we understand that customer service is paramount to your business success.</p>
+        <ul>
+            <li>Our staff is fully uniformed and all wear the proper personal protective equipment for construction activities as well as for COVID-19.</li>
+            <li>There is a foreman on every job that can walk your customer through the process if need be.</li>
+            <li>Your customer can receive schedule updates as they happen.</li>
+            <li>Price will never be discussed with your customer.</li>
+            <li>Upon your request, an informational bulletin will be sent to your customer explaining the process including required access, noise, protection, and approximate duration.</li>
+        </ul>
+    </apex:outputpanel>
+    <apex:outputpanel rendered="{!recipient.Scheduling__c}">
+        <h2>Scheduling</h2>
+        <p>We know that scheduling the work as well as estimating is critical to performing any successful project.</p>
+        <p>Working with your schedule and your customer&apos;s schedule is made easier with our custom notifications.</p>
+        <p>We offer schedule notifications that can be sent to you or your customer via text, email, and/or phone call. These notifications will keep everyone in the know from days look ahead to exact arrival times.</p>
+        <p>﻿Multi step work such as slab removal and pour back at a later date will receive notifications for all steps.</p>
+    </apex:outputpanel>
+    <apex:outputpanel >
+        <p>{!recipient.EmailSignature__c}</p>
+        <p>Thank you,</p>
+        <p>Mike</p>
+        <p><a href="https://www.teslaconcretecutting.com">TeslaConcreteCutting.com</a></p>
+        <p>Office: <a href="tel:7327249100">(732) 724-9100</a></p>
+        <p>Mike&apos;s Cell: <a href="tel:9083688031">(908) 368-8031</a></p>
+    </apex:outputpanel>
+
+    </body>
+    </html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

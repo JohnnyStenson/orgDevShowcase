@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AM  06:00</fullName>
+        <default>false</default>
+        <label>AM  06:00</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  06:30</fullName>
+        <default>false</default>
+        <label>AM  06:30</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  07:00</fullName>
+        <default>false</default>
+        <label>AM  07:00</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  07:30</fullName>
+        <default>false</default>
+        <label>AM  07:30</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  08:00</fullName>
+        <default>false</default>
+        <label>AM  08:00</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  08:30</fullName>
+        <default>false</default>
+        <label>AM  08:30</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  09:00</fullName>
+        <default>false</default>
+        <label>AM  09:00</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  09:30</fullName>
+        <default>false</default>
+        <label>AM  09:30</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  10:00</fullName>
+        <default>false</default>
+        <label>AM  10:00</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  10:30</fullName>
+        <default>false</default>
+        <label>AM  10:30</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  11:00</fullName>
+        <default>false</default>
+        <label>AM  11:00</label>
+    </customValue>
+    <customValue>
+        <fullName>AM  11:30</fullName>
+        <default>false</default>
+        <label>AM  11:30</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 12:00</fullName>
+        <default>false</default>
+        <label>PM 12:00</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 12:30</fullName>
+        <default>false</default>
+        <label>PM 12:30</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 01:00</fullName>
+        <default>false</default>
+        <label>PM 01:00</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 01:30</fullName>
+        <default>false</default>
+        <label>PM 01:30</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 02:00</fullName>
+        <default>false</default>
+        <label>PM 02:00</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 02:30</fullName>
+        <default>false</default>
+        <label>PM 02:30</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 03:00</fullName>
+        <default>false</default>
+        <label>PM 03:00</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 03:30</fullName>
+        <default>false</default>
+        <label>PM 03:30</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 04:00</fullName>
+        <default>false</default>
+        <label>PM 04:00</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 04:30</fullName>
+        <default>false</default>
+        <label>PM 04:30</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 05:00</fullName>
+        <default>false</default>
+        <label>PM 05:00</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 05:30</fullName>
+        <default>false</default>
+        <label>PM 05:30</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 06:00</fullName>
+        <default>false</default>
+        <label>PM 06:00</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 06:30</fullName>
+        <default>false</default>
+        <label>PM 06:30</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 07:00</fullName>
+        <default>false</default>
+        <label>PM 07:00</label>
+    </customValue>
+    <customValue>
+        <fullName>PM 07:30</fullName>
+        <default>false</default>
+        <label>PM 07:30</label>
+    </customValue>
+    <masterLabel>Time</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

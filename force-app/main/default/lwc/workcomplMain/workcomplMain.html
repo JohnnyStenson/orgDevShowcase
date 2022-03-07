@@ -1,0 +1,19 @@
+<template>
+    <lightning-card class="slds-p-around_x-small">
+        <div class="slds-text-heading_large">
+            Report Work Completed
+        </div>
+        <div class="slds-m-horizontal_small">
+            <lightning-record-form
+                object-api-name="Completed_Work_Report__c"
+                layout-type="Full"
+                mode="edit"
+                columns="2"
+                onsubmit={submitWorkComplForm}
+                onsuccess={successWorkComplForm}
+                oncancel={cancelWorkComplForm}>
+            </lightning-record-form>
+        </div>
+    </lightning-card>
+    
+</template>

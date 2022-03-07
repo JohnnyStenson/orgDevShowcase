@@ -1,0 +1,45 @@
+<aura:component implements="lightning:appHomeTemplate" access="global" description="3 Columns 2ndand3rd Row" >
+    <aura:attribute name="header" type="Aura.Component[]" description="Header"/>
+    <aura:attribute name="column1" type="Aura.Component[]" description="Column1"/>
+    <aura:attribute name="column2" type="Aura.Component[]" description="Column2"/>
+    <aura:attribute name="column3" type="Aura.Component[]" description="Column3"/>
+    <aura:attribute name="seperator" type="Aura.Component[]" description="Seperator"/>
+    <aura:attribute name="column4" type="Aura.Component[]" description="Column4"/>
+    <aura:attribute name="column5" type="Aura.Component[]" description="Column5"/>
+    <aura:attribute name="column6" type="Aura.Component[]" description="Column6"/>
+    <aura:attribute name="footer" type="Aura.Component[]" description="Footer"/>
+    
+    <div>
+        <div class="slds-p-around_small">{!v.header}</div>
+        <lightning:layout  pullToBoundary="small">
+            <lightning:layoutItem size="{! $Browser.isDesktop ? '4' : '12' }"
+                                  class="slds-p-around_small">
+                {!v.column1}
+            </lightning:layoutItem>
+            <lightning:layoutItem size="{! $Browser.isDesktop ? '4' : '12' }"
+                                  class="slds-p-around_small">    
+                {!v.column2}
+            </lightning:layoutItem>
+            <lightning:layoutItem size="{! $Browser.isDesktop ? '4' : '12' }"
+                                  class="slds-p-around_small">     
+                {!v.column3}
+            </lightning:layoutItem>
+        </lightning:layout>
+        <div class="slds-p-around_small">{!v.seperator}</div>
+        <lightning:layout  pullToBoundary="small">
+            <lightning:layoutItem size="{! $Browser.isDesktop ? '4' : '12' }"
+                                  class="slds-p-around_small">
+                {!v.column4}
+            </lightning:layoutItem>
+            <lightning:layoutItem size="{! $Browser.isDesktop ? '4' : '12' }"
+                                  class="slds-p-around_small">    
+                {!v.column5}
+            </lightning:layoutItem>
+            <lightning:layoutItem size="{! $Browser.isDesktop ? '4' : '12' }"
+                                  class="slds-p-around_small">     
+                {!v.column6}
+            </lightning:layoutItem>
+        </lightning:layout>
+        <div class="slds-p-around_small">{!v.footer}</div>
+    </div> 
+</aura:component>

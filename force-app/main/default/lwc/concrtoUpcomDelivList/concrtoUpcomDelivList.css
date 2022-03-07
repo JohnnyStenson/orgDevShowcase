@@ -1,0 +1,11 @@
+.job-highlight, .job-highlight td{
+    background-color: #ffff00 !important;
+}
+.false{
+    color: red;
+    font-weight:bold;
+}
+.true{
+    color: green;
+    font-weight:bold;
+}

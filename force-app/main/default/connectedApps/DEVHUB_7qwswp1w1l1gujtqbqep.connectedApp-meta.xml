@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>mike@thundernj.com</contactEmail>
+    <description>The Developer Hub lets you view, create and manage scratch orgs and namespace registries from one location.</description>
+    <iconUrl>https://thundernj.my.salesforce.com/environmenthub/images/connected_app_logo.png</iconUrl>
+    <label>SalesforceDX Namespace Registry</label>
+    <logoUrl>https://thundernj.my.salesforce.com/environmenthub/images/connected_app_logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://thundernj.my.salesforce.com/environmenthub/soma-callback.apexp</callbackUrl>
+        <consumerKey>3MVG9KsVczVNcM8wgP0eVJMoDJrJ1vY7ko9j5c1u7UPhGwIKMkfIEX7cDeDb.w_CquyDYUL5F2jar2yZT2YPE</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionCalls>
+        <name>Goto_Refresh_Lead_Record_Page</name>
+        <label>Goto/Refresh Lead Record Page</label>
+        <locationX>314</locationX>
+        <locationY>1430</locationY>
+        <actionName>c:navigateEverywhereLFA</actionName>
+        <actionType>component</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>destinationAction</name>
+            <value>
+                <stringValue>view</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>destinationName</name>
+            <value>
+                <stringValue>Lead</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>destinationRecordId</name>
+            <value>
+                <elementReference>recordId.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>destinationType</name>
+            <value>
+                <stringValue>record</stringValue>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>50.0</apiVersion>
+    <assignments>
+        <name>Add_Resource_to_Collections</name>
+        <label>Add Resource to Collections</label>
+        <locationX>402</locationX>
+        <locationY>854</locationY>
+        <assignmentItems>
+            <assignToReference>ResourceIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Each_Resource.Krow__User__r.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>ResourceNames</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Each_Resource.Krow__User__r.Alias</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Each_Resource</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Adjust_End_Time_From_GMT_0</name>
+        <label>Adjust End Time From GMT</label>
+        <locationX>314</locationX>
+        <locationY>1190</locationY>
+        <assignmentItems>
+            <assignToReference>tmp_due_date_time</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Due_Date_Time</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Kreate_Task_record</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Default_to_Now</name>
+        <label>Default to Now</label>
+        <locationX>578</locationX>
+        <locationY>398</locationY>
+        <assignmentItems>
+            <assignToReference>calculated_date_time</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>tmpTaskName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>frmulaTaskName</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Project_Resources</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Schedule_Next_Week</name>
+        <label>Schedule Next Week</label>
+        <locationX>314</locationX>
+        <locationY>398</locationY>
+        <assignmentItems>
+            <assignToReference>calculated_date_time</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>next_week_date_time</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>tmpTaskName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>LeadTask.selectedValue</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Project_Resources</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Schedule_Now</name>
+        <label>Schedule Now</label>
+        <locationX>50</locationX>
+        <locationY>398</locationY>
+        <assignmentItems>
+            <assignToReference>calculated_date_time</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>tmpTaskName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>LeadTask.selectedValue</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Project_Resources</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Task_Type_for_Date_Time</name>
+        <label>Task Type for Date &amp; Time</label>
+        <locationX>314</locationX>
+        <locationY>278</locationY>
+        <defaultConnector>
+            <targetReference>Default_to_Now</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Follow Up Call</defaultConnectorLabel>
+        <rules>
+            <name>Enter_Notes_Send_Email_Opportunity_Other</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>LeadTask.selectedValue</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Enter Notes From Paper</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LeadTask.selectedValue</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send Follow Up Email</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LeadTask.selectedValue</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send Special Email</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LeadTask.selectedValue</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Convert To Opportunity</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LeadTask.selectedValue</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Other</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LeadTask.selectedValue</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Evaluate Pursuing RFP</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Schedule_Now</targetReference>
+            </connector>
+            <label>Enter Notes or Send Email or Send Email Or Convert</label>
+        </rules>
+        <rules>
+            <name>Try_to_Establish_Connection</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LeadTask.selectedValue</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Try to Establish Contact</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Schedule_Next_Week</targetReference>
+            </connector>
+            <label>Try to Establish Connection</label>
+        </rules>
+    </decisions>
+    <description>Existing Acct Evaluate Pursuing RFP</description>
+    <dynamicChoiceSets>
+        <name>duration_scale</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Krow__Duration_Scale__c</picklistField>
+        <picklistObject>Krow__Task__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>ProjectResources</name>
+        <dataType>String</dataType>
+        <displayField>Name</displayField>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Krow__User__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Krow__Project_Resources__c</object>
+        <valueField>Id</valueField>
+    </dynamicChoiceSets>
+    <formulas>
+        <description>Just in case anybody else was wondering (i.e. you need to subtract or add more or less than 5 hours) 1/4.8 = 5 hours because it is taking 1 day and dividing it by the quotient of 24hours / number of hours. 24 / 5 = 4.8 or 24/4 = 6 (1/6) .  4 hours is 1/6th of a day.  5 hours is 1/4.8th of a day.</description>
+        <name>adjusted_due_date_time_from_GMT</name>
+        <dataType>DateTime</dataType>
+        <expression>{!tmp_due_date_time} - (1/4.8)</expression>
+    </formulas>
+    <formulas>
+        <name>calculated_date</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE({!adjusted_due_date_time_from_GMT})</expression>
+    </formulas>
+    <formulas>
+        <name>calculated_time</name>
+        <dataType>String</dataType>
+        <expression>IF(
+  OR(
+    VALUE( MID( TEXT({!calculated_date_time} - 5 /24), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT({!calculated_date_time} - 5/24), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT({!calculated_date_time} - 5/24 ), 12, 2 ) ) 
+   -
+   IF( 
+     VALUE( MID( TEXT({!calculated_date_time}-5 /24), 12, 2 ) ) &lt; 12, 
+     0, 
+     12 
+   ) 
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT({!calculated_date_time} -5/24 ), 15, 2 )
+
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT({!calculated_date_time}-5 /24), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>description_remove_null</name>
+        <dataType>String</dataType>
+        <expression>IF( ISBLANK({!Task_Notes_Description}), &quot;none&quot;, {!Task_Notes_Description})</expression>
+    </formulas>
+    <formulas>
+        <name>end_time_extracted</name>
+        <dataType>String</dataType>
+        <expression>IF(
+  OR(
+    VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT}), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT}), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT}), 12, 2 ) ) 
+   -
+   IF( 
+     VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT}), 12, 2 ) ) &lt; 12, 
+     0, 
+     12 
+   ) 
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT({!adjusted_due_date_time_from_GMT}), 15, 2 )
+
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT}), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>frmulaTaskName</name>
+        <dataType>String</dataType>
+        <expression>{!LeadTask.selectedValue} &amp; &quot; &quot; &amp; {!recordId.Name}</expression>
+    </formulas>
+    <formulas>
+        <name>next_week_date_time</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Flow.CurrentDateTime} + 7</expression>
+    </formulas>
+    <formulas>
+        <name>start_time_extracted_minus_10min_due</name>
+        <dataType>String</dataType>
+        <expression>IF(
+  OR(
+    VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT} -(10/1440)), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT} -(10/1440)), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT} -(10/1440)), 12, 2 ) ) 
+   -
+   IF( 
+     VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT} -(10/1440)), 12, 2 ) ) &lt; 12, 
+     0, 
+     12 
+   ) 
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT({!adjusted_due_date_time_from_GMT} -(10/1440)), 15, 2 )
+
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT({!adjusted_due_date_time_from_GMT} -(10/1440)), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>task_date_time</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Flow.CurrentDateTime}</expression>
+    </formulas>
+    <interviewLabel>Kreate Lead Task {!$Flow.CurrentDateTime} {!recordId.Id}</interviewLabel>
+    <label>Kreate Lead Task</label>
+    <loops>
+        <name>Each_Resource</name>
+        <label>Each Resource</label>
+        <locationX>314</locationX>
+        <locationY>734</locationY>
+        <collectionReference>Get_Project_Resources</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Add_Resource_to_Collections</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Task_Info</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Kreate_Task_record</name>
+        <label>Kreate Task</label>
+        <locationX>314</locationX>
+        <locationY>1310</locationY>
+        <assignRecordIdToReference>task_created_id</assignRecordIdToReference>
+        <connector>
+            <targetReference>Goto_Refresh_Lead_Record_Page</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Krow__Description__c</field>
+            <value>
+                <elementReference>description_remove_null</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Krow__Due_Date__c</field>
+            <value>
+                <elementReference>calculated_date</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Krow__Duration_Scale__c</field>
+            <value>
+                <stringValue>Day</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Krow__Duration__c</field>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Krow__End_Time__c</field>
+            <value>
+                <elementReference>end_time_extracted</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Krow__Estimated_Hours__c</field>
+            <value>
+                <numberValue>0.25</numberValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Krow__Project__c</field>
+            <value>
+                <elementReference>recordId.KrowProject__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Krow__Start_Date__c</field>
+            <value>
+                <elementReference>calculated_date</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Krow__Start_Time__c</field>
+            <value>
+                <elementReference>start_time_extracted_minus_10min_due</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Lead__c</field>
+            <value>
+                <elementReference>recordId.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Live__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>Name_of_Task</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>AssignedTo.value</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Krow__Task__c</object>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Project_Resources</name>
+        <label>Get Project Resources</label>
+        <locationX>314</locationX>
+        <locationY>614</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Each_Resource</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Krow__User__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Krow__Active__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Krow__Project_Resources__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>Kreate_Task</name>
+        <label>Kreate Task</label>
+        <locationX>314</locationX>
+        <locationY>158</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Task_Type_for_Date_Time</targetReference>
+        </connector>
+        <fields>
+            <name>refreshTip</name>
+            <fieldText>&lt;p&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;If button doesn&apos;t highlight when selected, Refresh browser.&lt;/i&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>LeadTask</name>
+            <extensionName>flowmagic:FlowPicklist</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>sObjectName</name>
+                <value>
+                    <stringValue>Lead</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>picklistField</name>
+                <value>
+                    <stringValue>StandardLeadTasks__c</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>alignment</name>
+                <value>
+                    <stringValue>spread</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>size</name>
+                <value>
+                    <stringValue>small</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>imageSize</name>
+                <value>
+                    <stringValue>medium</stringValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <fields>
+            <name>txtEvent</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;color: rgb(247, 13, 13); font-size: 14px;&quot;&gt;Try to use Google Calendar instead of Tasks.&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Task_Info</name>
+        <label>Task Info</label>
+        <locationX>314</locationX>
+        <locationY>1070</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Adjust_End_Time_From_GMT_0</targetReference>
+        </connector>
+        <fields>
+            <name>AssignedTo</name>
+            <extensionName>c:fsc_quickChoiceFSC</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>displayMode</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>inputMode</name>
+                <value>
+                    <stringValue>Dual String Collections</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>required</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>masterLabel</name>
+                <value>
+                    <stringValue>Assign to</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>choiceLabels</name>
+                <value>
+                    <elementReference>ResourceNames</elementReference>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>choiceValues</name>
+                <value>
+                    <elementReference>ResourceIds</elementReference>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>value</name>
+                <value>
+                    <elementReference>recordId.Sales_Rep__r.Id</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <fields>
+            <name>Name_of_Task</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <elementReference>tmpTaskName</elementReference>
+            </defaultValue>
+            <fieldText>Name of Task</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Due_Date_Time</name>
+            <dataType>DateTime</dataType>
+            <defaultValue>
+                <elementReference>calculated_date_time</elementReference>
+            </defaultValue>
+            <fieldText>Due Date &amp; Time</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Task_Notes_Description</name>
+            <defaultValue>
+                <stringValue> </stringValue>
+            </defaultValue>
+            <fieldText>Task Notes/Description</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Kreate_Task</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>calculated_date_time</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Flow.CurrentDateTime</elementReference>
+        </value>
+    </variables>
+    <variables>
+        <name>next_week</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Flow.CurrentDateTime</elementReference>
+        </value>
+    </variables>
+    <variables>
+        <name>proj_ass</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Current Lead Record</description>
+        <name>recordId</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+    <variables>
+        <name>ResourceIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>ResourceNames</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>task_created</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Krow__Task__c</objectType>
+    </variables>
+    <variables>
+        <name>task_created_id</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>tmp_due_date_time</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>tmpTaskName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>LeadTask.selectedValue</elementReference>
+        </value>
+    </variables>
+</Flow>

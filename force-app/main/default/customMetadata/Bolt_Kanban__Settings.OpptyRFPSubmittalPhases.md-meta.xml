@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Oppty RFP Submittal Phases</label>
+    <protected>false</protected>
+    <values>
+        <field>Bolt_Kanban__Card_fields__c</field>
+        <value xsi:type="xsd:string">Name,txtAccountForKanban__c,Proposal_Due_Date__c,Probability,Quote_Price__c,Date_Proposal_Submitted__c,Approx_Start_Date__c</value>
+    </values>
+    <values>
+        <field>Bolt_Kanban__Object_API__c</field>
+        <value xsi:type="xsd:string">Opportunity</value>
+    </values>
+    <values>
+        <field>Bolt_Kanban__Picklist_Field__c</field>
+        <value xsi:type="xsd:string">StageName</value>
+    </values>
+    <values>
+        <field>Bolt_Kanban__Picklist_Values__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Bolt_Kanban__Revenue_Amount__c</field>
+        <value xsi:type="xsd:string">Quote_Price__c</value>
+    </values>
+    <values>
+        <field>Bolt_Kanban__Score_Field__c</field>
+        <value xsi:type="xsd:string">Probability</value>
+    </values>
+    <values>
+        <field>Bolt_Kanban__Summery_Field__c</field>
+        <value xsi:type="xsd:string">Quote_Price__c</value>
+    </values>
+    <values>
+        <field>Bolt_Kanban__Timespan_Field__c</field>
+        <value xsi:type="xsd:string">CreatedDate</value>
+    </values>
+    <values>
+        <field>Bolt_Kanban__Unique_Kanban_Id__c</field>
+        <value xsi:type="xsd:string">OpptyRFPSubmittalPhases</value>
+    </values>
+</CustomMetadata>

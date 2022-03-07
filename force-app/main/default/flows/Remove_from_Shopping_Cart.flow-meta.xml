@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>Remove from Shopping Cart {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Remove from Shopping Cart</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Remove_from_Shopping_Cart_on_Inventory</name>
+        <label>Remove from Shopping Cart on Inventory</label>
+        <locationX>234</locationX>
+        <locationY>77</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Inventory_ID</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>In_Shopping_Cart__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>TrackIT__Inventory__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Remove_from_Shopping_Cart_on_Inventory</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>Inventory_ID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

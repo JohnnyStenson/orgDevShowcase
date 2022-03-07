@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Option, mit der beim Erstellen des Verlängerungsangebots die Mengen für mehrere Vermögenswerte für dasselbe Produkt in einem Belegposten zusammengefasst werden können.</help>
+    <label></label>
+    <name>SBQQ__AssetQuantitiesCombined__c</name>
+</CustomFieldTranslation>

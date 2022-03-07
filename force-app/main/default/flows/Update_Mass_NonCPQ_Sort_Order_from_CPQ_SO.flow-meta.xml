@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <assignments>
+        <name>New_Sort_Order_equals_CPQ_SO</name>
+        <label>New Sort Order equals CPQ SO</label>
+        <locationX>264</locationX>
+        <locationY>398</locationY>
+        <assignmentItems>
+            <assignToReference>For_Each_Product.NonCPQ_Sort_Order__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>For_Each_Product.SBQQ__SortOrder__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>For_Each_Product</targetReference>
+        </connector>
+    </assignments>
+    <description>Migration from CPQ</description>
+    <interviewLabel>Update Mass NonCPQ Sort Order from CPQ SO {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Mass NonCPQ Sort Order from CPQ SO</label>
+    <loops>
+        <name>For_Each_Product</name>
+        <label>For Each Product</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <collectionReference>Get_Products</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>New_Sort_Order_equals_CPQ_SO</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Save_Product_Change</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Products</name>
+        <label>Get Products</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>For_Each_Product</targetReference>
+        </connector>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Product2</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Save_Product_Change</name>
+        <label>Save Product Change</label>
+        <locationX>176</locationX>
+        <locationY>614</locationY>
+        <inputReference>Get_Products</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Products</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Restock Field</name>
+    <style>none</style>
+    <subject>{!TrackIT__Inv_Location__c.TrackIT__Location__c} needs {!TrackIT__Inv_Location__c.Quantity_Needed__c} {!TrackIT__Inv_Location__c.TrackIT__Inventory__c}</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

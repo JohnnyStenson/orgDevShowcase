@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Pop Up Sample Flow of how to use the Address Picker Autocomplete for Flow component.
+Screen 1 - contains the component.
+Screen 2 - shows ways to output the result
+
+Map, Address Fields, and County are active with a Default Value for Longitude and Latitude at Salesforce Tower, San Francisco.
+Output variables are set as Input as well so going &apos;Back&apos; will keep data.</description>
+    <masterLabel>Sample Address Picker Flow PopUp from URL</masterLabel>
+</FlowDefinition>

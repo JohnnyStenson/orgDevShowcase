@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>A. Footing Crew</fullName>
+        <default>false</default>
+        <label>A. Footing Crew</label>
+    </customValue>
+    <customValue>
+        <fullName>B. Footing Crew</fullName>
+        <default>false</default>
+        <label>B. Footing Crew</label>
+    </customValue>
+    <customValue>
+        <fullName>A. Site Concrete Crew</fullName>
+        <default>false</default>
+        <label>A. Site Concrete Crew</label>
+    </customValue>
+    <customValue>
+        <fullName>B. Site Concrete Crew</fullName>
+        <default>false</default>
+        <label>B. Site Concrete Crew</label>
+    </customValue>
+    <customValue>
+        <fullName>A. Truck Driver</fullName>
+        <default>false</default>
+        <label>A. Truck Driver</label>
+    </customValue>
+    <customValue>
+        <fullName>B. Truck Driver</fullName>
+        <default>false</default>
+        <label>B. Truck Driver</label>
+    </customValue>
+    <masterLabel>Crews</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

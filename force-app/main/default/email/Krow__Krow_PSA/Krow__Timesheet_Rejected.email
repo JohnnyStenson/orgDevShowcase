@@ -1,0 +1,12 @@
+The following timesheet has been rejected:
+
+Resource: {!Krow__Timesheet__c.Krow__Project_Resource__c}
+Project: {!Krow__Timesheet__c.Krow__Project__c}
+Start Date:  {!Krow__Timesheet__c.Krow__Week_Start_Date__c}
+End Date: {!Krow__Timesheet__c.Krow__Week_End_Date__c}
+Billable Hours: {!Krow__Timesheet__c.Krow__Total_Billable_Hours_New__c}
+Total Hours: {!Krow__Timesheet__c.Krow__Total_Hours__c}
+
+{!Krow__Timesheet__c.Link}
+
+{!ApprovalRequest.Comments}

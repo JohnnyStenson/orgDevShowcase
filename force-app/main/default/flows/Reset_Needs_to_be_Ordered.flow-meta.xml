@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>Reset Needs to be Ordered {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Reset Needs to be Ordered</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Reset_Needs_to_be_Ordered</name>
+        <label>Reset Needs to be Ordered</label>
+        <locationX>226</locationX>
+        <locationY>92</locationY>
+        <inputAssignments>
+            <field>Needs_to_be_Ordered__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>TrackIT__Inventory__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Reset_Needs_to_be_Ordered</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>

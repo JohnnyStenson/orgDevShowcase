@@ -1,0 +1,71 @@
+<messaging:emailTemplate subject="Thunder Road Masonry Information" recipientType="Lead" relatedToType="Lead">
+<messaging:htmlEmailBody >
+    <html>      
+    <body>
+    <STYLE type="text/css">   
+        body{font-size: 1.3em; font-face: Arial;}  
+    </style>
+    <apex:outputpanel >
+        <img src="{!URLFOR($Resource.TR_EmailSig)}" alt="Thunder Road Logo" /><br/>
+        <p>Hi {!recipient.FirstName},</p>
+        <p>{!recipient.Email_Introduction__c}</p>
+    </apex:outputpanel>
+    
+    <apex:outputpanel rendered="{!recipient.Service__c}">
+        <h2>Services</h2>
+        <p>Our #1 goal is your customer's full satisfaction. All of our services are performed and 
+        managed by our fully trained staff. We are fully equipped with small to medium size excavation 
+        equipment as well as any masonry tool you can imagine.<br />The services are as follows:</p>
+        <p><strong>Foundations</strong></p>
+        <ul>
+            <li>Excavation</li>
+            <li>Trucking</li>
+            <li>Footings</li>
+            <li>Block</li>
+            <li>Poured Concrete Walls</li>
+            <li>Slabs</li>
+        </ul>
+        <p><strong>Site Concrete</strong></p>
+        <ul>
+            <li>Concrete Curb</li>
+            <li>Belgian Block Curb</li>
+            <li>Concrete Sidewalks</li>
+            <li>Concrete Patios</li>
+            <li>Concrete Driveways</li>
+        </ul>
+        <p><strong>Veneers</strong></p>
+        <ul>
+            <li>Cultured Stone</li>
+            <li>Natural Stone</li>
+            <li>Brick</li>
+        </ul>
+        <p><strong>Hardscape</strong></p>
+        <ul>
+            <li>Brick Pavers</li>
+            <li>Retaining Walls</li>
+        </ul>
+    </apex:outputpanel>
+    <apex:outputpanel rendered="{!recipient.Your_Customer__c}">
+        <h2>Your Customer</h2>
+        <p>We understand that <strong>Customer Service</strong> is paramount to your business success. We can have as little or as much interaction with your customer as you desire.</p>
+        <ul>
+            <li>A project manager is assigned to every job. </li>
+            <li>There is a foreman on every job that can walk your customer through the process if need be. </li>
+            <li>Your customer can receive schedule updates as they happen. </li>
+            <li>Price will never be discussed with your customer.</li>
+            <li>Upon your request an informational bulletin will be sent to your customer explaining the process of any type of work. </li>
+            <li>We can assist in any masonry material selections including paving material, treads, and veneers.</li>
+        </ul>
+    </apex:outputpanel>
+    <apex:outputpanel >
+        <p>{!recipient.EmailSignature__c}</p>
+        <p>Thank you,</p>
+        <p>Mike</p>
+        <p><a href="https://www.thundernj.com">ThunderNJ.com</a></p>
+        <p>Office: <a href="tel:7328524214">(732) 852-4214</a></p>
+    </apex:outputpanel>
+
+    </body>
+    </html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

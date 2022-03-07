@@ -1,0 +1,17 @@
+<design:component label="3 Columns 2ndand3rd Row">
+    <flexipage:template >
+      <flexipage:region name="header" defaultWidth="Large" />
+      <flexipage:region name="column1" defaultWidth="Small" />
+      <flexipage:region name="column2" defaultWidth="Small" />
+      <flexipage:region name="column3" defaultWidth="Small" />
+      <flexipage:region name="seperator" defaultWidth="Large" />
+      <flexipage:region name="column4" defaultWidth="Small" />
+      <flexipage:region name="column5" defaultWidth="Small" />
+      <flexipage:region name="column6" defaultWidth="Small" />
+      <flexipage:region name="footer" defaultWidth="Large" />
+  </flexipage:template>
+     <design:supportedFormFactors>
+        <design:supportedFormFactor type="Large"/>
+        <design:supportedFormFactor type="Small"/>
+    </design:supportedFormFactors>
+</design:component>

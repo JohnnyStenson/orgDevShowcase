@@ -1,0 +1,60 @@
+<template>
+    <div class="slds-m-around_small">
+        <lightning-record-edit-form 
+            object-api-name={opptyObject} 
+            onsuccess={handleOpptyCreated} 
+            onerror={handleError}
+            record-type-id="0121U000000FpP8QAK"
+            
+        >
+            <lightning-messages>
+            </lightning-messages>
+            <div class="slds-m-vertical_small">
+                <p><b>NOTE: If a Lead exists, CONVERT THE LEAD.</b></p>
+            </div>
+            <lightning-input-field 
+                field-name={opptyAccount}
+            >
+            </lightning-input-field>
+            <div class="slds-m-vertical_small">
+                <p>Opportunity Name Convention:<br /> <em>City</em>, <em>Address or Block & Lot</em> (<em>Account</em>) </p>
+            </div>
+            <lightning-input-field 
+                field-name={opptyName}
+            >
+            </lightning-input-field>
+            <lightning-input-field 
+                field-name={opptyType}
+            >
+            </lightning-input-field>
+            <lightning-input-field 
+                field-name={opptyCloseDate}
+            >
+            </lightning-input-field>
+            <div class="slds-hide">
+                <lightning-input-field 
+                    field-name={opptyStage}
+                    value = "Setup"
+                >
+                </lightning-input-field>
+            </div>
+            <div class="slds-hide">
+                <lightning-input-field 
+                    field-name={opptyRecordTypeId}
+                    value = "0121U000000FpP8QAK"
+                >
+                </lightning-input-field>
+            </div>
+            <lightning-button
+                class="slds-m-top_small"
+                type="submit"
+                label="Start a New Opportunity" 
+                nclick={populateStage}
+            >
+            </lightning-button>
+            <div class="slds-m-vertical_small">
+                <p>Once the Opportunity is created a Krow Project will be created prompting the next steps including inputting the Opportunity details. </p>
+            </div>
+        </lightning-record-edit-form>
+    </div>
+</template>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#F15A0B</headerColor>
+        <logo>rfpicon1</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>From Lead to Opportunity to CPQ to Submitted Proposal. Pre Signed Contract (Job).</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <label>RFPs</label>
+    <navType>Standard</navType>
+    <tabs>My_Tasks1</tabs>
+    <tabs>Project_Lists</tabs>
+    <tabs>Multi_Project_Gantt_Chart</tabs>
+    <tabs>RFP_Opportunity_Phases</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>RFPs_to_Evaluate_Pursuing</tabs>
+    <tabs>Krow__Project__c</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Account</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>RFPs_UtilityBar1</utilityBar>
+</CustomApplication>

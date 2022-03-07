@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Pending Job</fullName>
+        <default>false</default>
+        <label>Pending Job</label>
+    </customValue>
+    <customValue>
+        <fullName>Active Job</fullName>
+        <default>false</default>
+        <label>Active Job</label>
+    </customValue>
+    <customValue>
+        <fullName>Final Billing</fullName>
+        <default>false</default>
+        <label>Final Billing</label>
+    </customValue>
+    <customValue>
+        <fullName>Completely Finished</fullName>
+        <default>false</default>
+        <label>Completely Finished</label>
+    </customValue>
+    <customValue>
+        <fullName>Negotiation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Negotiation</label>
+    </customValue>
+    <customValue>
+        <fullName>Setup</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Setup</label>
+    </customValue>
+    <customValue>
+        <fullName>Takeoff</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Takeoff</label>
+    </customValue>
+    <customValue>
+        <fullName>Create Proposal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Create Proposal</label>
+    </customValue>
+    <customValue>
+        <fullName>Submit Poposal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Submit Poposal</label>
+    </customValue>
+    <customValue>
+        <fullName>Cold Opportunity</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cold Opportunity</label>
+    </customValue>
+    <customValue>
+        <fullName>Won</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Won</label>
+    </customValue>
+    <customValue>
+        <fullName>Opportunity</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Opportunity</label>
+    </customValue>
+    <customValue>
+        <fullName>Lost</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lost</label>
+    </customValue>
+    <customValue>
+        <fullName>Discovery</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Discovery</label>
+    </customValue>
+    <masterLabel>Status of Job</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

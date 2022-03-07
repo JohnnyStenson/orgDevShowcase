@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jstenson@thundernj.com</contactEmail>
+    <contactPhone>(708) 214-9720</contactPhone>
+    <iconUrl>https://admin.thunderroadinc.com/favicon-16x16.png</iconUrl>
+    <label>admin.thunderroadinc.com</label>
+    <logoUrl>https://login.salesforce.com/logos/Custom/Balloon_Blue/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://admin.thunderroadinc.com/salesforce/oauth_callback.php</callbackUrl>
+        <consumerKey>3MVG9KsVczVNcM8wgP0eVJMoDJhdVgGkHeUSSZ6kTrErTwOSxjqx8GpUzkMZtMK0YQ9aOO5.sCiHBnj.H97OD</consumerKey>
+        <idTokenConfig>
+            <idTokenAudience>https://login.salesforce,com</idTokenAudience>
+            <idTokenIncludeAttributes>false</idTokenIncludeAttributes>
+            <idTokenIncludeCustomPerms>false</idTokenIncludeCustomPerms>
+            <idTokenIncludeStandardClaims>false</idTokenIncludeStandardClaims>
+            <idTokenValidity>720</idTokenValidity>
+        </idTokenConfig>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <startUrl>https://admin.thunderroadinc.com/salesforce/index.php</startUrl>
+</ConnectedApp>

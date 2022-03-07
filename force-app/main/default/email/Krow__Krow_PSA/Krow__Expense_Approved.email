@@ -1,0 +1,13 @@
+The following expense report has been approved:
+
+
+Resource:{!Krow__Expense_Krow__c.Krow__Project_Resource__c} 
+Expense Date: {!Krow__Expense_Krow__c.Krow__Expense_Report_Date__c}
+Description: {!Krow__Expense_Krow__c.Krow__Expense_Description__c}
+Project: {!Krow__Expense_Krow__c.Krow__Krow_Project__c}
+Billable Total: {!Krow__Expense_Krow__c.Krow__Billable_Total__c}
+Expense Total: {!Krow__Expense_Krow__c.Krow__Expense_Total__c}
+
+{!Krow__Expense_Krow__c.Link}
+
+{!ApprovalRequest.Comments}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <assignments>
+        <name>Change_Start_End_Times</name>
+        <label>Change Start &amp; End Times</label>
+        <locationX>176</locationX>
+        <locationY>253</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Krow__Start_Time__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>7:00 AM</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Krow__End_Time__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>6:00 PM</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>If Scheduled Time is unchecked, change Start to 7 AM and End to 6 PM</description>
+    <interviewLabel>Klient Task Unscheduled S/E Times {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Klient Task Unscheduled S/E Times</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Change_Start_End_Times</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>TOD_Matters__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Krow__Task__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

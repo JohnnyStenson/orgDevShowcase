@@ -1,0 +1,42 @@
+<template>
+    <template if:true={showModal}>
+        <c-modal onclosedialog={handleDialogClose}>
+            <span slot="header">{header}</span>
+            <slot>
+                <lightning-record-edit-form
+                        class="record-form"
+                        object-api-name="SBQQ__QuoteLineGroup__c"
+                        qlg-id={qlgId}
+                        layout-type="Full" 
+                        columns="1"
+                        density="compact"
+                        mode="edit"
+                        onsuccess={handleSuccess}
+                        onsubmit={handleSubmit}>
+                    <lightning-input-field field-name="SBQQ__Number__c">
+                    </lightning-input-field>
+                    <p>Group Name to be Displayed on Quote to Client</p>
+                    <lightning-input-field field-name="Name">
+                    </lightning-input-field>
+                    <p>Description to be Displayed on Quote to Client</p>
+                    <lightning-input-field field-name="SBQQ__Description__c">
+                    </lightning-input-field>
+
+                    <!-- Required Field Defaults -->
+                    <lightning-input-field field-name="SBQQ__CustomerTotal__c" value="0" class="slds-hide">
+                    </lightning-input-field>
+                    <lightning-input-field field-name="SBQQ__ListTotal__c" value="0" class="slds-hide">
+                    </lightning-input-field>
+                    <lightning-input-field field-name="SBQQ__NetTotal__c" value="0" class="slds-hide">
+                    </lightning-input-field>
+                    <lightning-input-field field-name="SBQQ__Quote__c" value={quoteId} class="slds-hide">
+                    </lightning-input-field>
+                </lightning-record-edit-form>
+            </slot>
+            <span slot="footer">
+                <lightning-button variant="neutral" label="Cancel" title="Cancel" onclick={handleClose} ></lightning-button>
+                <lightning-button variant="brand" label="SAVE" title="Save" onclick={handleSave} class="slds-m-left_x-small"></lightning-button>
+            </span>
+        </c-modal>
+    </template>
+</template>

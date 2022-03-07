@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <description>Deactivate when not in use</description>
+    <interviewLabel>Admin Maintenance - Delete Flow Interviews {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Admin Maintenance - Delete Flow Interviews</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordDeletes>
+        <name>Delete_Flow_Interviews</name>
+        <label>Delete Flow Interviews</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CreatedDate</field>
+            <operator>GreaterThan</operator>
+            <value>
+                <elementReference>$System.OriginDateTime</elementReference>
+            </value>
+        </filters>
+        <object>FlowInterview</object>
+    </recordDeletes>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Delete_Flow_Interviews</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>

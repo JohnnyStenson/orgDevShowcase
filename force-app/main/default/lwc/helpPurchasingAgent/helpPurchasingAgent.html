@@ -1,0 +1,164 @@
+<template>
+    <lightning-card>
+        <lightning-accordion>
+            <lightning-accordion-section name="default" label="Inventory Help"></lightning-accordion-section>
+            <lightning-accordion-section name="sched" label="Purchasing Agent Schedule">
+                <p>10:00 AM - 11:00 AM Check Inventory Levels for the Store (Manzo Trailer, Sea Container, Office, Exterior Yard) and make all purchases.</p>
+                <p>3:00 PM - 4:00 PM Reconcile Receiving vs. Purchase Orders</p>
+            </lightning-accordion-section>
+
+            <lightning-accordion-section name="purchasing" label="How to Purchase Inventory">
+                <p>On the 'Home' tab, expand the section 'Purchase Agent Reports...' to view the 'Purchasing Agent' Dashboard and click the 'Refresh' button in the upper right.</p>
+                <img src="https://lightning.thunderroadinc.com/images/helpInventory/store-inventory-to-order.jpg" alt="store inventory to order" width="600" /><br />
+                <p style="max-width:600px;">The 'Store Inventory to Order' report table will list all inventory needed to be ordered for our Store (Manzo Trailer, Sea Container, Office, Exterior Yard).</p>
+                <p> For each Inventory Item in the table, follow these steps:</p>
+                <div class="slds-text-longform">
+                <ol>
+                    <li>
+                        <p>Click on the Inventory item name from the report to open the inventory record screen.</p>
+                    </li>
+                    <li>
+                        <p>In the header area is the following information necessary for ordering (it can also be found in the detail area):</p>
+                        <img src="https://lightning.thunderroadinc.com/images/helpInventory/inventory-record-highlight.jpg" alt="inventory record highlight" width="600" /><br />
+                        
+                        <ul>
+                            <li><p><strong>Manufacturer &amp; Model #:</strong> for exact ordering</p></li>
+                            <li><p><strong>Best Bulk Unit Product Website:</strong> link to ordering bulk</p></li>
+                            <li><p><strong>Best Individual Item Product Website:</strong> link to ordering the individual item</p></li>
+                            <li><p><strong>Units to Order:</strong> quantity of invidual items to order. Can be converted to bulk as long as we have capacity - capacity is the sum of 'Max Storage Capacity' across all Locations of Inventory.</p></li>
+                            
+                            <li><p><strong>Open PO:</strong> indication that the inventory item still has outstanding unfulfilled orders and should be checked before ordering more</p></li>
+                            <li><p><strong>In Shopping Cart:</strong> indication that inventory item is in a shopping cart on a website (is unchecked when a PO is created)</p></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>After deciding to buy bulk or individual items and checking to be sure there aren't any recent unfulfilled orders (open Inventory POs), click on the Best Product Website link and place the order. If the best supplier is out of stock, use the Backup Product Website links in the Inventory Item details. Place the order or use a shopping cart system. If the item is in a shopping cart, scroll down to the detail area of the Inventory record and click the 'pencil' icon next to 'In Shopping Cart' to check that box and click 'Save'.</p>
+                    </li>
+                    <li>
+                        <p>After purchase confirmation details are displayed by the supplier, click the 'New' button on the right of the 'Inventory Pos' area. This will display a popup to be filled out. Fill out the 'New Inventory PO' as follows:</p>
+                        <ul>
+                            <li><p><strong>Inventory</strong> and <strong>Receiving Stage</strong> fields should remain unchanged and are populated by default. <strong>Date Ordered</strong> is auto also populated, but can be changed.</p></li>
+                            <li><p><strong>Supplier</strong> is a search field that will render the results after 3 characters. If the supplier is in the system, choose it. If the Supplier doesn't appear, click '+ New Account' and add the new Account and make the type = 'Supplier'.</p></li>
+                            <li><p><strong>Supplier Order #</strong> is received from the supplier to identify the order.</p></li>
+                            <li><p><strong>Quantity Ordered</strong> needs to be the number of individual items ordered, <strong>not the number of bulk units.</strong></p></li>
+                            <li><p><strong>Unit(s) Ordered Description</strong> should match the base unit individual unit description.</p></li>
+                            <li><p><strong>Cost</strong> is price paid.</p></li>
+                            <li><p><strong>Payment Method</strong> is the method of payment.</p></li>
+                            <li><p><strong>Order Details</strong> can be a copy/paste from the order confirmation screen from the supplier. It is used to store any information needed after the purchase ie. delivery info or contact info for special orders.</p></li>
+                            <li><p><strong>Earliest and Latest Delivery Times</strong> provided by the supplier should be recorded here.</p></li>
+                            <li><p><strong>Delivery Location</strong> should be recorded here. If the delivery location does not exist in this list, add it to the above Order Details and ask an admin to add it.</p></li>
+                            <li><p><strong>Presence Needed for Delivery</strong> should be checked if this applies.</p></li>
+                            <li><p><strong>Personnel to Receive Delivery</strong> should be chosen for future task assignment schedules.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><p>Click 'Save' when finished and move on to the next Inventory Item in the 'Store Inventory to Order' report table.</p></li>
+                </ol>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_NegABRVAQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </lightning-accordion-section>
+
+            <lightning-accordion-section name="reconc" label="Reconciling Receiving vs Purchase Orders">
+                <p>On the 'Purchasing Agent' Dashboard, click the 'Refresh' button in the upper right.</p>
+                <p>The 'Inventory Delivery Schedule' lists all expected deliveries with their delivery locations and approximate delivery windows taken from the Purchase Orders. If a delivery is expected at a location, got to the locatation and find the package. After opening the package and identifying the contents, click on the 'INV-PO-' link to open the Purchase Order for the Inventory Item. Check to make sure that the quantity and item are correct based on what was recorded in 'Quantity Ordered' and 'Unit(s) Ordered Description' at time of purchase.</p><br />
+                <iframe style="margin-left:40px; margin-bottom:40px;" width="560" height="315" src="https://www.youtube-nocookie.com/embed/r7NwzgtNxg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
+                <p style="margin-left:40px;"><strong>If the Purchase Order matches</strong>, click the 'Mark Receiving Stage as Complete' button and move on to the next package received.</p>
+                <p style="margin-left:40px;"><strong>If the Purchase Order 'Quantity Ordered' does not match</strong>, contact the supplier to address the situation. After the supplier agrees to rectify the order, click the 'Edit' button. In the 'Order Details' field, record the details of the short and how the supplier is going to rectify. Change the 'Quantity Ordered' to the current quantity received and click 'Save'. Now click the 'Clone' button in the upper right of the Inventory PO record. This will create a new PO for the rectified order. Change the 'Date Ordered' to today. Change the 'Supplier Order #' to the new order # from the supplier. Change the 'Quantity Ordered' to the new quantity that is being shipped. Update the Delivery Details including the 'Delivery Time' and click 'Save'. Go back to the 'Inventory Delivery Schedule' report on the 'Purchasing Agent' dashboard and click on the original Inventory PO # link to open the orginal PO and be sure the 'Quantity Ordered' field matches the quantity in hand. Click the 'Mark Receiving Stage as Complete' button and move on to the next package received.</p>
+                <p style="margin-left:40px;"><strong>If the Purchase Order Inventory Item does not match</strong>, contact the supplier to rectify the situation and update the PO with all the new information including updating the Delivery Details and recording the issue in 'Order Details'.</p>
+                <p>After all packages are reconciled with their Inventory PO, take all received inventory to the staging area.</p>
+                <p>On the 'Purchasing Agent' Dashboard, click the 'Refresh' button in the upper right. Under 'Inventory in Receiving', there is a list of inventory that has been received but not staged. For each Inventory Record that will be placed in staging:</p>
+                <div class="slds-text-longform">
+                <ol>
+                    <li><p>From the 'Inventory in Receiving' list open the Inventory record by clicking on its name.</p></li>
+                    <li><p>On the Inventory record screen, click the 'Barcode Label - Small' button to print out a barcode and place on the inventory item.</p></li>
+                    <li><p>Next, click the 'Move Inventory' button. Ignore the first screen and click 'Next'. Using the drop-down menus, select 'Receiving' for 'Move From Inventory Location' and select 'Staging' for 'Move To Inventory Location'. Enter the Quantity of items being place in Staging and click 'Next'. Confirm the details on the next screen and click 'Next' and 'Finish'.</p></li>
+                    <li><p>Repeat steps for next inventory item.</p></li>
+                </ol>
+                </div>
+            </lightning-accordion-section>
+
+            <lightning-accordion-section name="add" label="Add New Inventory">
+
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Xb86D45jSRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <p>In the <b>‘Inventory’</b> App in Salesforce, click the arrow in the <b>‘Inventory’</b> tab and click <b>‘+ New Inventory’</b> in the drop-down. A pop-up form will appear entitled ‘New Inventory’.</p>
+                <p>Below is the form with explanations of fields.</p>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-information.jpg" alt="information" width="600" />
+
+                    <p>Inventory Name*:<br />
+                    Manufacturer Name:<br />
+                    Model #:<br />
+                    Manufacturer Product Website: Url of manufacturer model website. If it doesn’t fit, delete the last chars of the url, max is 255.</p>
+                    
+                    <p>Inventory Type*:<br />
+                    Description:<br />
+                    Total Price:<br />
+                    Inventory Image:</p>
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-bulk-indiv-specs.jpg" alt="bulk and indiv specs" width="600" />
+
+                    <p>Bulk Unit of Measurement Description: Unit of Measurement for Bulk Unit (ie. pallet, box, roll)<br />
+                    Bulk Weight (lbs): weight of bulk unit in pounds<br />
+                    Bulk Dimensions: physical size (length x width x height)<br />
+                    # of Indiv Units in Bulk Unit: Quantity of pieces in the bulk unit (ie. 48, 10, 100)</p>
+                    
+                    <p>Indiv Unit of Measurement Description: Unit of measurement for individual pieces (ie. block, pound, foot)<br />
+                    Individual Weight (lbs): weight of individual piece in pounds<br />
+                    Individual Dimensions: physical size (length x width x height)</p>
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-ordering.jpg" alt="ordering" width="600" />
+
+                    <p>Needs to be Ordered: Checkbox to override quantities and add item to show in ‘Locations Needing Restock’ report<br /><br />
+                    In Shopping Cart: checkbox to show in ‘Locations Needing Restock’ report<br /><br />
+                    Last Time Competitive Price Shopped: <br /><br />
+                    Ordering Notes: Information needed when ordering item</p>                    
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-best-supplier-info.jpg" alt="best supplier info" width="600" />
+
+                    <p>Best Bulk Supplier: Search, after 3 chars if the Supplier doesn’t appear, click <b>‘+ New Account’</b> and add the new Account and make the type = <b>‘Supplier’</b>.<br /><br />
+                    Best Bulk Unit Product Website: Url of website where the order can be placed. If it doesn’t fit, delete the last chars of the url, max is 255.<br /><br /> 
+                    Best Bulk Unit Supplier Ordering ID: Id from Supplier for Ordering (ie UPC)<br /><br />
+                    Best Bulk Unit Price: Price to pay for the bulk unit<br /><br />
+                    Best Item Price by Bulk Purchase: ‘Best Bulk Unit Price’ divided by how many items in the bulk unit.</p>
+ 
+                    <p>Best Indiv Item Supplier: Search, after 3 chars if the Supplier doesn’t appear, click <b>‘+ New Account’</b> and add the new Account and make the type = <b>‘Supplier’</b>.<br /><br /> 
+                    Best Indiv Item Product Website: Url of website where the order can be placed. If it doesn’t fit, delete the last chars of the url, max is 255.<br /><br />
+                    Best Indiv Item Supplier Ordering ID: Id from Supplier for Ordering (ie UPC)<br /><br />
+                    Best Indiv Item Price: price to pay when buying the individual item.</p>
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-backup-supplier-info.jpg" alt="backup supplier info" width="600" />
+                
+                    <p>Backup Bulk Supplier: Search, after 3 chars if the Supplier doesn’t appear, click <b>‘+ New Account’</b> and add the new Account and make the type = <b>‘Supplier’</b>.<br /><br />
+                    Backup Bulk Unit Product Website: Url of website where the order can be placed. If it doesn’t fit, delete the last chars of the url, max is 255.<br /><br /> 
+                    Backup Bulk Unit Supplier Ordering ID: Id from Supplier for Ordering (ie UPC)<br /><br />
+                    Backup Bulk Unit Price: Price to pay for the bulk unit<br /><br />
+                    Backup Item Price by Bulk Purchase: ‘Best Bulk Unit Price’ divided by how many items in the bulk unit.</p>
+        
+                    <p>Backup Indiv Item Supplier: Search, after 3 chars if the Supplier doesn’t appear, click <b>‘+ New Account’</b> and add the new Account and make the type = <b>‘Supplier’</b>.<br /><br /> 
+                    Backup Indiv Item Product Website: Url of website where the order can be placed. If it doesn’t fit, delete the last chars of the url, max is 255.<br /><br />
+                    Backup Indiv Item Supplier Ordering ID: Id from Supplier for Ordering (ie UPC)<br /><br />
+                    Backup Indiv Item Price: price to pay when buying the individual item.</p>
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-notes.jpg" alt="notes" width="600" />
+
+                    <p>Originate Item: checkbox used to filter items whose details need to be completed or items that need to be shopped, etc. This is checked by default for admin to double check initial input or to alert that the record needs completing.</p>
+                    <p>Inventory Development/Origination Notes: place to add notes for developing inventory or To dos. Can be used with the ‘Originate Item’ checkbox filter.</p>
+                </div>
+            </lightning-accordion-section>
+
+            <lightning-accordion-section name="receiving_no_po" label="Adding Inventory to a Location without a PO (Existing)">
+                <p><strong>Use these steps if there isn’t a PO involved like when taking initial counts of inventory in a location.</strong></p>
+               
+                
+                <p>First navigate to the Inventory record screen.</p>
+                <p>Click the <b>‘Receive Inventory’</b> button in the top left section of the <b>‘Inventory’</b> record’s screen. In the new screen, leave the field blank and click <b>‘Next’</b>. On the new screen, use the drop-down in the <b>‘Inventory Location’</b> field to choose the location. Enter the count in the <b>‘Quantity’</b> field. If there is no count yet and the inventory is just being assigned to the location, use 1 for the <b>‘Quantity’</b>. It will have to be changed in the next step. Click <b>‘Next’</b>. Confirm the information. If it is wrong, click <b>‘Previous’</b> to go back and change it, otherwise click <b>‘Next’</b> and <b>‘Finish’</b>.</p>
+            </lightning-accordion-section>
+        </lightning-accordion>
+    </lightning-card>
+</template>

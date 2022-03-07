@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Cold_Call_Lead</developerName>
+    <isActive>false</isActive>
+    <masterLabel>Cold Call Lead</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Cold_Call</recordTypeName>
+    <sobjectType>Lead</sobjectType>
+    <targetField>Status</targetField>
+    <targetFieldChangeToValues>Stage_Evaluation,Stage_Opportunity</targetFieldChangeToValues>
+</AnimationRule>

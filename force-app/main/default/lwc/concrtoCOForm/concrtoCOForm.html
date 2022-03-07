@@ -1,0 +1,17 @@
+<template>
+    <lightning-card class="slds-p-around_x-small">
+        <div class="slds-m-horizontal_small">
+            <lightning-record-form
+                record-id={coId}
+                object-api-name="Concrete_Order__c"
+                layout-type="Full"
+                mode="edit"
+                columns="2"
+                onsubmit={submitCOForm}
+                onsuccess={successCOForm}
+                oncancel={cancelCOForm}>
+            </lightning-record-form>
+        </div>
+    </lightning-card>
+    <p>Click 'Cancel' to return to list.</p>
+</template>

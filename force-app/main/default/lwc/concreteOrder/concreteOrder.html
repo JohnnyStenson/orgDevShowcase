@@ -1,0 +1,12 @@
+<template>
+    <lightning-card class="slds-p-around_x-small">
+        <div class="slds-m-horizontal_small">
+            <h1>Order Concrete from Aura</h1>
+            <lightning-record-form
+                object-api-name="Concrete_Order__c"
+                fields={fields}
+                onsubmit={submitConcreteOrder}>
+            </lightning-record-form>
+        </div>
+    </lightning-card>
+</template>

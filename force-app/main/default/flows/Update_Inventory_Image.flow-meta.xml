@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>Update Inventory Image {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Inventory Image</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordUpdates>
+        <name>Update_Image_Link</name>
+        <label>Update Image Link</label>
+        <locationX>757</locationX>
+        <locationY>62</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Image_for_ListView__c</field>
+            <value>
+                <elementReference>URL_of_Image</elementReference>
+            </value>
+        </inputAssignments>
+        <object>TrackIT__Inventory__c</object>
+    </recordUpdates>
+    <screens>
+        <name>Add_Link_to_Image</name>
+        <label>Add Link to Image</label>
+        <locationX>565</locationX>
+        <locationY>53</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Update_Image_Link</targetReference>
+        </connector>
+        <fields>
+            <name>URL_of_Image</name>
+            <dataType>String</dataType>
+            <fieldText>URL of Image</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Add_Link_to_Image</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

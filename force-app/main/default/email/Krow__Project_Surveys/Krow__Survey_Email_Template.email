@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Email Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+</head>
+<body style="margin: 0; padding: 0;">
+<style type="text/css">
+    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+    .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td {line-height: 100%;}
+    .ExternalClass {width: 100%;}
+    body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+    /* RESET STYLES */
+    
+    a:hover {text-decoration: underline;}
+    a:visited {text-decoration: none; color: inherit;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    
+    @media screen and (max-width: 601px){
+        table[class="responsive-table"] {
+            width: 100%!important;
+        }
+    }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0"  width="100%" bgcolor="#ffffff" style=" font-family:'Arial'; table-layout: fixed;"  >
+        <tbody>
+            <tr>
+                <td  valign="top" align="center" style="padding-top: 30px;">
+                    
+               <img width="150" src="[logo]"></img><br/>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td  valign="top" align="center">
+                    <table border="0" cellpadding="0" cellspacing="0" height="100%" width="600px" class="responsive-table" style="table-layout: fixed; font-family:'Arial';">
+                        <tr>
+                            <td  valign="top" style="padding-top: 10px; padding-bottom: 15px;">
+                                <table cellpadding="0" cellspacing="0"  width="100%" bgcolor="#ffffff" style=" border-top: 1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd;  table-layout: fixed; font-family:'Arial';  border-bottom: 20px solid  #0069aa;">
+                                    <tbody>
+                                        <tr>
+                                            <td  valign="top" style="padding: 30px;">
+                                               
+                                              <h1 style="margin:0; mso-line-height-rule:exactly;">
+                                                  [SurveyTitle]
+                                              </h1>
+                                                <p style="line-height: 1.5; font-size: 16px;">
+                                                    Hi {!Contact.Name},
+                                                </p>
+                                                <p style="line-height: 1.5; font-size: 16px;">
+                                                    Project: [ProjectName]
+                                                </p>
+                                                <p id="wecomeText" style="line-height: 1.5; font-size: 16px; min-height: 150px;">[WelcomeMessage]</p>
+                                                <table border="0" cellpadding="0" cellspacing="0"  width="100%" style="table-layout: fixed; font-family:'Arial';">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" style="padding-top: 15px; padding-bottom: 30px;">
+                                                      
+
+                                                                          <table border="0" cellpadding="0" cellspacing="0" width="250" style="margin: 0; padding: 0; table-layout: fixed; border-radius: 4px;" bgcolor="#0070d2">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center" style="padding-top:6px; padding-bottom:6px;">
+                                                                                <a href="[link]" style=" color: #ffffff; text-decoration: none;   line-height:200%; display:block;">
+                                                                                    Begin Survey &rarr;
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                  
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                               
+                                                <p style="line-height: 1.5; ">
+                                                    Thanks
+                                                    <br>
+                                                   {!User.Name}
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td  valign="top" align="center"  style="padding-bottom:100px; color: #999; font-size: 12px">
+                    Power By Krow
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>

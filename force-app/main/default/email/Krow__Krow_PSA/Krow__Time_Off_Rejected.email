@@ -1,0 +1,12 @@
+The following request for time off has been rejected:
+
+Resource: {!Krow__Time_Off__c.Krow__Project_Resource__c} 
+Start Date: {!Krow__Time_Off__c.Krow__Start_Date__c}
+End Date: {!Krow__Time_Off__c.Krow__End_Date__c}
+Total Days: {!Krow__Time_Off__c.Krow__Total_Absence_Days__c}
+Total Hours: {!Krow__Time_Off__c.Krow__Total_Absence_Hours__c}
+Notes: {!Krow__Time_Off__c.Krow__Notes__c}
+
+{!Krow__Time_Off__c.Link}
+
+{!ApprovalRequest.Comments}

@@ -1,0 +1,5 @@
+<messaging:emailTemplate subject="ALERT: Insert RFP Task Template" recipientType="User" relatedToType="Opportunity">
+<messaging:htmlEmailBody >
+<a href="https://thundernj.lightning.force.com/lightning/r/Opportunity/{!relatedTo.Id}/view">{!relatedTo.Name}</a>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

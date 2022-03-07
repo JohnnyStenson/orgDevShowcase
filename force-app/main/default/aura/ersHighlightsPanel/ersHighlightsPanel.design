@@ -1,0 +1,15 @@
+<design:component>
+    <design:attribute name="objectName" label="Object API Name" />
+    <design:attribute name="objectIcon" label="Object Icon" />
+    <design:attribute name="panelTitle" label="Highlights Panel Title" />
+    <design:attribute name="field01Name" label="Field 01 API Name" />
+    <design:attribute name="field02Name" label="Field 02 API Name" />
+    <design:attribute name="field03Name" label="Field 03 API Name" />
+    <design:attribute name="field04Name" label="Field 04 API Name" />
+    <design:attribute name="field05Name" label="Field 05 API Name" />
+    <design:attribute name="field06Name" label="Field 06 API Name" />
+    <design:attribute name="field07Name" label="Field 07 API Name" />
+    <design:attribute name="field08Name" label="Field 08 API Name" />
+    <design:attribute name="field09Name" label="Field 09 API Name" />
+    <design:attribute name="field10Name" label="Field 10 API Name" />
+</design:component>

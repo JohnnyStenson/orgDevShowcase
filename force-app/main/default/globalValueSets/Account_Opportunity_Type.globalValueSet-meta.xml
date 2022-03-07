@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Repeat Commercial</fullName>
+        <default>false</default>
+        <label>Repeat Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>New Commercial</fullName>
+        <default>false</default>
+        <label>New Commercial</label>
+    </customValue>
+    <customValue>
+        <fullName>Repeat Residential</fullName>
+        <default>false</default>
+        <label>Repeat Residential</label>
+    </customValue>
+    <customValue>
+        <fullName>New Residential</fullName>
+        <default>false</default>
+        <label>New Residential</label>
+    </customValue>
+    <masterLabel>Account Opportunity Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

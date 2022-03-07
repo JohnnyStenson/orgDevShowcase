@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Active esta opción para combinar activos y suscripciones de múltiples contratos con plazos compartidos. Cada contrato con plazos compartidos genera de forma predeterminada un grupo separado en el presupuesto de renovación.</help>
+    <label></label>
+    <name>SBQQ__CoTermedContractsCombined__c</name>
+</CustomFieldTranslation>

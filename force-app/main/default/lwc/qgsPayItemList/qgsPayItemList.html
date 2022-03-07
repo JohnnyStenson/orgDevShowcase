@@ -1,0 +1,84 @@
+<template>
+    <c-qgs-new-pay-item-popup onrefreshpayitems={refreshPayItemList}></c-qgs-new-pay-item-popup>
+
+    <template if:true={payItems}>
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                      <div class="slds-truncate" title="Pay Item">Pay Item to Include</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Instructions/Information">Instructions/Information</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={payItems} for:item="payitem" >
+                    <tr class="slds-hint-parent" key={payitem.Id}> 
+                        <td>
+                            <div class="slds-truncate" title={payitem.Product__r.Name}>{payitem.Product__r.Name}</div>
+                        </td>
+                        <td>
+                            <div class="slds-truncate" title={payitem.Instructions_Info__c}>{payitem.Instructions_Info__c}</div>
+                        </td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </template>
+
+    <!-- Add Pay Item from Product Used For Categories -->
+    <div class="slds-p-around_small">
+        <lightning-combobox 
+            name="ProductUsedFor" 
+            label="Add a Pay Item to this Group" 
+            value={pufValue} 
+            placeholder="- Add New Pay Item From -"
+            options={pufValues} 
+            onchange={handlePUFChange}>
+        </lightning-combobox> 
+    </div>
+
+    <!-- QLG Edit Form -->
+    <div class="slds-box">
+        <p class="slds-text-heading_large">Edit Quote Group Information: <strong>SAVE AFTER EVERY PAY ITEM ADDED</strong></p>
+        <lightning-record-edit-form
+                class="record-form"
+                record-id={qlgId}
+                object-api-name="SBQQ__QuoteLineGroup__c"
+                qlg-id={qlgId}
+                layout-type="Full" 
+                columns="1"
+                density="compact"
+                mode="edit"
+                onsuccess={handleSuccess}
+                onerror={handleError}>
+            
+            <lightning-input-field field-name="Name">
+            </lightning-input-field>
+            <lightning-input-field field-name="SBQQ__Number__c">
+            </lightning-input-field>
+            <p>Description of Quote Line Group to Display on Quote:</p>
+            <lightning-input-field field-name="SBQQ__Description__c">
+            </lightning-input-field>
+
+            <p>Internal Instructions/Information for Estimate Team:</p>
+            <lightning-input-field field-name="Sales_Direction__c" value={salesDirection}>
+            </lightning-input-field>
+
+            <!-- Required Fields -->
+            <lightning-input-field field-name="SBQQ__CustomerTotal__c"  class="slds-hide">
+            </lightning-input-field>
+            <lightning-input-field field-name="SBQQ__ListTotal__c"  class="slds-hide">
+            </lightning-input-field>
+            <lightning-input-field field-name="SBQQ__NetTotal__c"  class="slds-hide">
+            </lightning-input-field>
+            <lightning-input-field field-name="SBQQ__Quote__c" class="slds-hide">
+            </lightning-input-field>
+            <lightning-button variant="brand" label="Refresh Pay Item List First" title="Save" onclick={refreshPayItemList} class="slds-m-left_x-small"></lightning-button>
+            <lightning-button variant="brand" label="SAVE" title="Save" onclick={handleSave} class="slds-m-left_x-small"></lightning-button>
+            <div class="slds-text-body_regular slds-m-top_medium"><b>NOTE:</b> <u>To Make &amp; Keep Manual Edits to the 'Sales Direction' text box</u>, make them LAST after all Pay Items are added, refreshed and saved. <br />1. Edit the 'Sales Direction' directly in the text box.<br />2. Finish by ONLY clicking 'Save'. <br /><i>(Clicking 'Refresh Pay Item List First' button clears the field and refills it with Pay Items and Instructions added from the popup form.)</i></div>
+        </lightning-record-edit-form>
+    </div>
+</template>

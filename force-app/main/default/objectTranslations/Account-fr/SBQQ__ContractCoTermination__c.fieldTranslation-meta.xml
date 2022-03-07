@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Détermine comment les contrats de service et d&apos;abonnement de ce client sont définis avec des durées identiques.</help>
+    <label></label>
+    <name>SBQQ__ContractCoTermination__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Toujours</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>Jamais</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prompt</masterLabel>
+        <translation>Demander</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-m-vertical_medium">
+        <template if:true={qlgs}>
+            <lightning-accordion allow-multiple-sections-open>
+                <template for:each={qlgs} for:item="qlg" >
+                    <lightning-accordion-section name={qlg.Id} label={qlg.Name} key={qlg.Id}>                        
+                        <!-- list pay items -->
+                        <c-qgs-pay-item-list puf-values={pufValues} qlg-id={qlg.Id} quote-id={quoteId}>></c-qgs-pay-item-list> 
+                    </lightning-accordion-section>
+                </template>
+            </lightning-accordion>
+        </template>
+    </div>
+</template>

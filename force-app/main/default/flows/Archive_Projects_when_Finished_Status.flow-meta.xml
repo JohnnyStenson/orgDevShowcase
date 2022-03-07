@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <interviewLabel>Archive Projects when Finished Status {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Archive Projects when Finished Status</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Project_Archived_True</name>
+        <label>Update Project Archived? True</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <inputAssignments>
+            <field>Krow__Archived__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Project_Archived_True</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Krow__Project_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Complete</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Krow__Project_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Position Filled</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Krow__Project_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Canceled</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Krow__Project_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Position Filled</stringValue>
+            </value>
+        </filters>
+        <object>Krow__Project__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Any</fullName>
+        <default>false</default>
+        <label>Any</label>
+    </customValue>
+    <customValue>
+        <fullName>Block</fullName>
+        <default>false</default>
+        <label>Block</label>
+    </customValue>
+    <customValue>
+        <fullName>Bollards</fullName>
+        <default>false</default>
+        <label>Bollards</label>
+    </customValue>
+    <customValue>
+        <fullName>Concrete Apron</fullName>
+        <default>false</default>
+        <label>Concrete Apron</label>
+    </customValue>
+    <customValue>
+        <fullName>Concrete Curb</fullName>
+        <default>false</default>
+        <label>Concrete Curb</label>
+    </customValue>
+    <customValue>
+        <fullName>Concrete Footings</fullName>
+        <default>false</default>
+        <label>Concrete Footings</label>
+    </customValue>
+    <customValue>
+        <fullName>Concrete Foundation</fullName>
+        <default>false</default>
+        <label>Concrete Foundation</label>
+    </customValue>
+    <customValue>
+        <fullName>Concrete Sidewalk</fullName>
+        <default>false</default>
+        <label>Concrete Sidewalk</label>
+    </customValue>
+    <customValue>
+        <fullName>Concrete Slab</fullName>
+        <default>false</default>
+        <label>Concrete Slab</label>
+    </customValue>
+    <customValue>
+        <fullName>Concrete Stairs</fullName>
+        <default>false</default>
+        <label>Concrete Stairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Demolition</fullName>
+        <default>false</default>
+        <label>Demolition</label>
+    </customValue>
+    <customValue>
+        <fullName>Excavation</fullName>
+        <default>false</default>
+        <label>Excavation</label>
+    </customValue>
+    <customValue>
+        <fullName>Grading</fullName>
+        <default>false</default>
+        <label>Grading</label>
+    </customValue>
+    <customValue>
+        <fullName>Interior Slab Trenching</fullName>
+        <default>false</default>
+        <label>Interior Slab Trenching</label>
+    </customValue>
+    <customValue>
+        <fullName>Retaining Wall</fullName>
+        <default>false</default>
+        <label>Retaining Wall</label>
+    </customValue>
+    <masterLabel>Main Services</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

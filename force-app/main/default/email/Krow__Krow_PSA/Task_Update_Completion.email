@@ -1,0 +1,13 @@
+Task:
+{!Krow__Task__c.Name}
+https://thundernj.lightning.force.com/lightning/r/Krow__Task__c/{!Krow__Task__c.Krow__ProjectId__c}/view
+
+Status:
+{!Krow__Task__c.Krow__Status__c}
+
+Hours Logged: {!Krow__Task__c.Krow__Total_Hours_Logged__c}
+
+Project: 
+{!Krow__Task__c.ProjectName__c}
+https://thundernj.lightning.force.com/lightning/r/{!Krow__Task__c.Krow__ProjectId__c}/view
+User:

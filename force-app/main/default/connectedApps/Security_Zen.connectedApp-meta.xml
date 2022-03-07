@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nathalie.adam@drakya.com</contactEmail>
+    <label>Security Zen</label>
+    <oauthConfig>
+        <callbackUrl>https://www.securityzen.net/callback</callbackUrl>
+        <consumerKey>3MVG9KsVczVNcM8wgP0eVJMoDJtqz0y8T_njqj27Xt_01byKrvPrdinAEeEfUb3A_22h0VbU7cxis_6T3IJ5z</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>true</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

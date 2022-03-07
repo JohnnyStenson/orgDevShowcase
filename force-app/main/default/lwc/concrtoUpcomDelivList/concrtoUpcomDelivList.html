@@ -1,0 +1,94 @@
+<template>
+    <!-- START: concrtoUpcomDelivList.html -->
+    <template if:true={displayNewCO}>
+        <lightning-button variant="brand" label="Request New Concrete Order" title="Request New Concrete Order" onclick={handleNewCORequest} class="slds-m-vertical_medium"></lightning-button>
+    </template>
+    <template if:true={concreteOrders}>
+        <template if:true={displayCOTable}>
+
+            <!-- lightning-combobox
+                name="comboboxJob"
+                value={filterJob}
+                placeholder="Select Job to Highlight"
+                options={aryJobs}
+                onchange={handleJobFilter} >
+            </!-->
+
+            <div class="slds-p-vertical_medium">
+                <ul>
+                    <li>&bull; Click on the Pour Details to View/Update a Concrete Order/Request.</li>
+                    <li>&bull; Click on a Job Name to Highlight related Concrete Orders/Requests.</li>
+                </ul>
+            </div>
+
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_striped">
+                <thead>
+                    <tr class="slds-line-height_reset">
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Date">Date</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Day">Day</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Time">Time</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Job">Job</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Pour Details">Pour Details</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Ordered">Ordered</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Released">Released</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={concreteOrders} for:item="concreteOrder" >
+                        <tr class="slds-hint-parent rowCO" 
+                            key={concreteOrder.Id}
+                            data-jobid={concreteOrder.Job__r.Id}> 
+                            <td>
+                                <div class="slds-truncate" title={concreteOrder.Requested_Date__c}>{concreteOrder.Requested_Date__c}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" title={concreteOrder.DOW__c}>{concreteOrder.DOW__c}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" title={concreteOrder.Time__c}>{concreteOrder.Time__c}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" title={concreteOrder.Job__r.Name}>
+                                    <a href="#" onclick={handleJobFilter} data-jobid={concreteOrder.Job__r.Id}>{concreteOrder.Job__r.Name}</a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" title={concreteOrder.What_are_we_pouring__c}>
+                                    <a href="#" onclick={pourDetails} data-concreteorderid={concreteOrder.Id}>{concreteOrder.What_are_we_pouring__c}</a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class={concreteOrder.Ordered__c} title={concreteOrder.Ordered__c} >
+                                    {concreteOrder.Ordered__c}
+                                </div>
+                            </td>
+                            <td>
+                                <div class={concreteOrder.Released__c} title={concreteOrder.Released__c}>
+                                    {concreteOrder.Released__c}
+                                </div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </template>
+    </template>
+    <template if:true={displayIndivCO}>
+        <c-concrto-c-o-form co-id={concreteOrderId} oncoformchanges={handleCOFormChanges}></c-concrto-c-o-form>
+    </template>
+    <!-- END: concrtoUpcomDelivList.html -->
+</template>

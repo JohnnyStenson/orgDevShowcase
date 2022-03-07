@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>jstenson@thundernj.com</contactEmail>
+    <contactPhone>7082149720</contactPhone>
+    <iconUrl>https://login.salesforce.com/logos/Standard/product/icon.png</iconUrl>
+    <label>Inventory Book</label>
+    <logoUrl>https://login.salesforce.com/logos/Standard/product/logo.svg</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://lightning.thunderroadinc.com/inventory/oauth_callback.php</callbackUrl>
+        <consumerKey>3MVG9KsVczVNcM8wgP0eVJMoDJsKG9opbJp5wwOUY1A49BjtD8DKnhbGoxZbC1M9t6hcsV8HlknWDKUY.r.bl</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <singleLogoutUrl>https://lightning.thunderroadinc.com/inventory/index.php</singleLogoutUrl>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+        <singleLogoutUrl>https://lightning.thunderroadinc.com/inventory/index.php</singleLogoutUrl>
+    </oauthPolicy>
+    <startUrl>https://lightning.thunderroadinc.com/inventory/index.php</startUrl>
+</ConnectedApp>

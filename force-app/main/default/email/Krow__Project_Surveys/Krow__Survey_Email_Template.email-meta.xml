@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Survey Email Template</name>
+    <style>none</style>
+    <subject>Krow Survey</subject>
+    <textOnly>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;title&gt;Email Template&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html charset=UTF-8&quot; /&gt;
+&lt;/head&gt;
+&lt;body style=&quot;margin: 0; padding: 0;&quot;&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+    #outlook a{padding:0;} /* Force Outlook to provide a &quot;view in browser&quot; message */
+    .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td {line-height: 100%;}
+    .ExternalClass {width: 100%;}
+    body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+    /* RESET STYLES */
+    
+    a:hover {text-decoration: underline;}
+    a:visited {text-decoration: none; color: inherit;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    
+    @media screen and (max-width: 601px){
+        table[class=&quot;responsive-table&quot;] {
+            width: 100%!important;
+        }
+    }
+&lt;/style&gt;
+    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;  width=&quot;100%&quot; bgcolor=&quot;#ffffff&quot; style=&quot; font-family:&apos;Arial&apos;; table-layout: fixed;&quot;  &gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td  valign=&quot;top&quot; align=&quot;center&quot; style=&quot;padding-top: 30px;&quot;&gt;
+                    
+               &lt;img width=&quot;150&quot; src=&quot;[logo]&quot;&gt;&lt;/img&gt;&lt;br/&gt;
+                    
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td  valign=&quot;top&quot; align=&quot;center&quot;&gt;
+                    &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; height=&quot;100%&quot; width=&quot;600px&quot; class=&quot;responsive-table&quot; style=&quot;table-layout: fixed; font-family:&apos;Arial&apos;;&quot;&gt;
+                        &lt;tr&gt;
+                            &lt;td  valign=&quot;top&quot; style=&quot;padding-top: 10px; padding-bottom: 15px;&quot;&gt;
+                                &lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;  width=&quot;100%&quot; bgcolor=&quot;#ffffff&quot; style=&quot; border-top: 1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd;  table-layout: fixed; font-family:&apos;Arial&apos;;  border-bottom: 20px solid  #0069aa;&quot;&gt;
+                                    &lt;tbody&gt;
+                                        &lt;tr&gt;
+                                            &lt;td  valign=&quot;top&quot; style=&quot;padding: 30px;&quot;&gt;
+                                               
+                                              &lt;h1 style=&quot;margin:0; mso-line-height-rule:exactly;&quot;&gt;
+                                                  Survey Title
+                                              &lt;/h1&gt;
+                                                &lt;p style=&quot;line-height: 1.5; font-size: 16px;&quot;&gt;
+                                                    Hi {!Contact.Name},
+                                                &lt;/p&gt;
+                                                &lt;p id=&quot;wecomeText&quot; style=&quot;line-height: 1.5; font-size: 16px;&quot;&gt;&lt;p&gt;welcome&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;&lt;/p&gt;
+                                                &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;  width=&quot;100%&quot; style=&quot;table-layout: fixed; font-family:&apos;Arial&apos;;&quot;&gt;
+                                                    &lt;tbody&gt;
+                                                        &lt;tr&gt;
+                                                            &lt;td align=&quot;center&quot; style=&quot;padding-top: 15px; padding-bottom: 30px;&quot;&gt;
+                                                       
+                                                            &lt;a href=&quot;[link]&quot;&gt;
+                                                                           &lt;button style=&quot;cursor: pointer;background-color: #0070d2;border: none;color: white;padding: 10px 26px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;&quot;&gt;Begin Survey&lt;/button&gt;
+                                                            &lt;/a&gt;
+                                                                  
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/tbody&gt;
+                                                &lt;/table&gt;
+                                               
+                                                &lt;p style=&quot;line-height: 1.5; &quot;&gt;
+                                                    Thanks
+                                                    &lt;br&gt;
+                                                   {!User.Name}
+                                                &lt;/p&gt;
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/tbody&gt;
+                                &lt;/table&gt;
+                            &lt;/td&gt;
+                        &lt;/tr&gt;
+                        
+                    &lt;/table&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td  valign=&quot;top&quot; align=&quot;center&quot;  style=&quot;padding-bottom:100px; color: #999; font-size: 12px&quot;&gt;
+                    Power By Krow
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

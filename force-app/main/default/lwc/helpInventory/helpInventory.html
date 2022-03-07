@@ -1,0 +1,111 @@
+<template>
+    <lightning-card>
+        <lightning-accordion>
+            <lightning-accordion-section name="default" label="Inventory Help"></lightning-accordion-section>
+
+            <lightning-accordion-section name="moving" label="Moving Inventory to Another Location">
+                <p>Start by scanning the barcode, into the search bar in the Salesforce mobile app. The name of the Inventory item will appear in the search. </p>
+                <img src="https://lightning.thunderroadinc.com/images/helpInventory/mobile-barcode-scan-search.jpg" alt="barcode scan mobile search" width="400" /><br />
+                <p>Click on the Inventory item name that appears in the search results with the heart icon.</p>
+                <img src="https://lightning.thunderroadinc.com/images/helpInventory/mobile-move-inventory.jpg" alt="mobile move inventory" width="600" /><br />
+                <p>Click on the 'Move Inventory' button highlighted above.</p>
+                <p>Skip the first screen by clicking 'Next'. on the next screen, using the drop-down menus, select the location for 'Move From Inventory Location' and select the location for 'Move To Inventory Location'. Enter the Quantity of items being moved and click 'Next'. Confirm the details on the next screen and click 'Next' and 'Finish'.</p>
+                <p></p>
+
+            </lightning-accordion-section>
+
+            <lightning-accordion-section name="removing" label="Removing Inventory Quantities from a Location">
+                <p>Start by scanning the barcode, into the search bar in the Salesforce mobile app. The name of the Inventory item will appear in the search. </p>
+                <img src="https://lightning.thunderroadinc.com/images/helpInventory/mobile-barcode-scan-search.jpg" alt="barcode scan mobile search" width="400" /><br />
+                <p>Click on the Inventory item name that appears in the search results with the heart icon.</p>
+                <img src="https://lightning.thunderroadinc.com/images/helpInventory/mobile-adj-inventory.jpg" alt="mobile adjust inventory" width="600" /><br />
+                <p>Click on the 'Adjust Inventory' button highlighted above.</p>
+                <p>Skip the first screen by clicking 'Next'. on the next screen, using the drop-down menus, select the location where inventory will be removed. Enter the quantity removed as a negative number and click 'Next'. Confirm the details on the next screen and click 'Next' and 'Finish'.</p>
+                <p></p>
+            </lightning-accordion-section>
+
+            <lightning-accordion-section name="add" label="Add New Inventory">
+
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Xb86D45jSRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <p>In the <b>‘Inventory’</b> App in Salesforce, click the arrow in the <b>‘Inventory’</b> tab and click <b>‘+ New Inventory’</b> in the drop-down. A pop-up form will appear entitled ‘New Inventory’.</p>
+                <p>Below is the form with explanations of fields.</p>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-information.jpg" alt="information" width="600" />
+
+                    <p>Inventory Name*:<br />
+                    Manufacturer Name:<br />
+                    Model #:<br />
+                    Manufacturer Product Website: Url of manufacturer model website. If it doesn’t fit, delete the last chars of the url, max is 255.</p>
+                    
+                    <p>Inventory Type*:<br />
+                    Description:<br />
+                    Total Price:<br />
+                    Inventory Image:</p>
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-bulk-indiv-specs.jpg" alt="bulk and indiv specs" width="600" />
+
+                    <p>Bulk Unit of Measurement Description: Unit of Measurement for Bulk Unit (ie. pallet, box, roll)<br />
+                    Bulk Weight (lbs): weight of bulk unit in pounds<br />
+                    Bulk Dimensions: physical size (length x width x height)<br />
+                    # of Indiv Units in Bulk Unit: Quantity of pieces in the bulk unit (ie. 48, 10, 100)</p>
+                    
+                    <p>Indiv Unit of Measurement Description: Unit of measurement for individual pieces (ie. block, pound, foot)<br />
+                    Individual Weight (lbs): weight of individual piece in pounds<br />
+                    Individual Dimensions: physical size (length x width x height)</p>
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-ordering.jpg" alt="ordering" width="600" />
+
+                    <p>Needs to be Ordered: Checkbox to override quantities and add item to show in ‘Locations Needing Restock’ report<br /><br />
+                    In Shopping Cart: checkbox to show in ‘Locations Needing Restock’ report<br /><br />
+                    Last Time Competitive Price Shopped: <br /><br />
+                    Ordering Notes: Information needed when ordering item</p>                    
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-best-supplier-info.jpg" alt="best supplier info" width="600" />
+
+                    <p>Best Bulk Supplier: Search, after 3 chars if the Supplier doesn’t appear, click <b>‘+ New Account’</b> and add the new Account and make the type = <b>‘Supplier’</b>.<br /><br />
+                    Best Bulk Unit Product Website: Url of website where the order can be placed. If it doesn’t fit, delete the last chars of the url, max is 255.<br /><br /> 
+                    Best Bulk Unit Supplier Ordering ID: Id from Supplier for Ordering (ie UPC)<br /><br />
+                    Best Bulk Unit Price: Price to pay for the bulk unit<br /><br />
+                    Best Item Price by Bulk Purchase: ‘Best Bulk Unit Price’ divided by how many items in the bulk unit.</p>
+ 
+                    <p>Best Indiv Item Supplier: Search, after 3 chars if the Supplier doesn’t appear, click <b>‘+ New Account’</b> and add the new Account and make the type = <b>‘Supplier’</b>.<br /><br /> 
+                    Best Indiv Item Product Website: Url of website where the order can be placed. If it doesn’t fit, delete the last chars of the url, max is 255.<br /><br />
+                    Best Indiv Item Supplier Ordering ID: Id from Supplier for Ordering (ie UPC)<br /><br />
+                    Best Indiv Item Price: price to pay when buying the individual item.</p>
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-backup-supplier-info.jpg" alt="backup supplier info" width="600" />
+                
+                    <p>Backup Bulk Supplier: Search, after 3 chars if the Supplier doesn’t appear, click <b>‘+ New Account’</b> and add the new Account and make the type = <b>‘Supplier’</b>.<br /><br />
+                    Backup Bulk Unit Product Website: Url of website where the order can be placed. If it doesn’t fit, delete the last chars of the url, max is 255.<br /><br /> 
+                    Backup Bulk Unit Supplier Ordering ID: Id from Supplier for Ordering (ie UPC)<br /><br />
+                    Backup Bulk Unit Price: Price to pay for the bulk unit<br /><br />
+                    Backup Item Price by Bulk Purchase: ‘Best Bulk Unit Price’ divided by how many items in the bulk unit.</p>
+        
+                    <p>Backup Indiv Item Supplier: Search, after 3 chars if the Supplier doesn’t appear, click <b>‘+ New Account’</b> and add the new Account and make the type = <b>‘Supplier’</b>.<br /><br /> 
+                    Backup Indiv Item Product Website: Url of website where the order can be placed. If it doesn’t fit, delete the last chars of the url, max is 255.<br /><br />
+                    Backup Indiv Item Supplier Ordering ID: Id from Supplier for Ordering (ie UPC)<br /><br />
+                    Backup Indiv Item Price: price to pay when buying the individual item.</p>
+                </div>
+                <div class="slds-box">
+                    <img src="https://lightning.thunderroadinc.com/images/helpInventory/new-inventory-notes.jpg" alt="notes" width="600" />
+
+                    <p>Originate Item: checkbox used to filter items whose details need to be completed or items that need to be shopped, etc. This is checked by default for admin to double check initial input or to alert that the record needs completing.</p>
+                    <p>Inventory Development/Origination Notes: place to add notes for developing inventory or To dos. Can be used with the ‘Originate Item’ checkbox filter.</p>
+                </div>
+            </lightning-accordion-section>
+
+            <lightning-accordion-section name="receiving_no_po" label="Adding Inventory to a Location without a PO (Existing)">
+                <p><strong>Use these steps if there isn’t a PO involved like when taking initial counts of inventory in a location.</strong></p>
+
+                
+                <p>First navigate to the Inventory record screen.</p>
+                <p>Click the <b>‘Receive Inventory’</b> button in the top left section of the <b>‘Inventory’</b> record’s screen. In the new screen, leave the field blank and click <b>‘Next’</b>. On the new screen, use the drop-down in the <b>‘Inventory Location’</b> field to choose the location. Enter the count in the <b>‘Quantity’</b> field. If there is no count yet and the inventory is just being assigned to the location, use 1 for the <b>‘Quantity’</b>. It will have to be changed in the next step. Click <b>‘Next’</b>. Confirm the information. If it is wrong, click <b>‘Previous’</b> to go back and change it, otherwise click <b>‘Next’</b> and <b>‘Finish’</b>.</p>
+            </lightning-accordion-section>
+        </lightning-accordion>
+    </lightning-card>
+</template>

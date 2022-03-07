@@ -1,0 +1,26 @@
+<aura:component implements="lightning:appHomeTemplate" access="global" description="3 Columns in 2nd Row" >
+    <aura:attribute name="header" type="Aura.Component[]" description="Header"/>
+    <aura:attribute name="column1" type="Aura.Component[]" description="Column1"/>
+    <aura:attribute name="column2" type="Aura.Component[]" description="Column2"/>
+    <aura:attribute name="column3" type="Aura.Component[]" description="Column3"/>
+    <aura:attribute name="footer" type="Aura.Component[]" description="Footer"/>
+    
+    <div>
+        <div>{!v.header}</div>
+        <lightning:layout  pullToBoundary="small">
+            <lightning:layoutItem size="{! $Browser.isDesktop ? '4' : '12' }"
+                                  class="slds-m-left_small">
+                {!v.column1}
+            </lightning:layoutItem>
+            <lightning:layoutItem size="{! $Browser.isDesktop ? '4' : '12' }"
+                                  class="slds-m-left_small">    
+                {!v.column2}
+            </lightning:layoutItem>
+            <lightning:layoutItem size="{! $Browser.isDesktop ? '4' : '12' }"
+                                  class="slds-m-left_small">     
+                {!v.column3}
+            </lightning:layoutItem>
+        </lightning:layout>
+        <div>{!v.footer}</div>
+    </div> 
+</aura:component>

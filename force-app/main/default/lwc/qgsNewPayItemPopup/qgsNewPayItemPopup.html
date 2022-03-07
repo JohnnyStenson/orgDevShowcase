@@ -1,0 +1,65 @@
+<template>
+    <template if:true={showModal}>
+        <c-modal onclosedialog={handleDialogClose}>
+            <span slot="header">Add New Pay Item to Group</span>
+            <slot>
+                <template if:true={pufs}>
+                    <lightning-record-edit-form
+                        class="record-form"
+                        object-api-name="Pay_Item__c"
+                        layout-type="Full" 
+                        columns="1"
+                        density="compact"
+                        mode="edit"
+                        onsuccess={handleSuccess}
+                        onsubmit={handleSubmit}>
+
+                        <p class="slds-show slds-m-vertical_medium slds-text-heading_medium">
+                            1. Click on the Pay Item to Add to the Group:</p>
+                        <div class={pufListClass}>
+                            <template for:each={pufs} for:item="puf" >
+                                <a a href="javascript:void(0);" 
+                                    class="slds-button slds-button_neutral slds-m-bottom_small slds-show" 
+                                    onclick={handleChoosePayItem} 
+                                    key={puf.Id} 
+                                    data-id={puf.Id}
+                                    data-name={puf.Name}>
+                                    {puf.Name}</a>
+                            </template>
+                        </div>
+
+                        <p class="slds-show slds-m-top_medium slds-text-heading_medium">
+                            2. Optional Info/Instructions for Team: <span class="slds-text-body_small">(doesn't display on quote)</span></p>
+                        <lightning-input-field 
+                            field-name="Instructions_Info__c"  >
+                        </lightning-input-field>
+
+                        <p class="slds-show slds-m-top_medium slds-text-heading_medium">
+                            3. Order of Appearance in Group on Quote:</p>
+                        <lightning-input-field 
+                            field-name="Order_in_Group__c" value={nextOrder} >
+                        </lightning-input-field>
+
+                        <div class={productFieldClass}>
+                            <p class="slds-show slds-m-vertical_medium slds-text-heading_medium">
+                                4. Confirm Pay Item to Add to the Group and Click 'Save':</p>
+                            <!-- hidden inputs -->
+                            <lightning-input-field field-name="Product__c" value={productId}>
+                            </lightning-input-field>
+                        </div>
+
+                        <lightning-input-field field-name="Quote__c" value={quoteId} class="slds-hide">
+                        </lightning-input-field>
+                        <lightning-input-field field-name="Quote_Line_Group__c" value={qlgId} class="slds-hide">
+                        </lightning-input-field>
+                    </lightning-record-edit-form>
+                </template>
+                
+            </slot>
+            <span slot="footer">
+                <lightning-button variant="neutral" label="Cancel" title="Cancel" onclick={handleClose} ></lightning-button>
+                <lightning-button variant="brand" label="SAVE" title="Save" onclick={handleSave} class="slds-m-left_x-small"></lightning-button>
+            </span>
+        </c-modal>
+    </template>
+</template>
