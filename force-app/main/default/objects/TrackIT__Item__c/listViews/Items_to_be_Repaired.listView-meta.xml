@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Items_to_be_Repaired</fullName>
+    <columns>NAME</columns>
+    <columns>TrackIT__Description__c</columns>
+    <columns>TrackIT__Location__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TrackIT__Equipment_Status__c</field>
+        <operation>equals</operation>
+        <value>Repair Needed</value>
+    </filters>
+    <label>Items to be Repaired</label>
+</ListView>

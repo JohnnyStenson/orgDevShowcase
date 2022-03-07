@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Cannot_Have_RenewableEvergreen_In_Bundle</fullName>
+    <active>true</active>
+    <description>The bundle cannot have configured or optional SKU subscription type as Renewable/Evergreen</description>
+    <errorConditionFormula>AND(OR(ISPICKVAL( SBQQ__ConfiguredSKU__r.SBQQ__SubscriptionType__c , &apos;Renewable/Evergreen&apos;),ISPICKVAL( SBQQ__OptionalSKU__r.SBQQ__SubscriptionType__c ,&apos;Renewable/Evergreen&apos;)))</errorConditionFormula>
+    <errorMessage>Can’t include evergreen and renewable products in the same bundle.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__External_Project_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A field used to track the Project ID from an external system, often used during import.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>A field used to track the Project ID from an external system, often used during import.</inlineHelpText>
+    <label>External Project ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

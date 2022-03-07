@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Scheduled_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Represents the Sum of all Task Assignment Hours for All Resources assigned this task.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Represents the Sum of all Task Assignment Hours for All Resources assigned this task.</inlineHelpText>
+    <label>Scheduled Hours</label>
+    <summarizedField>Krow__Task_Assignment__c.Krow__Hour__c</summarizedField>
+    <summaryForeignKey>Krow__Task_Assignment__c.Krow__Krow_Task__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

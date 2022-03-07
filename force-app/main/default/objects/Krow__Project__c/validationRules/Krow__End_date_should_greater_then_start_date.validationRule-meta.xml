@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__End_date_should_greater_then_start_date</fullName>
+    <active>true</active>
+    <description>Project end date should be greater then project start date.</description>
+    <errorConditionFormula>AND(NOT(ISNULL(Krow__Project_Start_Date__c)),NOT(ISNULL(Krow__Project_End_Date__c)),Krow__Project_Start_Date__c &gt; Krow__Project_End_Date__c)</errorConditionFormula>
+    <errorMessage>End date should be greater then start date.</errorMessage>
+</ValidationRule>

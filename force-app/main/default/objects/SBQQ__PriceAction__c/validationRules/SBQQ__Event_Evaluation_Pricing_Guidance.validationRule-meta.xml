@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Event_Evaluation_Pricing_Guidance</fullName>
+    <active>true</active>
+    <description>Prevents users from creating Price Actions related to Pricing Guidance if the evaluation event is not After Calculate.</description>
+    <errorConditionFormula>ISPICKVAL(SBQQ__TargetObject__c, &apos;Quote Line Pricing Guidance&apos;) &amp;&amp; (INCLUDES(SBQQ__Rule__r.SBQQ__EvaluationEvent__c, &apos;On Initialization&apos;) || INCLUDES(SBQQ__Rule__r.SBQQ__EvaluationEvent__c, &apos;Before Calculate&apos;) || INCLUDES(SBQQ__Rule__r.SBQQ__EvaluationEvent__c, &apos;On Calculate&apos;))</errorConditionFormula>
+    <errorDisplayField>SBQQ__TargetObject__c</errorDisplayField>
+    <errorMessage>To use Quote Line Pricing Guidance as the Target Object, select After Calculate from the Calculator Evaluation Event dropdown list.</errorMessage>
+</ValidationRule>

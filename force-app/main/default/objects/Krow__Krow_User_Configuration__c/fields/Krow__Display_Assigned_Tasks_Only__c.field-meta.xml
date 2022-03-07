@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Display_Assigned_Tasks_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This setting will ONLY display assigned tasks to the user on My Work, My Projects (all views) and Gantt.  - with no ability to Filter and view all.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This setting will ONLY display assigned tasks to the user on My Work, My Projects (all views) and Gantt.  - with no ability to Filter and view all.</inlineHelpText>
+    <label>Display Assigned Tasks Only</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

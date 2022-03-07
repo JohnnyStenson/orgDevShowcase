@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ShownValues__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Values from the backing picklist field that should be shown on this bundle.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter values from the corresponding picklist field on Product Option object that you want to be shown on this bundle.</inlineHelpText>
+    <label>Shown Values</label>
+    <length>5000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Ten_Year_Inspect_Duration_Time_Is_Blank</fullName>
+    <active>true</active>
+    <description>Displays error message if Ten Year Inspection Duration Time is blank and Add 10 Year Inspection Event To Calendar is checked.</description>
+    <errorConditionFormula>AND( TrackIT__Add_10_Year_Inspection_Event_to_Calendar__c  = TRUE,ISBLANK(TrackIT__Ten_Year_Inspection_Duration_Time__c) )</errorConditionFormula>
+    <errorDisplayField>TrackIT__Ten_Year_Inspection_Duration_Time__c</errorDisplayField>
+    <errorMessage>Enter the approximate duration time in minutes needed for inspection. Enter 0 (numeric) if not needed.</errorMessage>
+</ValidationRule>

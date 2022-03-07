@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OriginalQuoteLine__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Exists for convenience of not having to run relationship queries.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Original Quote Line of the subscription.</inlineHelpText>
+    <label>Original Quote Line</label>
+    <referenceTo>SBQQ__QuoteLine__c</referenceTo>
+    <relationshipLabel>Quote Lines (Derived)</relationshipLabel>
+    <relationshipName>OriginalQuoteLine</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

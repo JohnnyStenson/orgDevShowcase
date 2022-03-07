@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Assign_Item_Out</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>750</height>
+    <linkType>page</linkType>
+    <masterLabel>Assign Item Out</masterLabel>
+    <openType>sidebar</openType>
+    <page>TrackIT__AssignItemOut</page>
+    <protected>false</protected>
+</WebLink>

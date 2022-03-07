@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Barcode_Label_Large</fullName>
+    <availability>online</availability>
+    <description>Prints out the current record bar code label on Dymo 4&quot; by 2 5/16&quot; label size.</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Barcode Label - Large</masterLabel>
+    <openType>sidebar</openType>
+    <page>TrackIT__PrintLargeItemBarcode</page>
+    <protected>false</protected>
+</WebLink>

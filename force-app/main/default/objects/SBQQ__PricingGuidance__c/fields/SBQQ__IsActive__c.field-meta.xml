@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__IsActive__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this pricing guidance for use on associated product. Inactive pricing guidance won&apos;t appear in the quote line editor.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this pricing guidance for use on associated product.</inlineHelpText>
+    <label>Active</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

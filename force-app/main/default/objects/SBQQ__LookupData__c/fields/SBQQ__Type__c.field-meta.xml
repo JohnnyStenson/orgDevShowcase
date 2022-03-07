@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For use with Product Selection Rules, specifies the type of action to be performed on the Product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For use with Product Selection Rules, specifies the type of action to be performed on the Product.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add</fullName>
+                <default>false</default>
+                <label>Add</label>
+            </value>
+            <value>
+                <fullName>Remove</fullName>
+                <default>false</default>
+                <label>Remove</label>
+            </value>
+            <value>
+                <fullName>Enable</fullName>
+                <default>false</default>
+                <label>Enable</label>
+            </value>
+            <value>
+                <fullName>Disable</fullName>
+                <default>false</default>
+                <label>Disable</label>
+            </value>
+            <value>
+                <fullName>Enable &amp; Add</fullName>
+                <default>false</default>
+                <label>Enable &amp; Add</label>
+            </value>
+            <value>
+                <fullName>Disable &amp; Remove</fullName>
+                <default>false</default>
+                <label>Disable &amp; Remove</label>
+            </value>
+            <value>
+                <fullName>Show</fullName>
+                <default>false</default>
+                <label>Show</label>
+            </value>
+            <value>
+                <fullName>Hide</fullName>
+                <default>false</default>
+                <label>Hide</label>
+            </value>
+            <value>
+                <fullName>Show &amp; Add</fullName>
+                <default>false</default>
+                <label>Show &amp; Add</label>
+            </value>
+            <value>
+                <fullName>Hide &amp; Remove</fullName>
+                <default>false</default>
+                <label>Hide &amp; Remove</label>
+            </value>
+            <value>
+                <fullName>Default Filter</fullName>
+                <default>false</default>
+                <label>Default Filter</label>
+            </value>
+            <value>
+                <fullName>Optional Filter</fullName>
+                <default>false</default>
+                <label>Optional Filter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__Rule_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Rule ID</label>
+    <referenceTo>synety__Synety_Campaign_Contact_Transfer_Rule__c</referenceTo>
+    <relationshipLabel>Campaign Contact Transfer Rule Details</relationshipLabel>
+    <relationshipName>Campaign_Contact_Transfer_Rule_Details</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

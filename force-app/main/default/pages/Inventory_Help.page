@@ -1,0 +1,14 @@
+<apex:page >
+    <h1>Adding New Inventory</h1>
+    
+    <br /><br />
+        <apex:iframe height="315" width="560" src="https://www.youtube.com/embed/Xb86D45jSRA" />
+        
+    <br /><br />
+        <apex:iframe height="315" width="560" src="https://www.youtube.com/embed/_NegABRVAQ0" />
+    
+    <br /><br />
+        <apex:iframe height="315" width="560" src="https://www.youtube.com/embed/r7NwzgtNxg0" />    
+        
+
+</apex:page>

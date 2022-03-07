@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Revenue_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The associated Revenue Recognition template for this project that determines how revenue recognition is calculated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The associated Revenue Recognition template for this project that determines how revenue recognition is calculated.</inlineHelpText>
+    <label>Revenue Template</label>
+    <referenceTo>Krow__Revenue_Template__c</referenceTo>
+    <relationshipLabel>Klient Projects</relationshipLabel>
+    <relationshipName>Krow_Projects</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

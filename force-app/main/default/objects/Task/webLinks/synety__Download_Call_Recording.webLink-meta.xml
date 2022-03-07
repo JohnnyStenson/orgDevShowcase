@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__Download_Call_Recording</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Download Call Recording</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>var link = &quot;/apex/synety__gotoCallRecording?RecordId={!Task.Id}&amp;ownerId={!Task.OwnerId}&amp;play=false&quot;; 
+var wnd = window.open(link,&apos;_blank&apos;,&apos;width=800,height=500&apos;); 
+wnd.focus();</url>
+</WebLink>

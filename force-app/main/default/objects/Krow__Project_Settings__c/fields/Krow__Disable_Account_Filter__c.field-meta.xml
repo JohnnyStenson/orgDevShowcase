@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Account_Filter__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, it will disable the &amp;quot;Account filter on the My Project AND My Work tab, and also make the Account Column VIEW ONLY on My Project list view</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, it will disable the &amp;quot;Account filter on the My Project AND My Work tab, and also make the Account Column VIEW ONLY on My Project list view</inlineHelpText>
+    <label>Disable Account Filter</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

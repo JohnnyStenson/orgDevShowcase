@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__All</fullName>
+    <columns>NAME</columns>
+    <columns>SBQQ__Element__c</columns>
+    <columns>SBQQ__Start__c</columns>
+    <columns>SBQQ__Finish__c</columns>
+    <columns>SBQQ__Total__c</columns>
+    <columns>SBQQ__Log__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

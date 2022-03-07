@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Display_Current_Week_Tasks__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, It show current Tasks In Project Status Report and it&apos;s Pdf.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, It show current Tasks In Project Status Report and it&apos;s Pdf.</inlineHelpText>
+    <label>Display Current Week Tasks</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConditionsMet__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Choose the behavior for your conditions: All is AND; Any is OR.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the behavior for your conditions: All is AND; Any is OR.</inlineHelpText>
+    <label>Conditions Met</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>true</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Any</fullName>
+                <default>false</default>
+                <label>Any</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

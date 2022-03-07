@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__either_be_excluded_or_should_have_TD</fullName>
+    <active>true</active>
+    <description>Split should either be excluded from calculation or must have timesheet detail attached with it.</description>
+    <errorConditionFormula>AND(ISNEW(),NOT(Krow__Exclude_From_Calculation__c),AND(ISBlank(Krow__Timesheet_Detail__c),ISBlank(Krow__Task_Time__c)))</errorConditionFormula>
+    <errorMessage>Either timesheet detail or task time field must be filled or exclude from calculation must be checked</errorMessage>
+</ValidationRule>

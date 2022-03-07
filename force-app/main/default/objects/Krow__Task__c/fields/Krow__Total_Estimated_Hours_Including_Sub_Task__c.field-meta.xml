@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Total_Estimated_Hours_Including_Sub_Task__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Total Estimated Hours for this Task including Sub-tasks.</description>
+    <externalId>false</externalId>
+    <formula>Krow__Estimated_Hours__c + Krow__Total_Estimated_Hours_From_Sub_Tasks__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Total Estimated Hours for this Task including Sub-tasks.</inlineHelpText>
+    <label>Total Estimated Hours Including Sub-Task</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConfiguredSKU__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Product SKU of the bundle that is being configured with this option. If you create the option from the product detail page, this should already be populated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Product SKU of the bundle that is being configured with this option. If you create the option from the product detail page, this should already be populated.</inlineHelpText>
+    <label>Configured SKU</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Options</relationshipLabel>
+    <relationshipName>Options</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

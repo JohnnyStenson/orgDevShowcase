@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__UpliftAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Uplift (Amt) is measured as a currency amount. This is a system-calculated field, as Uplift can only be applied to MDQ segments in percent.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Uplift (Amt) is measured as a currency amount. This is a system-calculated field, as Uplift can only be applied to MDQ segments in percent.</inlineHelpText>
+    <label>Uplift (Amt)</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

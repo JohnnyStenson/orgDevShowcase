@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Practice__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Practice</label>
+    <referenceTo>Krow__Practice__c</referenceTo>
+    <relationshipLabel>Project Resources</relationshipLabel>
+    <relationshipName>Project_Resources</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

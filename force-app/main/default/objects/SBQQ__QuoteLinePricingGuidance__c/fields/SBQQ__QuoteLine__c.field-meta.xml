@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__QuoteLine__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The quote line related to this pricing guidance.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The quote line related to this pricing guidance.</inlineHelpText>
+    <label>Quote Line</label>
+    <referenceTo>SBQQ__QuoteLine__c</referenceTo>
+    <relationshipLabel>Quote Line Pricing Guidance</relationshipLabel>
+    <relationshipName>QuoteLinePricingGuidance</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SubscriptionCategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Category defined on the product to limit percent-of-total calculations to certain products.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Category defined on the product to limit percent-of-total calculations to certain products.</inlineHelpText>
+    <label>Subscription Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

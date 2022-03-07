@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ColumnHeaderHidden__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag that determines whether column header is displayed or not. Only applies to sections pointing to template content of type &quot;Line Items&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox to hide the column header. Only applies to sections pointing to template content of type &quot;Line Items&quot;.</inlineHelpText>
+    <label>Hide Column Header</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

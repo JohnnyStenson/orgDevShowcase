@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__HeadingTextColor__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Color (in Hex) applied to text in the heading of this column.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify color (in Hex) for text in the heading of this column. Leaving blank inherits from text color for this column.</inlineHelpText>
+    <label>Heading Text Color</label>
+    <length>6</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

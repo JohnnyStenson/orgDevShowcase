@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__License</fullName>
+    <active>true</active>
+    <label>License</label>
+    <picklistValues>
+        <picklist>TrackIT__License_Type__c</picklist>
+        <values>
+            <fullName>Certification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud Based Software License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software License</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Manufacturer__c</picklist>
+        <values>
+            <fullName>Adobe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

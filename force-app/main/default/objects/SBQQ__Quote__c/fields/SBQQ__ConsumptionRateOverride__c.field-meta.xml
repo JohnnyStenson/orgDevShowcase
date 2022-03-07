@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConsumptionRateOverride__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Read-only indicator to show whether a quote contains overriding consumption rates.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Read-only indicator to show whether a quote contains overriding consumption rates.</inlineHelpText>
+    <label>Consumption Rate Override</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

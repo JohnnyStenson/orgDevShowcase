@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Status_Report__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A URL link to a Project Status Report for this project that can be sent to customers.</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(( $Setup.Krow__Project_Settings__c.Krow__Site_Url__c+&apos;/apex/Krow__ProjectStatusReport?id=&apos;+Id),&apos;View Project Status Report&apos;,&apos;_blank&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>A URL link to a Project Status Report for this project that can be sent to customers.</inlineHelpText>
+    <label>Project Status Report</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Website_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Open website in new window for related information for this item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Open website in new window for related information for this item.</inlineHelpText>
+    <label>Website Link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

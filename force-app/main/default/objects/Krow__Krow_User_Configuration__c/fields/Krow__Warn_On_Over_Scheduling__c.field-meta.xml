@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Warn_On_Over_Scheduling__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, when the user is scheduling a resource on a task - either from the task schedule page or from the resource planner on a task then warning message is display if overbooked</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, when the user is scheduling a resource on a task - either from the task schedule page or from the resource planner on a task then warning message is display if overbooked</inlineHelpText>
+    <label>Warn on Over-Scheduling</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

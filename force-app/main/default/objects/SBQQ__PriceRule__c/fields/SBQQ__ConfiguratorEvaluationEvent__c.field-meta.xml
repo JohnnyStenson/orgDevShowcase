@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConfiguratorEvaluationEvent__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Event that specifies when Price Rules should be fired.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When None or Save is selected, the Configurator scoped price rules will fire on save.  When Edit is selected, the Configurator scoped price rules will fire on edit and save.</inlineHelpText>
+    <label>Configurator Evaluation Event</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Save</fullName>
+                <default>false</default>
+                <label>Save</label>
+            </value>
+            <value>
+                <fullName>Edit</fullName>
+                <default>false</default>
+                <label>Edit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

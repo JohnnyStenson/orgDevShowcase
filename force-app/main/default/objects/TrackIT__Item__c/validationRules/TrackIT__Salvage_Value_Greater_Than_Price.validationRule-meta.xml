@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Salvage_Value_Greater_Than_Price</fullName>
+    <active>true</active>
+    <errorConditionFormula>TrackIT__Salvage_Value__c  &gt;  TrackIT__Purchase_Price__c</errorConditionFormula>
+    <errorDisplayField>TrackIT__Salvage_Value__c</errorDisplayField>
+    <errorMessage>The salvage value cannot be greater then the purchase price. Please enter appropriate salvage value or adjust the purchase price.</errorMessage>
+</ValidationRule>

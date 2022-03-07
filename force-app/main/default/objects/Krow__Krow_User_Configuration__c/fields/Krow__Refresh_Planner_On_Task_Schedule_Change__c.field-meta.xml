@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Refresh_Planner_On_Task_Schedule_Change__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When any changes made from  task scheduling tab then after close task detail refresh planner ui for reflect changes.</description>
+    <externalId>false</externalId>
+    <label>Refresh Planner On Task Schedule Change</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

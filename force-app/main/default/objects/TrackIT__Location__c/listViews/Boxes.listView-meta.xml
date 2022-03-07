@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Boxes</fullName>
+    <columns>NAME</columns>
+    <columns>TrackIT__Description__c</columns>
+    <columns>Location_Type__c</columns>
+    <columns>Video_Links__c</columns>
+    <columns>Store_Location__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Location_Type__c</field>
+        <operation>equals</operation>
+        <value>Box</value>
+    </filters>
+    <label>Boxes</label>
+</ListView>

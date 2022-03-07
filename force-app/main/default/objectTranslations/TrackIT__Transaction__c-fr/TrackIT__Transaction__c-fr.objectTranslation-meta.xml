@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>L&apos;élément Transaction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>L&apos;élément Transactions</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Identification d&apos;enregistrement</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__TransactionID_Change_After_Creation_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Generate_Invoice_In_Async_Mode__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked then create invoice child items in the async process after creating an invoice from Generate Invoice page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked then create invoice child items in the async process after creating an invoice from Generate Invoice page.</inlineHelpText>
+    <label>Enable Generate Invoice In Async Mode</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

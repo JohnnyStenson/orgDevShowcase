@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Recalculate_Sharing</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Recalculate Sharing</masterLabel>
+    <openType>noSidebar</openType>
+    <page>Krow__Recalculate_Sharing</page>
+    <protected>false</protected>
+</WebLink>

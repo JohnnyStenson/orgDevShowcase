@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Expenses</fullName>
+    <fields>Name</fields>
+    <fields>Krow__Project_Resource__c</fields>
+    <fields>Krow__Expense_Total__c</fields>
+    <fields>Krow__Krow_Project__c</fields>
+    <fields>Krow__Expense_Report_Date__c</fields>
+    <fields>Krow__Approval_Status__c</fields>
+    <label>Expenses</label>
+</CompactLayout>

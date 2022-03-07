@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__Call_Session_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>true</externalId>
+    <inlineHelpText>Unique Session Id Value for SYNETY Call (Inbound and Outbound). Do not change this.</inlineHelpText>
+    <label>Call Session Id</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

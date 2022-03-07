@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFPs_to_Evaluate_Pursuing</fullName>
+    <columns>LEAD.RATING</columns>
+    <columns>OpportunityName__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>HasPlans__c</columns>
+    <columns>ScopeofWork__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Evaluate Pursuing RFP</value>
+    </filters>
+    <label>RFPs to Evaluate Pursuing</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Optional field that makes this rule specific to the product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose a product to associate to this rule.</inlineHelpText>
+    <label>Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Price Rules</relationshipLabel>
+    <relationshipName>PriceRules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

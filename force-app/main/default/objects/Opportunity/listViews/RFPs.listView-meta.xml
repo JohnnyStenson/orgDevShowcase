@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFPs</fullName>
+    <columns>Proposal_Due_Date__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Has_Plans__c</columns>
+    <columns>ScopeofWork__c</columns>
+    <columns>SBQQ__PrimaryQuote__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Estimate_Opportunity</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>contains</operation>
+        <value>Setup,Discovery,Takeoff,Create Proposal,Submit Poposal</value>
+    </filters>
+    <label>RFPs</label>
+</ListView>

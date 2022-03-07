@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Time_Approval__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Removes the Approval button on My Timesheet</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Removes the Approval button on My Timesheet</inlineHelpText>
+    <label>Disable Time Approval</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

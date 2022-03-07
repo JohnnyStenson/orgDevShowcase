@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Timesheet_Admin__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>if checked and IF the Timesheet is NOT Approved, then the embedded vf timesheet component is editable.</description>
+    <externalId>false</externalId>
+    <label>Timesheet Admin</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

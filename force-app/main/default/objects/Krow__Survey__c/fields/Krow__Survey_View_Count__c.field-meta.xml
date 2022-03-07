@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Survey_View_Count__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Survey View Count</label>
+    <summarizedField>Krow__Survey_Response__c.Krow__Survey_View_Count__c</summarizedField>
+    <summaryForeignKey>Krow__Survey_Response__c.Krow__Survey__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PriceBook2__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Price Book to which block pricing applies.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the Price Book that should receive block pricing when applicable.</inlineHelpText>
+    <label>Price Book</label>
+    <referenceTo>Pricebook2</referenceTo>
+    <relationshipLabel>Block Prices</relationshipLabel>
+    <relationshipName>BlockPrices</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

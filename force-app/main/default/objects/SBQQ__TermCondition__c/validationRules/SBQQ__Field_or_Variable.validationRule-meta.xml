@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Field_or_Variable</fullName>
+    <active>true</active>
+    <description>Validates that either field or summary variable is selected.</description>
+    <errorConditionFormula>AND(ISPICKVAL(SBQQ__TestedField__c, &apos;&apos;),ISBLANK(SBQQ__TestedVariable__c))</errorConditionFormula>
+    <errorMessage>You must select either field or variable to test.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__End_Date_Before_Start_Date</fullName>
+    <active>true</active>
+    <description>Validates End Date comes after the Start Date</description>
+    <errorConditionFormula>IF( AND( NOT(ISNULL(SBQQ__EndDate__c)), SBQQ__EndDate__c &lt; SBQQ__StartDate__c), TRUE, null)</errorConditionFormula>
+    <errorMessage>The End Date must come after the Start Date.</errorMessage>
+</ValidationRule>

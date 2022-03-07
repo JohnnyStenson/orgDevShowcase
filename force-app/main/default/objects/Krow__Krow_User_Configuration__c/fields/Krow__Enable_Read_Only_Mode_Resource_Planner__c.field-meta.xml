@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Read_Only_Mode_Resource_Planner__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, Resource planner is in read only mode.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, Resource planner is in read only mode.</inlineHelpText>
+    <label>Enable Read Only Mode Resource Planner</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Record_Types__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Use to switch between field set and recordtype for project create/edit</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, Then record type support for project enabled.</inlineHelpText>
+    <label>Enable Project Record Types</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

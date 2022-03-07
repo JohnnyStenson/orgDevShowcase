@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>used to store Account Id.</description>
+    <externalId>false</externalId>
+    <label>Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Scheduled Klient Surveys</relationshipLabel>
+    <relationshipName>Scheduled_Klient_Surveys</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

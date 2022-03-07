@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Procédure de maintenance et d&apos;inspection</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Procédures de maintenance et d&apos;inspection</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Procédure de maintenance et d&apos;inspection</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__Procedure_Name_Change_After_Creation</name>
+    </validationRules>
+</CustomObjectTranslation>

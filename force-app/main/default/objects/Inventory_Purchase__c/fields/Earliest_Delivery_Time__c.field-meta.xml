@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Earliest_Delivery_Time__c</fullName>
+    <description>Earliest Delivery Time of Delivery Window</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Earliest Delivery Time of Delivery Window</inlineHelpText>
+    <label>Earliest Delivery Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

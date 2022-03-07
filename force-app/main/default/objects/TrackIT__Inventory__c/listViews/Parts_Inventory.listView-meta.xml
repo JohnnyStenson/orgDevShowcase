@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parts_Inventory</fullName>
+    <columns>ListView_Thumbnail__c</columns>
+    <columns>NAME</columns>
+    <columns>Needs_to_be_Ordered__c</columns>
+    <columns>Print_Barcode__c</columns>
+    <columns>Quantity_Needed_for_Field__c</columns>
+    <columns>Quantity_Needed__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Inventory_Type__c</field>
+        <operation>equals</operation>
+        <value>7. Part</value>
+    </filters>
+    <label>Parts Inventory</label>
+</ListView>

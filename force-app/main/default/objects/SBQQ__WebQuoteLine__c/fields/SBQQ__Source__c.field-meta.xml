@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Source__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Source of cloned quote line.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Source quote line item of cloned quote line item, if any.</inlineHelpText>
+    <label>Source</label>
+    <referenceTo>SBQQ__WebQuoteLine__c</referenceTo>
+    <relationshipLabel>Web Quote Lines (Source)</relationshipLabel>
+    <relationshipName>WebClones</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

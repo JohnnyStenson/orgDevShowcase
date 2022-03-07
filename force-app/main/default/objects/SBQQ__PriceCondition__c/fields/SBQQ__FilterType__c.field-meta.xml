@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FilterType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of filtering used in this condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose Variable to evaluate this condition against a Summary Variable; otherwise, choose Value.</inlineHelpText>
+    <label>Filter Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Value</fullName>
+                <default>false</default>
+                <label>Value</label>
+            </value>
+            <value>
+                <fullName>Variable</fullName>
+                <default>false</default>
+                <label>Variable</label>
+            </value>
+            <value>
+                <fullName>Formula</fullName>
+                <default>false</default>
+                <label>Formula</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

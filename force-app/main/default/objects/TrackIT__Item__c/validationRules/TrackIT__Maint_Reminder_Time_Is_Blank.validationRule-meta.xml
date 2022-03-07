@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Maint_Reminder_Time_Is_Blank</fullName>
+    <active>true</active>
+    <description>Displays error message if Maintenance Reminder Time is blank and 
+Add Maintenance Reminder to Calendar is checked.</description>
+    <errorConditionFormula>AND(TrackIT__Add_Maintenance_Reminder_to_Calendar__c  = TRUE,ISPICKVAL(TrackIT__Maintenance_Reminder_Time__c, &apos;&apos;) )</errorConditionFormula>
+    <errorDisplayField>TrackIT__Maintenance_Reminder_Time__c</errorDisplayField>
+    <errorMessage>Enter the Maintenance Reminder Time. Required if adding maintenance reminder time to calendar.</errorMessage>
+</ValidationRule>

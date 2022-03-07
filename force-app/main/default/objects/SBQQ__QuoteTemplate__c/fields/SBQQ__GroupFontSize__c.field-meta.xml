@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__GroupFontSize__c</fullName>
+    <defaultValue>9.0</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Default font size for Group titles</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default font size for Group titles</inlineHelpText>
+    <label>Group Font Size</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

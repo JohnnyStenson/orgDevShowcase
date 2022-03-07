@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Checklist__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Checklist_Items__c &gt;0,&quot;✔️&quot;,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>There is a checklist attached to complete</inlineHelpText>
+    <label>Checklist</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Default_to_Task_Schedule_Tab__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, will default to SCHEDULE page when opening up task side nav.</description>
+    <externalId>false</externalId>
+    <label>Default to Task Schedule Tab</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

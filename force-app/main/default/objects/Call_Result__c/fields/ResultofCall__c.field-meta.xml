@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ResultofCall__c</fullName>
+    <externalId>false</externalId>
+    <label>Result of Call</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+                <label>Left Message</label>
+            </value>
+            <value>
+                <fullName>Voicemail</fullName>
+                <default>false</default>
+                <label>Voicemail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

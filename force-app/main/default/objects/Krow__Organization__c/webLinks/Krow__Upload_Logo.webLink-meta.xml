@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Upload_Logo</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Upload Logo</masterLabel>
+    <openType>sidebar</openType>
+    <page>Krow__UploadLogoPage</page>
+    <protected>false</protected>
+</WebLink>

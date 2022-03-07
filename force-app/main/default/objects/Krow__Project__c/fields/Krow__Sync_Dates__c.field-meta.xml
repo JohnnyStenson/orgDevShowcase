@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Sync_Dates__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, project dates are synced with task dates (earliest task start date and latest task end date).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, project dates are synced with task dates (earliest task start date and latest task end date).</inlineHelpText>
+    <label>Sync Dates</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

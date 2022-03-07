@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DefaultObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Target object for the default value of the attribute.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Target object for the default value of the attribute.</inlineHelpText>
+    <label>Default Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote__c</fullName>
+                <default>false</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>QuoteLineGroup__c</fullName>
+                <default>false</default>
+                <label>Quote Line Group</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

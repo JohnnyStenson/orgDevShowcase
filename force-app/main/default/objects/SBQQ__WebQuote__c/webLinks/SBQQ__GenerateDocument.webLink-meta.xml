@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__GenerateDocument</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Generate Document</masterLabel>
+    <openType>replace</openType>
+    <page>SBQQ__GenerateWebDocument</page>
+    <protected>false</protected>
+</WebLink>

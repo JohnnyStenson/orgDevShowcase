@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Concrete_Form</fullName>
+    <fields>Name</fields>
+    <fields>Quantity_to_Build__c</fields>
+    <label>Concrete Form</label>
+</CompactLayout>

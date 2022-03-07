@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PageNumberPosition__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies where the page numbers are displayed in the document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify where the page numbers are displayed in the document. Defaults to Footer if the field is blank.</inlineHelpText>
+    <label>Page Number Position</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Footer</fullName>
+                <default>true</default>
+                <label>Footer</label>
+            </value>
+            <value>
+                <fullName>Header</fullName>
+                <default>false</default>
+                <label>Header</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

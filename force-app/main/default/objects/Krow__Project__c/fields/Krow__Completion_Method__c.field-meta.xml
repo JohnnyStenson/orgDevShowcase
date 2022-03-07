@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Completion_Method__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines how to calculate the % Completion on a Project.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines how to calculate the % Completion on a Project.</inlineHelpText>
+    <label>Completion % Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Task Completion</fullName>
+                <default>false</default>
+                <label>Task Completion</label>
+            </value>
+            <value>
+                <fullName>Hours Incurred (Planned)</fullName>
+                <default>false</default>
+                <label>Hours Incurred (Planned)</label>
+            </value>
+            <value>
+                <fullName>Hours Incurred (EAC)</fullName>
+                <default>false</default>
+                <label>Hours Incurred (EAC)</label>
+            </value>
+            <value>
+                <fullName>Milestone</fullName>
+                <default>true</default>
+                <label>Milestone</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

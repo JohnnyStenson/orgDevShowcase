@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether this content as required for this product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox if this content is required for the product. Users must include it when generating a quote document.</inlineHelpText>
+    <label>Required</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

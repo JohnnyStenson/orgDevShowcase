@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>TrackIT__Maint_and_Insp_Transactions__c.TrackIT__Date_Time__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Maint_and_Insp_Transactions__c.TrackIT__Type__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Maint_and_Insp_Transactions__c.TrackIT__Inspection_Result__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Maint_and_Insp_Transactions__c.TrackIT__InspectionTasks__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Maint_and_Insp_Transactions__c.TrackIT__Maintenance_Tasks__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Maint_and_Insp_Transactions__c.TrackIT__Meter_Reading__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Maint_and_Insp_Transactions__c.TrackIT__Notes__c</field>
+    </columns>
+    <columns>
+        <field>CHILD_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CHILD_LAST_UPDATE_NAME</field>
+    </columns>
+    <description>Display list of maintenance and inspection records for equipment</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CUST_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Equipment Maint and Inspection Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$TrackIT__Item__c$TrackIT__Maint_and_Insp_Transactions__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>TrackIT__Maint_and_Insp_Transactions__c.TrackIT__Date_Time__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CHILD_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

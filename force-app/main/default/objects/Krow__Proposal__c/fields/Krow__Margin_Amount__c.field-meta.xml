@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Margin_Amount__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Margin Amount</label>
+    <summarizedField>Krow__Proposal_Line__c.Krow__Margin_Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Krow__Proposal_Line__c.Krow__Active__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Krow__Proposal_Line__c.Krow__Proposal__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

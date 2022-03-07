@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Summarize__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Summarize</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Totals Only</fullName>
+                <default>false</default>
+                <label>Totals Only</label>
+            </value>
+            <value>
+                <fullName>Summarize by Person</fullName>
+                <default>false</default>
+                <label>Summarize by Person</label>
+            </value>
+            <value>
+                <fullName>Summarize by Project</fullName>
+                <default>false</default>
+                <label>Summarize by Project</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

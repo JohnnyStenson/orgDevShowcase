@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_type_of_curb_and_scale_of_mobilizat__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of curb &amp; scale (moblztn #1)</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>face form</fullName>
+                <default>false</default>
+                <label>face form</label>
+            </value>
+            <value>
+                <fullName>face form remove and replace</fullName>
+                <default>false</default>
+                <label>face form remove and replace</label>
+            </value>
+            <value>
+                <fullName>face form with blacktop repair</fullName>
+                <default>false</default>
+                <label>face form with blacktop repair</label>
+            </value>
+            <value>
+                <fullName>face form remove and replace with blacktop repair</fullName>
+                <default>false</default>
+                <label>face form remove and replace with blacktop repair</label>
+            </value>
+            <value>
+                <fullName>full depth</fullName>
+                <default>false</default>
+                <label>full depth</label>
+            </value>
+            <value>
+                <fullName>full depth remove and replace</fullName>
+                <default>false</default>
+                <label>full depth remove and replace</label>
+            </value>
+            <value>
+                <fullName>full depth remove and replace with blacktop repair</fullName>
+                <default>false</default>
+                <label>full depth remove and replace with blacktop repair</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

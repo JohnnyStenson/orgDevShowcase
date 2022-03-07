@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Tested_field_or_variable</fullName>
+    <active>true</active>
+    <description>Require either tested field or variable.</description>
+    <errorConditionFormula>AND(ISBLANK(TEXT(SBQQ__Field__c)),ISBLANK(SBQQ__TestedVariable__c),ISBLANK(SBQQ__TestedFormula__c))</errorConditionFormula>
+    <errorMessage>You must specify either field or tested variable.</errorMessage>
+</ValidationRule>

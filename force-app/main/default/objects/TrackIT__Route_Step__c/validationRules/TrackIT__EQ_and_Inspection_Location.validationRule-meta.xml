@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__EQ_and_Inspection_Location</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( TrackIT__Item__r.TrackIT__Record_Type_Name__c  = &apos;Equipment&apos;,ISPICKVAL( TrackIT__Type__c , &apos;Inspection - Location&apos;) )</errorConditionFormula>
+    <errorDisplayField>TrackIT__Type__c</errorDisplayField>
+    <errorMessage>Please select either &apos;Maintenance - Equipment&apos; or &apos;Inspection - Equipment&apos; if equipment record is selected.</errorMessage>
+</ValidationRule>

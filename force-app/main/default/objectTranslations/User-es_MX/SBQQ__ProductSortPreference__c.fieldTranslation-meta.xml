@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione &quot;Seguidos&quot; para mostrar productos que sigue en Chatter antes de otros al agregarlos al presupuesto.</help>
+    <label></label>
+    <name>SBQQ__ProductSortPreference__c</name>
+    <picklistValues>
+        <masterLabel>Followed</masterLabel>
+        <translation>Seguidos</translation>
+    </picklistValues>
+</CustomFieldTranslation>

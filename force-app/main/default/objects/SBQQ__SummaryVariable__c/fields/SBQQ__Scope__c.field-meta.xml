@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Scope__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The scope of your summary variable.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the scope of your summary variable.</inlineHelpText>
+    <label>Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>true</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Assets</fullName>
+                <default>false</default>
+                <label>Assets</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

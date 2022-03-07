@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DiscountedByPackage__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that quote lines generated from this component should pick up additional discount from the parent package line. Only percentage based discount can be inherited.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check to automatically apply additional discount from parent package to this component. Only percentage-based discount can be applied.</inlineHelpText>
+    <label>Discounted By Package</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

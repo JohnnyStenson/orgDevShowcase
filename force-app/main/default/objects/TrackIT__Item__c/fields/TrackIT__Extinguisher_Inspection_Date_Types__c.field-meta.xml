@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Extinguisher_Inspection_Date_Types__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used in flow to select the appropriate inspection date types:
+Mass Update Assigned Inspector Fire Extinquisher</description>
+    <externalId>false</externalId>
+    <label>Extinguisher Inspection Date Types</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inspection - Fire Extinguisher Monthly</fullName>
+                <default>false</default>
+                <label>Inspection - Fire Extinguisher Monthly</label>
+            </value>
+            <value>
+                <fullName>Inspection - Fire Extinguisher Annual</fullName>
+                <default>false</default>
+                <label>Inspection - Fire Extinguisher Annual</label>
+            </value>
+            <value>
+                <fullName>Inspection - Fire Extinguisher 5 Year</fullName>
+                <default>false</default>
+                <label>Inspection - Fire Extinguisher 5 Year</label>
+            </value>
+            <value>
+                <fullName>Inspection - Fire Extinguisher 6 Year</fullName>
+                <default>false</default>
+                <label>Inspection - Fire Extinguisher 6 Year</label>
+            </value>
+            <value>
+                <fullName>Inspection - Fire Extinguisher 10 Year</fullName>
+                <default>false</default>
+                <label>Inspection - Fire Extinguisher 10 Year</label>
+            </value>
+            <value>
+                <fullName>Inspection - Fire Extinguisher 12 Year</fullName>
+                <default>false</default>
+                <label>Inspection - Fire Extinguisher 12 Year</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Percent_Complete_API_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used to decide which field should be used to show complete percent on project analytics when project complete % is &quot;Custom&quot;</description>
+    <externalId>false</externalId>
+    <label>% Complete API Name</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

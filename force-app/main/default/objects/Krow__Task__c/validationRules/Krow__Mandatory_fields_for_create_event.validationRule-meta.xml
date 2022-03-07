@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Mandatory_fields_for_create_event</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND((OR((ISNEW() &amp;&amp; Krow__Create_Event__c),(ISCHANGED(Krow__Create_Event__c ) &amp;&amp; Krow__Create_Event__c))),ISNULL(Krow__Start_Date__c),ISNULL( Krow__Due_Date__c))</errorConditionFormula>
+    <errorMessage>Task start date and due date is mandatory to create event from task.</errorMessage>
+</ValidationRule>

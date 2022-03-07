@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CallDisposition__c</fullName>
+    <externalId>false</externalId>
+    <label>Call Result</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Left VMail</fullName>
+                <default>false</default>
+                <label>Left VMail</label>
+            </value>
+            <value>
+                <fullName>Left VMail &amp; Sent Email</fullName>
+                <default>false</default>
+                <label>Left VMail &amp; Sent Email</label>
+            </value>
+            <value>
+                <fullName>No VMail &amp; No Email</fullName>
+                <default>false</default>
+                <label>No VMail &amp; No Email</label>
+            </value>
+            <value>
+                <fullName>NonDM - Call Back</fullName>
+                <default>false</default>
+                <label>NonDM - Call Back</label>
+            </value>
+            <value>
+                <fullName>NonDM - Emailed DM</fullName>
+                <default>false</default>
+                <label>NonDM - Emailed DM</label>
+            </value>
+            <value>
+                <fullName>NonDM - Left DM VMail</fullName>
+                <default>false</default>
+                <label>NonDM - Left DM VMail</label>
+            </value>
+            <value>
+                <fullName>NonDM - No Interest &amp; No DM info</fullName>
+                <default>false</default>
+                <label>NonDM - No Interest &amp; No DM info</label>
+            </value>
+            <value>
+                <fullName>NonDM - No Interest &amp; Sent Email</fullName>
+                <default>false</default>
+                <label>NonDM - No Interest &amp; Sent Email</label>
+            </value>
+            <value>
+                <fullName>DM - Oppty Later &amp; Sent DM Email</fullName>
+                <default>false</default>
+                <label>DM - Oppty Later &amp; Sent DM Email</label>
+            </value>
+            <value>
+                <fullName>DM - Oppty Later &amp; No Email</fullName>
+                <default>false</default>
+                <label>DM - Oppty Later &amp; No Email</label>
+            </value>
+            <value>
+                <fullName>DM - Appointment</fullName>
+                <default>false</default>
+                <label>DM - Appointment</label>
+            </value>
+            <value>
+                <fullName>DM - Converted</fullName>
+                <default>false</default>
+                <label>DM - Converted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

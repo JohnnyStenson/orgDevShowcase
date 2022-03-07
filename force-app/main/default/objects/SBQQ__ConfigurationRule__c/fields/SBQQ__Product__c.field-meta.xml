@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Configured product to be validated by this rule.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the configured product you want this rule to validate.</inlineHelpText>
+    <label>Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Configuration Rules</relationshipLabel>
+    <relationshipName>ConfigurationRules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

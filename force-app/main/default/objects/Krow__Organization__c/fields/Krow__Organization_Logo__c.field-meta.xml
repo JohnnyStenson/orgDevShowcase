@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Organization_Logo__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(Krow__Logo_File_Id__c != null,IMAGE((&quot;/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_png&amp;versionId=&quot;+ Krow__Logo_File_Id__c),&apos;&apos;),&apos;&apos;)</formula>
+    <label>Organization File Logo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

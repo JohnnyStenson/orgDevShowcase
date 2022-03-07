@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__EvaluationOrder__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Order in which this price rule is evaluated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify the order of evaluation for this price rule. Higher ordered rules are evaluated last which means they &quot;win&quot; in case of conflict.</inlineHelpText>
+    <label>Evaluation Order</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

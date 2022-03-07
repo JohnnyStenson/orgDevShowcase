@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Maintenance_Duration_Time_Is_Blank</fullName>
+    <active>true</active>
+    <description>Displays error message if Maintenance Duration Time is blank and Add Maintenance Event To Calendar is checked.</description>
+    <errorConditionFormula>AND(TrackIT__Add_maintenance_event_to_calendar__c  = TRUE,ISBLANK( TrackIT__Maintenance_Duration_Time__c ) )</errorConditionFormula>
+    <errorDisplayField>TrackIT__Maintenance_Duration_Time__c</errorDisplayField>
+    <errorMessage>Enter the approximate duration time in minutes needed for maintenance. Enter 0 (numeric) if not needed.</errorMessage>
+</ValidationRule>

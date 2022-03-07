@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OverrideBehavior__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines if the current Discount Tier that the product falls within is editable, if all Discount Tiers are editable, or none.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines if the current Discount Tier that the product falls within is editable, if all Discount Tiers are editable, or none.</inlineHelpText>
+    <label>Override Behavior</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Current Tier Only</fullName>
+                <default>false</default>
+                <label>Current Tier Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Number_of_Recipient__c</fullName>
+    <deprecated>false</deprecated>
+    <description>used to store number of recipient related to Scheduled Klient Survey.</description>
+    <externalId>false</externalId>
+    <label>Number of Recipient</label>
+    <summaryForeignKey>Krow__Scheduled_Klient_Survey_Recipient__c.Krow__Scheduled_Klient_Survey__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

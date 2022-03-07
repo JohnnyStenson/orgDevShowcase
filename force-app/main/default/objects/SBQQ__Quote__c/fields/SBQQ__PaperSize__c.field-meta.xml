@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PaperSize__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Paper size of this document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the paper size for this document.</inlineHelpText>
+    <label>Paper Size</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>SBQQ__PaperSize</valueSetName>
+    </valueSet>
+</CustomField>

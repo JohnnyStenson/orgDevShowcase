@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Page__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The page of which to add the custom action.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The page of which to add the custom action.</inlineHelpText>
+    <label>Page</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Configurator</fullName>
+                <default>false</default>
+                <label>Product Configurator</label>
+            </value>
+            <value>
+                <fullName>Quote Line Editor</fullName>
+                <default>true</default>
+                <label>Quote Line Editor</label>
+            </value>
+            <value>
+                <fullName>Quote Detail</fullName>
+                <default>false</default>
+                <label>Quote Detail</label>
+            </value>
+            <value>
+                <fullName>Account Detail</fullName>
+                <default>false</default>
+                <label>Account Detail</label>
+            </value>
+            <value>
+                <fullName>Contract Detail</fullName>
+                <default>false</default>
+                <label>Contract Detail</label>
+            </value>
+            <value>
+                <fullName>Opportunity Detail</fullName>
+                <default>false</default>
+                <label>Opportunity Detail</label>
+            </value>
+            <value>
+                <fullName>Order Detail</fullName>
+                <default>false</default>
+                <label>Order Detail</label>
+            </value>
+            <value>
+                <fullName>Quote Document Detail</fullName>
+                <default>false</default>
+                <label>Quote Document Detail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

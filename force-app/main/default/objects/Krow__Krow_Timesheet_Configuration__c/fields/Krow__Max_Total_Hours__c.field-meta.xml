@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Max_Total_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter a number representing the maximum total hours that must be attached to the Timesheet when submitting for approval - Total Hours field. This would be enforced only when the user submits for approval from the My Timesheet - if the hours are greater than Max Total Hours - produce an error message</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a number representing the maximum total hours that must be attached to the Timesheet when submitting for approval - Total Hours field.</inlineHelpText>
+    <label>Max Total Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Budget__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The expected budgeted or planned costs for the project as entered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The expected budgeted or planned costs for the project as entered.</inlineHelpText>
+    <label>Budgeted Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

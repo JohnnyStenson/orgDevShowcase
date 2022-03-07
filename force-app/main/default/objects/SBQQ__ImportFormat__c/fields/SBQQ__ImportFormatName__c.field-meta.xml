@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ImportFormatName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A meaningful name that describes the input format.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a meaningful name that describes the input format.</inlineHelpText>
+    <label>Import Format Name</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

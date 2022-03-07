@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ProductFeature__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Product feature validated by this rule.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the product feature you want this rule to validate.</inlineHelpText>
+    <label>Product Feature</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.SBQQ__Product__c</field>
+            <operation>equals</operation>
+            <valueField>SBQQ__ProductFeature__c.SBQQ__ConfiguredSKU__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>SBQQ__ProductFeature__c</referenceTo>
+    <relationshipLabel>Configuration Rules</relationshipLabel>
+    <relationshipName>Configuration_Rules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

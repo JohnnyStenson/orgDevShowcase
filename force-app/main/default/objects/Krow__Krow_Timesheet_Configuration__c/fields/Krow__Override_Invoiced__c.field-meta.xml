@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Override_Invoiced__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, a user could update a timesheet that has time that was checked as Invoiced, otherwise, an error would be displayed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, a user could update a timesheet that has time that was checked as Invoiced, otherwise, an error would be displayed.</inlineHelpText>
+    <label>Override Invoiced</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

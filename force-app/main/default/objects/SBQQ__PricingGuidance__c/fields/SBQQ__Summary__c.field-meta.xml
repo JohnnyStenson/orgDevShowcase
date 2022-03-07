@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Summary__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The parameters provided to create this pricing guidance.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The parameters provided to create this pricing guidance.</inlineHelpText>
+    <label>Summary</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

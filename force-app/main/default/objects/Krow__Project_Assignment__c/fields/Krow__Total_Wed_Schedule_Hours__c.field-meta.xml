@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Total_Wed_Schedule_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Total Wed Schedule Hours</label>
+    <summarizedField>Krow__Project_Assignment_Schedule__c.Krow__Wed__c</summarizedField>
+    <summaryForeignKey>Krow__Project_Assignment_Schedule__c.Krow__Project_Assignment__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

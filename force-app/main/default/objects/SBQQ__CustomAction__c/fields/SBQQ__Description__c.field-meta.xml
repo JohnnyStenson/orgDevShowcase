@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Description of the Custom Action which will appear when users hover over the button.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the value for what you want to appear when a user hovers over the Custom Action button.</inlineHelpText>
+    <label>Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

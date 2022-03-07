@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ProcessInput__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Process input that owns the condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Process input that owns the condition.</inlineHelpText>
+    <label>Process Input</label>
+    <referenceTo>SBQQ__ProcessInput__c</referenceTo>
+    <relationshipLabel>Process Input Conditions</relationshipLabel>
+    <relationshipName>ProcessInputCondition</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

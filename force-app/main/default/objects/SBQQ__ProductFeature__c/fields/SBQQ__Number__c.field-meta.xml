@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Number__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A sequential number that determines how the features are sorted in the related list on the product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A sequential number that determines how the features are sorted in the related list on the product.</inlineHelpText>
+    <label>Number</label>
+    <precision>5</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

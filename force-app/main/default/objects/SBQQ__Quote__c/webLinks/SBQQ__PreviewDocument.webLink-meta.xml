@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PreviewDocument</fullName>
+    <availability>online</availability>
+    <description>Displays the page that allows to generate a preview of quote document. No Save or Save &amp; Email buttons.</description>
+    <displayType>button</displayType>
+    <height>0</height>
+    <linkType>page</linkType>
+    <masterLabel>Preview Document</masterLabel>
+    <openType>noSidebar</openType>
+    <page>SBQQ__PreviewDocument</page>
+    <protected>false</protected>
+</WebLink>

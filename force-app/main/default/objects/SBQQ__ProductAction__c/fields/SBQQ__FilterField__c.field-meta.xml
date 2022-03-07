@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FilterField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The field that is updated when the rule is triggered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the field to update when the rule is triggered.</inlineHelpText>
+    <label>Filter Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Code</fullName>
+                <default>false</default>
+                <label>Product Code</label>
+            </value>
+            <value>
+                <fullName>Product Family</fullName>
+                <default>false</default>
+                <label>Product Family</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

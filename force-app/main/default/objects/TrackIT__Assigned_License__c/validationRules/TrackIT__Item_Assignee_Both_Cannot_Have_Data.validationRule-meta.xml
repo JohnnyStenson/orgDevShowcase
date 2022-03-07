@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Item_Assignee_Both_Cannot_Have_Data</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT( ISBLANK( TrackIT__Item__c )), NOT( ISBLANK(  TrackIT__Assignee__c )))</errorConditionFormula>
+    <errorMessage>Both item and assignee fields cannot have data at the same time. Select either an assignee or item.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Blank_Footer_Height</fullName>
+    <active>true</active>
+    <description>Checks if Footer Height is blank if Page Number Position is set to &apos;Footer&apos;.</description>
+    <errorConditionFormula>IF(AND(ISPICKVAL(SBQQ__PageNumberPosition__c, &quot;Footer&quot;),
+            ISBLANK(SBQQ__FooterHeight__c)), true, null)</errorConditionFormula>
+    <errorMessage>Footer Height can not be blank if Page Number Position is set to Footer.</errorMessage>
+</ValidationRule>

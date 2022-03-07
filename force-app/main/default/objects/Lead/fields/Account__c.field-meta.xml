@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Existing Account</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Client</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Existing Account</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Job Site</value>
+        </filterItems>
+        <infoMessage>Select an Existing Account</infoMessage>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Leads</relationshipLabel>
+    <relationshipName>Leads</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Recurring_Period__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Recurring Period</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Weekly</fullName>
+                <default>false</default>
+                <label>Weekly</label>
+            </value>
+            <value>
+                <fullName>Monthly</fullName>
+                <default>false</default>
+                <label>Monthly</label>
+            </value>
+            <value>
+                <fullName>Annually</fullName>
+                <default>false</default>
+                <label>Annually</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

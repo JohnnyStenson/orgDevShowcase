@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Location__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Location of this action on the page.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Location of this action on the page.</inlineHelpText>
+    <label>Location</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SBQQ__Page__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>true</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Quote/Group</fullName>
+                <default>false</default>
+                <label>Quote/Group</label>
+            </value>
+            <value>
+                <fullName>Group</fullName>
+                <default>false</default>
+                <label>Group</label>
+            </value>
+            <value>
+                <fullName>Line</fullName>
+                <default>false</default>
+                <label>Line</label>
+            </value>
+            <value>
+                <fullName>Configurator</fullName>
+                <default>false</default>
+                <label>Configurator</label>
+            </value>
+            <value>
+                <fullName>Quote Panel</fullName>
+                <default>false</default>
+                <label>Quote Panel</label>
+            </value>
+            <value>
+                <fullName>Account Panel</fullName>
+                <default>false</default>
+                <label>Account Panel</label>
+            </value>
+            <value>
+                <fullName>Contract Panel</fullName>
+                <default>false</default>
+                <label>Contract Panel</label>
+            </value>
+            <value>
+                <fullName>Opportunity Panel</fullName>
+                <default>false</default>
+                <label>Opportunity Panel</label>
+            </value>
+            <value>
+                <fullName>Order Panel</fullName>
+                <default>false</default>
+                <label>Order Panel</label>
+            </value>
+            <value>
+                <fullName>Quote Document Panel</fullName>
+                <default>false</default>
+                <label>Quote Document Panel</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Product Configurator</controllingFieldValue>
+            <valueName>Configurator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Editor</controllingFieldValue>
+            <valueName>Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Editor</controllingFieldValue>
+            <valueName>Quote/Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Editor</controllingFieldValue>
+            <valueName>Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Editor</controllingFieldValue>
+            <valueName>Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Detail</controllingFieldValue>
+            <valueName>Quote Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Detail</controllingFieldValue>
+            <valueName>Account Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Detail</controllingFieldValue>
+            <valueName>Contract Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opportunity Detail</controllingFieldValue>
+            <valueName>Opportunity Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Detail</controllingFieldValue>
+            <valueName>Order Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Document Detail</controllingFieldValue>
+            <valueName>Quote Document Panel</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

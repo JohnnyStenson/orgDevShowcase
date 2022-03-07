@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ShipToTitle__c</fullName>
+    <defaultValue>&apos;Ship To&apos;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Label used for &quot;Ship To&quot; section. Default value is &quot;Ship To&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Label used for &quot;Ship To&quot; section. Default value is &quot;Ship To&quot;.</inlineHelpText>
+    <label>Ship To Title</label>
+    <length>100</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

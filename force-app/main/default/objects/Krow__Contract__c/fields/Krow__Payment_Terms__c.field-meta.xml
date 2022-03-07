@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Payment_Terms__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Payment Terms</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Upon Receipt</fullName>
+                <default>false</default>
+                <label>Upon Receipt</label>
+            </value>
+            <value>
+                <fullName>Net 30</fullName>
+                <default>false</default>
+                <label>Net 30</label>
+            </value>
+            <value>
+                <fullName>Net 45</fullName>
+                <default>false</default>
+                <label>Net 45</label>
+            </value>
+            <value>
+                <fullName>Net 60</fullName>
+                <default>false</default>
+                <label>Net 60</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

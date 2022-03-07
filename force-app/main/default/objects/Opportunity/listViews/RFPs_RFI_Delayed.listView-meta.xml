@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFPs_RFI_Delayed</fullName>
+    <columns>Proposal_Due_Date__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Has_Plans__c</columns>
+    <columns>SOW_Site_Profile__c</columns>
+    <columns>Direct_RFIs_to__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>RFI Delayed</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Estimate_Opportunity</value>
+    </filters>
+    <label>RFPs - RFI Delayed</label>
+</ListView>

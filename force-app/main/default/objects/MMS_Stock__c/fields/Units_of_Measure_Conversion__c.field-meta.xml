@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Units_of_Measure_Conversion__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+	NOT(ISBLANK(Indiv_Unit_of_Measure__c)),
+	Indiv_Unit_of_Measure__c &amp; &quot; is the base unit of measure. &quot;,
+	&quot;&quot;
+) &amp; IF(
+	AND(
+		NOT(ISBLANK(Super_Bulk_Unit_of_Measure__c)), 
+		NOT(ISBLANK(Bulk_Unit_of_Measure__c))
+	),
+	&quot;A(n) &quot; &amp; Super_Bulk_Unit_of_Measure__c &amp; &quot; contains &quot; &amp; TEXT(Num_Bulk_Items_in_Super_Bulk_Unit__c) &amp; &quot; &quot; &amp; Bulk_Unit_of_Measure__c &amp; &quot;(e)s. &quot;,
+	&quot;&quot;
+) &amp; IF(
+	AND(
+		NOT(ISBLANK(Bulk_Unit_of_Measure__c)), 
+		NOT(ISBLANK(Indiv_Unit_of_Measure__c))
+	),
+	&quot;A(n) &quot; &amp; Bulk_Unit_of_Measure__c &amp; &quot; contains &quot; &amp; TEXT(Num_Indiv_Items_in_Bulk_Unit__c) &amp; &quot; &quot; &amp; Indiv_Unit_of_Measure__c &amp; &quot;(e)s.&quot;,
+	&quot;&quot;
+)</formula>
+    <inlineHelpText>Formula displaying base indiv unit of measure and how many are in bulk and super bulk.</inlineHelpText>
+    <label>Units of Measure Conversion</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

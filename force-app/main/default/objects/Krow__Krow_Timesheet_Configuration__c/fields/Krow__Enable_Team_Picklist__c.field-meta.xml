@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Team_Picklist__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If selected will open up the Resource drop-down on My Timesheet - but list Active Resources where User Manager = Logged in User.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If selected will open up the Resource drop-down on My Timesheet - but list Active Resources where User Manager = Logged in User.</inlineHelpText>
+    <label>Enable Team Picklist</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

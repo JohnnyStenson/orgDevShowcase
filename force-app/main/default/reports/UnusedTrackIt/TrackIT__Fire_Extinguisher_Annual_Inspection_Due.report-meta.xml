@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Item__c.TrackIT__Description__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Item__c.TrackIT__Location__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Item__c.TrackIT__Equipment_Status__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Item__c.TrackIT__Next_Annual_Inspection_Date_Time__c</field>
+    </columns>
+    <description>Fire extinguisher annual inspections due for current month.</description>
+    <filter>
+        <criteriaItems>
+            <column>TrackIT__Item__c.TrackIT__Record_Type_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Fire_Extinguisher</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>TrackIT__Item__c.TrackIT__Extinguisher_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Fire Extinguisher Annual Inspection Due</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$TrackIT__Item__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>TrackIT__Item__c.TrackIT__Next_Annual_Inspection_Date_Time__c</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

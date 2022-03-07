@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__cc_SMS</fullName>
+    <active>true</active>
+    <label>SMS</label>
+    <picklistValues>
+        <picklist>CallDisposition__c</picklist>
+        <values>
+            <fullName>DM - Appointment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Converted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Oppty Later %26 No Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM - Oppty Later %26 Sent DM Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left VMail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left VMail %26 Sent Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No VMail %26 No Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NonDM - Call Back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NonDM - Emailed DM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NonDM - Left DM VMail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NonDM - No Interest %26 No DM info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NonDM - No Interest %26 Sent Email</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Quote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>synety__Note_Source__c</picklist>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

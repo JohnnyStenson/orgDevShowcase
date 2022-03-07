@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Delivery Location</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>8 Marc Dr</fullName>
+                <default>false</default>
+                <label>8 Marc Dr</label>
+            </value>
+            <value>
+                <fullName>53 Route 34</fullName>
+                <default>false</default>
+                <label>53 Route 34</label>
+            </value>
+            <value>
+                <fullName>Yard</fullName>
+                <default>false</default>
+                <label>Yard</label>
+            </value>
+            <value>
+                <fullName>Job</fullName>
+                <default>false</default>
+                <label>Job</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

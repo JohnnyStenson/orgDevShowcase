@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PreviousSegmentUplift__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When set, this value takes the place of the previous segment&apos;s uplift amount when calculating Uplift for this segment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When set, this value takes the place of the previous segment&apos;s uplift amount when calculating Uplift for this segment.</inlineHelpText>
+    <label>Previous Segment Uplift</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

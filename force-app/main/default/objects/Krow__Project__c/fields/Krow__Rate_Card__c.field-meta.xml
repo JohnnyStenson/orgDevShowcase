@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Rate_Card__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The associated project rate card for this project that determines the bill rates for resources on the project based on role mapping.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The associated project rate card for this project that determines the bill rates for resources on the project based on role mapping.</inlineHelpText>
+    <label>Rate Card</label>
+    <referenceTo>Krow__Krow_Rate_Card__c</referenceTo>
+    <relationshipLabel>Klient Projects</relationshipLabel>
+    <relationshipName>RateCards</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

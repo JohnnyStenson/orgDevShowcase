@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>work_other_than_curb__c</fullName>
+    <externalId>false</externalId>
+    <label>Will there be other work other than curb</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asphalt</fullName>
+                <default>false</default>
+                <label>Asphalt</label>
+            </value>
+            <value>
+                <fullName>Ballards</fullName>
+                <default>false</default>
+                <label>Ballards</label>
+            </value>
+            <value>
+                <fullName>Dumpsters</fullName>
+                <default>false</default>
+                <label>Dumpsters</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Sidewalks</fullName>
+                <default>false</default>
+                <label>Sidewalks</label>
+            </value>
+            <value>
+                <fullName>Slabs</fullName>
+                <default>false</default>
+                <label>Slabs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

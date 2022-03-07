@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Sub_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Sub Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Hold</fullName>
+                <default>false</default>
+                <label>Hold</label>
+            </value>
+            <value>
+                <fullName>Billing Pending</fullName>
+                <default>false</default>
+                <label>Billing Pending</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

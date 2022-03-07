@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__HideIcons__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, will hide the icon square located on the left side of custom page headers</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, will hide the icon square located on the left side of page headers</inlineHelpText>
+    <label>Hide Icons on Page Headers</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

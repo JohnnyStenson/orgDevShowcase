@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Display_Task_Hours_on_Timesheet__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, SCH BILL and VAR columns will be displayed.</description>
+    <externalId>false</externalId>
+    <label>Display Task Hours on Timesheet</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

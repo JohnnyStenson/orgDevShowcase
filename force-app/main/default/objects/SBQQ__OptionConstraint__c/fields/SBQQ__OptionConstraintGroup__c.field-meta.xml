@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OptionConstraintGroup__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Allows you to apply multiple constraints on a single option.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If multiple Option Constraints target the same Constrained Option, putting the Option Constraints in the same group will require ALL Constraining Options to be selected.</inlineHelpText>
+    <label>Option Constraint Group</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

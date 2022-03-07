@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CrossOrders__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Specifies whether volume discount should be applied on combined quantities across prior orders.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox if you want to extend volume discounts on total volume owned by customer (i.e. quantity quoted plus prior purchases).</inlineHelpText>
+    <label>Cross Orders</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

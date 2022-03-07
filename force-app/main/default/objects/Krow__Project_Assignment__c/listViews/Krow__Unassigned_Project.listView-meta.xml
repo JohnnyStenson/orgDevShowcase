@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Unassigned_Project</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND (4 OR 5)</booleanFilter>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Krow__Placeholder_Resource__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Krow__Project_Archived__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Krow__Template_Project__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Krow__Project_Status__c</field>
+        <operation>equals</operation>
+        <value>In Progress</value>
+    </filters>
+    <filters>
+        <field>Krow__Project_Status__c</field>
+        <operation>equals</operation>
+        <value>At Risk</value>
+    </filters>
+    <label>Unassigned Project</label>
+</ListView>

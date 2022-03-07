@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SelectContractHideSkipActionOnAmend__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, will hide the Skip action button on the contract selector page for amend workflow</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, will hide the Skip action button on the contract selector page for amend workflow</inlineHelpText>
+    <label>Hide Skip Action (Amend Workflow)</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

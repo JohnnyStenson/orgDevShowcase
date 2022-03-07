@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TargetObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Object targeted by this action.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Object targeted by this action.</inlineHelpText>
+    <label>Target Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Asset</fullName>
+                <default>false</default>
+                <label>Asset</label>
+            </value>
+            <value>
+                <fullName>Subscription</fullName>
+                <default>false</default>
+                <label>Subscription</label>
+            </value>
+            <value>
+                <fullName>Favorite</fullName>
+                <default>false</default>
+                <label>Favorite</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

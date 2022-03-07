@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__Play_Call_Recording_Salesforce1</fullName>
+    <availability>online</availability>
+    <description>DONT USE THIS AS THIS IS OBSOLETE NOW - This button will be used to call Mobile Call Recording VF page from SF1</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>DONT USE - Play Recording (SF1)</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>alert(&apos;DONT USE THIS AS THIS IS OBSOLETE NOW&apos;);</url>
+</WebLink>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Punch_Time__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this is ON, user allowed to lock time as punch in and punch out.</description>
+    <externalId>false</externalId>
+    <label>Punch Time</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

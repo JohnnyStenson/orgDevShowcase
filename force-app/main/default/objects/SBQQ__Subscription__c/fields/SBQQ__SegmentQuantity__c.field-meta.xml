@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SegmentQuantity__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For MDQ Products, the quantity corresponding to the segment&apos;s original Quote Line</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For MDQ Products, the quantity corresponding to the segment&apos;s original Quote Line</inlineHelpText>
+    <label>Segment Quantity</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Sync_Predecessors_On_Tasks</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Sync Predecessors On Tasks</masterLabel>
+    <openType>noSidebar</openType>
+    <page>Krow__SyncPredecessorsOnProjectTasks</page>
+    <protected>false</protected>
+</WebLink>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Default_to_Reimbursable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, when the Expense Type is selected, the Reimbursable field on the Expense Line will be checked</description>
+    <externalId>false</externalId>
+    <label>Default to Reimbursable</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

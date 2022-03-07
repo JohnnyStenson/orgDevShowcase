@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag that indicates whether this component is required or not.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox if this product is required on the bundle.</inlineHelpText>
+    <label>Required</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

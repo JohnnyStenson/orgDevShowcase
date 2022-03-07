@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ValueField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Name of the field that sources value for this action.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the value you want inserted is calculated in another Quote Line field, select the field here.</inlineHelpText>
+    <label>Source Field</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

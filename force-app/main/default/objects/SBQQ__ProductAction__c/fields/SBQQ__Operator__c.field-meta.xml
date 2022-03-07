@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Operator__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The operator that determines how the Filter Field will be applied to the Filter Value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the operator that determines how the Filter Field will apply to the Filter Value.</inlineHelpText>
+    <label>Operator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>equals</fullName>
+                <default>false</default>
+                <label>equals</label>
+            </value>
+            <value>
+                <fullName>not equals</fullName>
+                <default>false</default>
+                <label>not equals</label>
+            </value>
+            <value>
+                <fullName>starts with</fullName>
+                <default>false</default>
+                <label>starts with</label>
+            </value>
+            <value>
+                <fullName>contains</fullName>
+                <default>false</default>
+                <label>contains</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

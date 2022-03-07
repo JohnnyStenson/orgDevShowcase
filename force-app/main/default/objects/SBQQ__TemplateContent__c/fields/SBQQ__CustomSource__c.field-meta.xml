@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CustomSource__c</fullName>
+    <deprecated>false</deprecated>
+    <description>URL to a VisualForce page that generates content when type is set to &quot;Custom&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>URL to a VisualForce page that generates content when type is set to &quot;Custom&quot;.</inlineHelpText>
+    <label>Custom Source</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

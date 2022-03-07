@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Total_Tax_2_Amount__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISPICKVAL(Krow__Tax_Type__c, &apos;VAT&apos;)), ((( Krow__Additional_Amount_Total__c - (Krow__Additional_Amount_Total__c  * Krow__Discount__c)) * Krow__Tax_2__c ) + ( (Krow__Fixed_Fee_Amount__c - (Krow__Fixed_Fee_Amount__c  * Krow__Discount__c)) * Krow__Tax_2__c) + ( (Krow__Invoice_Amount__c - (Krow__Invoice_Amount__c * Krow__Discount__c )) * Krow__Tax_2__c)+ ( (Krow__Expense_Amount__c - (Krow__Expense_Amount__c * Krow__Discount__c )) * Krow__Tax_2__c)), 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Tax 2 Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

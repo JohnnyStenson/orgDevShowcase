@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bulk_Markup__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Bulk_Cost__c &gt; 0,(Bulk_MSRP__c - Bulk_Cost__c)/Bulk_Cost__c,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>MSRP markup from Cost</inlineHelpText>
+    <label>Bulk Markup</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

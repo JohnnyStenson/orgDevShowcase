@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TargetField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field searched by this filter.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify the field to search.</inlineHelpText>
+    <label>Target Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SBQQ__TargetObject__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Name</fullName>
+                <default>false</default>
+                <label>Name</label>
+            </value>
+            <value>
+                <fullName>Product Code</fullName>
+                <default>false</default>
+                <label>Product Code</label>
+            </value>
+            <value>
+                <fullName>Product Family</fullName>
+                <default>false</default>
+                <label>Product Family</label>
+            </value>
+            <value>
+                <fullName>Product Description</fullName>
+                <default>false</default>
+                <label>Product Description</label>
+            </value>
+            <value>
+                <fullName>Quantity</fullName>
+                <default>false</default>
+                <label>Quantity</label>
+            </value>
+            <value>
+                <fullName>Status</fullName>
+                <default>false</default>
+                <label>Status</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <valueName>Name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Subscription</controllingFieldValue>
+            <valueName>Product Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <valueName>Product Family</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <valueName>Product Description</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <controllingFieldValue>Subscription</controllingFieldValue>
+            <valueName>Quantity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset</controllingFieldValue>
+            <valueName>Status</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Schedule_All_Resource__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked during task creation,  all resources assigned the task during task creation will be assigned the full Estimated Hours on the Task.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default: Checked</inlineHelpText>
+    <label>Schedule All Resource</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

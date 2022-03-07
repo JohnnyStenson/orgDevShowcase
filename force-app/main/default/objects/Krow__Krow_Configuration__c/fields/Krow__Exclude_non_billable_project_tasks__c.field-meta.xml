@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Exclude_non_billable_project_tasks__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked,Then non-billable project tasks will be excluded from task planner.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked,Then non-billable project tasks will be excluded from task planner.</inlineHelpText>
+    <label>Exclude non billable project tasks</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

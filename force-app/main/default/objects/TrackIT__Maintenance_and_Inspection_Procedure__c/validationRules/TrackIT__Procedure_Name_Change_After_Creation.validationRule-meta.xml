@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Procedure_Name_Change_After_Creation</fullName>
+    <active>true</active>
+    <description>Prevents users from changing Procedure Name after the name is initially entered.</description>
+    <errorConditionFormula>IF(ISNULL( PRIORVALUE(  Name  )),FALSE,ISCHANGED(   Name   ) )</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Procedure Name cannot be changed after initial creation. Please contact your System Administrator to change the  Procedure Name after the initial creation.</errorMessage>
+</ValidationRule>

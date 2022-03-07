@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StandardLeadTasks__c</fullName>
+    <description>Used in Kreate Lead Task FLOW</description>
+    <externalId>false</externalId>
+    <label>Standard Lead Tasks</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enter Notes From Paper</fullName>
+                <default>true</default>
+                <label>Enter Notes From Paper</label>
+            </value>
+            <value>
+                <fullName>Send Follow Up Email</fullName>
+                <default>false</default>
+                <label>Send Follow Up Email</label>
+            </value>
+            <value>
+                <fullName>Send Special Email</fullName>
+                <default>false</default>
+                <label>Send Special Email</label>
+            </value>
+            <value>
+                <fullName>Convert To Opportunity</fullName>
+                <default>false</default>
+                <label>Convert To Opportunity</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

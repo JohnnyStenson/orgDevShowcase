@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__New_Project</fullName>
+    <availability>online</availability>
+    <description>Used to create new project from project related list for any record type.</description>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>New Project</masterLabel>
+    <openType>sidebar</openType>
+    <page>Krow__NewProjectFwd</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

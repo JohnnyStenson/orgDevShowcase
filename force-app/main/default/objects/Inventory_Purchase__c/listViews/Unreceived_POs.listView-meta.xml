@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unreceived_POs</fullName>
+    <columns>NAME</columns>
+    <columns>Date_Ordered__c</columns>
+    <columns>Earliest_Delivery_Time__c</columns>
+    <columns>Latest_Delivery_Time__c</columns>
+    <columns>Delivery_Location__c</columns>
+    <columns>Presence_Needed_for_Delivery__c</columns>
+    <columns>Cost__c</columns>
+    <columns>Order_Details__c</columns>
+    <columns>Receiving_Stage__c</columns>
+    <columns>Inventory__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Received__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Unreceived POs</label>
+</ListView>

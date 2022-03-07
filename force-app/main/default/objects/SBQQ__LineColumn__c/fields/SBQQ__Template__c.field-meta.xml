@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Template__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Template on which this field is to be displayed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Template on which this field is to be displayed.</inlineHelpText>
+    <label>Template</label>
+    <referenceTo>SBQQ__QuoteTemplate__c</referenceTo>
+    <relationshipLabel>Line Columns</relationshipLabel>
+    <relationshipName>LineColumns</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

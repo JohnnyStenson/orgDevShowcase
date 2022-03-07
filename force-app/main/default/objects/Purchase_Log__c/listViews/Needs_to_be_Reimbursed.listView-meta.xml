@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Needs_to_be_Reimbursed</fullName>
+    <columns>NAME</columns>
+    <columns>ListView_Thumbnail__c</columns>
+    <columns>Job__c</columns>
+    <columns>Supplier__c</columns>
+    <columns>Material__c</columns>
+    <columns>Amount__c</columns>
+    <columns>Reimbursee_s_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Reimbursement_Needed__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Needs to be Reimbursed</label>
+</ListView>

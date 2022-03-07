@@ -1,0 +1,5 @@
+<apex:page showHeader="false" standardController="Job__c">
+
+    <apex:canvasApp applicationName="ResinFiles" parameters="{recordName: '{!JSENCODE(Job__c.name)}', actualHeight: document.documentElement.clientHeight}" width="100%" height="1000px" />
+    
+</apex:page>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DisplayOrder__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The order in which this item will appear to a sales user in the Related Content menu. If blank, the content will be sorted last.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set the order in which this item will appear to a sales user in the Related Content menu. If blank, the content will be sorted last.</inlineHelpText>
+    <label>Display Order</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

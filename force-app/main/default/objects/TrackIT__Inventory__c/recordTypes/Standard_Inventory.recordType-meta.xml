@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_Inventory</fullName>
+    <active>true</active>
+    <description>Catch-all</description>
+    <label>Standard Inventory</label>
+    <picklistValues>
+        <picklist>Inventory_Type__c</picklist>
+        <values>
+            <fullName>1%2E Machine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2a%2E Concrete Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E Supply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E Mechanic Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E Mechanic Supply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E Mechanic Box for Truck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E Part</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E Wishlist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Manufacturer__c</picklist>
+        <values>
+            <fullName>Acer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adobe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hewlett-Packard %28HP%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lenovo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motorola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samsung</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sony</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Model_Number__c</picklist>
+        <values>
+            <fullName>Model Number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Unit_of_Measure__c</picklist>
+        <values>
+            <fullName>Cartons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dozen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Each</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pallets</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Vendor__c</picklist>
+        <values>
+            <fullName>Vendor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

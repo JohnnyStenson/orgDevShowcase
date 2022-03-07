@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConfiguredSKU__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>CASESAFEID(SBQQ__ProductOption__r.SBQQ__ConfiguredSKU__r.Id)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Configured SKU</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

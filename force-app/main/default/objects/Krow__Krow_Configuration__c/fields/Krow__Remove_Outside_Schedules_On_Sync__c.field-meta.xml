@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Remove_Outside_Schedules_On_Sync__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this setting is checked, delete Project Assignment Schedules where Task Assignment Schedules do not exist.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this setting is checked, delete Project Assignment Schedules where Task Assignment Schedules do not exist.</inlineHelpText>
+    <label>Remove Outside Schedules On Sync</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

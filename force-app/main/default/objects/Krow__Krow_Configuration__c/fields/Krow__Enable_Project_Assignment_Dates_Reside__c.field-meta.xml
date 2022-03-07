@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Project_Assignment_Dates_Reside__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, only show Resource Planner rows where Project Assignment Dates resides.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, only show Resource Planner rows where Project Assignment Dates resides.</inlineHelpText>
+    <label>Enable Project Assignment Dates Reside</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__HeaderContent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>References template content that should be rendered in the header.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>References template content that should be rendered in the header.</inlineHelpText>
+    <label>Header Content</label>
+    <referenceTo>SBQQ__TemplateContent__c</referenceTo>
+    <relationshipLabel>Quote Templates (Header)</relationshipLabel>
+    <relationshipName>QuoteTemplatesHeader</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

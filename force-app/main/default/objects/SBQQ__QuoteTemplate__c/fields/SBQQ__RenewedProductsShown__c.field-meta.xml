@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RenewedProductsShown__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Determines if renewed products are shown on Renewal quotes generated from this template.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox if renewed products should be shown on Renewal quotes generated from this template.</inlineHelpText>
+    <label>Show Renewed Products</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

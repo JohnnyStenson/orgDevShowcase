@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Info_to_Estimate__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Internal communication from Sales Team to Estimate Team</inlineHelpText>
+    <label>Sales Info to Estimate</label>
+    <length>3000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>

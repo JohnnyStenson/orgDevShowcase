@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CloneWithRelatedClassic</fullName>
+    <availability>online</availability>
+    <description>Inserts a copy of current record with related child records, then opens the new record for further modifications.  Required for Lightning Desktop.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Clone With Related</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR($Action.SBQQ__Quote__c.Clone, SBQQ__Quote__c.Id, [retURL=$Site.Prefix &amp; &apos;/&apos; &amp; SBQQ__Quote__c.Id,saveURL=$Site.Prefix &amp; &apos;/apex/SBQQ__CloneLineItems?id=&apos; &amp; SBQQ__Quote__c.Id])}</url>
+</WebLink>

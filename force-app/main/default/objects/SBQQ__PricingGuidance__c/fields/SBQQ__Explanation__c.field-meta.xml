@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Explanation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Provide sales reps with an explanation of this pricing guidance and recommendations for discounts to provide. They can view this explanation with the pricing guidance in the quote line editor.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide sales reps with an explanation of this pricing guidance and recommendations for discounts to provide. They can view this explanation with the pricing guidance in the quote line editor.</inlineHelpText>
+    <label>Explanation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

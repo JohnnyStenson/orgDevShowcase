@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The current Project Status of the project as entered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The current Project Status of the project as entered.</inlineHelpText>
+    <label>Project Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HOLDING</fullName>
+                <default>true</default>
+                <label>HOLDING</label>
+            </value>
+            <value>
+                <fullName>Lead</fullName>
+                <color>#BBBBBB</color>
+                <default>false</default>
+                <label>Lead</label>
+            </value>
+            <value>
+                <fullName>Cold Lead</fullName>
+                <default>false</default>
+                <label>Cold Lead</label>
+            </value>
+            <value>
+                <fullName>RFP</fullName>
+                <color>#FFFF66</color>
+                <default>false</default>
+                <label>RFP</label>
+            </value>
+            <value>
+                <fullName>Submitted RFP</fullName>
+                <default>false</default>
+                <label>Submitted RFP</label>
+            </value>
+            <value>
+                <fullName>Cold Submitted RFP</fullName>
+                <default>false</default>
+                <label>Cold Submitted RFP</label>
+            </value>
+            <value>
+                <fullName>Unscheduled Job</fullName>
+                <default>false</default>
+                <label>Unscheduled Job</label>
+            </value>
+            <value>
+                <fullName>Scheduled Job</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Scheduled Job</label>
+            </value>
+            <value>
+                <fullName>Active Job</fullName>
+                <default>false</default>
+                <label>Active Job</label>
+            </value>
+            <value>
+                <fullName>FinalBilling</fullName>
+                <color>#F96FB7</color>
+                <default>false</default>
+                <label>Final Billing</label>
+            </value>
+            <value>
+                <fullName>Hiring</fullName>
+                <default>false</default>
+                <label>Hiring</label>
+            </value>
+            <value>
+                <fullName>Position Filled</fullName>
+                <default>false</default>
+                <label>Position Filled</label>
+            </value>
+            <value>
+                <fullName>Requested</fullName>
+                <default>false</default>
+                <label>Requested</label>
+            </value>
+            <value>
+                <fullName>Diagnosis</fullName>
+                <default>false</default>
+                <label>Diagnosis</label>
+            </value>
+            <value>
+                <fullName>Parts Ordered</fullName>
+                <default>false</default>
+                <label>Parts Ordered</label>
+            </value>
+            <value>
+                <fullName>Repairing</fullName>
+                <default>false</default>
+                <label>Repairing</label>
+            </value>
+            <value>
+                <fullName>Unrepairable</fullName>
+                <default>false</default>
+                <label>Unrepairable</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <color>#33CC00</color>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

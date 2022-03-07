@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Add_Maintenance_Reminder_to_Calendar__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check box to add calendar event reminder for next  &apos;Maintenance Due&apos; to calendar</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to add reminder to assigned technician&apos;s calendar for next maintenance due event.</inlineHelpText>
+    <label>Add Maintenance Reminder to Calendar</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom</fullName>
+    <fields>Name</fields>
+    <fields>SBQQ__Account__c</fields>
+    <fields>SBQQ__Opportunity2__c</fields>
+    <fields>SBQQ__Primary__c</fields>
+    <fields>SBQQ__PrimaryContact__c</fields>
+    <fields>SBQQ__Status__c</fields>
+    <fields>SBQQ__NetAmount__c</fields>
+    <label>Custom</label>
+</CompactLayout>

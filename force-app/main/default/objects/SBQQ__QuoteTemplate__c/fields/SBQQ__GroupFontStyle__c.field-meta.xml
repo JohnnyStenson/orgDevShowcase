@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__GroupFontStyle__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Font style for Group titles. Default is normal if left blank.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Font style for Group titles. Default is normal if left blank.</inlineHelpText>
+    <label>Group Font Style</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Normal</fullName>
+                <default>true</default>
+                <label>Normal</label>
+            </value>
+            <value>
+                <fullName>Bold</fullName>
+                <default>false</default>
+                <label>Bold</label>
+            </value>
+            <value>
+                <fullName>Italic</fullName>
+                <default>false</default>
+                <label>Italic</label>
+            </value>
+            <value>
+                <fullName>Underline</fullName>
+                <default>false</default>
+                <label>Underline</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

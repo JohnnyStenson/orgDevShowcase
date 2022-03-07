@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Read_Only_Category_Product__c</fullName>
+    <description>used in flow</description>
+    <externalId>false</externalId>
+    <label>Read Only Category/Product</label>
+    <length>20</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

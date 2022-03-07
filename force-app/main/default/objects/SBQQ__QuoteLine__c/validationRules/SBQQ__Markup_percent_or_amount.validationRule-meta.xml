@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Markup_percent_or_amount</fullName>
+    <active>true</active>
+    <description>Validates markup is specified as a percentage or absolute amount but not both.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(SBQQ__MarkupRate__c)), NOT(ISBLANK(SBQQ__MarkupAmount__c)),NOT(SBQQ__Incomplete__c))</errorConditionFormula>
+    <errorMessage>You may not specify markup as both percentage and absolute amount.</errorMessage>
+</ValidationRule>

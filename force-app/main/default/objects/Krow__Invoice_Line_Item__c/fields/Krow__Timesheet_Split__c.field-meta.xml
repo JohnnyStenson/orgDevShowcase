@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Timesheet_Split__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Timesheet Split</label>
+    <referenceTo>Krow__Timesheet_Split__c</referenceTo>
+    <relationshipLabel>Invoice Line Items</relationshipLabel>
+    <relationshipName>Invoice_Line_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purchase_Order__c</fullName>
+    <description>MD Relationship to PO</description>
+    <externalId>false</externalId>
+    <label>Purchase Order</label>
+    <referenceTo>MMS_Stock_Purchase_Order__c</referenceTo>
+    <relationshipLabel>Stock PO Line(s)</relationshipLabel>
+    <relationshipName>Stock_PO_Line</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

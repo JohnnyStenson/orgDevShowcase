@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Total_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>(IF(ISBLANK(Krow__Hours__c), 0.0, Krow__Hours__c) + IF(ISBLANK(Krow__Minutes__c), 0.0, (((100.0/60.0) * Krow__Minutes__c)/100.0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

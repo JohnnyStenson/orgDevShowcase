@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Discount_or_price_required</fullName>
+    <active>true</active>
+    <description>Requires either Discount, Price, or Discount Schedule be entered.</description>
+    <errorConditionFormula>AND(ISBLANK(SBQQ__Discount__c),ISBLANK(SBQQ__Price__c), ISBLANK(SBQQ__DiscountSchedule__c))</errorConditionFormula>
+    <errorMessage>You must enter either Discount, Price, or Discount Schedule.</errorMessage>
+</ValidationRule>

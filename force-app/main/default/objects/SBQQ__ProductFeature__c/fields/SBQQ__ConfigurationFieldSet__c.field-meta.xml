@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConfigurationFieldSet__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name of the field set that will be used for this feature during configuration.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The API name of the field set that will be used for this feature during configuration.</inlineHelpText>
+    <label>Configuration Field Set</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OptionConfiguration</fullName>
+                <default>true</default>
+                <label>OptionConfiguration</label>
+            </value>
+            <value>
+                <fullName>NoInstructions</fullName>
+                <default>false</default>
+                <label>NoInstructions</label>
+            </value>
+            <value>
+                <fullName>NoQuant_NoPrice</fullName>
+                <default>false</default>
+                <label>NoQuant_NoPrice</label>
+            </value>
+            <value>
+                <fullName>No Quant</fullName>
+                <default>false</default>
+                <label>No Quant</label>
+            </value>
+            <value>
+                <fullName>NoPrice</fullName>
+                <default>false</default>
+                <label>NoPrice</label>
+            </value>
+            <value>
+                <fullName>Instructions_Cost</fullName>
+                <default>false</default>
+                <label>Instructions_Cost</label>
+            </value>
+            <value>
+                <fullName>InstrQuantName</fullName>
+                <default>false</default>
+                <label>InstrQuantName</label>
+            </value>
+            <value>
+                <fullName>InstrNameDescr</fullName>
+                <default>false</default>
+                <label>InstrNameDescr</label>
+            </value>
+            <value>
+                <fullName>NameDescrPrice</fullName>
+                <default>false</default>
+                <label>NameDescrPrice</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

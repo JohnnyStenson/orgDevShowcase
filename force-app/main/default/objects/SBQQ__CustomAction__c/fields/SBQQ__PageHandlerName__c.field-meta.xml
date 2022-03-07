@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PageHandlerName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Page name for this custom action.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Page name for this custom action.</inlineHelpText>
+    <label>Page Handler Name</label>
+    <length>150</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

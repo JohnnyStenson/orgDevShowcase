@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Restricted_Section_Name_for_create</fullName>
+    <active>true</active>
+    <description>&quot;new&quot;,&quot;complete&quot; is system reserve section name so prevent these section to be created.</description>
+    <errorConditionFormula>OR(LOWER(Name) = &apos;new&apos;,LOWER(Name) = &apos;complete&apos;,LOWER(Name) = &apos;completed&apos;)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>You can not create section with this name.Choose another name.</errorMessage>
+</ValidationRule>

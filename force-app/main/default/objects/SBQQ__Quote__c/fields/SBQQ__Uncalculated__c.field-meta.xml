@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Uncalculated__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If selected, the quote hasn’t been calculated.</description>
+    <externalId>false</externalId>
+    <formula>( NOT( ISNULL( SBQQ__LastCalculatedOn__c ) ) &amp;&amp; SBQQ__LastSavedOn__c &gt; SBQQ__LastCalculatedOn__c ) || ( NOT ( ISNULL ( SBQQ__LastSavedOn__c) ) &amp;&amp; ISNULL ( SBQQ__LastCalculatedOn__c ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If selected, the quote hasn’t yet been calculated.</inlineHelpText>
+    <label>Uncalculated</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

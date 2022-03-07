@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Locations</fullName>
+    <columns>NAME</columns>
+    <columns>TrackIT__Description__c</columns>
+    <columns>Location_Type__c</columns>
+    <columns>Video_Links__c</columns>
+    <columns>Store_Location__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Store_Location__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Store Locations</label>
+</ListView>

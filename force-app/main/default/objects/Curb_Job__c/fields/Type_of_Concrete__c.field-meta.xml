@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Concrete__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Concrete</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Regular 4500 psi</fullName>
+                <default>true</default>
+                <label>Regular 4500 psi</label>
+            </value>
+            <value>
+                <fullName>NJDOT Class B</fullName>
+                <default>false</default>
+                <label>NJDOT Class B</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

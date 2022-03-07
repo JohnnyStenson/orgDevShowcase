@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Scope__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Scopes the rule to the entire quote or specific product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Applies the rule to the entire quote or specific product.</inlineHelpText>
+    <label>Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>true</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

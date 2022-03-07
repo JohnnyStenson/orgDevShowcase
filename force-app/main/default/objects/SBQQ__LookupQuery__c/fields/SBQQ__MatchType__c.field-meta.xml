@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__MatchType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If Match Type = Field Value, select a Tested Object and Tested Field. If Match Type = Static Value, enter the value into Tested Value. If Match Type = Configuration Attribute, specify a Configuration Attribute.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If Match Type = Field Value, select a Tested Object and Tested Field. If Match Type = Static Value, enter the value into Tested Value. If Match Type = Configuration Attribute, specify a Configuration Attribute.</inlineHelpText>
+    <label>Match Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Field Value</fullName>
+                <default>false</default>
+                <label>Field Value</label>
+            </value>
+            <value>
+                <fullName>Static Value</fullName>
+                <default>false</default>
+                <label>Static Value</label>
+            </value>
+            <value>
+                <fullName>Configuration Attribute Value</fullName>
+                <default>false</default>
+                <label>Configuration Attribute Value</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

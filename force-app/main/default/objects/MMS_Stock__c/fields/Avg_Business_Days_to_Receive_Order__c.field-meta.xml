@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Avg_Business_Days_to_Receive_Order__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Average business days to receive an order after placed</inlineHelpText>
+    <label>Avg Business Days to Receive Order</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

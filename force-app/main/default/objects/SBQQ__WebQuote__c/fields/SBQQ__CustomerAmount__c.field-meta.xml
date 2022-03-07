@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CustomerAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Roll up summary of the Customer Amount.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Roll up summary of the Customer Amount.</inlineHelpText>
+    <label>Customer Amount</label>
+    <summarizedField>SBQQ__WebQuoteLine__c.SBQQ__CustomerTotal__c</summarizedField>
+    <summaryFilterItems>
+        <field>SBQQ__WebQuoteLine__c.SBQQ__Optional__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SBQQ__WebQuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

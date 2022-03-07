@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Thunder_Road_Job_Record__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>To be populated on save through Process Builder</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To be populated on save</inlineHelpText>
+    <label>Job Record</label>
+    <referenceTo>Job__c</referenceTo>
+    <relationshipLabel>Opportunities</relationshipLabel>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

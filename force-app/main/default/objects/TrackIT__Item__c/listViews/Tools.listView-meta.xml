@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tools</fullName>
+    <columns>NAME</columns>
+    <columns>TrackIT__Description__c</columns>
+    <columns>TrackIT__Location__c</columns>
+    <columns>TrackIT__Equipment_Status__c</columns>
+    <columns>ListView_Thumbnail__c</columns>
+    <columns>Image_for_ListView__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>TrackIT__Item__c.TrackIT__Equipment</value>
+    </filters>
+    <filters>
+        <field>TrackIT__Equipment_Type__c</field>
+        <operation>equals</operation>
+        <value>Tool</value>
+    </filters>
+    <label>Tools</label>
+</ListView>

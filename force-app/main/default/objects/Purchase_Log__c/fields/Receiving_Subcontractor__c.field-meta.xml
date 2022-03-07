@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receiving_Subcontractor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Receiving Subcontractor</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.Type</field>
+            <operation>equals</operation>
+            <value>Subcontractor</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Purchase Logs (Receiving Subcontractor)</relationshipLabel>
+    <relationshipName>Purchase_Logs1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SubscriptionEndDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Matches the quote line end date by default. If blank, it will match the contract end date.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Matches the quote line end date by default. If blank, it will match the contract end date.</inlineHelpText>
+    <label>Subscription End Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

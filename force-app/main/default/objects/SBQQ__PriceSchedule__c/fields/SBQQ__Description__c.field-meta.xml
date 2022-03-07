@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Description for this Price Schedule.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Description for this Price Schedule.</inlineHelpText>
+    <label>Description</label>
+    <length>5000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

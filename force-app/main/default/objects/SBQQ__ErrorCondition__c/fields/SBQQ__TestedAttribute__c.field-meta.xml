@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TestedAttribute__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Used to identify the specific attribute if the Tested Field is a global Configuration Attribute field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to identify the specific attribute if the Tested Field is a global Configuration Attribute field.</inlineHelpText>
+    <label>Tested Attribute</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.SBQQ__TestedField__c</field>
+            <operation>equals</operation>
+            <valueField>SBQQ__ProductAttribute__c.SBQQ__Attribute__r.SBQQ__TargetField__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>SBQQ__ProductAttribute__c</referenceTo>
+    <relationshipLabel>Error Conditions</relationshipLabel>
+    <relationshipName>ErrorConditions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

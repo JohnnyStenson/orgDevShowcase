@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Needs_Origination</fullName>
+    <columns>NAME</columns>
+    <columns>Originate_Item__c</columns>
+    <columns>Inventory_Development_Origination_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Originate_Item__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Needs Origination</label>
+</ListView>

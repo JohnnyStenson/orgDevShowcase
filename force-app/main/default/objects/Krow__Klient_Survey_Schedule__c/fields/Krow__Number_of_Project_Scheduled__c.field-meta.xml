@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Number_of_Project_Scheduled__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of project related records in scheduled Klient Survey.</description>
+    <externalId>false</externalId>
+    <label>Number of Project Scheduled</label>
+    <summaryFilterItems>
+        <field>Krow__Scheduled_Klient_Survey__c.Krow__Type__c</field>
+        <operation>equals</operation>
+        <value>Project</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Krow__Scheduled_Klient_Survey__c.Krow__Klient_Survey_Schedule__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

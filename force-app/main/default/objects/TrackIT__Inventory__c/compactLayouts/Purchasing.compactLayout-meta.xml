@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purchasing</fullName>
+    <fields>Name</fields>
+    <fields>Manufacturer_Model__c</fields>
+    <fields>Best_Bulk_Unit_Product_Website__c</fields>
+    <fields>Best_Indiv_Item_Product_Website__c</fields>
+    <fields>Units_to_Order__c</fields>
+    <fields>In_Shopping_Cart__c</fields>
+    <fields>Open_PO__c</fields>
+    <label>Purchasing</label>
+</CompactLayout>

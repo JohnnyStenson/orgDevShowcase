@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DOW_Due__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( MOD(  Krow__Due_Date__c - DATE(1900, 1, 7), 7), 0, &quot;SUN&quot;, 1, &quot;MON&quot;, 2, &quot;TUE&quot;, 3,
+&quot;WED&quot;, 4, &quot;THU&quot;, 5, &quot;FRI&quot;, 6, &quot;SAT&quot;,&quot;Error&quot;)</formula>
+    <label>DOW Due</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

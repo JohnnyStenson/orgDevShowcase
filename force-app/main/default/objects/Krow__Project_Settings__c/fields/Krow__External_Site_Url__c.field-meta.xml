@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__External_Site_Url__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Site URL for the project&apos;s &quot;External Site&quot; field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Site URL for the project&apos;s &quot;External Site&quot; field</inlineHelpText>
+    <label>External Site URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

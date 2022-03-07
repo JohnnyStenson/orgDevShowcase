@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Passen Sie die Standardregisterkarte in der Seite &quot;Produkt nachschlagen&quot; an</help>
+    <label></label>
+    <name>SBQQ__DefaultProductLookupTab__c</name>
+    <picklistValues>
+        <masterLabel>Guided Selling</masterLabel>
+        <translation>Geführter Verkauf</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Search Filters</masterLabel>
+        <translation>Suchfilter</translation>
+    </picklistValues>
+</CustomFieldTranslation>

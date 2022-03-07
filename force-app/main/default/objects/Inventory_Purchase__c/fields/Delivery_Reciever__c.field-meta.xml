@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Reciever__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Who needs to be present to receive the delivery</inlineHelpText>
+    <label>Personnel to Receive Delivery</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Inventory_Purchases</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

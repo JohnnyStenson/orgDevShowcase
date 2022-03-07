@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Invoice_Posting_By_Batch_Process__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>if checked then the invoice will post in sage by klient sage schedule job</description>
+    <externalId>false</externalId>
+    <inlineHelpText>if checked then the invoice will post in sage by krow sage schedule job</inlineHelpText>
+    <label>Enable Invoice Posting By Batch Process</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

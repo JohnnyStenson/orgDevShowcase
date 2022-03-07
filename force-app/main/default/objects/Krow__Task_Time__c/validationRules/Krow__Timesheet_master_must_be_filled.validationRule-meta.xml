@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Timesheet_master_must_be_filled</fullName>
+    <active>true</active>
+    <description>This is to validate that timesheet field must always be filled</description>
+    <errorConditionFormula>ISBLANK(Krow__Timesheet__c)</errorConditionFormula>
+    <errorMessage>Timesheet field can&apos;t be empty</errorMessage>
+</ValidationRule>

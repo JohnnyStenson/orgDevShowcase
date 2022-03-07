@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Parent_Task__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A system generated field for parent task tracking.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A system generated field for parent task tracking.</inlineHelpText>
+    <label>Parent Task</label>
+    <referenceTo>Krow__Task__c</referenceTo>
+    <relationshipLabel>Child Tasks</relationshipLabel>
+    <relationshipName>Child_Tasks</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

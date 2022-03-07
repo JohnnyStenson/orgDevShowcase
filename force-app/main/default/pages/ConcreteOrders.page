@@ -1,0 +1,33 @@
+<apex:page controller="ConcreteOrderController">
+    <apex:includeLightning />
+    <apex:pageBlock >
+        <div id="pageBlockWidth" style="width:100%;">
+            <apex:pageBlockSection id="gatePassCode" columns="1">
+                <apex:outputPanel rendered="{!IF(!authenticated,true,false)}">
+                    <apex:form >
+                        <apex:inputText value="{!inputPassCode}"></apex:inputText>
+                        <apex:commandButton value="Enter Passcode" action="{!validatePassCode}" reRender="frmConcreteOrder,gatePassCode"/>
+                    </apex:form>
+                </apex:outputPanel>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection id="frmConcreteOrder" columns="1">
+                <apex:pageBlockSectionItem >
+                    <apex:outputPanel rendered="{!IF(!authenticated,false,true)}">
+                        <div id="lwcConcreteOrder" />    
+                        <script>
+                        $Lightning.use("c:appConcreteOrders", function() {
+                            $Lightning.createComponent("c:concrtoMain",
+                            { 
+                            },
+                            "lwcConcreteOrder",
+                            function(cmp) {
+                                console.log('LWC Componenet added in VF page');
+                            });
+                        });
+                        </script>
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </div>
+    </apex:pageBlock>
+</apex:page>

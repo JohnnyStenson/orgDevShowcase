@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>opens Thunder Road Sales Follow Up [email template]</description>
+    <height>850</height>
+    <label>Send Follow Up Email to Lead</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <page>btnSend_TR_LeadEmailFollowUp</page>
+    <type>VisualforcePage</type>
+    <width>-100</width>
+</QuickAction>

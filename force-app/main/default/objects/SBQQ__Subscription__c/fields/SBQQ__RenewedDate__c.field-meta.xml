@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RenewedDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date this subscription was renewed as determined by date the renewal opportunity was contracted.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date this subscription was renewed. Blank means it has not been renewed.</inlineHelpText>
+    <label>Renewed Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

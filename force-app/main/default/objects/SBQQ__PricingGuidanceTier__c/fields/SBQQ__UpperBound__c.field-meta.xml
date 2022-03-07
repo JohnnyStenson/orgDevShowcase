@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__UpperBound__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The highest quote line quantity that applies to this tier. This number must be one above the highest quantity that you want this tier to include.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The highest quote line quantity that applies to this tier. This number must be one above the highest quantity that you want this tier to include.</inlineHelpText>
+    <label>Upper Bound</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

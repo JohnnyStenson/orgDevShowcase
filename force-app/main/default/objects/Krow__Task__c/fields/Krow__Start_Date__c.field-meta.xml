@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Start_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The designated Task Start Date as entered or calculated from auto-scheduling on the Gantt.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The designated Task Start Date as entered or calculated from auto-scheduling on the Gantt.</inlineHelpText>
+    <label>Start Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

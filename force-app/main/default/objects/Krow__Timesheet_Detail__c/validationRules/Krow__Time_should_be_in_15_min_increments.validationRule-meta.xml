@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Time_should_be_in_15_min_increments</fullName>
+    <active>false</active>
+    <description>Enter Time should be in 15 min increments. e.g. 0.25, 0.50, 0.75, 1.00</description>
+    <errorConditionFormula>OR( 
+MOD( Krow__Sun__c, 0.25) &lt;&gt; 0 , 
+MOD( Krow__Mon__c, 0.25) &lt;&gt; 0 , 
+MOD( Krow__Tue__c, 0.25) &lt;&gt; 0 , 
+MOD( Krow__Wed__c, 0.25) &lt;&gt; 0 , 
+MOD( Krow__Thu__c, 0.25) &lt;&gt; 0 , 
+MOD( Krow__Fri__c, 0.25) &lt;&gt; 0 , 
+MOD( Krow__Sat__c, 0.25) &lt;&gt; 0 , 
+MOD( Krow__Total_Hours__c, 0.25) &lt;&gt; 0 
+)</errorConditionFormula>
+    <errorMessage>Please Enter Time in 15 min Increments(e.g. 0.25, 0.50, 0.75, 1.00)</errorMessage>
+</ValidationRule>

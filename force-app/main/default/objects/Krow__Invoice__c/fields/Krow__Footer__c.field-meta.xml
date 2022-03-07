@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Footer__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field to show footer at last of invoice</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field to show footer at last of invoice</inlineHelpText>
+    <label>Footer</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

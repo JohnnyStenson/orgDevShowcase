@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flow_Identifier__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>This is used in Project and Task Templates. When they are imported into an existing project, this field is used along with the Project Id to select and update Tasks.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is used in Project and Task Templates. When they are imported into an existing project, this field is used along with the Project Id to select and update Tasks.</inlineHelpText>
+    <label>Flow Identifier</label>
+    <length>50</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

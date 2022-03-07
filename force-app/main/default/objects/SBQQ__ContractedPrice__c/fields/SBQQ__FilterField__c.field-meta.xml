@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FilterField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Quote line field that&apos;s evaluated to determine if this contracted price applies.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select a field to use in a filter, such as Product Family, if you want to apply this price to a set of products. If you are using a custom field, add the API name to the Filter Field as a picklist value.</inlineHelpText>
+    <label>Filter Field</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Product Code</fullName>
+                <default>false</default>
+                <label>Product Code</label>
+            </value>
+            <value>
+                <fullName>Product Family</fullName>
+                <default>false</default>
+                <label>Product Family</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__New_Task</fullName>
+    <availability>online</availability>
+    <description>to create new task from task related list for any record type.</description>
+    <displayType>massActionButton</displayType>
+    <linkType>page</linkType>
+    <masterLabel>New Task</masterLabel>
+    <openType>replace</openType>
+    <page>Krow__NewTaskFwd</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

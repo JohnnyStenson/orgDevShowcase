@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowDefinition>Add_Task_from_Project_Page_v2_Parent_Sub_Task</flowDefinition>
+    <label>Create New Task</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

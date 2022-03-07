@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Budgeted_Cost__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Deprecated</label>
+    <summarizedField>Krow__Proposal_Line__c.Krow__Cost_Amount__c</summarizedField>
+    <summaryForeignKey>Krow__Proposal_Line__c.Krow__Proposal__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

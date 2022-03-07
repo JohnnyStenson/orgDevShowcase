@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Job_Candidate__c</entityName>
+    <fieldName>Stage__c</fieldName>
+    <masterLabel>Job Candidate Process</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>Phone__c</fieldNames>
+        <fieldNames>Cell__c</fieldNames>
+        <fieldNames>Phone_Interview_Date__c</fieldNames>
+        <fieldNames>Phone_Interview_TimeHM__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;Call the Job Candidate to schedule a 30 min phone interview to determine if they will be invited in for a face to face. If they have any questions, direct them to email sales@thundernj.com.&lt;/li&gt;&lt;li&gt;Enter the scheduled date in the Phone Interview field.&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Phone Interview</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Min_Position_Requirements__c</fieldNames>
+        <fieldNames>Min_Requirements_Met__c</fieldNames>
+        <info>&lt;p&gt;Determine if Minimum Job Requirements are met: yes or no.&lt;/p&gt;&lt;p&gt;Selecting &amp;#39;No&amp;#39; will Reject this Candidate.&lt;/p&gt;</info>
+        <picklistValueName>Review Resume</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

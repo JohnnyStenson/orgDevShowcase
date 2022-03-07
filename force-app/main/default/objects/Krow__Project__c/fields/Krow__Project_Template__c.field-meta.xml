@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Template__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the project is considered a project template that can then be used to clone from during new project creation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, the project is considered a project template that can then be used to clone from during new project creation.</inlineHelpText>
+    <label>Project Template</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DistributorDiscount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is a discount that is applied to partner price and reflected in the net price.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a discount that is applied to partner price and reflected in the net price.</inlineHelpText>
+    <label>Distributor Discount</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

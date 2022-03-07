@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Links</fullName>
+    <fields>Name</fields>
+    <fields>KrowProject__c</fields>
+    <fields>Has_Plans__c</fields>
+    <fields>SOW_Site_Profile__c</fields>
+    <fields>Proposal_Due_Date__c</fields>
+    <fields>Probability</fields>
+    <fields>Approx_Start_Date__c</fields>
+    <fields>AccountId</fields>
+    <label>Links</label>
+</CompactLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Contract__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Sales contract that governs this price.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sales contract that governs this price.</inlineHelpText>
+    <label>Contract</label>
+    <referenceTo>Contract</referenceTo>
+    <relationshipLabel>Contracted Prices</relationshipLabel>
+    <relationshipName>ContractedPrices</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

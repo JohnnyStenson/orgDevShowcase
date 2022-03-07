@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Record_Prefix__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Prefix to be added in any auto number sequencing in intacct syncing process</description>
+    <externalId>false</externalId>
+    <label>Project Record Prefix</label>
+    <length>15</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OptionSelectionMethod__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines how user selects options attached to this product. &quot;Click&quot; method presents options with checkboxes next to them. &quot;Add&quot; renders a button which brings up predefined options. &quot;Dynamic&quot; renders a button which brings up all active products.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines how user selects options attached to this product. &quot;Click&quot; method presents options with checkboxes next to them. &quot;Add&quot; renders a button which brings up predefined options. &quot;Dynamic&quot; renders a button which brings up all active products.</inlineHelpText>
+    <label>Option Selection Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Click</fullName>
+                <default>false</default>
+                <label>Click</label>
+            </value>
+            <value>
+                <fullName>Add</fullName>
+                <default>false</default>
+                <label>Add</label>
+            </value>
+            <value>
+                <fullName>Dynamic</fullName>
+                <default>false</default>
+                <label>Dynamic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

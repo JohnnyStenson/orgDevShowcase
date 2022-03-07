@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TableRowFontStyle__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Font style of rows in a table (Click the icon for additional information)</inlineHelpText>
+    <label>Table Row Font Style</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>normal</fullName>
+                <default>true</default>
+                <label>normal</label>
+            </value>
+            <value>
+                <fullName>italic</fullName>
+                <default>false</default>
+                <label>italic</label>
+            </value>
+            <value>
+                <fullName>oblique</fullName>
+                <default>false</default>
+                <label>oblique</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

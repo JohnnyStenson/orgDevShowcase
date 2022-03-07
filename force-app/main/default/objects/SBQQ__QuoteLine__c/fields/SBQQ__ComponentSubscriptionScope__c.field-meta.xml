@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ComponentSubscriptionScope__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Subscription scope set at the component level. This field overrides the subscriptions cope copied from the product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Percent of Total scope set at the component level. This field overrides the Percent of Total scope copied from the Product Option.</inlineHelpText>
+    <label>Component Percent of Total Scope</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Package</fullName>
+                <default>false</default>
+                <label>Package</label>
+            </value>
+            <value>
+                <fullName>Components</fullName>
+                <default>false</default>
+                <label>Components</label>
+            </value>
+            <value>
+                <fullName>Both</fullName>
+                <default>false</default>
+                <label>Package &amp; Components</label>
+            </value>
+            <value>
+                <fullName>Entire Hierarchy</fullName>
+                <default>false</default>
+                <label>Entire Hierarchy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

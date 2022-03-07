@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DynamicNumberScale__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The decimal scale for numbers in the column are set based on the largest precision in the column.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The decimal scale for numbers in the column are set based on the largest precision in the column.</inlineHelpText>
+    <label>Dynamic Number Scale</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

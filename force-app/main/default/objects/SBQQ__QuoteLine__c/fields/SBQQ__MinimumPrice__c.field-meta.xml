@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__MinimumPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Minimum list unit price for this product. Used to enforce list price floor for products with dynamically calculated list prices.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Minimum list unit price for this product. Used to enforce list price floor for products with dynamically calculated list prices.</inlineHelpText>
+    <label>Minimum List Unit Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__GroupTextAlignment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies the alignment of Group title and Group Description. Defaults to Left if left blank.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies the alignment of Group title and Group Description. Defaults to Left if left blank.</inlineHelpText>
+    <label>Group Text Alignment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Left</fullName>
+                <default>true</default>
+                <label>Left</label>
+            </value>
+            <value>
+                <fullName>Center</fullName>
+                <default>false</default>
+                <label>Center</label>
+            </value>
+            <value>
+                <fullName>Right</fullName>
+                <default>false</default>
+                <label>Right</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Card_Used__c</fullName>
+    <externalId>false</externalId>
+    <label>Credit Card Used</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PNC BANK Debit 0194</fullName>
+                <default>false</default>
+                <label>PNC BANK Debit 0194</label>
+            </value>
+            <value>
+                <fullName>AmerExp-7894</fullName>
+                <default>false</default>
+                <label>AmerExp-7894</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

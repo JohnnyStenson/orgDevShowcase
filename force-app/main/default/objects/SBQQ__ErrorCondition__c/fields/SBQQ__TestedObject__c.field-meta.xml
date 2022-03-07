@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TestedObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Object that contains the field being tested by this condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify the object that contains the tested field.</inlineHelpText>
+    <label>Tested Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>false</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Quote Line</fullName>
+                <default>false</default>
+                <label>Quote Line</label>
+            </value>
+            <value>
+                <fullName>Quote Line Group</fullName>
+                <default>false</default>
+                <label>Quote Line Group</label>
+            </value>
+            <value>
+                <fullName>Product Option</fullName>
+                <default>false</default>
+                <label>Product Option</label>
+            </value>
+            <value>
+                <fullName>Configuration Attributes</fullName>
+                <default>false</default>
+                <label>Configuration Attributes</label>
+            </value>
+            <value>
+                <fullName>Upgraded Asset</fullName>
+                <default>false</default>
+                <label>Upgraded Asset</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

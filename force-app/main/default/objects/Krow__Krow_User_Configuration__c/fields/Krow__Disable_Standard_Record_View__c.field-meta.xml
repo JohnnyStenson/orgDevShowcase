@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Standard_Record_View__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Hide the button on My Project task page to navigate to the Project Standard Record view.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Hide the button on My Project task page to navigate to the Project Standard Record view</inlineHelpText>
+    <label>Disable Standard Record View</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

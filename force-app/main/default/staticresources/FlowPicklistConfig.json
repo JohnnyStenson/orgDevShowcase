@@ -1,0 +1,66 @@
+[ {
+  "picklistValues" : [ {
+    "useIcon" : "true",
+    "optionValue" : "Enter Notes From Paper",
+    "optionLabel" : "Enter Notes From Paper",
+    "imageUrl" : "https://www.lightningdesignsystem.com/assets/images/logo.svg",
+    "iconName" : "action:new_note",
+    "description" : ""
+  }, {
+    "useIcon" : "true",
+    "optionValue" : "Send Follow Up Email",
+    "optionLabel" : "Send Follow Up Email",
+    "imageUrl" : "https://www.lightningdesignsystem.com/assets/images/logo.svg",
+    "iconName" : "standard:read_receipts",
+    "description" : ""
+  }, {
+    "useIcon" : "true",
+    "optionValue" : "Send Special Email",
+    "optionLabel" : "Send Special Email",
+    "imageUrl" : "https://www.lightningdesignsystem.com/assets/images/logo.svg",
+    "iconName" : "standard:list_email",
+    "description" : ""
+  }, {
+    "useIcon" : "true",
+    "optionValue" : "Try to Establish Contact",
+    "optionLabel" : "Try to Establish Contact",
+    "imageUrl" : "https://www.lightningdesignsystem.com/assets/images/logo.svg",
+    "iconName" : "utility:end_call",
+    "description" : ""
+  }, {
+    "useIcon" : "true",
+    "optionValue" : "Follow Up Call Requested by Non-DM",
+    "optionLabel" : "Follow Up Call (Non-DM)",
+    "imageUrl" : "https://www.lightningdesignsystem.com/assets/images/logo.svg",
+    "iconName" : "standard:call",
+    "description" : ""
+  }, {
+    "useIcon" : "true",
+    "optionValue" : "Follow Up Decision Maker Call",
+    "optionLabel" : "Follow Up Call (DM)",
+    "imageUrl" : "https://www.lightningdesignsystem.com/assets/images/logo.svg",
+    "iconName" : "standard:case_log_a_call",
+    "description" : ""
+  }, {
+    "useIcon" : "true",
+    "optionValue" : "Convert To Opportunity",
+    "optionLabel" : "Convert To Opportunity",
+    "imageUrl" : "https://www.lightningdesignsystem.com/assets/images/logo.svg",
+    "iconName" : "standard:opportunity",
+    "description" : ""
+  }, {
+    "useIcon" : "true",
+    "optionValue" : "Other",
+    "optionLabel" : "Other",
+    "imageUrl" : "https://www.lightningdesignsystem.com/assets/images/logo.svg",
+    "iconName" : "standard:task2"
+  }, {
+    "useIcon" : "true",
+    "optionValue" : "Evaluate Pursuing RFP",
+    "optionLabel" : "Evaluate Pursuing RFP",
+    "imageUrl" : "https://www.lightningdesignsystem.com/assets/images/logo.svg",
+    "iconName" : "standard:question_feed"
+  } ],
+  "objectName" : "Lead",
+  "fieldName" : "StandardLeadTasks__c"
+} ]

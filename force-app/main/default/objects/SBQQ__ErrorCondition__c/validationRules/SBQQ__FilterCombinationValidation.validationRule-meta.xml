@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FilterCombinationValidation</fullName>
+    <active>true</active>
+    <description>Validation for the combination of Filter Type Variable.</description>
+    <errorConditionFormula>AND(ISPICKVAL(SBQQ__FilterType__c, &quot;Variable&quot;), ISBLANK(SBQQ__FilterVariable__c))</errorConditionFormula>
+    <errorMessage>A Filter Type of &apos;Variable&apos; must have a Filter Variable.</errorMessage>
+</ValidationRule>

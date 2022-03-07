@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__LookupProductField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field on Lookup Object corresponding to Product Action Product Lookup. Field must be a lookup to the Product object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field on Lookup Object corresponding to Product Action Product Lookup. Field must be a lookup to the Product object.</inlineHelpText>
+    <label>Lookup Product Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SBQQ__Product__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Product__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__GroupFontFamily__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Family of the font that should be applied to Group title text in this template.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Family of the font that should be applied to Group title text in this template.</inlineHelpText>
+    <label>Group Font Family</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Courier</fullName>
+                <default>false</default>
+                <label>Courier</label>
+            </value>
+            <value>
+                <fullName>Dosis</fullName>
+                <default>false</default>
+                <label>Dosis</label>
+            </value>
+            <value>
+                <fullName>Droid Sans</fullName>
+                <default>false</default>
+                <label>Droid Sans</label>
+            </value>
+            <value>
+                <fullName>Droid Serif</fullName>
+                <default>false</default>
+                <label>Droid Serif</label>
+            </value>
+            <value>
+                <fullName>Helvetica</fullName>
+                <default>true</default>
+                <label>Helvetica</label>
+            </value>
+            <value>
+                <fullName>Merriweather</fullName>
+                <default>false</default>
+                <label>Merriweather</label>
+            </value>
+            <value>
+                <fullName>Montserrat</fullName>
+                <default>false</default>
+                <label>Montserrat</label>
+            </value>
+            <value>
+                <fullName>Noto Sans JP</fullName>
+                <default>false</default>
+                <label>Noto Sans JP</label>
+            </value>
+            <value>
+                <fullName>Noto Sans KR</fullName>
+                <default>false</default>
+                <label>Noto Sans KR</label>
+            </value>
+            <value>
+                <fullName>Noto Sans SC</fullName>
+                <default>false</default>
+                <label>Noto Sans SC</label>
+            </value>
+            <value>
+                <fullName>Noto Sans TC</fullName>
+                <default>false</default>
+                <label>Noto Sans TC</label>
+            </value>
+            <value>
+                <fullName>Open Sans</fullName>
+                <default>false</default>
+                <label>Open Sans</label>
+            </value>
+            <value>
+                <fullName>Play</fullName>
+                <default>false</default>
+                <label>Play</label>
+            </value>
+            <value>
+                <fullName>PT Sans</fullName>
+                <default>false</default>
+                <label>PT Sans</label>
+            </value>
+            <value>
+                <fullName>PT Serif</fullName>
+                <default>false</default>
+                <label>PT Serif</label>
+            </value>
+            <value>
+                <fullName>Roboto</fullName>
+                <default>false</default>
+                <label>Roboto</label>
+            </value>
+            <value>
+                <fullName>Roboto Light</fullName>
+                <default>false</default>
+                <label>Roboto Light</label>
+            </value>
+            <value>
+                <fullName>Times</fullName>
+                <default>false</default>
+                <label>Times</label>
+            </value>
+            <value>
+                <fullName>Titillium Web</fullName>
+                <default>false</default>
+                <label>Titillium Web</label>
+            </value>
+            <value>
+                <fullName>Ubuntu</fullName>
+                <default>false</default>
+                <label>Ubuntu</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

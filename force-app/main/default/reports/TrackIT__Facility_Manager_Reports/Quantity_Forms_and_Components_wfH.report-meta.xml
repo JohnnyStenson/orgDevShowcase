@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>CDF1</field>
+    </columns>
+    <customDetailFormulas>
+        <calculatedFormula>Inventory_Component__c.Quantity_Needed__c * FK_TrackIT__Inventory__c.Quantity_to_Build__c</calculatedFormula>
+        <dataType>Double</dataType>
+        <developerName>CDF1</developerName>
+        <label>Total Needed</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <filter>
+        <criteriaItems>
+            <column>FK_$TrackIT__Inventory__c.Quantity_to_Build__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>0</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Inventory_Component__c.Inventory_Component__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Quantity Forms and Components</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CustomEntity$Inventory_Component__c@Inventory_Component__c.Inventory_Parent__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ParentCustomAction__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Reference to the parent custom action that this action is grouped under.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Reference to the parent custom action that this action is grouped under.</inlineHelpText>
+    <label>Parent Custom Action</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>SBQQ__CustomAction__c.SBQQ__Type__c</field>
+            <operation>equals</operation>
+            <value>Menu</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>SBQQ__CustomAction__c</referenceTo>
+    <relationshipLabel>Custom Actions</relationshipLabel>
+    <relationshipName>Custom_Actions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

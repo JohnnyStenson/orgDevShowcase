@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PriceScale__c</fullName>
+    <defaultValue>2</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Decimal places for prices produced by this discount schedule.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Decimal places for prices produced by this discount schedule.</inlineHelpText>
+    <label>Price Scale</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

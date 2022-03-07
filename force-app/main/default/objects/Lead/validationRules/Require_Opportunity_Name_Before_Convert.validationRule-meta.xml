@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Opportunity_Name_Before_Convert</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+IsConverted,
+ISBLANK(OpportunityName__c)
+)</errorConditionFormula>
+    <errorMessage>Opportunity Name is Required under &quot;Potential Jobsite Info&quot;</errorMessage>
+</ValidationRule>

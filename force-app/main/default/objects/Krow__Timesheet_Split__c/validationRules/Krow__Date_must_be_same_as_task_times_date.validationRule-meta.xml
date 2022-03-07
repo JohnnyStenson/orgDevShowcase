@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Date_must_be_same_as_task_times_date</fullName>
+    <active>true</active>
+    <description>Date must be same as task time&apos;s date.</description>
+    <errorConditionFormula>AND(NOT(ISBlank(Krow__Task_Time__c)), OR(Krow__Date__c &lt;  Krow__Task_Time__r.Krow__Date__c, Krow__Date__c &gt;  Krow__Task_Time__r.Krow__Date__c))</errorConditionFormula>
+    <errorMessage>Date must be same as task time&apos;s date.</errorMessage>
+</ValidationRule>

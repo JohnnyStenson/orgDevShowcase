@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Cost_Rate_Display__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>if checked, ONLY disables Cost Rates on My Project (not Bill Rate).</description>
+    <externalId>false</externalId>
+    <label>Disable Cost Rate Display</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

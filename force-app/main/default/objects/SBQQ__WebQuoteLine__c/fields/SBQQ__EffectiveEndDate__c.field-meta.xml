@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__EffectiveEndDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Effective end date for this subscription.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(SBQQ__EndDate__c),
+  SBQQ__Quote__r.SBQQ__EndDate__c,
+  SBQQ__EndDate__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Effective end date for this subscription.</inlineHelpText>
+    <label>Effective End Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>の番号を入力してください  経路シーケンス</help>
+    <label></label>
+    <name>TrackIT__Route_Sequence__c</name>
+</CustomFieldTranslation>

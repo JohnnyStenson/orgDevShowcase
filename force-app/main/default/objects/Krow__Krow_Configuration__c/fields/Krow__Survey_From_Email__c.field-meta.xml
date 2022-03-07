@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Survey_From_Email__c</fullName>
+    <deprecated>false</deprecated>
+    <description>It will use to as default &quot;From&quot; email address to send survey email when it&apos;s set in Organization-Wide Email Addresses in salesforce.</description>
+    <externalId>false</externalId>
+    <label>Survey From Email</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

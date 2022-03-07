@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Submitted</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Krow__Project_Resource__c</columns>
+    <columns>Krow__Week_Start_Date__c</columns>
+    <columns>Krow__Week_End_Date__c</columns>
+    <columns>Krow__Project__c</columns>
+    <columns>Krow__Task_Timesheet_Hours__c</columns>
+    <columns>Krow__Total_Billable_Hours_New__c</columns>
+    <columns>Krow__Project_Owner__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Krow__Approval_Status__c</field>
+        <operation>equals</operation>
+        <value>Submitted</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>LAST_N_WEEKS:4</value>
+    </filters>
+    <filters>
+        <field>LAST_UPDATE</field>
+        <operation>greaterThan</operation>
+        <value>LAST_N_WEEKS:4</value>
+    </filters>
+    <label>Submitted</label>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OriginalQuoteLine__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Quote Line that originated this Contracted Price.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Quote Line that originated this Contracted Price.</inlineHelpText>
+    <label>Original Quote Line</label>
+    <referenceTo>SBQQ__QuoteLine__c</referenceTo>
+    <relationshipLabel>Contracted Prices</relationshipLabel>
+    <relationshipName>ContractedPrices</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

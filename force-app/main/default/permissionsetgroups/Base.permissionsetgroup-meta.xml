@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Everyone</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Base</label>
+    <permissionSets>sortablegrid__Edit_Sortable_Data_Grids</permissionSets>
+    <permissionSets>sortablegrid__Sortable_Data_Grids_ManageSharing</permissionSets>
+    <permissionSets>sortablegrid__View_Sortable_Data_Grids</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

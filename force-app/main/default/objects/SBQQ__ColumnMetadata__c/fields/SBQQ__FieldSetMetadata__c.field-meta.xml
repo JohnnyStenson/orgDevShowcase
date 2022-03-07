@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FieldSetMetadata__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Master detail to FieldSet Metadata.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>FieldSet Metadata relationship.</inlineHelpText>
+    <label>FieldSet Metadata</label>
+    <referenceTo>SBQQ__FieldSetMetadata__c</referenceTo>
+    <relationshipLabel>Columns Metadata</relationshipLabel>
+    <relationshipName>ColumnsMetadata</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

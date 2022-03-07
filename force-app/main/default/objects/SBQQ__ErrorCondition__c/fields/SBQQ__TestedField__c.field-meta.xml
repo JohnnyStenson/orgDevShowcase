@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TestedField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field on the Quote object that should be used in testing this condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field on the Quote object that should be used in testing this condition.</inlineHelpText>
+    <label>Tested Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SBQQ__TestedObject__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Group Line Items</fullName>
+                <default>false</default>
+                <label>Group Line Items</label>
+            </value>
+            <value>
+                <fullName>Unit Price</fullName>
+                <default>false</default>
+                <label>Unit Price</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Description__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Description__c</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Group Line Items</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>SBQQ__Description__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <controllingFieldValue>Configuration Attributes</controllingFieldValue>
+            <valueName>Unit Price</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

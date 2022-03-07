@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restock_Point_in_Indiv_UoM__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Quantity when less than, needs to be ordered</inlineHelpText>
+    <label>Restock Point in Indiv UoM</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

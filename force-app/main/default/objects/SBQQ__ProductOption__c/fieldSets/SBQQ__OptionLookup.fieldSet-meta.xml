@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OptionLookup</fullName>
+    <availableFields>
+        <field>SBQQ__Bundled__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>SBQQ__Discount__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>SBQQ__ExistingQuantity__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>SBQQ__Quantity__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>SBQQ__UnitPrice__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <description>Determines fields presented to user when looking up option to add.</description>
+    <displayedFields>
+        <field>SBQQ__ProductCode__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__ProductName__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__ProductDescription__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>OptionLookup</label>
+</FieldSet>

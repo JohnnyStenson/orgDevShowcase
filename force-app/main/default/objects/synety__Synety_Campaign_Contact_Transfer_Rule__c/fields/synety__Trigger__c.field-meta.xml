@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__Trigger__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Trigger</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On Insert Only</fullName>
+                <default>true</default>
+                <label>On Insert Only</label>
+            </value>
+            <value>
+                <fullName>On Update Only</fullName>
+                <default>false</default>
+                <label>On Update Only</label>
+            </value>
+            <value>
+                <fullName>On Insert and Update</fullName>
+                <default>false</default>
+                <label>On Insert and Update</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

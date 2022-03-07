@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Display_Decimals_On_Planner__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>It would display 2 decimal places on the Resource Planner summary level (all views -  Hour, Day, Week, Month).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>It would display 2 decimal places on the Resource Planner summary level (all views -  Hour, Day, Week, Month).</inlineHelpText>
+    <label>Display Decimals On Planner</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

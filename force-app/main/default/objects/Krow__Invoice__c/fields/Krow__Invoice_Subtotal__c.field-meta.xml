@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Invoice_Subtotal__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>(Krow__Invoice_Amount__c + Krow__Fixed_Fee_Amount__c + Krow__Expense_Amount__c+ Krow__Additional_Amount_Total__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Invoice Subtotal</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

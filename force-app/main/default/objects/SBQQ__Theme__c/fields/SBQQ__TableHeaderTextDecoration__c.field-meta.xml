@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TableHeaderTextDecoration__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Decoration added to text in table header</inlineHelpText>
+    <label>Table Header Text Decoration</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>none</fullName>
+                <default>true</default>
+                <label>none</label>
+            </value>
+            <value>
+                <fullName>underline</fullName>
+                <default>false</default>
+                <label>underline</label>
+            </value>
+            <value>
+                <fullName>overline</fullName>
+                <default>false</default>
+                <label>overline</label>
+            </value>
+            <value>
+                <fullName>line-through</fullName>
+                <default>false</default>
+                <label>line-through</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Task_Matching</fullName>
+    <active>true</active>
+    <description>If split is created from the timesheet detail, then task must be same as detail.</description>
+    <errorConditionFormula>AND(NOT(ISBlank(Krow__Timesheet_Detail__c)), Krow__Timesheet_Detail__r.Krow__Task__c != Krow__Krow_Task__c)</errorConditionFormula>
+    <errorMessage>Task must be same as timesheet detail.</errorMessage>
+</ValidationRule>

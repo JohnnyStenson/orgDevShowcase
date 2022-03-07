@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Load_in_gantt__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the Project will appear in the over-all Gantt on the My Projects homepage.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, the Project will appear in the over-all Gantt on the My Projects homepage.</inlineHelpText>
+    <label>Load in gantt</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

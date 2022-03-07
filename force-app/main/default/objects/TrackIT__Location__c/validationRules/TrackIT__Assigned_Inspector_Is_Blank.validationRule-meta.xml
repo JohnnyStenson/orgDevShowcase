@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Assigned_Inspector_Is_Blank</fullName>
+    <active>true</active>
+    <description>Displays error message if Assigned Inspector is blank and Add Inspection Event To Calendar is checked.</description>
+    <errorConditionFormula>AND( TrackIT__Add_Inspection_Event_to_Calendar__c = TRUE,ISBLANK(  TrackIT__Assigned_Inspector__c  ) )</errorConditionFormula>
+    <errorDisplayField>TrackIT__Assigned_Inspector__c</errorDisplayField>
+    <errorMessage>Enter the assigned inspector. Required if adding inspection event to calendar.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field on Quote Line or Product Option object that is evaluated by this condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the field that should contain the value you enter in the Value field.</inlineHelpText>
+    <label>Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Code</fullName>
+                <default>false</default>
+                <label>Product Code</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Quantity__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Quantity__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

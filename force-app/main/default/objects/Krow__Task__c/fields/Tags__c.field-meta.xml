@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tags__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>good to match phases. used to make bulk changes on the group</inlineHelpText>
+    <label>Tags</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Setup</fullName>
+                <default>false</default>
+                <label>Setup</label>
+            </value>
+            <value>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+                <label>Discovery</label>
+            </value>
+            <value>
+                <fullName>Plans</fullName>
+                <default>false</default>
+                <label>Plans</label>
+            </value>
+            <value>
+                <fullName>Post Discovery Call</fullName>
+                <default>false</default>
+                <label>Post Discovery Call</label>
+            </value>
+            <value>
+                <fullName>Site Meeting</fullName>
+                <default>false</default>
+                <label>Site Meeting</label>
+            </value>
+            <value>
+                <fullName>Take Off</fullName>
+                <default>false</default>
+                <label>Take Off</label>
+            </value>
+            <value>
+                <fullName>Create Proposal</fullName>
+                <default>false</default>
+                <label>Create Proposal</label>
+            </value>
+            <value>
+                <fullName>Proposal Review Meeting</fullName>
+                <default>false</default>
+                <label>Proposal Review Meeting</label>
+            </value>
+            <value>
+                <fullName>Submit Proposal</fullName>
+                <default>false</default>
+                <label>Submit Proposal</label>
+            </value>
+            <value>
+                <fullName>Change Proposal</fullName>
+                <default>false</default>
+                <label>Change Proposal</label>
+            </value>
+            <value>
+                <fullName>Resubmit Proposal</fullName>
+                <default>false</default>
+                <label>Resubmit Proposal</label>
+            </value>
+            <value>
+                <fullName>Follow Up Proposal</fullName>
+                <default>false</default>
+                <label>Follow Up Proposal</label>
+            </value>
+            <value>
+                <fullName>Proposal Accepted</fullName>
+                <default>false</default>
+                <label>Proposal Accepted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

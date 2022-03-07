@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Create_Event_from_Time_Off__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Default unchecked, if checked will create an Event from the Time Off Record.</description>
+    <externalId>false</externalId>
+    <label>Create Event from Time-Off</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

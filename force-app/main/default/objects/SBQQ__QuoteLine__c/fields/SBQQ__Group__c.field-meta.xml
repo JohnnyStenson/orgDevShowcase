@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Group to which this line belongs, if any.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Group to which this line belongs, if any.</inlineHelpText>
+    <label>Group</label>
+    <referenceTo>SBQQ__QuoteLineGroup__c</referenceTo>
+    <relationshipLabel>Quote Lines</relationshipLabel>
+    <relationshipName>LineItems</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

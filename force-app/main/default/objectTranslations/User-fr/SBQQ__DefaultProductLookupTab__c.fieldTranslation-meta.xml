@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Personnaliser l&apos;onglet par défaut de la page de référence produit.</help>
+    <label></label>
+    <name>SBQQ__DefaultProductLookupTab__c</name>
+    <picklistValues>
+        <masterLabel>Guided Selling</masterLabel>
+        <translation>Vente guidée</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Search Filters</masterLabel>
+        <translation>Filtres de recherche</translation>
+    </picklistValues>
+</CustomFieldTranslation>

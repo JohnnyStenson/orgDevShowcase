@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock__c</fullName>
+    <externalId>false</externalId>
+    <label>Stock</label>
+    <referenceTo>MMS_Stock__c</referenceTo>
+    <relationshipLabel>Stock Purchase Orders</relationshipLabel>
+    <relationshipName>Stock_Purchase_Orders</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

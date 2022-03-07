@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__All</fullName>
+    <columns>NAME</columns>
+    <columns>SBQQ__DisplayOrder__c</columns>
+    <columns>SBQQ__TargetObject__c</columns>
+    <columns>SBQQ__TargetField__c</columns>
+    <columns>SBQQ__Operator__c</columns>
+    <columns>SBQQ__FilterValue__c</columns>
+    <columns>SBQQ__Hidden__c</columns>
+    <columns>SBQQ__HiddenSourceField__c</columns>
+    <columns>SBQQ__FilterSourceField__c</columns>
+    <columns>SBQQ__Action__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

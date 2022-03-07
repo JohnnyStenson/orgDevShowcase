@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Project_Task_Views__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, it will disable the new Task picklist on the Project Task Page (e.g. Task Information, Task Progress, Milestone Information).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, it will disable the new Task picklist on the Project Task Page (e.g. Task Information, Task Progress, Milestone Information).</inlineHelpText>
+    <label>Disable Project Task Views</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

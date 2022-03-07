@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Resource_Utilization__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, it will skip the Resource Utilization Calculation on each transaction(eg. insert/update of timesheet split, timeoff, task assignment schedule etc.).</description>
+    <externalId>false</externalId>
+    <label>Disable Resource Utilization</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

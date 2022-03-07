@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Five_Yearr_Assigned_Inspector_Is_Blank</fullName>
+    <active>true</active>
+    <description>Displays error message if Assigned Inspector(5 Year) is blank and Add 5 Year Inspection Event To Calendar is checked.</description>
+    <errorConditionFormula>AND(TrackIT__Add_5_Year_Inspection_Event_to_Calendar__c  = TRUE,ISBLANK(TrackIT__Assigned_Inspector_5_Year__c  ) )</errorConditionFormula>
+    <errorDisplayField>TrackIT__Assigned_Inspector_5_Year__c</errorDisplayField>
+    <errorMessage>Enter the assigned inspector. Required if adding inspection event to calendar.</errorMessage>
+</ValidationRule>

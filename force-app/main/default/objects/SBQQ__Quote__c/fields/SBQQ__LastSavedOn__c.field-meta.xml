@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__LastSavedOn__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The date and time this quote was last saved.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date and time this quote was last saved.</inlineHelpText>
+    <label>Last Saved On</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

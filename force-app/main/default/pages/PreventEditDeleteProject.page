@@ -1,0 +1,6 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Unauthorized Action</h1>
+  If the Project Needs Editing or Deleting, #Slack the Salesforce Admin your request to take action on.
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

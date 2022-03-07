@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FieldName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>API name of the field described by this record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter API name of the field.</inlineHelpText>
+    <label>Field Name</label>
+    <length>80</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

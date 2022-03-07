@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DiscountSchedule__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Discount schedule to be applied to the product selected by this option. This discount schedule overrides the discount schedule selected on the product or feature.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup the discount schedule to be applied to the product selected by this option. This discount schedule overrides the discount schedule selected on the product or feature.</inlineHelpText>
+    <label>Discount Schedule</label>
+    <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>
+    <relationshipLabel>Product Options</relationshipLabel>
+    <relationshipName>ProductOptions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

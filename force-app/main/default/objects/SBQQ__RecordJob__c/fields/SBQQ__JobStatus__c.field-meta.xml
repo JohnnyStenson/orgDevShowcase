@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__JobStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The status of the background job performed if no job id was specified.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The status of the background job performed if no job id was specified.</inlineHelpText>
+    <label>Job Status</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

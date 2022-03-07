@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobilizations</fullName>
+    <columns>NAME</columns>
+    <columns>SBQQ__OptionalSKU__c</columns>
+    <columns>SBQQ__Number__c</columns>
+    <columns>SBQQ__ProductCode__c</columns>
+    <columns>SBQQ__ConfiguredSKU__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SBQQ__ConfiguredSKU__c</field>
+        <operation>equals</operation>
+        <value>MOBILIZATIONS</value>
+    </filters>
+    <label>Mobilizations</label>
+</ListView>

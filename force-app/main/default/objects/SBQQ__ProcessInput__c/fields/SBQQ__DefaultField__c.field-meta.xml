@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DefaultField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Quote field that sources default value for this input.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Quote field that sources default value for this input.</inlineHelpText>
+    <label>Default Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bill To Country</fullName>
+                <default>false</default>
+                <label>Bill To Country</label>
+            </value>
+            <value>
+                <fullName>Ship To Country</fullName>
+                <default>false</default>
+                <label>Ship To Country</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

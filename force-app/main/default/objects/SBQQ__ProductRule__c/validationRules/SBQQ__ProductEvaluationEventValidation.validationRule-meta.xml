@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ProductEvaluationEventValidation</fullName>
+    <active>true</active>
+    <description>Validation for Scope Quote having an Evaluation Event of &apos;Edit&apos; and &apos;Load&apos;</description>
+    <errorConditionFormula>OR(AND(ISPICKVAL(SBQQ__EvaluationEvent__c, &quot;Edit&quot;), ISPICKVAL(SBQQ__Scope__c, &quot;Quote&quot;)), AND(ISPICKVAL(SBQQ__EvaluationEvent__c, &quot;Load&quot;), ISPICKVAL(SBQQ__Scope__c, &quot;Quote&quot;)))</errorConditionFormula>
+    <errorMessage>Only rules with Scope &apos;Product&apos; can have Evaluation Events of type &apos;Edit&apos; or &apos;Load&apos;</errorMessage>
+</ValidationRule>

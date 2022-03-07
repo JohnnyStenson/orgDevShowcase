@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subcontractor</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Subcontractor</compactLayoutAssignment>
+    <label>Subcontractor</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Google Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Our Job Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Their Job Site</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Excavator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paving</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Krow__Active__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Krow__Formatting__c</picklist>
+        <values>
+            <fullName>Group by Person%2C then Task</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group by Task</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Krow__Payment_Schedule__c</picklist>
+        <values>
+            <fullName>Net 15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Net 30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Net 45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Net 60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upon Receipt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Krow__Summarize__c</picklist>
+        <values>
+            <fullName>Summarize by Person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Totals Only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Krow__Terms__c</picklist>
+        <values>
+            <fullName>Net 15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Net 30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Net 45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Net 60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upon Receipt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__CoTerminationEvent__c</picklist>
+        <values>
+            <fullName>Add-on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__ContractCoTermination__c</picklist>
+        <values>
+            <fullName>Always</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Never</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Prompt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__RenewalModel__c</picklist>
+        <values>
+            <fullName>Asset Based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Based</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__RenewalPricingMethod__c</picklist>
+        <values>
+            <fullName>List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Same</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Uplift</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__TaxExempt__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Subcontractor</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

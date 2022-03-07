@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__LocationID_Change_After_Creation_Rule</fullName>
+    <active>false</active>
+    <description>Prevents users from changing a location ID after the location is initially entered.</description>
+    <errorConditionFormula>IF(ISNULL( PRIORVALUE(  Name  )),FALSE,ISCHANGED(   Name   ) )</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Location ID cannot be changed after initial creation. Please contact your System Administrator to change the location ID after the initial location is created.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__MasterProcessInput__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Values of this process input will determine the visibility of the current input.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Values of this process input will determine the visibility of the current input.</inlineHelpText>
+    <label>Master Process Input</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.SBQQ__ProcessInput__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.SBQQ__ProcessInput__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>SBQQ__ProcessInput__c</referenceTo>
+    <relationshipLabel>Process Inputs Regulated</relationshipLabel>
+    <relationshipName>DependentInputs</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

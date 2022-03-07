@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PageBreak__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specifies page breaking behavior for this content.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies whether page break should be inserted before, after or both before/after this content.</inlineHelpText>
+    <label>Page Break</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Before</fullName>
+                <default>false</default>
+                <label>Before</label>
+            </value>
+            <value>
+                <fullName>After</fullName>
+                <default>false</default>
+                <label>After</label>
+            </value>
+            <value>
+                <fullName>Both</fullName>
+                <default>false</default>
+                <label>Both</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

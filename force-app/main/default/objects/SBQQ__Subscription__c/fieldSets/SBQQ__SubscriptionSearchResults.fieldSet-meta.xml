@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SubscriptionSearchResults</fullName>
+    <availableFields>
+        <field>SBQQ__Contract__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>SBQQ__Product__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>SBQQ__Quantity__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>SBQQ__RenewalProductId__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>SBQQ__RenewalUpliftRate__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <description>Fields displayed in search results in Subscription Lookup page.</description>
+    <displayedFields>
+        <field>SBQQ__ContractNumber__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__ProductName__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__RenewalQuantity__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__StartDate__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>SBQQ__EndDate__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Subscription Search Results</label>
+</FieldSet>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Quote__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Quote to which this Quote Document belongs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Quote to which this Quote Document belongs.</inlineHelpText>
+    <label>Quote</label>
+    <referenceTo>SBQQ__Quote__c</referenceTo>
+    <relationshipLabel>Quote Documents</relationshipLabel>
+    <relationshipName>R00N70000001lX7YEAU</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

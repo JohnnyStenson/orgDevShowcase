@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__UpgradedAsset__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Asset being upgraded by this quote line. Only populated if this quote line represents an upgrade.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Asset upgraded by this quote line. When the quote is contracted this asset&apos;s Usage End Date will be populated to indicate that it&apos;s retired.</inlineHelpText>
+    <label>Upgraded Asset</label>
+    <referenceTo>Asset</referenceTo>
+    <relationshipLabel>Web Quote Lines (Upgrade)</relationshipLabel>
+    <relationshipName>UpgradeWebLines</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

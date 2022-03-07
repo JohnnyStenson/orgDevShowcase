@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Billing</fullName>
+    <columns>LAST_UPDATE</columns>
+    <columns>NAME</columns>
+    <columns>Klient_Project__c</columns>
+    <columns>Quote__c</columns>
+    <columns>ScopeofWork__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Public_Works__c</columns>
+    <columns>Sales_Rep__c</columns>
+    <columns>Link_to_Slack_Channel__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Job_Status__c</field>
+        <operation>equals</operation>
+        <value>Final Billing</value>
+    </filters>
+    <label>Final Billing</label>
+</ListView>

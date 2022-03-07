@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DescendingActionNesting__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Allow child bundle configurations up to the specified level to be targeted by this rule&apos;s actions when executing in the configurator for selection rules only.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Allow child bundle configurations up to the specified level to be targeted by this rule&apos;s actions when executing in the configurator for selection rules only.</inlineHelpText>
+    <label>Child Bundle Action Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

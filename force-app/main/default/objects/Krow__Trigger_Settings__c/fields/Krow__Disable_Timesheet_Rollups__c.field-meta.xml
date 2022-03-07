@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Timesheet_Rollups__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked timesheet cost/amount details will not be rollup on project and task after each save/update, instead a scheduled job will rollup these details (need to schedule &apos;SystemMaintenanceJob&apos; manually).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked timesheet cost/amount details will not be rollup on project and task after each save/update, instead a scheduled job will rollup these details (need to schedule &apos;SystemMaintenanceJob&apos; manually).</inlineHelpText>
+    <label>Disable Timesheet Rollups</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

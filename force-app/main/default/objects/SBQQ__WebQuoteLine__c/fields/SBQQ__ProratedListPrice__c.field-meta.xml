@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ProratedListPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Prorated list unit price.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Prorated list unit price.</inlineHelpText>
+    <label>Prorated List Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

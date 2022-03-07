@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Invoice_Amount__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Labor Amount</label>
+    <summarizedField>Krow__Invoice_Line_Item__c.Krow__Amount_Total__c</summarizedField>
+    <summaryFilterItems>
+        <field>Krow__Invoice_Line_Item__c.Krow__Include__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Krow__Invoice_Line_Item__c.Krow__Invoice__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

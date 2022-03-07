@@ -1,0 +1,20 @@
+<apex:page standardController="Lead" showHeader="false" sidebar="false">
+    <apex:slds /> 
+    <script>
+        function GoToEmailPage(){
+            if(typeof sforce !== 'undefined' && sforce !== null && '{!$User.UIThemeDisplayed}' === 'Theme4d'){
+                sforce.one.navigateToURL('{!'/_ui/core/email/author/EmailAuthor?p26=0D21U000000TQJl:sales@thundernj.com:Thunder%20Road%20NJ%20Inc&p2_lkid=' & Lead.Id & '&p3_lkid=' & Lead.Id & '&p6=Thunder%20Road%20Information&rtype=00Q&template_id=00X1U000000v16U&retURL=/' & Lead.Id }');
+            } 
+        }
+    </script>
+    <apex:outputpanel >
+        <div class="slds-text-align_center">
+            <p>Copy any CC: emails now or Send multiple emails.<br />Template To: field is a dropdown of the three Emails. Only one can be selected at a time.</p>
+        </div>
+        <button class="slds-button slds-button_neutral slds-button_stretch" style=" border: none;background-color: #04844B;color: white;" onclick="GoToEmailPage();">
+            Send Email Using Cold Call Template
+        </button>
+        
+    </apex:outputpanel>
+   
+</apex:page>

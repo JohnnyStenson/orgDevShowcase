@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__FE_and_Maintenance_Equipment</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( TrackIT__Item__r.TrackIT__Record_Type_Name__c  = &apos;Fire_Extinguisher&apos;,ISPICKVAL( TrackIT__Type__c , &apos;Maintenance - Equipment&apos;) )</errorConditionFormula>
+    <errorDisplayField>TrackIT__Type__c</errorDisplayField>
+    <errorMessage>Please select one of the &apos;Inspection - Fire Extinguisher&apos; types if fire extinguisher record is selected.</errorMessage>
+</ValidationRule>

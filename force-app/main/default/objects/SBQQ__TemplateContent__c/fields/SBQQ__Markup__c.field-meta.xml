@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Markup__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Contains the markup if this content is of type &quot;Markup&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Contains the markup if this content is of type &quot;Markup&quot;.</inlineHelpText>
+    <label>Markup</label>
+    <length>32000</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

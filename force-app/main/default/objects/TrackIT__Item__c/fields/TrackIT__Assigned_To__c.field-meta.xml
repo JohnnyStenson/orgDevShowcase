@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Assigned_To__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Select an assignee to change the item&apos;s state. Clear out the field when an item is returned.</inlineHelpText>
+    <label>Assigned To</label>
+    <referenceTo>TrackIT__Assignee__c</referenceTo>
+    <relationshipLabel>Items</relationshipLabel>
+    <relationshipName>Items</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

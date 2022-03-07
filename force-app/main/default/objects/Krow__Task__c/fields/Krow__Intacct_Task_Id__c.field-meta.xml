@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Intacct_Task_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Intacct Task ID from Intacct.  Intacct integration configuration is required.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Intacct Task ID from Intacct.  Intacct integration configuration is required.</inlineHelpText>
+    <label>Intacct Task Id</label>
+    <length>30</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

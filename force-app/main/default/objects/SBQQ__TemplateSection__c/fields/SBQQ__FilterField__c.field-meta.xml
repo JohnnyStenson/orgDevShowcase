@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FilterField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field used to filter records rendered by this section.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field used to filter records rendered by this section.</inlineHelpText>
+    <label>Filter Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Optional</fullName>
+                <default>false</default>
+                <label>Optional</label>
+            </value>
+            <value>
+                <fullName>SBQQ__ProductFamily__c</fullName>
+                <default>false</default>
+                <label>SBQQ__ProductFamily__c</label>
+            </value>
+            <value>
+                <fullName>Quote_Line_Item_Section__c</fullName>
+                <default>false</default>
+                <label>Quote_Line_Item_Section__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

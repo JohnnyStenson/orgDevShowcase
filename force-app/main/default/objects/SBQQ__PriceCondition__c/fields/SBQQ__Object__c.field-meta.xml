@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Object__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Object against which the condition is evaluated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Object against which the condition is evaluated.</inlineHelpText>
+    <label>Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>false</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Quote Line</fullName>
+                <default>false</default>
+                <label>Quote Line</label>
+            </value>
+            <value>
+                <fullName>Product Option</fullName>
+                <default>false</default>
+                <label>Product Option</label>
+            </value>
+            <value>
+                <fullName>Summary Variable</fullName>
+                <default>false</default>
+                <label>Summary Variable</label>
+            </value>
+            <value>
+                <fullName>Product2</fullName>
+                <default>false</default>
+                <label>Product2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<apex:page standardController="Opportunity">
+  <apex:outputText style="font-size:3em; color:red; font-weight:bold; margin:20px" value="Attention!"></apex:outputText>
+  <p style="margin:20px; font-size:3em; line-height:2em;">Opportunities start with Evaluating an RFP from Leads. <br />
+  You can create a new RFP to Evaluate by:<br/>
+  Creating a <a href="/lightning/o/Lead/list?filterName=00B1U00000EhxyjUAB" target="_self" style="color:blue; font-size:1.5em;">New Lead</a> 
+  OR<br />
+  Clicking "New RFP to Evaluate" button on an <a href="/lightning/o/Account/list?filterName=00B1U00000DrRdDUAV" target="_self" style="color:blue; font-size:1.5em;">Existing Account</a>.</p>
+  
+</apex:page>

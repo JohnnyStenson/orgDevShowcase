@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SummaryLevel__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Level this column should be summarized at.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set the level on which this column should be summarized.</inlineHelpText>
+    <label>Summary Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>true</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Sub Group</fullName>
+                <default>false</default>
+                <label>Sub Group</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

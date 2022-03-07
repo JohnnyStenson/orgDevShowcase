@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Concrete_Orders</fullName>
+    <columns>Klient_Project__c</columns>
+    <columns>Krow_Task__c</columns>
+    <columns>What_are_we_pouring__c</columns>
+    <columns>DOW__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Time__c</columns>
+    <columns>Actual_Yardage_Ordered__c</columns>
+    <columns>Supplier__c</columns>
+    <columns>Released__c</columns>
+    <columns>Ordered__c</columns>
+    <columns>Notes__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Poured,Canceled</value>
+    </filters>
+    <label>All Open Concrete Orders</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Introduction__c</fullName>
+    <defaultValue>&quot;We provide a full range of masonry services. There is some information attached to this email that further explains what it is that we do. Please feel free to contact us about anything that you may need.&quot;</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Introductory paragraph(s) for automated email. &lt;5,000 words approximately. Place to be personal and use names and titles and credit referrals.</inlineHelpText>
+    <label>Email Introduction</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

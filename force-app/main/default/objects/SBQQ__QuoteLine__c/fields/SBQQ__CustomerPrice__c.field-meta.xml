@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CustomerPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Customer unit price for the product quoted by this line item. This is the Net Unit Price excluding any partner discounts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Customer unit price for the product quoted by this line item. This is the Net Unit Price excluding any partner discounts.</inlineHelpText>
+    <label>Customer Unit Price</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

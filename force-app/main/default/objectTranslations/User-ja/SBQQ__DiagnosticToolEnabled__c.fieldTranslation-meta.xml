@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>CPQ 診断ツールを有効にするために使用します。組織設定が有効になている場合にのみ使用できます。この機能を有効にするには、サポートにお問い合わせください。</help>
+    <label></label>
+    <name>SBQQ__DiagnosticToolEnabled__c</name>
+</CustomFieldTranslation>

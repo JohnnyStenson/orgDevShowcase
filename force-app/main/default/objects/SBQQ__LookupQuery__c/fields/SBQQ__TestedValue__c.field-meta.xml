@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TestedValue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The value you want to match in the field you selected using the operator chosen. Required if Match Type = Static Value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The value you want to match in the field you selected using the operator chosen. Required if Match Type = Static Value.</inlineHelpText>
+    <label>Tested Value</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

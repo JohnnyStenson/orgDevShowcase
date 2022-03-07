@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__All</fullName>
+    <columns>NAME</columns>
+    <columns>Krow__Account__c</columns>
+    <columns>Krow__Project__c</columns>
+    <columns>Krow__Margin_Amount__c</columns>
+    <columns>Krow__Margin_Percent__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

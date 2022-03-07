@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>機器の保守点検取引</value>
+    </caseValues>
+    <nameFieldLabel>レコードの識別</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__MaintTrans_ID_Change_After_Creation_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

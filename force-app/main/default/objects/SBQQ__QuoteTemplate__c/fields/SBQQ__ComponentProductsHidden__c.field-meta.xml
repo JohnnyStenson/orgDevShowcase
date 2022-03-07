@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ComponentProductsHidden__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag that determines whether component products are printed on quote documents, as indicated by the Component checkbox on the product</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox if component products with the Component enabled should not be printed on quote documents.</inlineHelpText>
+    <label>Hide Component Products</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

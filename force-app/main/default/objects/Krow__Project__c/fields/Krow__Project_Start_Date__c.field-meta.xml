@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Start_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The estimated or actual Project Start Date as entered or calculated from the earliest project task start date if the field &quot;Sync Dates&quot; on the project is checked.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The estimated or actual Project Start Date as entered or calculated from the earliest project task start date if the field &quot;Sync Dates&quot; on the project is checked.</inlineHelpText>
+    <label>Project Start Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

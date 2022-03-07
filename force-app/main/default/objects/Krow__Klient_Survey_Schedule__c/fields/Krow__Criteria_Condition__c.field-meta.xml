@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Criteria_Condition__c</fullName>
+    <deprecated>false</deprecated>
+    <description>used to add criteria Condition.</description>
+    <externalId>false</externalId>
+    <label>Criteria Condition</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All of the conditions are met (AND)</fullName>
+                <default>false</default>
+                <label>All of the conditions are met (AND)</label>
+            </value>
+            <value>
+                <fullName>Any of the conditions are met (OR)</fullName>
+                <default>false</default>
+                <label>Any of the conditions are met (OR)</label>
+            </value>
+            <value>
+                <fullName>Custom Logic</fullName>
+                <default>false</default>
+                <label>Custom Logic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

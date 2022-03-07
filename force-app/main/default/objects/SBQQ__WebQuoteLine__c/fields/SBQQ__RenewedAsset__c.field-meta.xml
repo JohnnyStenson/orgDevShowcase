@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RenewedAsset__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Asset being renewed if this line item represents a product renewal.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Asset being renewed if this line item represents a product renewal.</inlineHelpText>
+    <label>Renewed Asset</label>
+    <referenceTo>Asset</referenceTo>
+    <relationshipLabel>Quote Lines</relationshipLabel>
+    <relationshipName>WebQuoteLines</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

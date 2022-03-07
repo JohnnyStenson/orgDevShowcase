@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>sortablegrid__default</name>
+    </fieldSets>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>sortablegrid__Make_sObjectName_Mandatory</name>
+    </validationRules>
+</CustomObjectTranslation>

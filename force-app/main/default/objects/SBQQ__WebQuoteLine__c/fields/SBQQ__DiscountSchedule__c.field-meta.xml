@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DiscountSchedule__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Discount schedule to be used in computing volume unit price. This field is copied from the corresponding product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Discount schedule to be used in computing volume unit price. This field is copied from the corresponding product.</inlineHelpText>
+    <label>Discount Schedule</label>
+    <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>
+    <relationshipLabel>Web Quote Lines</relationshipLabel>
+    <relationshipName>WebQuoteLines</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

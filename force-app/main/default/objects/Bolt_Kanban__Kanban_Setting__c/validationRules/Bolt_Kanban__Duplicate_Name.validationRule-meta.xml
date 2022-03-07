@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bolt_Kanban__Duplicate_Name</fullName>
+    <active>false</active>
+    <errorConditionFormula>Name = VLOOKUP(
+ $ObjectType.Bolt_Kanban__Kanban_Setting__c.Fields.Name ,  
+ $ObjectType.Bolt_Kanban__Kanban_Setting__c.Fields.Name ,  
+Name)</errorConditionFormula>
+    <errorMessage>Kanban Setting is already exist with the provided Name. Kindly provide the different Name</errorMessage>
+</ValidationRule>

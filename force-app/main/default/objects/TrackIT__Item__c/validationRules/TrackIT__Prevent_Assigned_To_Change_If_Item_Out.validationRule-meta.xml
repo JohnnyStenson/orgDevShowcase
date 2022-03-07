@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Prevent_Assigned_To_Change_If_Item_Out</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT( ISNEW() ), ISCHANGED( TrackIT__Assigned_To__c ),
+ PRIORVALUE( TrackIT__Assigned_To__c )   &lt;&gt;  &quot;&quot;,
+  NOT(ISBLANK(TrackIT__Assigned_To__c)) )</errorConditionFormula>
+    <errorDisplayField>TrackIT__Assigned_To__c</errorDisplayField>
+    <errorMessage>Item can not be assigned out until it is assigned back in. Clear this field to assign item in.</errorMessage>
+</ValidationRule>

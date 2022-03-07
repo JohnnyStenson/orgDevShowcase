@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConfiguredSKU__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>SKU which configuration is being constrained.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Product SKU being constrained.</inlineHelpText>
+    <label>Configured SKU</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Option Constraints</relationshipLabel>
+    <relationshipName>Option_Constraints</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

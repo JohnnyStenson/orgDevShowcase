@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Milestone_Completion_Percent__c</fullName>
+    <deprecated>false</deprecated>
+    <description>complete percent of all completed milestone task</description>
+    <externalId>false</externalId>
+    <label>Milestone Completion %</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

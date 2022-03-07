@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Milestone_Task_Payment</fullName>
+    <active>true</active>
+    <description>&apos;Milestone payment&apos; or &apos;Milestone % payment&apos; (Single field) can be filled on task.</description>
+    <errorConditionFormula>NOT(ISBLANK(Krow__Milestone_Payment__c)) &amp;&amp; NOT(ISBLANK( Krow__Milestone_Percent_Payment__c))</errorConditionFormula>
+    <errorMessage>&apos;Milestone payment&apos; or &apos;Milestone % payment&apos; (Single field) can be filled on task.</errorMessage>
+</ValidationRule>

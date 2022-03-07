@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Validate_Against_Project_Hours__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, then when the Timesheet is submitted, it will check the Timesheet Hours for that Project.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, then when the Timesheet is submitted, it will check the Timesheet Hours for that Project.</inlineHelpText>
+    <label>Validate Against Project Hours</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

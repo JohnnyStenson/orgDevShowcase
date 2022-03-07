@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DocumentName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This contains the file name for the related content.</description>
+    <externalId>false</externalId>
+    <formula>IF(((LEFT(SBQQ__ExternalId__c , 3)  = &apos;015&apos;) || (LEFT(SBQQ__ExternalId__c , 3)  = &apos;00P&apos;)), HYPERLINK(&quot;/servlet/servlet.FileDownload?file=&quot; &amp; SBQQ__ExternalId__c, &quot;View Document in New Window&quot;), 
+IF(LEFT(SBQQ__ExternalId__c , 3)  = &apos;069&apos;, HYPERLINK(&quot;/sfc/#version?selectedDocumentId=&quot; &amp; SBQQ__ExternalId__c, &quot;View Content Workspace in New Window&quot;),
+&quot;Not Document or workspace ID Specified&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Enter a file name for the related content.</inlineHelpText>
+    <label>Document Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

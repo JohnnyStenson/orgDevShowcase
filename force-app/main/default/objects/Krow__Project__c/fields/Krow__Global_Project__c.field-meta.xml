@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Global_Project__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Designates if this Project is a Global Project.  If checked, the project is available to all project resources on My Project and on My Timesheet for time entry.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Designates if this Project is a Global Project.  If checked, the project is available to all project resources on My Project and on My Timesheet for time entry.</inlineHelpText>
+    <label>Global Project</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

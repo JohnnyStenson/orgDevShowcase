@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Account_Lookup_Secondary_Field_Api_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A secondary field of account to display under the Account lookup when creating a new Project.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A secondary field of account to display under the Account lookup when creating a new Project.</inlineHelpText>
+    <label>Account Lookup Secondary Field Api Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Cost__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Cost record for this line item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Cost record for this line item.</inlineHelpText>
+    <label>Cost</label>
+    <referenceTo>SBQQ__Cost__c</referenceTo>
+    <relationshipLabel>Quote Lines</relationshipLabel>
+    <relationshipName>QuoteLines</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

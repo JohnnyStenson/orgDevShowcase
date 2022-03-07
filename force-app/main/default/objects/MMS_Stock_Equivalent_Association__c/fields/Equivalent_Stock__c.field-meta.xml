@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equivalent_Stock__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>stock that can replace it</inlineHelpText>
+    <label>Equivalent Stock</label>
+    <referenceTo>MMS_Stock__c</referenceTo>
+    <relationshipLabel>Stock Equivalent Associations (Equivalent Stock)</relationshipLabel>
+    <relationshipName>Stock_Equivalent_Associations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

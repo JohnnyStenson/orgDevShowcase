@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Utilization__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(OR(OR(ISBLANK(Krow__Work_Week_Hours__c), ISBLANK(Krow__Target_Utilization__c)), 
+OR(IF(Krow__Work_Week_Hours__c = 0, TRUE, FALSE), IF(Krow__Target_Utilization__c = 0, TRUE, FALSE))), 0, (Krow__Total_Hours__c / (Krow__Work_Week_Hours__c * Krow__Target_Utilization__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Utilization %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

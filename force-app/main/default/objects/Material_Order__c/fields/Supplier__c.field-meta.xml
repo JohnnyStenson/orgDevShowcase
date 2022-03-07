@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>If Account not in System, create a New Inventory Supplier Account</inlineHelpText>
+    <label>Supplier</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.Type</field>
+            <operation>equals</operation>
+            <value>Supplier</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Material Orders</relationshipLabel>
+    <relationshipName>Material_Orders</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

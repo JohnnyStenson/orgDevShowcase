@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Jira_Default_Project_Owner_Email__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Default owner email to define project owner for a project created from jira</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default owner email to define project owner for a project created from jira</inlineHelpText>
+    <label>Jira Default Project Owner Email</label>
+    <length>60</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

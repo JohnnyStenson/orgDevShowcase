@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Assigned_Approver_Can_Edit_Record__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Assigned approver can edit record during approval process</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Assigned approver can edit record during approval process</inlineHelpText>
+    <label>Assigned Approver Can Edit Record</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

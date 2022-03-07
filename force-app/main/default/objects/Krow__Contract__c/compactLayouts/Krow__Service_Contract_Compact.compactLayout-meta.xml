@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Service_Contract_Compact</fullName>
+    <fields>Krow__Account__c</fields>
+    <fields>Krow__Contract_Status__c</fields>
+    <fields>Krow__Start_Date__c</fields>
+    <fields>Krow__End_Date__c</fields>
+    <fields>OwnerId</fields>
+    <label>Service Contract Compact</label>
+</CompactLayout>

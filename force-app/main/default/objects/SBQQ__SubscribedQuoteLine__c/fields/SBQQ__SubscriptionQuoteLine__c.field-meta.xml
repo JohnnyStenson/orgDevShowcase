@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SubscriptionQuoteLine__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Subscription quote line that covers the asset quote line.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Subscription quote line that covers the asset quote line.</inlineHelpText>
+    <label>Subscription Quote Line</label>
+    <referenceTo>SBQQ__QuoteLine__c</referenceTo>
+    <relationshipLabel>Subscribed Quote Lines (Subscription Quote Line)</relationshipLabel>
+    <relationshipName>SubscriptionQuoteLines</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

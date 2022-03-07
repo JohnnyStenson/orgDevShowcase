@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A description of this task as entered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A description of this task as entered.</inlineHelpText>
+    <label>Description</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

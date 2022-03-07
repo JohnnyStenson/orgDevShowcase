@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Milestone_Required</fullName>
+    <active>true</active>
+    <description>If custom settings Milestone required is ON then, Milestone field is required to save the timesheet.</description>
+    <errorConditionFormula>AND($Setup.Krow__Krow_Timesheet_Configuration__c.Krow__Milestone_Required__c, AND(NOT(Krow__Is_From_PTO__c), NOT(Krow__Is_From_Holidays__c), ISBLANK(Krow__Milestone__c)))</errorConditionFormula>
+    <errorMessage>Milestone field is required to save the timesheet.</errorMessage>
+</ValidationRule>

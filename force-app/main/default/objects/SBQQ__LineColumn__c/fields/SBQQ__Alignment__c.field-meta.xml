@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Alignment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines how the column label and values are aligned.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines how the column label and values are aligned.</inlineHelpText>
+    <label>Alignment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Left</fullName>
+                <default>true</default>
+                <label>Left</label>
+            </value>
+            <value>
+                <fullName>Center</fullName>
+                <default>false</default>
+                <label>Center</label>
+            </value>
+            <value>
+                <fullName>Right</fullName>
+                <default>false</default>
+                <label>Right</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

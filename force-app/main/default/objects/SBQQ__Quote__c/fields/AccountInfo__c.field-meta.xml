@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountInfo__c</fullName>
+    <description>Concatenated text of Account info for Quote</description>
+    <externalId>false</externalId>
+    <formula>SBQQ__Account__r.Name &amp; BR() &amp;  SBQQ__Account__r.BillingStreet  &amp; &quot; &quot; &amp; BR() &amp; SBQQ__Account__r.BillingCity &amp; &quot;, &quot; &amp;   SBQQ__Account__r.BillingState &amp; &quot; &quot; &amp; BR() &amp; SBQQ__Account__r.BillingPostalCode &amp; &quot; &quot; &amp; BR() &amp;
+ SBQQ__Account__r.Phone</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AccountInfo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

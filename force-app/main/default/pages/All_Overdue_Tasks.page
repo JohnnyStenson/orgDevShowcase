@@ -1,0 +1,5 @@
+<apex:page >
+     <script type="text/javascript">
+          parent.frames.location.replace("/lightning/o/Krow__Task__c/list?filterName=00B1U00000EhtjGUAR");
+     </script>
+</apex:page>

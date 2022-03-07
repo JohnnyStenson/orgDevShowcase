@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ScopeAndErrorConditionTestedObject</fullName>
+    <active>true</active>
+    <description>Validation for the combination of Product Scope and Tested Object.</description>
+    <errorConditionFormula>OR(AND(ISPICKVAL(SBQQ__Rule__r.SBQQ__Scope__c,&quot;Quote&quot;),OR(ISPICKVAL(SBQQ__TestedObject__c, &quot;Product Option&quot;),ISPICKVAL(SBQQ__TestedObject__c, &quot;Configuration Attributes&quot;))),AND(ISPICKVAL(SBQQ__Rule__r.SBQQ__Scope__c,&quot;Product&quot;),ISPICKVAL(SBQQ__TestedObject__c, &quot;Quote Line&quot;)))</errorConditionFormula>
+    <errorMessage>This combination of ProductRule.Scope and ErrorCondition.TestedObject is not valid.</errorMessage>
+</ValidationRule>

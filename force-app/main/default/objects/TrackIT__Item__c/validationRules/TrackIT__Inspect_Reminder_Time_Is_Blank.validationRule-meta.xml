@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Inspect_Reminder_Time_Is_Blank</fullName>
+    <active>true</active>
+    <description>Displays error message if Inspection Reminder Time is blank and 
+Add Inspection Reminder to Calendar is checked.</description>
+    <errorConditionFormula>AND(TrackIT__Add_Inspection_Reminder_to_Calendar__c   = TRUE,ISPICKVAL(TrackIT__Inspection_Reminder_Time__c , &apos;&apos;) )</errorConditionFormula>
+    <errorDisplayField>TrackIT__Inspection_Reminder_Time__c</errorDisplayField>
+    <errorMessage>Enter the Inspection Reminder Time. Required if adding inspection reminder time to calendar.</errorMessage>
+</ValidationRule>

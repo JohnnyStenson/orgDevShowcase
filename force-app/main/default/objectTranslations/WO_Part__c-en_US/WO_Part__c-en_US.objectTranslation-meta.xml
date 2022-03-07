@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>WO Part PO</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>WO Part POs</value>
+    </caseValues>
+    <layouts>
+        <layout>WO Part Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fulfillment Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fulfillment Text</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Order Text</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Ordering Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Create_New_Inventory_PO</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Order</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

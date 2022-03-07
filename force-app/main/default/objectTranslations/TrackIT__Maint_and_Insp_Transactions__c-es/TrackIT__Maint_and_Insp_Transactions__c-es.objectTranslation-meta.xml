@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transacción de mantenimiento e inspección de equipos.</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transacciones de mantenimiento e inspección de equipos.</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Registro de identificación</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__MaintTrans_ID_Change_After_Creation_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

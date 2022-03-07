@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of rule. Validation displays error messages. Selection causes products to be added or suggested. Alert displays a warning, but requires no rectification. Filter refines option lookup results for Dynamic Bundles.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of rule. Validation displays error messages. Selection causes products to be added or suggested. Alert displays a warning, but requires no rectification. Filter refines option lookup results for Dynamic Bundles.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Validation</fullName>
+                <default>false</default>
+                <label>Validation</label>
+            </value>
+            <value>
+                <fullName>Selection</fullName>
+                <default>false</default>
+                <label>Selection</label>
+            </value>
+            <value>
+                <fullName>Alert</fullName>
+                <default>false</default>
+                <label>Alert</label>
+            </value>
+            <value>
+                <fullName>Filter</fullName>
+                <default>false</default>
+                <label>Filter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

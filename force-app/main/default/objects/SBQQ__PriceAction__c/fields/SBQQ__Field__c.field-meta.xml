@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Field__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the field you want updated when the conditions are met.</inlineHelpText>
+    <label>Target Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unit Price</fullName>
+                <default>false</default>
+                <label>Unit Price</label>
+            </value>
+            <value>
+                <fullName>Discount (%)</fullName>
+                <default>false</default>
+                <label>Discount (%)</label>
+            </value>
+            <value>
+                <fullName>Discount (Amt)</fullName>
+                <default>false</default>
+                <label>Discount (Amt)</label>
+            </value>
+            <value>
+                <fullName>Markup (%)</fullName>
+                <default>false</default>
+                <label>Markup (%)</label>
+            </value>
+            <value>
+                <fullName>Markup (Amt)</fullName>
+                <default>false</default>
+                <label>Markup (Amt)</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Quantity__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Quantity__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Description__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Description__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__ProductName__c</fullName>
+                <default>false</default>
+                <label>SBQQ__ProductName__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

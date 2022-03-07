@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Cannot_Create_PriceDimension_Evergreen</fullName>
+    <active>true</active>
+    <description>Cannot create price dimension for evergreen or renewable/evergreen subscription type</description>
+    <errorConditionFormula>OR(ISPICKVAL( SBQQ__Product__r.SBQQ__SubscriptionType__c , &apos;Evergreen&apos;),  ISPICKVAL( SBQQ__Product__r.SBQQ__SubscriptionType__c , &apos;Renewable/Evergreen&apos;))</errorConditionFormula>
+    <errorMessage>Can’t create MDQ price dimensions for evergreen or renewable/evergreen products.</errorMessage>
+</ValidationRule>

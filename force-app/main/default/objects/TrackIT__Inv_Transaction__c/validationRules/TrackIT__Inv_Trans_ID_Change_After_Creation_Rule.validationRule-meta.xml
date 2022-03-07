@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Inv_Trans_ID_Change_After_Creation_Rule</fullName>
+    <active>true</active>
+    <description>Prevents users from changing Inventory Transaction ID after the Inventory Transaction Record is initially created.</description>
+    <errorConditionFormula>IF(ISNULL( PRIORVALUE( Name )),FALSE,ISCHANGED( Name ) )</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Inventory Transaction ID cannot be changed after initial creation.</errorMessage>
+</ValidationRule>

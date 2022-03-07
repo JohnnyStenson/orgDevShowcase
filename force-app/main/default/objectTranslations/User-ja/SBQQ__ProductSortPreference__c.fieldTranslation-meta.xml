@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積を追加するときに他の商品よりも前に Chatter でフォローした商品を表示する場合は、[フォロー済み] を選択します。</help>
+    <label></label>
+    <name>SBQQ__ProductSortPreference__c</name>
+    <picklistValues>
+        <masterLabel>Followed</masterLabel>
+        <translation>フォロー済み</translation>
+    </picklistValues>
+</CustomFieldTranslation>

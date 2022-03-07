@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Priority__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A priority for this task as selected.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A priority for this task as selected.</inlineHelpText>
+    <label>Priority</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Normal</fullName>
+                <default>true</default>
+                <label>Normal</label>
+            </value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

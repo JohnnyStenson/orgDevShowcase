@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Timesheet_Approval_Submission__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, Timesheet wouldn&apos;t be submitted in approval process.</description>
+    <externalId>false</externalId>
+    <label>Disable Timesheet Approval Submission</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

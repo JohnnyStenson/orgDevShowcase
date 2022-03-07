@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Quote__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Quote related to this content.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Quote related to this content.</inlineHelpText>
+    <label>Quote</label>
+    <referenceTo>SBQQ__Quote__c</referenceTo>
+    <relationshipName>RelatedContent</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Curb_Size__c</fullName>
+    <externalId>false</externalId>
+    <label>Curb Size</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>6x8x18</fullName>
+                <default>false</default>
+                <label>6x8x18</label>
+            </value>
+            <value>
+                <fullName>8x9x18</fullName>
+                <default>false</default>
+                <label>8x9x18</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

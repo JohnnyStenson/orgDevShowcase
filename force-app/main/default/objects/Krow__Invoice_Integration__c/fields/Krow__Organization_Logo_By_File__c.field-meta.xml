@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Organization_Logo_By_File__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this is checked then the logo on Organization will save as a file instead of an attachment and the log will display on the Invoice from the file</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this is checked then the logo on Organization will save as a file instead of an attachment and the log will display on the Invoice from the file</inlineHelpText>
+    <label>Organization Logo By File</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

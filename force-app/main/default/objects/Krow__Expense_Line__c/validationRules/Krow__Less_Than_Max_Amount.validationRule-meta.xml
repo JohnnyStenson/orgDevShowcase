@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Less_Than_Max_Amount</fullName>
+    <active>true</active>
+    <description>Amount entered in this field should be less than maximun amount on expense type max amount field.</description>
+    <errorConditionFormula>Krow__Expense_Amount__c &gt; Krow__Expense_Type__r.Krow__Max_Amount__c</errorConditionFormula>
+    <errorMessage>The amount entered is greater than the maximum allowable for this expense type.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Target_Object_Validation</fullName>
+    <active>true</active>
+    <description>Prevents users from creating Price Actions targeting an out-of-scope object.</description>
+    <errorConditionFormula>(ISPICKVAL(SBQQ__TargetObject__c, &apos;Product Option&apos;) &amp;&amp; NOT(ISPICKVAL(SBQQ__Rule__r.SBQQ__TargetObject__c, &apos;Product Option&apos;) || ISPICKVAL(SBQQ__Rule__r.SBQQ__TargetObject__c, &apos;Configurator&apos;))) || ((ISPICKVAL(SBQQ__TargetObject__c, &apos;Quote&apos;) || ISPICKVAL(SBQQ__TargetObject__c, &apos;Quote Line&apos;) || ISPICKVAL(SBQQ__TargetObject__c, &apos;Quote Line Pricing Guidance&apos;)) &amp;&amp; NOT(ISPICKVAL(SBQQ__Rule__r.SBQQ__TargetObject__c, &apos;Quote Line&apos;) || ISPICKVAL(SBQQ__Rule__r.SBQQ__TargetObject__c, &apos;Calculator&apos;)))</errorConditionFormula>
+    <errorDisplayField>SBQQ__TargetObject__c</errorDisplayField>
+    <errorMessage>Price Action Target Object does not match Evaluation Scope</errorMessage>
+</ValidationRule>

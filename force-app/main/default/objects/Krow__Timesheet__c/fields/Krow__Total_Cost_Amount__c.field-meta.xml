@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Total_Cost_Amount__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Total Cost Amount</label>
+    <summarizedField>Krow__Timesheet_Split__c.Krow__Cost_Amount__c</summarizedField>
+    <summaryForeignKey>Krow__Timesheet_Split__c.Krow__Timesheet__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PriceBook__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Price Book associated with this web quote.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Price Book associated with this web quote.</inlineHelpText>
+    <label>Price Book</label>
+    <referenceTo>Pricebook2</referenceTo>
+    <relationshipLabel>Web Quotes</relationshipLabel>
+    <relationshipName>Web_Quotes</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

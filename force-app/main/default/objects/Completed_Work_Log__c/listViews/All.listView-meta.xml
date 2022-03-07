@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Crew__c</columns>
+    <columns>Job__c</columns>
+    <columns>Quote_Line_Group__c</columns>
+    <columns>Type_of_Work__c</columns>
+    <columns>Pay_Item__c</columns>
+    <columns>Work_Performed__c</columns>
+    <columns>Measurement__c</columns>
+    <columns>Unit_of_Measure__c</columns>
+    <columns>First_Misc_Material__c</columns>
+    <columns>Second_Misc_Material__c</columns>
+    <columns>Third_Misc_Material__c</columns>
+    <columns>Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

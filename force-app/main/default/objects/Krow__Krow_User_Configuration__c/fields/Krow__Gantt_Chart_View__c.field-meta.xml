@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Gantt_Chart_View__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>to control default view on my project tab</description>
+    <externalId>false</externalId>
+    <label>Gantt Chart View</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

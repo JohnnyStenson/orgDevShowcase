@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Run_Auto_Save_Process__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When It&apos;s Checked then If saving fails on my timesheet due to Unable to lock error then run autosave process for fail rows.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When It&apos;s Checked then If saving fails on my timesheet due to Unable to lock error then run autosave process for fail rows.</inlineHelpText>
+    <label>Run Auto Save Process</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

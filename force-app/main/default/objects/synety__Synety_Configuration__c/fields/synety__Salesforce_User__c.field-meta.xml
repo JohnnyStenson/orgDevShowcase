@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__Salesforce_User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Salesforce User</label>
+    <lookupFilter>
+        <active>false</active>
+        <errorMessage>Users with only Standard profile(s) are allowed.</errorMessage>
+        <filterItems>
+            <field>User.Profile.UserType</field>
+            <operation>equals</operation>
+            <value>Standard</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Synety_Configurations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

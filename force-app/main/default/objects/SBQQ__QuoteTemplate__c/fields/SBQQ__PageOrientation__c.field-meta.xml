@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PageOrientation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Page orientation of PDF documents generated with this template.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Page orientation of PDF documents generated with this template.</inlineHelpText>
+    <label>Page Orientation</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Portrait</fullName>
+                <default>true</default>
+                <label>Portrait</label>
+            </value>
+            <value>
+                <fullName>Landscape</fullName>
+                <default>false</default>
+                <label>Landscape</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

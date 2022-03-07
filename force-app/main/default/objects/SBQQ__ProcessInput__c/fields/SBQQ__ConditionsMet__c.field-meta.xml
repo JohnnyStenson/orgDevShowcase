@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConditionsMet__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates which Process Input conditions must be met.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicate which Process Input conditions must be met.</inlineHelpText>
+    <label>Conditions Met</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Any</fullName>
+                <default>false</default>
+                <label>Any</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

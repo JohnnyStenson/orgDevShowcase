@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Org_wide_Email_Address_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>used to store Org-wide Email Address Id.</description>
+    <externalId>false</externalId>
+    <label>Org-wide Email Address Id</label>
+    <length>26</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

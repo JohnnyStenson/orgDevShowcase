@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Open_Work_Orders</fullName>
+    <columns>NAME</columns>
+    <columns>TrackIT__Request_Priority__c</columns>
+    <columns>Repair_Item_Description__c</columns>
+    <columns>TrackIT__Expected_End_Date_Time__c</columns>
+    <columns>TrackIT__Completed__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TrackIT__Completed__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Open Work Orders</label>
+</ListView>

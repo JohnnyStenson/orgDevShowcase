@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Full_Week_Entry__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Field is used to put total hours for week and used to split as per work schedules</description>
+    <externalId>false</externalId>
+    <label>Enable Full Week Entry</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

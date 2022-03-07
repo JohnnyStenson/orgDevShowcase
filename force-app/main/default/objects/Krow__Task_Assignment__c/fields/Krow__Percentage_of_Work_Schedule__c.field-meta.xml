@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Percentage_of_Work_Schedule__c</fullName>
+    <deprecated>false</deprecated>
+    <description>% of Work Schedule hours to populate the hours.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>% of Work Schedule hours to populate the hours.</inlineHelpText>
+    <label>% of Work Schedule</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

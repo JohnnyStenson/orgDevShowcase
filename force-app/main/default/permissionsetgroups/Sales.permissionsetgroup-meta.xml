@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales</label>
+    <permissionSets>CMTD__CMTD_ERL_Permission_Set</permissionSets>
+    <permissionSets>ChatAndAlertsOnDesktop</permissionSets>
+    <permissionSets>ChatAndAlertsOnMobile</permissionSets>
+    <permissionSets>Concrete_Orders</permissionSets>
+    <permissionSets>Custom_Facility_Manager_User_Permissions</permissionSets>
+    <permissionSets>Inventory</permissionSets>
+    <permissionSets>Krow__Krow_User</permissionSets>
+    <permissionSets>Mobile</permissionSets>
+    <permissionSets>flowmagic__Flow_Magic_Picklists_User</permissionSets>
+    <permissionSets>force__CRMUserPsl</permissionSets>
+    <permissionSets>force__SalesConsoleUser</permissionSets>
+    <permissionSets>force__SalesUserPsl</permissionSets>
+    <permissionSets>force__StandardEinsteinActivityCapturePsl</permissionSets>
+    <permissionSets>slackv2__Slack_Standard_User</permissionSets>
+    <permissionSets>synety__CloudCall_for_Salesforce</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Include_in_Rev_Rec__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, this project will be included in Revenue Recognition processing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, this project will be included in Revenue Recognition processing.</inlineHelpText>
+    <label>Include in Rev Rec</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Survey__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>used to store Survey Id.</description>
+    <externalId>false</externalId>
+    <label>Survey</label>
+    <referenceTo>Krow__Survey__c</referenceTo>
+    <relationshipLabel>Klient Survey Schedules</relationshipLabel>
+    <relationshipName>Klient_Survey_Schedules</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

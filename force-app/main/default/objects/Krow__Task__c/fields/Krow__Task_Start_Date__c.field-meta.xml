@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Task_Start_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A calculated date/time field representing the Task Start Date.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A calculated date/time field representing the Task Start Date.</inlineHelpText>
+    <label>Task Start Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

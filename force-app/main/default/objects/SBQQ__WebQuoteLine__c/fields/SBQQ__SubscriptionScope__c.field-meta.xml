@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SubscriptionScope__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines how dynamic subscription prices are calculated. If scope is set to &quot;Quote&quot; any non-subscription product is used in calculating every dynamic subscription. If scope is set to &quot;Group&quot; only products in the same group as the dynamic subscription are used.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines how dynamic subscription prices are calculated: Quote uses all the non-subscription products in the quote while Group uses only non-subscription products in the same group.</inlineHelpText>
+    <label>Subscription Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>true</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Group</fullName>
+                <default>false</default>
+                <label>Group</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

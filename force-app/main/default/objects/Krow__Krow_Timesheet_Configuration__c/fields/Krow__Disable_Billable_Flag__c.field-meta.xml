@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Billable_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, will hide the flag on my timesheet.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, will hide the flag on my timesheet.</inlineHelpText>
+    <label>Disable Billable Flag</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

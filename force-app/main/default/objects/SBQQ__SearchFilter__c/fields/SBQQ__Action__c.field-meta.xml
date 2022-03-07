@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Action__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Action to which this filter applies. Blank value means the filter is global.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Action to which this filter applies. Blank value means the filter is global.</inlineHelpText>
+    <label>Action</label>
+    <referenceTo>SBQQ__CustomAction__c</referenceTo>
+    <relationshipLabel>Search Filters</relationshipLabel>
+    <relationshipName>SearchFilters</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

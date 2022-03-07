@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Default_Invoice_Account_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To be used when no account code is specified in invoice intacct account id field.</description>
+    <externalId>false</externalId>
+    <label>Default Invoice Account Code</label>
+    <length>30</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

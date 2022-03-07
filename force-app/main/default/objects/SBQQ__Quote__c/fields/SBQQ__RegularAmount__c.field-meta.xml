@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RegularAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Roll up of regular amounts of quote products.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total amount of non-optional line times before additional discounts are applied.</inlineHelpText>
+    <label>Regular Amount</label>
+    <summarizedField>SBQQ__QuoteLine__c.SBQQ__RegularTotal__c</summarizedField>
+    <summaryFilterItems>
+        <field>SBQQ__QuoteLine__c.SBQQ__Optional__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>SBQQ__QuoteLine__c.SBQQ__Quote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

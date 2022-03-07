@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Sync_Message__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Sync Message</description>
+    <externalId>false</externalId>
+    <label>Sync Message</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

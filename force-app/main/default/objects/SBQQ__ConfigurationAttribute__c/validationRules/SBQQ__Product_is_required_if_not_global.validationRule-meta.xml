@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Product_is_required_if_not_global</fullName>
+    <active>false</active>
+    <description>Product is required (not implemented; override existing validation rule behavior for existing orgs</description>
+    <errorConditionFormula>false</errorConditionFormula>
+    <errorMessage>Product is required.</errorMessage>
+</ValidationRule>

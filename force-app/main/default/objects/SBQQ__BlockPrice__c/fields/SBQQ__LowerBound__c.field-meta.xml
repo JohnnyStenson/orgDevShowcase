@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__LowerBound__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Lower bound of the quantity range for this block price.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lower bound of the quantity range for this block price.</inlineHelpText>
+    <label>Lower Bound</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

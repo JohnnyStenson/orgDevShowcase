@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FooterHeight__c</fullName>
+    <defaultValue>15</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Height of the footer on documents generated from this template.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Height of the footer on documents generated from this template.</inlineHelpText>
+    <label>Footer Height</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

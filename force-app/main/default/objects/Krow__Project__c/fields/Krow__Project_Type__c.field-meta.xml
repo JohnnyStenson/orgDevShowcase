@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>a designated Project Type as entered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>a designated Project Type as entered.</inlineHelpText>
+    <label>Project Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Time &amp; Material</fullName>
+                <default>true</default>
+                <label>Time &amp; Material</label>
+            </value>
+            <value>
+                <fullName>Fixed Fee</fullName>
+                <default>false</default>
+                <label>Fixed Fee</label>
+            </value>
+            <value>
+                <fullName>Milestone</fullName>
+                <default>false</default>
+                <label>Milestone</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

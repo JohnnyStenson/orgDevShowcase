@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Rental_Charge__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Rental cost for day</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rental charge per day used to calculate the rental amount for items assigned out</inlineHelpText>
+    <label>Rental Charge</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

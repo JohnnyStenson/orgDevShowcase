@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PriceEditable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag indicating if this line item&apos;s price is editable.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox to indicate that this line item&apos;s price is editable.</inlineHelpText>
+    <label>Price Editable</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

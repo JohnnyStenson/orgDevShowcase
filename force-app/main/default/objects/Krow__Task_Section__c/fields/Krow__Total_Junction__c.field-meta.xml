@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Total_Junction__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Total Junction</label>
+    <summaryForeignKey>Krow__Task_Section_Junction__c.Krow__Task_Section__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

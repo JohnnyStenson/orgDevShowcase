@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__BorderColor__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Color of table borders expressed as a hexadecimal value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Color of table borders expressed as a hexadecimal value.</inlineHelpText>
+    <label>Border Color</label>
+    <length>6</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

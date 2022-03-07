@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__UserDefined__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>To indicate whether this field is user-defined or not.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To indicate whether this field is user-defined or not.</inlineHelpText>
+    <label>User Defined</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

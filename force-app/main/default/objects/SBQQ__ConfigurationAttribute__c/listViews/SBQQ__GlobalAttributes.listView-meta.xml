@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__GlobalAttributes</fullName>
+    <columns>NAME</columns>
+    <columns>SBQQ__TargetField__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>SBQQ__ConfigurationAttribute__c.SBQQ__Global_Attribute</value>
+    </filters>
+    <label>Global Attributes</label>
+    <language>en_US</language>
+</ListView>

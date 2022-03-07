@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__View_Project</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>View Project</masterLabel>
+    <openType>replace</openType>
+    <page>Krow__ViewProposalProjectFwd</page>
+    <protected>false</protected>
+</WebLink>

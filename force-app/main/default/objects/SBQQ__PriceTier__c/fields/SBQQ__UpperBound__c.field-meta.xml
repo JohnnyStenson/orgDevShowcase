@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__UpperBound__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Upper bound of the quantity range for this tier.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Upper bound of the quantity range for this tier.</inlineHelpText>
+    <label>Upper Bound</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

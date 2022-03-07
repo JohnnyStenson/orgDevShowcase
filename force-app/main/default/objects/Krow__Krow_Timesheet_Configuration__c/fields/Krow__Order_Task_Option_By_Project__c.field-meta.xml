@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Order_Task_Option_By_Project__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>By enable this task option will display sort by project task on my timesheet</description>
+    <externalId>false</externalId>
+    <inlineHelpText>By enable this task option will display sort by project task on my timesheet</inlineHelpText>
+    <label>Order Task Option By Project</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Send_Survey_To__c</fullName>
+    <deprecated>false</deprecated>
+    <description>to whom surveys will be sent.</description>
+    <externalId>false</externalId>
+    <label>Send Survey To</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All Account Contacts</fullName>
+                <default>false</default>
+                <label>All Account Contacts</label>
+            </value>
+            <value>
+                <fullName>Project Related Contact Field(s)</fullName>
+                <default>false</default>
+                <label>Project Related Contact Field(s)</label>
+            </value>
+            <value>
+                <fullName>Account Contact(s) with specific role(s)</fullName>
+                <default>false</default>
+                <label>Account Contact(s) with specific role(s)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

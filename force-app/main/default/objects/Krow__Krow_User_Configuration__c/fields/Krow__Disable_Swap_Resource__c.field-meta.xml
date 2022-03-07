@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Swap_Resource__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>if checked, the User would NOT see the Swap Resource tab</description>
+    <externalId>false</externalId>
+    <inlineHelpText>if checked, the User would NOT see the Swap Resource tab</inlineHelpText>
+    <label>Disable Swap Resource</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

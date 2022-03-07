@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Value_attr_required_if_global_field</fullName>
+    <active>true</active>
+    <description>Value Attribute required since the Value Field is a global Configuration Attribute field.</description>
+    <errorConditionFormula>IF(TEXT(SBQQ__ValueObject__c) == &apos;Configuration Attributes&apos; &amp;&amp; CONTAINS(TEXT(SBQQ__ValueField__c), &apos;.&apos;) &amp;&amp; SBQQ__ValueAttribute__c == &apos;&apos;, true, false)</errorConditionFormula>
+    <errorMessage>Value Attribute required since the Value Field is a global Configuration Attribute field.</errorMessage>
+</ValidationRule>

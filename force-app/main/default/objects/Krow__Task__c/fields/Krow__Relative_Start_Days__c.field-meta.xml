@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Relative_Start_Days__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used only during project creation from a template.  Here you can set a relative number of days from the project start date this task should start (task start date) when the project is created.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used only during project creation from a template.  Here you can set a relative number of days from the project start date this task should start (task start date) when the project is created.</inlineHelpText>
+    <label>Relative Start Days</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Bundled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that related product is bundled with the main product. Bundled options have fixed quantity and zero price.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox to indicate that the related product is bundled with the main product. Bundled options have fixed quantity and zero price as price is included in the main product. Leave this unchecked if the price should be added to the option.</inlineHelpText>
+    <label>Bundled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

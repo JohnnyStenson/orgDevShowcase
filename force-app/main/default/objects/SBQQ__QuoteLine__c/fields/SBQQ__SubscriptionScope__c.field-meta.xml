@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SubscriptionScope__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines how percent of total product prices are calculated. If scope is set to &quot;Quote&quot; any non-subscription and include in percent of total product is used in calculating every percent of total price. If scope is set to &quot;Group&quot; only products in the same group as the percent of total product are used in calculation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates how percent of total prices are calculated: Quote uses all the non-subscription and include in percent of total products in the quote while Group uses only non-subscription products and include in percent of total products in the same group.</inlineHelpText>
+    <label>Percent of Total Scope</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>true</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>Group</fullName>
+                <default>false</default>
+                <label>Group</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

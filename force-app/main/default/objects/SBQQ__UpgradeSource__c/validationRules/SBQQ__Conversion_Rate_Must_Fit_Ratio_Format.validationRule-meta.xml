@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Conversion_Rate_Must_Fit_Ratio_Format</fullName>
+    <active>true</active>
+    <description>Guarantee that the Upgrade Conversion Rate is in the form of a ratio.</description>
+    <errorConditionFormula>NOT(REGEX(BLANKVALUE(SBQQ__UpgradeConversionRate__c, &quot;1:1&quot;), &quot;[1-9][\\d]*:[1-9][\\d]*&quot;))</errorConditionFormula>
+    <errorMessage>Conversion Rate must be represented as a ratio of the format &quot;Upgrade Source:Upgrade Product&quot;.</errorMessage>
+</ValidationRule>

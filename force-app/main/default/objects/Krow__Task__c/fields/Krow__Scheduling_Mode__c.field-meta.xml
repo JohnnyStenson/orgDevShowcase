@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Scheduling_Mode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Represents the Scheduling Mode for this Task (Normal/Fixed Duration, Fixed Effort).  The default mode is &quot;Normal&quot;, unless set as a different default mode on the Project.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default: Fixed Duration</inlineHelpText>
+    <label>Scheduling Mode</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Normal</fullName>
+                <default>false</default>
+                <label>Normal</label>
+            </value>
+            <value>
+                <fullName>Fixed Effort</fullName>
+                <default>false</default>
+                <label>Fixed Effort</label>
+            </value>
+            <value>
+                <fullName>Fixed Duration</fullName>
+                <default>true</default>
+                <label>Fixed Duration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

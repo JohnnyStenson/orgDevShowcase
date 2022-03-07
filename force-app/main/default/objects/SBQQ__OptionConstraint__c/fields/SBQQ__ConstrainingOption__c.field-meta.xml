@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConstrainingOption__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Option that&apos;s constraining another option.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose an additional option if the Constrained Option is constraining another option.</inlineHelpText>
+    <label>Constraining Option</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.SBQQ__ConfiguredSKU__c</field>
+            <operation>equals</operation>
+            <valueField>SBQQ__ProductOption__c.SBQQ__ConfiguredSKU__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>SBQQ__ProductOption__c</referenceTo>
+    <relationshipLabel>Constraining</relationshipLabel>
+    <relationshipName>Constraining</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

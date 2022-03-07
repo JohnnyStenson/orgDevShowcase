@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Num_Unique_Key_is_not_one</fullName>
+    <active>true</active>
+    <description>More than 1 unique key defined in Import Column.</description>
+    <errorConditionFormula>If(SBQQ__UniqueKeyCount__c &gt; 1, true, false)</errorConditionFormula>
+    <errorMessage>More than 1 unique key defined in Import Column.</errorMessage>
+</ValidationRule>

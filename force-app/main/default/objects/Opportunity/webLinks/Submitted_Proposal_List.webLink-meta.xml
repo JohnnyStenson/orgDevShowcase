@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submitted_Proposal_List</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Submitted Proposal List</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>https://thundernj.lightning.force.com/lightning/o/Opportunity/list?filterName=00B1U00000ESf5dUAD</url>
+</WebLink>

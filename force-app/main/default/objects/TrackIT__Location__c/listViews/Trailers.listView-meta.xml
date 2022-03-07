@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trailers</fullName>
+    <columns>NAME</columns>
+    <columns>TrackIT__Description__c</columns>
+    <columns>License_Plate__c</columns>
+    <columns>VIN__c</columns>
+    <columns>Item_Equivalent__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Location_Type__c</field>
+        <operation>equals</operation>
+        <value>Trailer</value>
+    </filters>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Trailers</label>
+</ListView>

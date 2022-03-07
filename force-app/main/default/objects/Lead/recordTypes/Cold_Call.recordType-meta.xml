@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cold_Call</fullName>
+    <active>true</active>
+    <businessProcess>Cold Call</businessProcess>
+    <label>Cold Call / New Commercial</label>
+    <picklistValues>
+        <picklist>Account_s_Job_Status__c</picklist>
+        <values>
+            <fullName>Bidding Job</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Has Job</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Acct_Oppty_Type__c</picklist>
+        <values>
+            <fullName>New Commercial</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>New Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repeat Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repeat Residential</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Commercial Builder</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Excavator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Improvement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Home Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paving</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Google Search</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hell Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>StandardLeadTasks__c</picklist>
+        <values>
+            <fullName>Convert To Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enter Notes From Paper</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Follow Up Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Special Email</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

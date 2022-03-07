@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Hire_Resource</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Hire Resource</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!requireScript(&quot;/soap/ajax/26.0/connection.js&quot;)} 
+var application= new sforce.SObject(&quot;Krow__Application__c&quot;); 
+application.id = &apos;{!Krow__Application__c.Id}&apos; 
+
+application.Krow__Status__c=&apos;Hired&apos;; 
+sforce.connection.update([application]); 
+window.location.reload();</url>
+</WebLink>

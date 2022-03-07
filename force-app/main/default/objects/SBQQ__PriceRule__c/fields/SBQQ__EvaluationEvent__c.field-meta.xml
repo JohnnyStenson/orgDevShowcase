@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__EvaluationEvent__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Event that causes this rule to be evaluated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify when this rule should be evaluated. Only to be used when targeting Quote Line and not supported on legacy calculator.</inlineHelpText>
+    <label>Calculator Evaluation Event</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On Initialization</fullName>
+                <default>false</default>
+                <label>On Initialization</label>
+            </value>
+            <value>
+                <fullName>Before Calculate</fullName>
+                <default>false</default>
+                <label>Before Calculate</label>
+            </value>
+            <value>
+                <fullName>On Calculate</fullName>
+                <default>true</default>
+                <label>On Calculate</label>
+            </value>
+            <value>
+                <fullName>After Calculate</fullName>
+                <default>false</default>
+                <label>After Calculate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

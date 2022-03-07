@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Likelihood__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Likelihood</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. This event is not very likely to occur.</fullName>
+                <default>false</default>
+                <label>1. This event is not very likely to occur.</label>
+            </value>
+            <value>
+                <fullName>2. This event may occur.</fullName>
+                <default>false</default>
+                <label>2. This event may occur.</label>
+            </value>
+            <value>
+                <fullName>3. The chances of this event occurring is about 50%</fullName>
+                <default>false</default>
+                <label>3. The chances of this event occurring is about 50%</label>
+            </value>
+            <value>
+                <fullName>4. This event is likely to occur.</fullName>
+                <default>false</default>
+                <label>4. This event is likely to occur.</label>
+            </value>
+            <value>
+                <fullName>5.This event is very likely to occur and mitigation plans should be in place.</fullName>
+                <default>false</default>
+                <label>5.This event is very likely to occur and mitigation plans should be in place.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

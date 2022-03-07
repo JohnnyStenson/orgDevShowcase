@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__End_Time_Format</fullName>
+    <active>true</active>
+    <description>To validate end time in HH:MM AM/PM Format.</description>
+    <errorConditionFormula>NOT(OR(OR(Krow__End_Time__c= NULL, LEN(Krow__End_Time__c) = 0),REGEX(Krow__End_Time__c, &quot;([0-9]|0[0-9]|1[012]):[0-5]{1}[0-9]{1} (AM|PM)&quot;)))</errorConditionFormula>
+    <errorDisplayField>Krow__End_Time__c</errorDisplayField>
+    <errorMessage>End Time : Invalid time format, enter in HH:MM AM/PM format.</errorMessage>
+</ValidationRule>

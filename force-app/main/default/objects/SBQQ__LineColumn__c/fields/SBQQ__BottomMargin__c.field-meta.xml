@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__BottomMargin__c</fullName>
+    <defaultValue>3</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This is the bottom margin in pixels.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The amount of space in pixels between bottom border and content.</inlineHelpText>
+    <label>Bottom Margin (px)</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

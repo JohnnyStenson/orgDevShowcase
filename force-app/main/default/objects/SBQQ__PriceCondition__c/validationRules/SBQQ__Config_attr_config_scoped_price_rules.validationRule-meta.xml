@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Config_attr_config_scoped_price_rules</fullName>
+    <active>true</active>
+    <description>Configuration Attribute as a tested object is only allowed in Configurator-scoped Price Rules.</description>
+    <errorConditionFormula>AND(ISPICKVAL(SBQQ__Object__c, &quot;Configuration Attribute&quot;), NOT(ISPICKVAL(SBQQ__Rule__r.SBQQ__TargetObject__c, &quot;Configurator&quot;)))</errorConditionFormula>
+    <errorMessage>Configuration Attribute as a tested object is only allowed in Configurator-scoped Price Rules.</errorMessage>
+</ValidationRule>

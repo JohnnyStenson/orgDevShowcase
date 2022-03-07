@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Rule__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Parent rule for this condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Parent rule for this condition (that runs this condition).</inlineHelpText>
+    <label>Rule</label>
+    <referenceTo>SBQQ__ProductRule__c</referenceTo>
+    <relationshipLabel>Error Conditions</relationshipLabel>
+    <relationshipName>ErrorConditions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

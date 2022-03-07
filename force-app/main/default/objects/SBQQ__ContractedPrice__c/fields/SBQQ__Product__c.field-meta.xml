@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Product for which this price was negotiated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select a product from any price book that you want to apply to this discount.</inlineHelpText>
+    <label>Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Contracted Prices</relationshipLabel>
+    <relationshipName>ContractedPrices</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

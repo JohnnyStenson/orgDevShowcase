@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Schedule_Resource__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>It controls the project assignment schedule creation from new project creation UI.</description>
+    <externalId>false</externalId>
+    <label>Schedule Resource</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

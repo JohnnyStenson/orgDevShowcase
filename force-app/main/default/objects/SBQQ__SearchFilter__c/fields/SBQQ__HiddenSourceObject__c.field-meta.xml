@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__HiddenSourceObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Object that sources value for use in determining whether the filter is hidden.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify object that sources value for use in determining whether the filter is hidden.</inlineHelpText>
+    <label>Hidden Source Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>false</default>
+                <label>Quote</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__MinOptionValidation</fullName>
+    <active>true</active>
+    <description>Min Options cannot be negative.</description>
+    <errorConditionFormula>AND(ISNEW(),SBQQ__MinOptionCount__c &lt; 0)</errorConditionFormula>
+    <errorDisplayField>SBQQ__MinOptionCount__c</errorDisplayField>
+    <errorMessage>Min Options cannot be negative.</errorMessage>
+</ValidationRule>

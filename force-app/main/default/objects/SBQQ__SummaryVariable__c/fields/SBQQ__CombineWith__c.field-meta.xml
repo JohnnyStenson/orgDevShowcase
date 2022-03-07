@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CombineWith__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Another variable to compose with this variable to produce the final result.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Another summary variable to compose with this summary variable if your condition is based on both results.</inlineHelpText>
+    <label>Variable Element</label>
+    <referenceTo>SBQQ__SummaryVariable__c</referenceTo>
+    <relationshipLabel>Composed By</relationshipLabel>
+    <relationshipName>CombinedBy</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

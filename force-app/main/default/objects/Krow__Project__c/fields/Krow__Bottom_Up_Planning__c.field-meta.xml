@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Bottom_Up_Planning__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked,  the project Expected Revenue and Budgeted Cost fields are calculated from the sum of all Tasks expected revenue/cost based on resources bill and cost rates.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked,  the project Expected Revenue and Budgeted Cost fields are calculated from the sum of all Tasks expected revenue/cost based on resources bill and cost rates.</inlineHelpText>
+    <label>Bottom-Up Planning</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

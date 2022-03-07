@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__MaxOptionCount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Maximum number of options for this feature that can be selected as part of the product bundle.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Maximum number of options for this feature that can be selected as part of the product bundle.</inlineHelpText>
+    <label>Max Options</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

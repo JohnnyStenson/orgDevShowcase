@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ユーザが見積ドキュメントの出力形式を変更できるようにする場合は、オンにします。</help>
+    <label></label>
+    <name>SBQQ__OutputFormatChangeAllowed__c</name>
+</CustomFieldTranslation>

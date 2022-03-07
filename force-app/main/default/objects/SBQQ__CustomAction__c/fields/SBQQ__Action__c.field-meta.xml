@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Action__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Action that this custom action performs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Action that this custom action performs.</inlineHelpText>
+    <label>Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SBQQ__Location__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add Products</fullName>
+                <default>false</default>
+                <label>Add Products</label>
+            </value>
+            <value>
+                <fullName>Add Favorites</fullName>
+                <default>false</default>
+                <label>Add Favorites</label>
+            </value>
+            <value>
+                <fullName>Upgrade Assets</fullName>
+                <default>false</default>
+                <label>Upgrade Assets</label>
+            </value>
+            <value>
+                <fullName>Renew Subscriptions</fullName>
+                <default>false</default>
+                <label>Renew Subscriptions</label>
+            </value>
+            <value>
+                <fullName>Save</fullName>
+                <default>false</default>
+                <label>Save</label>
+            </value>
+            <value>
+                <fullName>Quick Save</fullName>
+                <default>false</default>
+                <label>Quick Save</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+            <value>
+                <fullName>Calculate</fullName>
+                <default>false</default>
+                <label>Calculate</label>
+            </value>
+            <value>
+                <fullName>Delete Lines</fullName>
+                <default>false</default>
+                <label>Delete Lines</label>
+            </value>
+            <value>
+                <fullName>Add Group</fullName>
+                <default>false</default>
+                <label>Add Group</label>
+            </value>
+            <value>
+                <fullName>Ungroup</fullName>
+                <default>false</default>
+                <label>Ungroup</label>
+            </value>
+            <value>
+                <fullName>Add Solution Group</fullName>
+                <default>false</default>
+                <label>Add Solution Group</label>
+            </value>
+            <value>
+                <fullName>Reset Discounts</fullName>
+                <default>false</default>
+                <label>Reset Discounts</label>
+            </value>
+            <value>
+                <fullName>Optional: All</fullName>
+                <default>false</default>
+                <label>Optional: All</label>
+            </value>
+            <value>
+                <fullName>Optional: None</fullName>
+                <default>false</default>
+                <label>Optional: None</label>
+            </value>
+            <value>
+                <fullName>Clone Group</fullName>
+                <default>false</default>
+                <label>Clone Group</label>
+            </value>
+            <value>
+                <fullName>Delete Group</fullName>
+                <default>false</default>
+                <label>Delete Group</label>
+            </value>
+            <value>
+                <fullName>Add To Favorites</fullName>
+                <default>false</default>
+                <label>Add To Favorites</label>
+            </value>
+            <value>
+                <fullName>Remove From Favorites</fullName>
+                <default>false</default>
+                <label>Remove From Favorites</label>
+            </value>
+            <value>
+                <fullName>Delete Line</fullName>
+                <default>false</default>
+                <label>Delete Line</label>
+            </value>
+            <value>
+                <fullName>Clone Line</fullName>
+                <default>false</default>
+                <label>Clone Line</label>
+            </value>
+            <value>
+                <fullName>Reconfigure Line</fullName>
+                <default>false</default>
+                <label>Reconfigure Line</label>
+            </value>
+            <value>
+                <fullName>Desegment Line</fullName>
+                <default>false</default>
+                <label>Desegment Line</label>
+            </value>
+            <value>
+                <fullName>Resegment Line</fullName>
+                <default>false</default>
+                <label>Resegment Line</label>
+            </value>
+            <value>
+                <fullName>View Discount Schedule</fullName>
+                <default>false</default>
+                <label>View Discount Schedule</label>
+            </value>
+            <value>
+                <fullName>View Consumption Schedule</fullName>
+                <default>false</default>
+                <label>View Consumption Schedule</label>
+            </value>
+            <value>
+                <fullName>Launch External</fullName>
+                <default>false</default>
+                <label>Launch External</label>
+            </value>
+            <value>
+                <fullName>Clone with Related</fullName>
+                <default>false</default>
+                <label>Clone with Related</label>
+            </value>
+            <value>
+                <fullName>Create Order</fullName>
+                <default>false</default>
+                <label>Create Order</label>
+            </value>
+            <value>
+                <fullName>Edit Lines</fullName>
+                <default>false</default>
+                <label>Edit Lines</label>
+            </value>
+            <value>
+                <fullName>Generate Document</fullName>
+                <default>false</default>
+                <label>Generate Document</label>
+            </value>
+            <value>
+                <fullName>Import Lines</fullName>
+                <default>false</default>
+                <label>Import Lines</label>
+            </value>
+            <value>
+                <fullName>Modify Quote Terms</fullName>
+                <default>false</default>
+                <label>Modify Quote Terms</label>
+            </value>
+            <value>
+                <fullName>Include Document</fullName>
+                <default>false</default>
+                <label>Include Document</label>
+            </value>
+            <value>
+                <fullName>Preview Document</fullName>
+                <default>false</default>
+                <label>Preview Document</label>
+            </value>
+            <value>
+                <fullName>Refresh Prices</fullName>
+                <default>false</default>
+                <label>Refresh Prices</label>
+            </value>
+            <value>
+                <fullName>Amend Assets</fullName>
+                <default>false</default>
+                <label>Amend Assets</label>
+            </value>
+            <value>
+                <fullName>Renew Assets</fullName>
+                <default>false</default>
+                <label>Renew Assets</label>
+            </value>
+            <value>
+                <fullName>Amend</fullName>
+                <default>false</default>
+                <label>Amend</label>
+            </value>
+            <value>
+                <fullName>Renew Contracts</fullName>
+                <default>false</default>
+                <label>Renew Contracts</label>
+            </value>
+            <value>
+                <fullName>Amend Contract</fullName>
+                <default>false</default>
+                <label>Amend Contract</label>
+            </value>
+            <value>
+                <fullName>Edit Order Products</fullName>
+                <default>false</default>
+                <label>Edit Order Products</label>
+            </value>
+            <value>
+                <fullName>View</fullName>
+                <default>false</default>
+                <label>View</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Save and Navigate</fullName>
+                <default>false</default>
+                <label>Save and Navigate</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Quote Document Panel</controllingFieldValue>
+            <valueName>View</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Document Panel</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Save</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Quick Save</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Cancel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Calculate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Delete Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Add Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Ungroup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Add Solution Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <valueName>Reset Discounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <valueName>Optional: All</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <valueName>Optional: None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Save and Navigate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote/Group</controllingFieldValue>
+            <valueName>Add Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote/Group</controllingFieldValue>
+            <valueName>Add Favorites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote/Group</controllingFieldValue>
+            <valueName>Upgrade Assets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote/Group</controllingFieldValue>
+            <valueName>Renew Subscriptions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <valueName>Clone Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Group</controllingFieldValue>
+            <valueName>Delete Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line</controllingFieldValue>
+            <valueName>Add To Favorites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line</controllingFieldValue>
+            <valueName>Remove From Favorites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line</controllingFieldValue>
+            <valueName>Delete Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line</controllingFieldValue>
+            <valueName>Clone Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line</controllingFieldValue>
+            <valueName>Reconfigure Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line</controllingFieldValue>
+            <valueName>Desegment Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line</controllingFieldValue>
+            <valueName>Resegment Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line</controllingFieldValue>
+            <valueName>View Discount Schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Line</controllingFieldValue>
+            <valueName>View Consumption Schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Configurator</controllingFieldValue>
+            <valueName>Launch External</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Panel</controllingFieldValue>
+            <valueName>Clone with Related</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Panel</controllingFieldValue>
+            <controllingFieldValue>Opportunity Panel</controllingFieldValue>
+            <valueName>Create Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Panel</controllingFieldValue>
+            <valueName>Edit Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Panel</controllingFieldValue>
+            <valueName>Generate Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Panel</controllingFieldValue>
+            <valueName>Import Lines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Panel</controllingFieldValue>
+            <valueName>Modify Quote Terms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Panel</controllingFieldValue>
+            <controllingFieldValue>Opportunity Panel</controllingFieldValue>
+            <valueName>Include Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Panel</controllingFieldValue>
+            <valueName>Preview Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Panel</controllingFieldValue>
+            <valueName>Refresh Prices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Panel</controllingFieldValue>
+            <valueName>Amend Assets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Panel</controllingFieldValue>
+            <valueName>Renew Assets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Panel</controllingFieldValue>
+            <valueName>Amend</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Panel</controllingFieldValue>
+            <valueName>Renew Contracts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opportunity Panel</controllingFieldValue>
+            <valueName>Amend Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Panel</controllingFieldValue>
+            <valueName>Edit Order Products</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

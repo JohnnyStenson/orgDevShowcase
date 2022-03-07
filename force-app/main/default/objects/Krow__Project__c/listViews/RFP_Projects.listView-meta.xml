@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFP_Projects</fullName>
+    <columns>NAME</columns>
+    <columns>Krow__Project_Start_Date__c</columns>
+    <columns>Krow__Project_Status__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Krow__Estimated_Hours_To_Complete__c</columns>
+    <columns>Krow__Est_vs_Sch_Hours__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Krow__Project_Status__c</field>
+        <operation>equals</operation>
+        <value>RFP</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Krow__Project__c.Job</value>
+    </filters>
+    <filters>
+        <field>Krow__Archived__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Krow__Project_Template__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Krow__Task_Template__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Krow__Public_Project_Template__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>RFP Projects</label>
+</ListView>

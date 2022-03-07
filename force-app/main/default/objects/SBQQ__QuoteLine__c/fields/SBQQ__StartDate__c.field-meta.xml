@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__StartDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date the service represented by this line item will begin (only applies if product is a subscription).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date the subscription for this product begins.</inlineHelpText>
+    <label>Start Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

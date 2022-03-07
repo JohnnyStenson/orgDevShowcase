@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <defaultValue>false</defaultValue>
+    <description>Selling Bullet Points to include in followup email.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Selling Bullet Points to include in followup email.</inlineHelpText>
+    <label>Service</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

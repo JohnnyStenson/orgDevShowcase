@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ValueElement__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Value used by Composite Operator in composing final result for this variable.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter value to use in composing operation.</inlineHelpText>
+    <label>Value Element</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

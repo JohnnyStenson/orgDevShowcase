@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Product to which this Price Dimension is associated.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select a Product to associate this Price Dimension with.</inlineHelpText>
+    <label>Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Price Dimensions</relationshipLabel>
+    <relationshipName>Dimensions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

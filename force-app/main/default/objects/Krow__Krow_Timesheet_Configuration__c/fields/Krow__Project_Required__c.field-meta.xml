@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>when project is need to fill required on my timesheet page then checked this.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>when project is need to fill required on my timesheet page then checked this.</inlineHelpText>
+    <label>Project Required</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

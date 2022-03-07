@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>slackv2__Slack_Auth__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Slack Auth</label>
+    <referenceTo>slackv2__Slack_Auth__c</referenceTo>
+    <relationshipLabel>Message Destinations</relationshipLabel>
+    <relationshipName>Message_Destinations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

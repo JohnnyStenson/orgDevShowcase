@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ValidateMinimumPixelSize</fullName>
+    <active>true</active>
+    <description>Restrict any size that is less than 67 pixels.</description>
+    <errorConditionFormula>(SBQQ__FieldColumnSize__c &lt; 67)</errorConditionFormula>
+    <errorDisplayField>SBQQ__FieldColumnSize__c</errorDisplayField>
+    <errorMessage>Field Column Size cannot be less than 67.</errorMessage>
+</ValidationRule>

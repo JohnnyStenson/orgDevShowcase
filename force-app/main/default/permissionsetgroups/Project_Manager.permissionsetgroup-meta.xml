@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Project Manager</label>
+    <permissionSets>CMTD__CMTD_ERL_Permission_Set</permissionSets>
+    <permissionSets>Concrete_Orders</permissionSets>
+    <permissionSets>Custom_Facility_Manager_User_Permissions</permissionSets>
+    <permissionSets>Inventory</permissionSets>
+    <permissionSets>Krow_Admin_Custom</permissionSets>
+    <permissionSets>Krow_User_Custom</permissionSets>
+    <permissionSets>slackv2__Slack_Standard_User</permissionSets>
+    <permissionSets>sortablegrid__Edit_Sortable_Data_Grids</permissionSets>
+    <permissionSets>sortablegrid__View_Sortable_Data_Grids</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

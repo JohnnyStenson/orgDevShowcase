@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Orden de trabajo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Órdenes de trabajo</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>Work_Order_on_Item</name>
+    </fieldSets>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Custom Work Order Layout</layout>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Issue Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>WPD2</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Work Performed Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Orden de trabajo la descripción</nameFieldLabel>
+    <quickActions>
+        <label></label>
+        <name>Request_Part_Order</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Update_Status</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Use_Part</name>
+    </quickActions>
+</CustomObjectTranslation>

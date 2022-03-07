@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inv_Location__c.Quantity_Needed__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inventory__c.In_Shopping_Cart__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3 OR 4 OR 5) AND 6</booleanFilter>
+        <criteriaItems>
+            <column>TrackIT__Inventory__c.Needs_to_be_Ordered__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TrackIT__Inv_Location__c.TrackIT__Location_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Office</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TrackIT__Inv_Location__c.TrackIT__Location_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Manzo Trailer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TrackIT__Inv_Location__c.TrackIT__Location_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Exterior Yard</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TrackIT__Inv_Location__c.TrackIT__Location_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Inventory Room</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TrackIT__Inv_Location__c.Quantity_Needed__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>0</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Store Inventory to Order</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$TrackIT__Inventory__c$TrackIT__Inv_Location__c@TrackIT__Inv_Location__c.TrackIT__Location__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>TrackIT__Inventory__c.Last_Time_Competitive_Price_Shopped__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

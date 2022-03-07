@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Five_Year_Inspect_Remind_Time_Calc__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used to convert reminder time picklist value to numeric for reminder time calculation.</description>
+    <externalId>false</externalId>
+    <label>Five Year Inspect Remind Time Calc</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

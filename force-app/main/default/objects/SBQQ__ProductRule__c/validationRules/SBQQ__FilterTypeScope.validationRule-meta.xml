@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FilterTypeScope</fullName>
+    <active>true</active>
+    <description>Validation for Filter type Product Rules not having a value of &apos;Product&apos; in the Scope field.</description>
+    <errorConditionFormula>AND( 
+ISPICKVAL(SBQQ__Type__c, &quot;Filter&quot;),
+NOT(ISPICKVAL(SBQQ__Scope__c, &quot;Product&quot;))
+)</errorConditionFormula>
+    <errorMessage>The Scope field must point to &apos;Product&apos; for Filter type Product Rules.</errorMessage>
+</ValidationRule>

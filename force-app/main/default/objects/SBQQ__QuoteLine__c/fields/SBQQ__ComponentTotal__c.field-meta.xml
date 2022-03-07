@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ComponentTotal__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Sum total of components in this configuration. This field is only populated if this line item references configurable product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sum total of components in this configuration. This field is only populated if this line item references a configurable product.</inlineHelpText>
+    <label>Component Net Total</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

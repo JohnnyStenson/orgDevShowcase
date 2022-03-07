@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Scheduled_Hours__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A rollup of the project assignment planned hours for all resources on the project.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A rollup of the project assignment planned hours for all resources on the project.</inlineHelpText>
+    <label>Planned Hours</label>
+    <summarizedField>Krow__Project_Assignment__c.Krow__Total_Schedule_Hours__c</summarizedField>
+    <summaryForeignKey>Krow__Project_Assignment__c.Krow__Krow_Project__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

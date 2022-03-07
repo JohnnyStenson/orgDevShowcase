@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Inventory_Purchase__c.Job__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Inventory_Purchase__c.Quantity_Requested__c</field>
+    </columns>
+    <columns>
+        <field>Inventory_Purchase__c.Order_Details__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Inventory_Purchase__c.Receiving_Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Requested</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Inventory PO Requests</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Inventory_Purchase__c@Inventory_Purchase__c.Inventory__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Inventory_Purchase__c.Date_Ordered__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

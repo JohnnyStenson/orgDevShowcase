@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Permet d&apos;activer l&apos;outil de diagnostic de CPQ, disponible uniquement si le paramètre de l&apos;organisation est activé. Pour activer cette capacité, contactez le support.</help>
+    <label></label>
+    <name>SBQQ__DiagnosticToolEnabled__c</name>
+</CustomFieldTranslation>

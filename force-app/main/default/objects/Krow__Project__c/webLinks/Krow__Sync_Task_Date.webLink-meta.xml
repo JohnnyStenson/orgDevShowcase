@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Sync_Task_Date</fullName>
+    <availability>online</availability>
+    <description>Sync Task Date</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Sync Task Date</masterLabel>
+    <openType>noSidebar</openType>
+    <page>Krow__Scyn_Project_Date_Page</page>
+    <protected>false</protected>
+</WebLink>

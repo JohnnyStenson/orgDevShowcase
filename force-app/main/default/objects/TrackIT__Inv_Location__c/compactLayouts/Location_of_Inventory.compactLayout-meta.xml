@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_of_Inventory</fullName>
+    <fields>TrackIT__Inventory__c</fields>
+    <fields>TrackIT__Location__c</fields>
+    <fields>TrackIT__Quantity__c</fields>
+    <fields>Restock_Point__c</fields>
+    <fields>Optimal_Quantity__c</fields>
+    <label>Location of Inventory</label>
+</CompactLayout>

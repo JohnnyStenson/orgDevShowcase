@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__File</fullName>
+    <active>true</active>
+    <description>Record Type for Facility Manager File Records</description>
+    <label>File</label>
+    <picklistValues>
+        <picklist>Power__c</picklist>
+        <values>
+            <fullName>Battery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diesel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electric</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Annual_Inspection_Reminder_Time__c</picklist>
+        <values>
+            <fullName>0 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E5 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 minutes</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>18 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Category__c</picklist>
+        <values>
+            <fullName>Category</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Claim_Status__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prepared</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Class_Rating__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ABC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Current_State__c</picklist>
+        <values>
+            <fullName>In</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Out</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Department__c</picklist>
+        <values>
+            <fullName>Accounting and Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Asurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research and Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain%2FLogistics</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Equipment_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Assigned to a Job</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Destroyed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retired</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Equipment_Type__c</picklist>
+        <values>
+            <fullName>Asset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dumpster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heavy Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trailer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Extinguisher_Inspection_Date_Types__c</picklist>
+        <values>
+            <fullName>Inspection - Fire Extinguisher 10 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection - Fire Extinguisher 12 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection - Fire Extinguisher 5 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection - Fire Extinguisher 6 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection - Fire Extinguisher Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection - Fire Extinguisher Monthly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Extinguisher_Type__c</picklist>
+        <values>
+            <fullName>CO2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Powder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wet Chemical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__File_Status__c</picklist>
+        <values>
+            <fullName>Active File</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Destroyed File</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive File</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__File_Type__c</picklist>
+        <values>
+            <fullName>Addendum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blueprint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Document</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PDF File</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Five_Year_Inspection_Reminder_Time__c</picklist>
+        <values>
+            <fullName>0 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E5 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 minutes</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>18 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Inspection_Reminder_Time__c</picklist>
+        <values>
+            <fullName>0 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E5 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 minutes</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>18 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Maintenance_Reminder_Time__c</picklist>
+        <values>
+            <fullName>0 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E5 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 minutes</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>18 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Manufacturer__c</picklist>
+        <values>
+            <fullName>Manufacturer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Model_Number__c</picklist>
+        <values>
+            <fullName>Model Number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Monthly_Inspection_Reminder_Time__c</picklist>
+        <values>
+            <fullName>0 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E5 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 minutes</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>18 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__OS_Version__c</picklist>
+        <values>
+            <fullName>Mac OS 10%2E12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mac OS 10%2E13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mac OS 10%2E14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mac OS 10%2E15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 10 Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 10 Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 7 Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 7 Professional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows 7 Ultimate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows Server 2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows Server 2012 R2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows Server 2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows Server 2019</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Six_Year_Inspection_Reminder_Time__c</picklist>
+        <values>
+            <fullName>0 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E5 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 minutes</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>18 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Ten_Year_Inspection_Reminder_Time__c</picklist>
+        <values>
+            <fullName>0 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E5 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 minutes</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>18 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Twelve_Year_Inspection_Reminder_Time__c</picklist>
+        <values>
+            <fullName>0 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>0%2E5 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 minutes</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>18 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 minutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 hours</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TrackIT__Weight__c</picklist>
+        <values>
+            <fullName>10 lbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 lbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 lbs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 lbs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

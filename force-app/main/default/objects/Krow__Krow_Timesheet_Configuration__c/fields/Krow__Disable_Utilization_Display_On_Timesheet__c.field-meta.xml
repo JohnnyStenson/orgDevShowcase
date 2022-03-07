@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Utilization_Display_On_Timesheet__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, will not show the Utilization % fields on My Timesheet - only hours.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, will not show the Utilization % fields on My Timesheet - only hours.</inlineHelpText>
+    <label>Disable Utilization Display On Timesheet</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

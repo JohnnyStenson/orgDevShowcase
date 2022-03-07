@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Due_Date__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <deprecated>false</deprecated>
+    <description>The Due Date of this task as entered or calculated based on the Task Start Date and Duration.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Due Date of this task as entered or calculated based on the Task Start Date and Duration.</inlineHelpText>
+    <label>Due Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

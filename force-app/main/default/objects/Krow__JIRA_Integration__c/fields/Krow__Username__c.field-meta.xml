@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Username__c</fullName>
+    <deprecated>false</deprecated>
+    <description>JIRA Cloud&apos;s Username</description>
+    <externalId>false</externalId>
+    <inlineHelpText>JIRA Cloud&apos;s Username</inlineHelpText>
+    <label>Username</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

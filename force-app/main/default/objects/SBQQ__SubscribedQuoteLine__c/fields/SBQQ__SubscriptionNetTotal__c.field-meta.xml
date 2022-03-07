@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SubscriptionNetTotal__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Net total of the Subscription Quote Line.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Net total of the Subscription Quote Line.</inlineHelpText>
+    <label>Subscription Net Total</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ConsumptionScheduleFields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Fields on the ConsumptionSchedule object referenced by this plugin</description>
+    <externalId>false</externalId>
+    <inlineHelpText>API names of consumption schedule fields referenced by this plugin. Enter as many as 10 fields, one field on each line.</inlineHelpText>
+    <label>Consumption Schedule Fields</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

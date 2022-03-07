@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Notes_Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, then notes will required on the my timesheet.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, then notes will required on the my timesheet.</inlineHelpText>
+    <label>Notes Required</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

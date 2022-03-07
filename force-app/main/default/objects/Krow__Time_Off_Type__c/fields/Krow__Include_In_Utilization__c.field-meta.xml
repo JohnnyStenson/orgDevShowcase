@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Include_In_Utilization__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked this type of time-off records will get included into resource utilization.</description>
+    <externalId>false</externalId>
+    <label>Include in Utilization</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

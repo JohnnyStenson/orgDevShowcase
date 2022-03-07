@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__AutoSelect__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Set the value of this attribute when adding a product from a Dynamic Feature using the value of the added product&apos;s matching field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set the value of this attribute when adding a product from a Dynamic Feature using the value of the added product&apos;s matching field.</inlineHelpText>
+    <label>Auto-Select</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

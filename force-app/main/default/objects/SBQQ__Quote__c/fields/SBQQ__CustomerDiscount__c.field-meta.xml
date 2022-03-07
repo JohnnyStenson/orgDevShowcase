@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CustomerDiscount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Additional discount extended to customer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Additional discount extended to the customer on this quote. This value can be overridden at the individual line item level. Any line items that don&apos;t have additional discount explicitly specified will default to this value.</inlineHelpText>
+    <label>Additional Disc. (%)</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

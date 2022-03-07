@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Global_Attribute</fullName>
+    <active>true</active>
+    <description>Definition of an Attribute Item</description>
+    <label>Global Attribute</label>
+    <picklistValues>
+        <picklist>SBQQ__ColumnOrder__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__DefaultObject__c</picklist>
+        <values>
+            <fullName>Quote%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QuoteLineGroup%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__Position__c</picklist>
+        <values>
+            <fullName>Bottom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SBQQ__TargetField__c</picklist>
+        <values>
+            <fullName>Discount %28%25%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discount %28Amt%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unit Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

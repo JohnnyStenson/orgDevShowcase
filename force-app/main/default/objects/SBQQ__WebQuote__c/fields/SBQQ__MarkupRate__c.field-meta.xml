@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__MarkupRate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Default markup rate applied to line items on this quote.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default markup rate applied to line items on this quote. You&apos;ll be able to override this value on group and line item level.</inlineHelpText>
+    <label>Markup (%)</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Assignee__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Displays assignee from Facility Manager assignee object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Displays assignee at the time when event was created. Update if necessary.</inlineHelpText>
+    <label>Assignee</label>
+    <referenceTo>TrackIT__Assignee__c</referenceTo>
+    <relationshipLabel>Activities</relationshipLabel>
+    <relationshipName>Activities</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

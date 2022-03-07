@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Billable_Total__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Billable Total</label>
+    <summarizedField>Krow__Expense_Line__c.Krow__Expense_Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Krow__Expense_Line__c.Krow__Billable__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Krow__Expense_Line__c.Krow__Expense__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

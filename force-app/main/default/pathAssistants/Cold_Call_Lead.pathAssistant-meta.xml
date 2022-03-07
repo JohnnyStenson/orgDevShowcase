@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Cold Call Lead</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Ask about Plumbers, Electricians, Builders that may need service.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;If Can&amp;#39;t Get Decision Maker&amp;#39;s Phone #:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;&lt;b&gt;&lt;u&gt;Record Decision Maker Contact Info:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Name&lt;ol&gt;&lt;li&gt;Phone - Contact Decision Maker&lt;/li&gt;&lt;li&gt;Email&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;&lt;b&gt;&lt;u&gt;Next Step:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Change Email Intro to Include Decision Maker Info&lt;ol&gt;&lt;li&gt;Schedule Admin to Send Email&lt;/li&gt;&lt;li&gt;Schedule Next Step to &amp;quot;Follow Up with Non-Decision Maker&amp;quot; in 3 Days&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Stage_Awareness</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Ask about Plumbers, Electricians, Builders that may need service.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Check Our Availability Before accepting RFP: Crews &amp;amp; Support Staff&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Record Next Step&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Before Converting to Opportunity&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Make Sure Company Name is Correct&lt;/p&gt;&lt;p&gt;Decision Maker is Main Name on the Lead&lt;/p&gt;</info>
+        <picklistValueName>Stage_Evaluation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Voicemail Drop&lt;/li&gt;&lt;li&gt;Schedule Admin to Send Follow Up Email&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;u&gt;If Unsuccessful Live Contact:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Change Lead Status to &amp;quot;Unsuccessful Live Contact&amp;quot; and follow directions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;u&gt;If Reached Non-Decision Maker:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Change Lead Status to &amp;quot;Reached Non-Decision Maker&amp;quot; and follow directions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;u&gt;If Contacted Decision Maker:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Change Lead Status to &amp;quot;Contacted Decision Maker&amp;quot; and follow directions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Stage_Unqualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;Voicemail Drop&lt;/li&gt;&lt;li&gt;Schedule Admin to Send Follow Up Email&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;If Unsuccessful Live Contact still:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;&lt;b&gt;&lt;u&gt;1st Time&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lead Next Step: &amp;quot;Retry Initial Contact&amp;quot; in 1 Week&lt;/li&gt;&lt;/ol&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;&lt;b&gt;&lt;u&gt;2nd Time - 5th Time&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lead Next Step: &amp;quot;Retry Initial Contact&amp;quot; in 2 Weeks&lt;/li&gt;&lt;/ol&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;&lt;b&gt;&lt;u&gt;6th Time&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Lead Next Step: &amp;quot;Retry Initial Contact&amp;quot; in 4 Weeks&lt;ol&gt;&lt;li&gt;Monthly Email Campaign&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;u&gt;If Reached Non-Decision Maker:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Change Lead Status to &amp;quot;Reached Non-Decision Maker&amp;quot; and follow directions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;u&gt;If Contacted Decision Maker:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Change Lead Status to &amp;quot;Contacted Decision Maker&amp;quot; and follow directions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Stage_Untouched</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Cold_Call</recordTypeName>
+</PathAssistant>

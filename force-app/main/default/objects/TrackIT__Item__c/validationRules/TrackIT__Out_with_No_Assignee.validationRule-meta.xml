@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Out_with_No_Assignee</fullName>
+    <active>false</active>
+    <description>Rule removed - DO NOT ACTIVATE</description>
+    <errorConditionFormula>1 &lt;&gt; 1</errorConditionFormula>
+    <errorMessage>If this message appears, deactivate &apos;Out with no assignee&apos; validation rule in the item object.</errorMessage>
+</ValidationRule>

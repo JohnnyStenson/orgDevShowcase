@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__DistributorDiscount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Distributor discount applied to this line.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Distributor discount applied to this line.</inlineHelpText>
+    <label>Distributor Discount</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

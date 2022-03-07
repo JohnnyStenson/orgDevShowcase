@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品を見積に追加するたびに検索条件と結果をクリアする場合は、オンにします。オフにすると、前の選択内容が保持されます。</help>
+    <label></label>
+    <name>SBQQ__ResetProductLookup__c</name>
+</CustomFieldTranslation>

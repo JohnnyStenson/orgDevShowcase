@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__sObject_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Object Name</label>
+    <referenceTo>synety__PrePopulation_Object__c</referenceTo>
+    <relationshipLabel>CloudCall PrePopulation Filter Criteria</relationshipLabel>
+    <relationshipName>CloudCall_PrePopulation_Filter_Criteria1</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

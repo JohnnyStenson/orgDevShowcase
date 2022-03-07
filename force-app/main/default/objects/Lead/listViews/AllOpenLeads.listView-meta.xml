@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllOpenLeads</fullName>
+    <columns>LEAD.COMPANY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.INDUSTRY</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Sales_Rep__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Stage_Opportunity</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Dead</value>
+    </filters>
+    <filters>
+        <field>Archived__c</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>All Open Leads</label>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Account to which this Quote Line Group references.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Account to which this Quote Line Group references.</inlineHelpText>
+    <label>Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Quote Line Groups</relationshipLabel>
+    <relationshipName>QuoteLineGroups</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

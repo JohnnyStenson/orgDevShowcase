@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Hidden__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag that marks this filter as hidden. Hidden filters do not display in the UI but contribute to search queries.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox to mark this filter as hidden. Hidden filters do not display in the UI but contribute to search queries.</inlineHelpText>
+    <label>Hidden</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

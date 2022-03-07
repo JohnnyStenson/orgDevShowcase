@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Duration_Scale__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Duration Scale of this task as set (Days/Hours/Minutes), the default is Days.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Duration Scale of this task as set (Days/Hours/Minutes), the default is Days.</inlineHelpText>
+    <label>Duration Scale</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Day</fullName>
+                <default>true</default>
+                <label>Day</label>
+            </value>
+            <value>
+                <fullName>Hour</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hour</label>
+            </value>
+            <value>
+                <fullName>Minute</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Minute</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

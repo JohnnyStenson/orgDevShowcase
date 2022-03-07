@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hashtag_included_in_slack_channel</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT( BEGINS( Slack_Channel__c , &quot;#&quot; ) ),
+  NOT( ISBLANK( Slack_Channel__c ) )
+)</errorConditionFormula>
+    <errorDisplayField>Slack_Channel__c</errorDisplayField>
+    <errorMessage>Slack Channel must begin with #</errorMessage>
+</ValidationRule>

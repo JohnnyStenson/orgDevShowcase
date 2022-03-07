@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Total_Billable_Hours_New__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Total Billable Hours</label>
+    <summarizedField>Krow__Timesheet_Split__c.Krow__Hours__c</summarizedField>
+    <summaryFilterItems>
+        <field>Krow__Timesheet_Split__c.Krow__Billable__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Krow__Timesheet_Split__c.Krow__Timesheet__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<apex:page controller="WorkCompletedController">
+    <apex:includeLightning />
+        
+    <apex:pageBlock >
+        <br/><br/>
+        <apex:pageBlockSection id="gatePassCode" columns="1">
+            <apex:outputPanel rendered="{!IF(!authenticated,true,false)}">
+                <center>
+                    <apex:form >
+                        <apex:outputText styleClass="title" value="Pass Code"/><br />
+                        <apex:inputText value="{!inputPassCode}"></apex:inputText><br /><br />
+                        <apex:commandButton value="Enter Passcode" action="{!validatePassCode}" reRender="pbsWorkCompl,gatePassCode"/>
+                    </apex:form>
+                </center>
+            </apex:outputPanel>
+        </apex:pageBlockSection>
+
+        <apex:pageBlockSection id="pbsWorkCompl" columns="1">
+            <apex:outputPanel rendered="{!IF(!authenticated,false,true)}">
+                <div id="lwcWorkCompl" />    
+                <script>
+                $Lightning.use("c:workCompleted", function() {
+                    $Lightning.createComponent("c:workcomplMain",
+                    {},
+                    "lwcWorkCompl",
+                    function(cmp) {
+                        console.log('LWC Componenet added in VF page');
+                    });
+                });
+                </script>
+            </apex:outputPanel>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

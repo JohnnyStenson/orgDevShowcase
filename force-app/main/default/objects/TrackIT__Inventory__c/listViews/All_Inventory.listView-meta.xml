@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Inventory</fullName>
+    <columns>ListView_Thumbnail__c</columns>
+    <columns>NAME</columns>
+    <columns>Needs_to_be_Ordered__c</columns>
+    <columns>Print_Barcode__c</columns>
+    <columns>TrackIT__Total_Quantity__c</columns>
+    <columns>Quantity_Needed_for_Field__c</columns>
+    <columns>Quantity_Needed__c</columns>
+    <columns>TrackIT__Inventory_Image__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>Units_of_Measurement_Conversion__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Inventory</label>
+</ListView>

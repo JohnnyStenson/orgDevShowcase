@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Percent_Complete__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The percentage complete of the task, either manually entered or automatically calculated from sub-task or checklist completion.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The percentage complete of the task, either manually entered or automatically calculated from sub-task or checklist completion.</inlineHelpText>
+    <label>% Complete</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

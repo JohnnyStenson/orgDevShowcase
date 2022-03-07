@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Role_and_Recipient__c</fullName>
+    <deprecated>false</deprecated>
+    <description>used to store Role and Recipient related to Contact.</description>
+    <externalId>false</externalId>
+    <label>Role and Recipient</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incomplete_Checklist_Items__c</fullName>
+    <externalId>false</externalId>
+    <label>Incomplete Checklist Items</label>
+    <summaryFilterItems>
+        <field>Task_Checklist_Item__c.Is_Completed__c</field>
+        <operation>notEqual</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Task_Checklist_Item__c.Task__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

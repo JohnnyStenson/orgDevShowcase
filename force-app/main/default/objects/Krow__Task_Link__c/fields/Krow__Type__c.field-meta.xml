@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>0- finish to start 
+1- start to start 
+2- finish to finish
+3- start to finish</description>
+    <externalId>false</externalId>
+    <inlineHelpText>0- finish to start 
+1- start to start 
+2- finish to finish</inlineHelpText>
+    <label>Type</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

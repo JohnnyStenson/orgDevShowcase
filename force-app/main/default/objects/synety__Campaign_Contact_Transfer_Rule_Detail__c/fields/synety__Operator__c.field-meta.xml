@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__Operator__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Operator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>equals</fullName>
+                <default>false</default>
+                <label>equals</label>
+            </value>
+            <value>
+                <fullName>not equals to</fullName>
+                <default>false</default>
+                <label>not equals to</label>
+            </value>
+            <value>
+                <fullName>less than</fullName>
+                <default>false</default>
+                <label>less than</label>
+            </value>
+            <value>
+                <fullName>greater than</fullName>
+                <default>false</default>
+                <label>greater than</label>
+            </value>
+            <value>
+                <fullName>less or equals</fullName>
+                <default>false</default>
+                <label>less or equals</label>
+            </value>
+            <value>
+                <fullName>greater or equals</fullName>
+                <default>false</default>
+                <label>greater or equals</label>
+            </value>
+            <value>
+                <fullName>starts with</fullName>
+                <default>false</default>
+                <label>starts with</label>
+            </value>
+            <value>
+                <fullName>contains</fullName>
+                <default>false</default>
+                <label>contains</label>
+            </value>
+            <value>
+                <fullName>does not contains</fullName>
+                <default>false</default>
+                <label>does not contains</label>
+            </value>
+            <value>
+                <fullName>includes</fullName>
+                <default>false</default>
+                <label>includes</label>
+            </value>
+            <value>
+                <fullName>excludes</fullName>
+                <default>false</default>
+                <label>excludes</label>
+            </value>
+            <value>
+                <fullName>within</fullName>
+                <default>false</default>
+                <label>within</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

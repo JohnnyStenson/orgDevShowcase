@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Model_Number__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Model number or name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Model number or name. Enter additional values in the picklist settings for the field in setup.</inlineHelpText>
+    <label>Model Number</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>TrackIT__Model_Number</valueSetName>
+    </valueSet>
+</CustomField>

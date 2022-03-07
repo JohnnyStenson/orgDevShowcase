@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Invoiced__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this project is Fixed Fee,  this checkbox will be checked once the fixed fee payment has been invoiced.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this project is Fixed Fee,  this checkbox will be checked once the fixed fee payment has been invoiced.</inlineHelpText>
+    <label>Invoiced?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

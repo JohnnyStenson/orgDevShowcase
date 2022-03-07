@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Role_is_Required</fullName>
+    <active>true</active>
+    <description>Role is Required</description>
+    <errorConditionFormula>AND (ISBLANK(  Krow__Role__c ))</errorConditionFormula>
+    <errorMessage>A Role is required when assigning a resource to a task.</errorMessage>
+</ValidationRule>

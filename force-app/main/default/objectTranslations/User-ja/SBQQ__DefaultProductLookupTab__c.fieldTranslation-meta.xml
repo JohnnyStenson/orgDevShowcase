@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>[商品ルックアップ] ページのデフォルトのタブをカスタマイズします。</help>
+    <label></label>
+    <name>SBQQ__DefaultProductLookupTab__c</name>
+    <picklistValues>
+        <masterLabel>Guided Selling</masterLabel>
+        <translation>ガイド付き販売</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Search Filters</masterLabel>
+        <translation>検索条件</translation>
+    </picklistValues>
+</CustomFieldTranslation>

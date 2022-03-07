@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Duration_ID_Change_After_Creation_Rule</fullName>
+    <active>true</active>
+    <description>Prevents users from changing Duration Time ID after the record is created.</description>
+    <errorConditionFormula>IF(ISNULL( PRIORVALUE( Name )),FALSE,ISCHANGED( Name ) )</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Duration Time Record ID cannot be changed after initial creation.</errorMessage>
+</ValidationRule>

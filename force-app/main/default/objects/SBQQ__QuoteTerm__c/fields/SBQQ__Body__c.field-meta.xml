@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Body__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Body containing text of the term.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Text content of this term.</inlineHelpText>
+    <label>Body</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

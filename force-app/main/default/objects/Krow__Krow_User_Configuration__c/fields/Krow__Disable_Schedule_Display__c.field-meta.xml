@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Schedule_Display__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this setting is ON, SCHEDULE tab wouldn&apos;t to available on right side nav panel for task detail.</description>
+    <externalId>false</externalId>
+    <label>Disable Schedule Display</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

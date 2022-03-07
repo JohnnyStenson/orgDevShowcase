@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque para limpar os filtros e os resultados da pesquisa sempre que adicionar produtos às suas cotações. Caso contrário, suas seleções anteriores serão mantidas.</help>
+    <label></label>
+    <name>SBQQ__ResetProductLookup__c</name>
+</CustomFieldTranslation>

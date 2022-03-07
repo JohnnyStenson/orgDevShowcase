@@ -1,0 +1,11 @@
+<apex:page >
+  <script>
+  Sfdc.onReady(function() {
+    var keyPrefix = 'a7m';
+    var toRemove = document.getElementsByName('new');
+    if(document.location.href.indexOf('/' + keyPrefix + '/o') != -1 && toRemove && toRemove.length) {
+      toRemove[0].style.display = 'none';
+    }
+  });
+</script>
+</apex:page>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__LookupObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>API Name of the Custom Object that stores the lookup data.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>API Name of the Custom Object that stores the lookup data.</inlineHelpText>
+    <label>Lookup Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SBQQ__LookupData__c</fullName>
+                <default>false</default>
+                <label>SBQQ__LookupData__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

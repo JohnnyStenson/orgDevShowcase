@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__InputField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The API name for the field that accepts the user entry.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the API name for the field that accepts the user entry.</inlineHelpText>
+    <label>Input Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BinaryChoice__c</fullName>
+                <default>false</default>
+                <label>BinaryChoice__c</label>
+            </value>
+            <value>
+                <fullName>IntegerInput__c</fullName>
+                <default>false</default>
+                <label>IntegerInput__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

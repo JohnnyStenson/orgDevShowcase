@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ProductRule__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Product Rule associated with this Lookup Query</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Product Rule associated with this Lookup Query</inlineHelpText>
+    <label>Product Rule</label>
+    <referenceTo>SBQQ__ProductRule__c</referenceTo>
+    <relationshipLabel>Lookup Queries (Product Rule)</relationshipLabel>
+    <relationshipName>ProductRuleLookupQueries</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

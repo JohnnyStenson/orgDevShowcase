@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Insert_Task_Template</fullName>
+    <availability>online</availability>
+    <description>This button is used to open the task template page to insert task templates in existing project.</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Insert Task Template</masterLabel>
+    <openType>noSidebar</openType>
+    <page>Krow__InsertTasks</page>
+    <protected>false</protected>
+</WebLink>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Slack_Member_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Holding the slack team member name.</description>
+    <externalId>false</externalId>
+    <label>Slack Member Name</label>
+    <length>15</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

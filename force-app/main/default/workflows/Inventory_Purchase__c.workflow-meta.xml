@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>New_Inventory_PO_Request</fullName>
+        <description>New Inventory PO Request</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>anthony.thundernj@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jstenson+2@thundernj.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rachael@thundernj.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>sales@thundernj.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Inventory/Inventory_PO_Request</template>
+    </alerts>
+</Workflow>

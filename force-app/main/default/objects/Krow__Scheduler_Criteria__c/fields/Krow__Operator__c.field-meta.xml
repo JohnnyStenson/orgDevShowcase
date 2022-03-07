@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Operator__c</fullName>
+    <deprecated>false</deprecated>
+    <description>used to store operator value.</description>
+    <externalId>false</externalId>
+    <label>Operator</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equals</fullName>
+                <default>false</default>
+                <label>Equals</label>
+            </value>
+            <value>
+                <fullName>Not Equals To</fullName>
+                <default>false</default>
+                <label>Not Equals To</label>
+            </value>
+            <value>
+                <fullName>Less Than</fullName>
+                <default>false</default>
+                <label>Less Than</label>
+            </value>
+            <value>
+                <fullName>Greater Than</fullName>
+                <default>false</default>
+                <label>Greater Than</label>
+            </value>
+            <value>
+                <fullName>Less Than Equals To</fullName>
+                <default>false</default>
+                <label>Less Than Equals To</label>
+            </value>
+            <value>
+                <fullName>Greater Than Equals To</fullName>
+                <default>false</default>
+                <label>Greater Than Equals To</label>
+            </value>
+            <value>
+                <fullName>Contains</fullName>
+                <default>false</default>
+                <label>Contains</label>
+            </value>
+            <value>
+                <fullName>Not Contains</fullName>
+                <default>false</default>
+                <label>Not Contains</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

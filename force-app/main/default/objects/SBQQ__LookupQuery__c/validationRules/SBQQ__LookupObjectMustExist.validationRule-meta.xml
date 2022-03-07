@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__LookupObjectMustExist</fullName>
+    <active>true</active>
+    <description>Validation ensuring that Lookup Queries can only be created if there is a Lookup Object.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(SBQQ__ProductRule__c)), ISBLANK(TEXT(SBQQ__ProductRule__r.SBQQ__LookupObject__c)))</errorConditionFormula>
+    <errorMessage>Associate a lookup object on the product rule before creating a Lookup Query.</errorMessage>
+</ValidationRule>

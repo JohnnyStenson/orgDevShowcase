@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Config_attr_tested_object_with_formula</fullName>
+    <active>true</active>
+    <description>Configuration Attribute as a tested object can’t be evaluated against a formula.</description>
+    <errorConditionFormula>AND(ISPICKVAL(SBQQ__Object__c, &quot;Configuration Attribute&quot;), (ISPICKVAL(SBQQ__FilterType__c, &quot;Formula&quot;)))</errorConditionFormula>
+    <errorMessage>Configuration Attribute as a tested object can’t be evaluated against a formula.</errorMessage>
+</ValidationRule>

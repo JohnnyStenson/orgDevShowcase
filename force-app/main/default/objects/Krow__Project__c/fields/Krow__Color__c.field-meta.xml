@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Color__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A chosen color code for project tasks as displayed on the Gantt and Task Planner.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A chosen color code for project tasks as displayed on the Gantt and Task Planner.</inlineHelpText>
+    <label>Color</label>
+    <length>7</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

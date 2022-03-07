@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>保守点検手順</value>
+    </caseValues>
+    <nameFieldLabel>保守点検手順の名称</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__Procedure_Name_Change_After_Creation</name>
+    </validationRules>
+</CustomObjectTranslation>

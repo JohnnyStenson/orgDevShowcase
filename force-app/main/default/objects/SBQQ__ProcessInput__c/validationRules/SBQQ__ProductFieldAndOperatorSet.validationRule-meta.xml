@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ProductFieldAndOperatorSet</fullName>
+    <active>true</active>
+    <description>If a Product Field is defined, an Operator must also be defined.</description>
+    <errorConditionFormula>OR(AND(!ISBLANK(TEXT(SBQQ__ProductField__c)),(ISBLANK(TEXT(SBQQ__Operator__c)))),AND(ISBLANK(TEXT(SBQQ__ProductField__c)),(!ISBLANK(TEXT(SBQQ__Operator__c)))))</errorConditionFormula>
+    <errorMessage>Both Product Field and Operator must be set if either are set.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Roll_Up_Estimated_Hours__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, Estimated Hours on a Task will always roll-up to the parent task(s) - regardless of what has been entered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, Estimated Hours on a Task will always roll-up to the parent task(s) - regardless of what has been entered.</inlineHelpText>
+    <label>Roll-Up Estimated Hours</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

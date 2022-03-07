@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Krow__Project__c.Krow__Invoiced_Amount__c</field>
+    </columns>
+    <description>Calendar Year Invoice Total</description>
+    <filter>
+        <criteriaItems>
+            <column>Krow__Project__c.Krow__Billable__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CUST_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Invoice Total</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Krow__Project__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Krow__Project__c.Krow__Project_Start_Date__c</dateColumn>
+        <interval>INTERVAL_CURY</interval>
+    </timeFrameFilter>
+</Report>

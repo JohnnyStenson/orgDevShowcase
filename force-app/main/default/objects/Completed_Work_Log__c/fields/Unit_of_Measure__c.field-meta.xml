@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_of_Measure__c</fullName>
+    <externalId>false</externalId>
+    <label>Unit of Measure</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LNFT</fullName>
+                <default>false</default>
+                <label>LNFT</label>
+            </value>
+            <value>
+                <fullName>SQFT</fullName>
+                <default>false</default>
+                <label>SQFT</label>
+            </value>
+            <value>
+                <fullName>Pieces</fullName>
+                <default>false</default>
+                <label>Pieces</label>
+            </value>
+            <value>
+                <fullName>Yards</fullName>
+                <default>false</default>
+                <label>Yards</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

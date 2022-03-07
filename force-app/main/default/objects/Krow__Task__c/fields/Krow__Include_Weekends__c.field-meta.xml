@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Include_Weekends__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, weekends (Sat/Sun) will be included in the duration and scheduling calculation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, weekends (Sat/Sun) will be included in the duration and scheduling calculation.</inlineHelpText>
+    <label>Include Weekends</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CreditProductId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of upgrade credit product for this subscription.</description>
+    <externalId>false</externalId>
+    <formula>SBQQ__Product__r.SBQQ__UpgradeCredit__c</formula>
+    <inlineHelpText>ID of upgrade credit product for this subscription.</inlineHelpText>
+    <label>Credit Product Id</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

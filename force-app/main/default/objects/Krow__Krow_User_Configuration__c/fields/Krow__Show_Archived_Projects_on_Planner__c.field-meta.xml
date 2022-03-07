@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Show_Archived_Projects_on_Planner__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>if checked, it will display Archived Projects on the Resource Planner tab as well for all Projects but NOT Archived Projects where Project Status = &quot;Canceled&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>if checked, it will display Archived Projects on the Resource Planner tab as well for all Projects but NOT Archived Projects where Project Status = &quot;Canceled&quot;.</inlineHelpText>
+    <label>Show Archived Projects on Planner</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

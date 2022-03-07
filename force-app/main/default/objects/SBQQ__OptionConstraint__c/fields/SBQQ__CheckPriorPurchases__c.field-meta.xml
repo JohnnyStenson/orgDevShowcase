@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CheckPriorPurchases__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Allows you to check on past purchases in the Account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check if you want to look up prior purchases of Constraining Option within the Account.</inlineHelpText>
+    <label>Check Prior Purchases</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

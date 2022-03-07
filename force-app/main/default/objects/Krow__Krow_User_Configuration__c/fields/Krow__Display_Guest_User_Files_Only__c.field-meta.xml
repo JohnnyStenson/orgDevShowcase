@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Display_Guest_User_Files_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Restrict what files are seen here to the Guest user.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Restrict what files are seen here to the Guest user.</inlineHelpText>
+    <label>Display Guest User Files Only</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

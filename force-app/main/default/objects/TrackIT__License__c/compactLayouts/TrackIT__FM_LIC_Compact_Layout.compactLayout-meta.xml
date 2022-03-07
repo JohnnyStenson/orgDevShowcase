@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__FM_LIC_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>TrackIT__Total_Licenses__c</fields>
+    <fields>TrackIT__Available_Licenses__c</fields>
+    <label>FM LIC Compact Layout</label>
+</CompactLayout>

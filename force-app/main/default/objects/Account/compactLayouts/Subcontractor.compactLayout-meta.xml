@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subcontractor</fullName>
+    <fields>Name</fields>
+    <fields>Subcontractor_Owner__c</fields>
+    <fields>BillingAddress</fields>
+    <fields>Phone</fields>
+    <fields>EIN__c</fields>
+    <fields>HIC__c</fields>
+    <fields>Certified_Subcontractor__c</fields>
+    <label>Subcontractor</label>
+</CompactLayout>

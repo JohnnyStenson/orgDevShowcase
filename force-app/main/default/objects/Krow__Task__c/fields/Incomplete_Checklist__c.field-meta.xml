@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incomplete_Checklist__c</fullName>
+    <description>delete once removed from flow(Task Update v3)</description>
+    <externalId>false</externalId>
+    <label>deprec_Incomplete_Checklist</label>
+    <summaryFilterItems>
+        <field>Krow__Task_Checklist__c.Krow__Is_Completed__c</field>
+        <operation>notEqual</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Krow__Task_Checklist__c.Krow__Krow_Task__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

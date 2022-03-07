@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Archived__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the project will be archived and will not display by default on my projects and resource planner.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, the project will be archived and will not display by default on my projects and resource planner.</inlineHelpText>
+    <label>Archived</label>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__R_Step_Item_Loc_Both_Cannot_Have_Data</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT( ISBLANK( TrackIT__Item__c )), NOT( ISBLANK(  TrackIT__Location__c )))</errorConditionFormula>
+    <errorMessage>Both item and location fields cannot have data at the same time. Select either a location or item.</errorMessage>
+</ValidationRule>

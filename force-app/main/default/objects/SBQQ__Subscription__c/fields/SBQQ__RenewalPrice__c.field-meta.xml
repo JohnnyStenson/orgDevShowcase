@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RenewalPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Define the price of quote lines that appear on the renewal quote when you renew this subscription. This field overrides the result of price calculations from your account’s renewal pricing method. If renewal pricing method is Uplift, uplift will be applied to the Renewal Price.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Override the default calculated price of this subscription on a renewal quote. If your account&apos;s renewal pricing method is Uplift, the uplift applies to this renewal price.</inlineHelpText>
+    <label>Renewal Price</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Opportunity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the Opportunity that parents the Quote for this document. References the opportunity on the quote for this document, allowing the Opportunity Quote Documents Related List to reside on the Opportunity as well as the Quote.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose the Opportunity that parents the Quote for this document.</inlineHelpText>
+    <label>Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Quote Documents</relationshipLabel>
+    <relationshipName>R00N700000029COgEAM</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

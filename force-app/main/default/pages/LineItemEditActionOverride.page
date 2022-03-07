@@ -1,0 +1,9 @@
+<apex:page standardController="OpportunityLineItem">
+   <apex:pageBlock >
+  <h1>Close this Tab
+  and <br />
+  Click on the Product Name from the Products List <br />on the Opportunity
+  to go to the Edit Page</h1>
+
+  </apex:pageBlock>
+</apex:page>

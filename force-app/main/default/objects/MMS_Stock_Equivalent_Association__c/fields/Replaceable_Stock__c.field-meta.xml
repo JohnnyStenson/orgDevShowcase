@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Replaceable_Stock__c</fullName>
+    <description>Master-Detail of Stock that would need replacing</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stock that would need replacing</inlineHelpText>
+    <label>Replaceable Stock</label>
+    <referenceTo>MMS_Stock__c</referenceTo>
+    <relationshipLabel>Equivalent Replacement Stock</relationshipLabel>
+    <relationshipName>Equivalent_Replacement_Stock</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

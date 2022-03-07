@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Section__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Section to which this line column applies. No section means the column applies to all sections.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Section to which this line column applies. No section means the column applies to all sections.</inlineHelpText>
+    <label>Section</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.SBQQ__Template__c</field>
+            <operation>equals</operation>
+            <valueField>SBQQ__TemplateSection__c.SBQQ__Template__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>SBQQ__TemplateSection__c.SBQQ__Content__r.SBQQ__Type__c</field>
+            <operation>equals</operation>
+            <value>Line Items</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>SBQQ__TemplateSection__c</referenceTo>
+    <relationshipLabel>Line Columns</relationshipLabel>
+    <relationshipName>LineColumns</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

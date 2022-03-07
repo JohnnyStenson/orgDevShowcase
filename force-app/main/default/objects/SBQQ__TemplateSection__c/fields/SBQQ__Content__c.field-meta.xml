@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Content__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Source of content for this section.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the template content to display in this template section.</inlineHelpText>
+    <label>Content</label>
+    <referenceTo>SBQQ__TemplateContent__c</referenceTo>
+    <relationshipLabel>Template Sections</relationshipLabel>
+    <relationshipName>TemplateSections</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

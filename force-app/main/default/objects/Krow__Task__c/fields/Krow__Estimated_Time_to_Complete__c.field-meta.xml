@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Estimated_Time_to_Complete__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The estimated number of hours left to complete this task as entered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The estimated number of hours left to complete this task as entered.</inlineHelpText>
+    <label>Estimated Hours to Complete</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Hours_Remaining_Task__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total Scheduled Hours for the Task - Total Hours Logged for the task.</description>
+    <externalId>false</externalId>
+    <formula>Krow__Scheduled_Hours__c -  Krow__Total_Hours_Logged__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total Scheduled Hours for the Task - Total Hours Logged for the task.</inlineHelpText>
+    <label>Hours Remaining (Logged)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

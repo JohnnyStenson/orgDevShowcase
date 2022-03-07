@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Filter_requires_operators</fullName>
+    <active>true</active>
+    <description>Operator must be entered when filter is specified.</description>
+    <errorConditionFormula>AND(ISPICKVAL(SBQQ__Operator__c,&apos;&apos;),NOT(ISPICKVAL(SBQQ__FilterField__c,&apos;&apos;)))</errorConditionFormula>
+    <errorMessage>Operator is required when Filter Field is specified.</errorMessage>
+</ValidationRule>

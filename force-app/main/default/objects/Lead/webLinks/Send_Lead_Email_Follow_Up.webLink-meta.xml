@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Lead_Email_Follow_Up</fullName>
+    <availability>online</availability>
+    <description>Populates Thunder Road Sales Follow Up email template to send</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Send Lead Email Follow Up</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>location.replace(&apos;/email/author/emailauthor.jsp?retURL=/{!Lead.Id}&amp;p3_lkid={!Lead.Id}&amp;rtype=003&amp;p2_lkid={!Lead.Id}&amp;template_id=00X1U000000v16U&amp;p5=&apos;);</url>
+</WebLink>

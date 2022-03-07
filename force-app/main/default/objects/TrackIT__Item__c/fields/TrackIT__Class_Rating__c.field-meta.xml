@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Class_Rating__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Class Rating</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>TrackIT__Class_Rating</valueSetName>
+    </valueSet>
+</CustomField>

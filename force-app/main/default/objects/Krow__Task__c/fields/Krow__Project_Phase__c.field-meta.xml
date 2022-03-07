@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Phase__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Automatically checked if this task represent a parent task in a parent-child task relationship.  This field should not be manually set.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically checked if this task represent a parent task in a parent-child task relationship.  This field should not be manually set.</inlineHelpText>
+    <label>Project Phase</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

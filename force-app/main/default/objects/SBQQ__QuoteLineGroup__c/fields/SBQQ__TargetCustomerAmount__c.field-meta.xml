@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TargetCustomerAmount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Customer amount to be targeted in calculating additional discounts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter desired customer amount to automatically calculate additional discount on discountable line items.</inlineHelpText>
+    <label>Target Customer Amount</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

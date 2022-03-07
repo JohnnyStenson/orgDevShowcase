@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Week_Start_Day__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To setup the week configuration in application.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If your week starts on Monday, specify &apos;Mon&apos; or &apos;Monday&apos;.</inlineHelpText>
+    <label>Week Start Day</label>
+    <length>9</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

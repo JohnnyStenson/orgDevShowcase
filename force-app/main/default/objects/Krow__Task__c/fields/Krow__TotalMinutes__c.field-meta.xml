@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__TotalMinutes__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Deprecated field no longer in use.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Deprecated field no longer in use.</inlineHelpText>
+    <label>Deprecated3</label>
+    <summarizedField>Krow__Task_Time__c.Krow__Minutes__c</summarizedField>
+    <summaryForeignKey>Krow__Task_Time__c.Krow__Task__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

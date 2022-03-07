@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Print_Barcode</fullName>
+    <columns>NAME</columns>
+    <columns>Print_Barcode__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Print_Barcode__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Print Barcode</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RequiredEvaluationEvent</fullName>
+    <active>true</active>
+    <description>Validation for required evaluation events if scope is filled in.</description>
+    <errorConditionFormula>AND(
+            ISBLANK(TEXT(SBQQ__EvaluationEvent__c)),
+            OR(ISPICKVAL(SBQQ__Scope__c, &quot;Quote&quot;), ISPICKVAL(SBQQ__Scope__c, &quot;Product&quot;))
+            )</errorConditionFormula>
+    <errorMessage>The Evaluation Event field must be populated with a value.</errorMessage>
+</ValidationRule>

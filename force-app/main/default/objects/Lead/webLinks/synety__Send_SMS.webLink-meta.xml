@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>synety__Send_SMS</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Send SMS</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/45.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/45.0/apex.js&quot;)} 
+{!REQUIRESCRIPT(&apos;/resource/synety__smsPopup&apos;)} 
+
+showDialog(&quot;{!Lead.Id}&quot;);</url>
+</WebLink>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Exclude_Timesheet_Weekends__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked then it Exclude Weekends from Timesheet (My Timesheet) view.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked then it Exclude Weekends from Timesheet view (My Timesheet).</inlineHelpText>
+    <label>Exclude Timesheet Weekends</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

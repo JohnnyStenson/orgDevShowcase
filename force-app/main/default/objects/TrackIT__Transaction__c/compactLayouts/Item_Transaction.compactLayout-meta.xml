@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_Transaction</fullName>
+    <fields>Name</fields>
+    <fields>TrackIT__Item_Number__c</fields>
+    <fields>TrackIT__Location__c</fields>
+    <fields>TrackIT__To_Location__c</fields>
+    <fields>TrackIT__Transaction_Type__c</fields>
+    <fields>TrackIT__Assignee__c</fields>
+    <label>Item Transaction</label>
+</CompactLayout>

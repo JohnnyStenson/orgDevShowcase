@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Task_Status_Updates_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>if checked, the Project Task page - will be read-only but the &quot;Status&quot; field will be available for entry.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>if checked, the Project Task page - will be read-only but the &quot;Status&quot; field will be available for entry.</inlineHelpText>
+    <label>Enable Task Status Updates Only</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Public_Project_Template__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, this project template is available for use by all users, not just the template creator.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, this project template is available for use by all users, not just the template creator.</inlineHelpText>
+    <label>Public Project Template</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

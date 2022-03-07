@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FloorDiscount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>High discount for exception pricing based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org&apos;s approval settings.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>High discount for exception pricing based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org&apos;s approval settings.</inlineHelpText>
+    <label>Floor Discount (%)</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>10</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Non_empty_URL_for_Save_and_Navigate</fullName>
+    <active>true</active>
+    <description>Non-empty URL for Save and Navigate Custom Action.</description>
+    <errorConditionFormula>AND (ISPICKVAL(SBQQ__Action__c, &quot;Save and Navigate&quot;), ISBLANK( SBQQ__URL__c ))</errorConditionFormula>
+    <errorDisplayField>SBQQ__URL__c</errorDisplayField>
+    <errorMessage>URL can&apos;t be empty for Custom Action &quot;Save and Navigate&quot;</errorMessage>
+</ValidationRule>

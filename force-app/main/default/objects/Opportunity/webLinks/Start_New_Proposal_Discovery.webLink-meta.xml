@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_New_Proposal_Discovery</fullName>
+    <availability>online</availability>
+    <description>Launch Proposal Discovery Main Flow passing opportunity id</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Start New Proposal Discovery</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Proposal_Discovery_Main?oppId={!Opportunity.Id}</url>
+</WebLink>

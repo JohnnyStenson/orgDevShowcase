@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RenewedSubscription__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Subscription being renewed by this quote line.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Subscription being renewed by this quote line.</inlineHelpText>
+    <label>Renewed Subscription</label>
+    <referenceTo>SBQQ__Subscription__c</referenceTo>
+    <relationshipLabel>Web Quote Lines</relationshipLabel>
+    <relationshipName>RenewalWebQuoteLines</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

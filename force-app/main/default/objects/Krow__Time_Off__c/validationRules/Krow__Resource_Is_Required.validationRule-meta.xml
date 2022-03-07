@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Resource_Is_Required</fullName>
+    <active>true</active>
+    <description>A time-off can&apos;t be without a Resource.</description>
+    <errorConditionFormula>ISBLANK(Krow__Project_Resource__c)</errorConditionFormula>
+    <errorDisplayField>Krow__Project_Resource__c</errorDisplayField>
+    <errorMessage>Specify Project Resource for whom time-off is entered.</errorMessage>
+</ValidationRule>

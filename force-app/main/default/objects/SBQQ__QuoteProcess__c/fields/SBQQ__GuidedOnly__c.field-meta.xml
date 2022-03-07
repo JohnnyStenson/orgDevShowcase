@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__GuidedOnly__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag that controls whether quotes covered by this process force guided product selection or allow for ad-hoc filtering.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox if you want quotes covered by this process forced into guided product selection; otherwise, this defaults to ad-hoc filtering.</inlineHelpText>
+    <label>Guided Only</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

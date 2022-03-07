@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Add_12_Year_Inspection_Event_to_Calendar__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check box to add calendar event for next 12 year inspection to calendar</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to add event to assigned inspector&apos;s calendar for next 12 year inspection.</inlineHelpText>
+    <label>Add 12 Year Inspection Event to Calendar</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

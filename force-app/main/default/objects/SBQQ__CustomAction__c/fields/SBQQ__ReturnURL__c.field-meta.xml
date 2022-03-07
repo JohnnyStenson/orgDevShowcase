@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ReturnURL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>URL to return to after successful execution. Not applicable to all actions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>URL to return to after successful execution. Not applicable to all actions.</inlineHelpText>
+    <label>Return URL</label>
+    <length>2000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

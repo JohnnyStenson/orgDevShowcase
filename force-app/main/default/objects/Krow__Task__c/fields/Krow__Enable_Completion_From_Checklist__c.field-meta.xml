@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Completion_From_Checklist__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the Task Completion Percentage % will be calculated based on the completion of checklist items with the percentage complete calculated as the number of checklist items completed compared to the total number of checklist items.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, the Task Completion Percentage % will be calculated based on the completion of checklist items with the percentage complete calculated as the number of checklist items completed compared to the total number of checklist items.</inlineHelpText>
+    <label>Enable Task Completion from Checklists</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

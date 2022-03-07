@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Non_Billable_Hours__c</fullName>
+    <defaultValue>0</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Total project non-billable hours from all approved timesheets.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total project non-billable hours from all approved timesheets.</inlineHelpText>
+    <label>Non-Billable Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

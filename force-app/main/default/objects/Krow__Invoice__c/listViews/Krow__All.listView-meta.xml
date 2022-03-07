@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__All</fullName>
+    <columns>NAME</columns>
+    <columns>Krow__Invoice_Date__c</columns>
+    <columns>Krow__Invoice_Number__c</columns>
+    <columns>Krow__Project__c</columns>
+    <columns>Krow__Organization__c</columns>
+    <columns>Krow__Status__c</columns>
+    <columns>Krow__Invoice_Total__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Krow__Tax_Type__c</columns>
+    <columns>Krow__Tax__c</columns>
+    <columns>Krow__Total_Tax_Amount__c</columns>
+    <columns>Krow__Include_Expense_Receipts__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Apply_Sales_tax_in_QB__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Apply Sales tax for Invoice in QB</description>
+    <externalId>false</externalId>
+    <label>Apply Sales tax in QB</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

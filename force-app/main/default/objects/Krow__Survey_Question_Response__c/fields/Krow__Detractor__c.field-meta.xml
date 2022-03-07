@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Detractor__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Krow__Survey_Question__r.Krow__Question_Type__c, &apos;NPS&apos;), IF(Krow__Rating__c &lt;7 , 1, 0),IF(ISPICKVAL(Krow__Survey_Question__r.Krow__Question_Type__c, &apos;CSAT&apos;), IF(Krow__Rating__c &lt; 4, 1, 0), 0 ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Detractor</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

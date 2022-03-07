@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Localizzazione identificazione sul&apos;ordine di lavoro</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Localizzazione identificazione sul&apos;ordine di lavoro</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Descrizione del problema</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label></label>
+        <name>TrackIT__Inspect_Location</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>TrackIT__Location_Repair</name>
+    </webLinks>
+</CustomObjectTranslation>

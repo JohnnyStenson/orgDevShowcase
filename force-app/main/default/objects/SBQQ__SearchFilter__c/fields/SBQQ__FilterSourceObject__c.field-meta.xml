@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FilterSourceObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Object that sources value for use in filtering.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Object that sources value for use in filtering.</inlineHelpText>
+    <label>Filter Source Object</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>false</default>
+                <label>Quote</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

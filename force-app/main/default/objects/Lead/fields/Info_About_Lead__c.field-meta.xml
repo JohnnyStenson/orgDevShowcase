@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Info_About_Lead__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>All Notes and Info about the Lead&apos;s Job, Company, etc. This will transfer to the Opportunity when Converted.</inlineHelpText>
+    <label>Info About Lead</label>
+    <length>130000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

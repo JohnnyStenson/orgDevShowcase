@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Concrete_to_Order</fullName>
+    <columns>NAME</columns>
+    <columns>Job__c</columns>
+    <columns>What_are_we_pouring__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Time__c</columns>
+    <columns>Actual_Yardage_Ordered__c</columns>
+    <columns>Charge_to_GC__c</columns>
+    <columns>Supplier__c</columns>
+    <columns>Concrete_Supplier_Phone__c</columns>
+    <columns>Ordered__c</columns>
+    <columns>Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Ready to Order</value>
+    </filters>
+    <label>Concrete to Order</label>
+</ListView>

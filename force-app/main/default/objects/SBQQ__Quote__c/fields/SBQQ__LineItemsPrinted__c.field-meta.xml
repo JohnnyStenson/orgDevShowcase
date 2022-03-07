@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__LineItemsPrinted__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Option which when checked prints individual line items on the PDF document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox to print individual line items on the generated PDF quote document for group quotes.</inlineHelpText>
+    <label>Print Line Items</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

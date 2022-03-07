@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Copy_Time_Entries__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, it will copy the time entries, if not checked, it will only copy Project/Milestone/Tasks.</description>
+    <externalId>false</externalId>
+    <label>Copy Time Entries</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

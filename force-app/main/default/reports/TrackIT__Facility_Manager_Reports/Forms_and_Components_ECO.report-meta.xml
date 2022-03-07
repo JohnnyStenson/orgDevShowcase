@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Inventory_Component__c.Quantity_Needed__c</field>
+    </columns>
+    <columns>
+        <field>Inventory_Component__c.Inventory_Component__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Forms and Components</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CustomEntity$Inventory_Component__c@Inventory_Component__c.Inventory_Parent__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

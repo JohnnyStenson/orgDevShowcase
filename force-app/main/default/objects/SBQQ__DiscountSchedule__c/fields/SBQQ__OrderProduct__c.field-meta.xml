@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OrderProduct__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Order product that this discount schedule applies to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Order product that this discount schedule applies to.</inlineHelpText>
+    <label>Order Product</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Please select Order Products of the associated order.</errorMessage>
+        <filterItems>
+            <field>OrderItem.OrderId</field>
+            <operation>equals</operation>
+            <valueField>$Source.SBQQ__Order__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>OrderItem</referenceTo>
+    <relationshipLabel>Discount Schedules</relationshipLabel>
+    <relationshipName>DiscountSchedules</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

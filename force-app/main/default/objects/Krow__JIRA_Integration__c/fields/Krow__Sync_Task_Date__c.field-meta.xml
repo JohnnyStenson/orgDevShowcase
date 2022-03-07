@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Sync_Task_Date__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>To Sync the task/issue dates we need to check this. If not checked and dates are added on JIRA project screens, task/issue creation will fail.</description>
+    <externalId>false</externalId>
+    <label>Sync Task/Issue Dates</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

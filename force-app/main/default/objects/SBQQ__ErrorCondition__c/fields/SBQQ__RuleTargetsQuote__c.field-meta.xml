@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RuleTargetsQuote__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL(SBQQ__Rule__r.SBQQ__Scope__c, &apos;Quote&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>RuleTargetsQuote</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

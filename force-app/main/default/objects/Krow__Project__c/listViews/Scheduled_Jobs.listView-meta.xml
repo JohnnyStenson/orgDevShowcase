@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled_Jobs</fullName>
+    <columns>Start_Date__c</columns>
+    <columns>NAME</columns>
+    <columns>Note_List_View__c</columns>
+    <columns>Site_Profile__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Krow__Project_Status__c</field>
+        <operation>equals</operation>
+        <value>Scheduled Job</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Krow__Project__c.Job</value>
+    </filters>
+    <filters>
+        <field>Krow__Archived__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Krow__Task_Template__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Krow__Project_Template__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Krow__Public_Project_Template__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Scheduled Jobs</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__No_Of_New_Rows_On_My_Timesheet__c</fullName>
+    <defaultValue>10</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This custom will use when any lookup type field will display on my timesheet from field-Set on timesheet detail to avoid the lookup field issue.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This custom will use when any lookup type field will display on my timesheet from field-Set on timesheet detail to avoid the lookup field issue.</inlineHelpText>
+    <label>No of New Rows On My Timesheet</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

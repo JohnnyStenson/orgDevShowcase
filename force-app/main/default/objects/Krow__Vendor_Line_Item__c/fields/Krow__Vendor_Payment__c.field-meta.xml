@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Vendor_Payment__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Vendor Payment</label>
+    <referenceTo>Krow__Vendor_Payment__c</referenceTo>
+    <relationshipLabel>Vendor Line Items</relationshipLabel>
+    <relationshipName>Vendor_Line_Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

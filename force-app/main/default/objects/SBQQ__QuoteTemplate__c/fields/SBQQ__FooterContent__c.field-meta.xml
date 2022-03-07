@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__FooterContent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Template content that should be rendered in the footer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Template content that should be rendered in the footer.</inlineHelpText>
+    <label>Footer Content</label>
+    <referenceTo>SBQQ__TemplateContent__c</referenceTo>
+    <relationshipLabel>Quote Templates (Footer)</relationshipLabel>
+    <relationshipName>QuoteTemplatesFooter</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

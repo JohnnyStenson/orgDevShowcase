@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Sync_Timesheets__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>To decide whether timesheet need to be synced from klient to intacct</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To decide whether timesheet need to be synced from krow to intacct</inlineHelpText>
+    <label>Sync Timesheets</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

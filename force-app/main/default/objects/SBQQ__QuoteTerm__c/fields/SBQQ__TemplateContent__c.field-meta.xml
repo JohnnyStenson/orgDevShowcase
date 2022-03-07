@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TemplateContent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Template Content to which this term is applied.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Template Content to which this term is applied.</inlineHelpText>
+    <label>Template Content</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>SBQQ__TemplateContent__c.SBQQ__Type__c</field>
+            <operation>equals</operation>
+            <value>Quote Terms</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>SBQQ__TemplateContent__c</referenceTo>
+    <relationshipLabel>Quote Terms</relationshipLabel>
+    <relationshipName>Quote_Terms</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

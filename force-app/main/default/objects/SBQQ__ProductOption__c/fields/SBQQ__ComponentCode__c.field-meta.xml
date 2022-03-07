@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ComponentCode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Code for the component represented by this option. This is used in conjunction with the Configured Code Pattern field on the Product object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Code for the component represented by this option.</inlineHelpText>
+    <label>Component Code</label>
+    <length>60</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

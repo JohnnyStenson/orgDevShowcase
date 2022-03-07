@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__OriginalPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The original unit price for the product quoted by this line item.  Original Price originates from the price book.  Also known as MSRP.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The original unit price for the product quoted by this line item.  Original Price originates from the price book.</inlineHelpText>
+    <label>Original Price</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

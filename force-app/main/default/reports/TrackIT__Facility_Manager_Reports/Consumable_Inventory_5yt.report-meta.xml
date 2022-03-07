@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Inventory__c.Manufacturer_Model__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Inventory__c.TrackIT__Description__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>CUST_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,TrackIT__Inventory__c.Standard_Inventory</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TrackIT__Inventory__c.Inventory_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,3. Supply</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Consumable Inventory</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$TrackIT__Inventory__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>TrackIT__Inventory__c.Manufacturer_Model__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>TrackIT__Inventory__c.Last_Time_Competitive_Price_Shopped__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

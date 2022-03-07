@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__ChildItem_ID_Change_After_Creation_Rule</fullName>
+    <active>true</active>
+    <description>Prevents users from changing a Child Item ID after the Child Item is initially entered.</description>
+    <errorConditionFormula>IF(ISNULL( PRIORVALUE( Name )),FALSE,ISCHANGED( Name ) )</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Child Item Number cannot be changed after initial creation. Please contact your System Administrator to change the Child Item Number after the initial Child Item is created.</errorMessage>
+</ValidationRule>

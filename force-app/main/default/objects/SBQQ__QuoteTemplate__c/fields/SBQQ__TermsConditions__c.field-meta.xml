@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TermsConditions__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Terms &amp; Conditions printed on every document generated with this template.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Terms &amp; Conditions printed on every document generated with this template.</inlineHelpText>
+    <label>Terms &amp; Conditions</label>
+    <length>32000</length>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

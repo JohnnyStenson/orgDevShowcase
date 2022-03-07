@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Site_Url__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Full Site Url starts with https for Project Status Report on the project</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Site Url for Project Status Report</inlineHelpText>
+    <label>Site Url</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

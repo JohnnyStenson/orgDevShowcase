@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__License_Name_Change_After_Creation_Rule</fullName>
+    <active>true</active>
+    <description>Prevents users from changing a License Name after the License Name is initially entered.</description>
+    <errorConditionFormula>IF(ISNULL( PRIORVALUE( Name )),FALSE,ISCHANGED( Name ) )</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>License Name cannot be changed after initial creation. Please contact your System Administrator to change the License Name after the initial license is created.</errorMessage>
+</ValidationRule>

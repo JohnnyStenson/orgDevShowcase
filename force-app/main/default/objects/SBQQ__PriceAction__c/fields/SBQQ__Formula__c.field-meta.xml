@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Formula__c</fullName>
+    <deprecated>false</deprecated>
+    <description>You can construct a formula using many of Salesforce&apos;s available operators and functions. Refer to Salesforce CPQ documentation for the full list. You can also add in information from the quote or the target object field (i.e., SBQQ__QuoteLine__c.SBQQ__ListPrice__c).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a formula with operators, functions, and available fields on quote and target object. Not supported on legacy calculator.</inlineHelpText>
+    <label>Formula</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

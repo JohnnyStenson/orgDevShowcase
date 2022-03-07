@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Matter_Name_Change_After_Creation</fullName>
+    <active>true</active>
+    <description>Prevents users from changing Matter Name after the name is initially entered.</description>
+    <errorConditionFormula>IF(ISNULL( PRIORVALUE( Name )),FALSE,ISCHANGED( Name ) )</errorConditionFormula>
+    <errorMessage>Matter Name cannot be changed after initial creation. Please contact your System Administrator to change the Matter Name after the initial creation.</errorMessage>
+</ValidationRule>

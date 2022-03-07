@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ProductDescription__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Description for the optional SKU.</description>
+    <externalId>false</externalId>
+    <formula>SBQQ__OptionalSKU__r.Description</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Description for the optional SKU.</inlineHelpText>
+    <label>Product Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SpecialPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Special (volume-discounted or contracted) unit price for the product being quoted by this line item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Special unit price for this line item, such as volume discount or contracted price.</inlineHelpText>
+    <label>Special Price</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

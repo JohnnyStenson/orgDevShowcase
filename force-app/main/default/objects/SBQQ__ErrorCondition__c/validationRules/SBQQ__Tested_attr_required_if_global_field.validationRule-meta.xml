@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Tested_attr_required_if_global_field</fullName>
+    <active>true</active>
+    <description>Tested Attribute required since the Tested Field is a global Configuration Attribute field.</description>
+    <errorConditionFormula>IF(TEXT(SBQQ__TestedObject__c) == &apos;Configuration Attributes&apos; &amp;&amp; CONTAINS(TEXT(SBQQ__TestedField__c), &apos;.&apos;) &amp;&amp; SBQQ__TestedAttribute__c == &apos;&apos;, true, false)</errorConditionFormula>
+    <errorMessage>Tested Attribute required since the Tested Field is a global Configuration Attribute field.</errorMessage>
+</ValidationRule>

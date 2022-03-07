@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez « Suivi » pour afficher les produits que vous suivez dans Chatter avant d&apos;autres lors de l&apos;ajout à un devis.</help>
+    <label></label>
+    <name>SBQQ__ProductSortPreference__c</name>
+    <picklistValues>
+        <masterLabel>Followed</masterLabel>
+        <translation>Suivi</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SubscriptionTargetPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Price of the subscription target product on which maintenance should calculate.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Price of the subscription target product on which maintenance should calculate.</inlineHelpText>
+    <label>Subscription Target Price</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Incomplete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag set internally by the application logic when a line is saved to the database that&apos;s incomplete. This may happen when price rules are evaluated. Test this field in validation rules to avoid them from firing prematurely. Do NOT add to page layout or otherwise update.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checbox to apply internal application logic, which controls when rules, such as validation rules, trigger. Do NOT add to page layout or otherwise update.</inlineHelpText>
+    <label>Incomplete</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

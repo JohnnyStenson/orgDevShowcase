@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__K_ProjectTaskBoard_SortFields</fullName>
+    <availableFields>
+        <field>Krow__Completion_Date__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>CreatedDate</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>LastModifiedDate</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>Krow__Planned_Due_Date__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>Krow__Planned_Start_Date__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <description>sorting by date on Board Component</description>
+    <displayedFields>
+        <field>Krow__Start_Date__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>Krow__Due_Date__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>ProjectTaskBoard-SortFields</label>
+</FieldSet>

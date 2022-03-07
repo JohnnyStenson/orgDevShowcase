@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Use_Project_Planned_Hour_for_Forecasting__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, the Forecast process will use Project Assignment Schedule Records (and the Project Assignment BIll/Cost Rates) in the Project Forecasting Process instead of Task Assignment Schedule - e.g. for Forecast Hours, Forecast Revenue etc.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, the Forecast process will use Project Assignment Schedule Records (and the Project Assignment BIll/Cost Rates) in the Project Forecasting Process instead of Task Assignment Schedule - e.g. for Forecast Hours, Forecast Revenue etc.</inlineHelpText>
+    <label>Use Project Planned Hour for Forecasting</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

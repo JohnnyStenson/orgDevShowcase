@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Inventory__c.Inventory_Type__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Inv_Location__c.TrackIT__Location__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inv_Location__c.TrackIT__Quantity__c</field>
+    </columns>
+    <columns>
+        <field>TrackIT__Inventory__c.TrackIT__Unit_of_Measure__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inv_Location__c.Optimal_Quantity__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inv_Location__c.Restock_Point__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inv_Location__c.Max_Storage_Capacity__c</field>
+    </columns>
+    <columns>
+        <field>CHILD_NAME</field>
+    </columns>
+    <description>All inventory and Quantities  by Inventory</description>
+    <format>Tabular</format>
+    <name>Location of Inventory by Inventory</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$TrackIT__Inventory__c$TrackIT__Inv_Location__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

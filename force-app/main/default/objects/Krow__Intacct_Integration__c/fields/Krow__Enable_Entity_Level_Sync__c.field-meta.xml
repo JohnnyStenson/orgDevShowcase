@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Entity_Level_Sync__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This flag controls to sync Customers, Projects, Vendors, Employees etc. at Entity Level else these items will be synced at Top Level.</description>
+    <externalId>false</externalId>
+    <label>Enable Entity Level Sync</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

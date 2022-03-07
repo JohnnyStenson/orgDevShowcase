@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Hidden__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Hides this line item from generated PDF.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox to hide this line item from generated PDF.</inlineHelpText>
+    <label>Hidden</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

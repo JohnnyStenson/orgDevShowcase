@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Localização</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Localizações</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Custom</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Inspection Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Localização Número de Identificação</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__Assigned_Inspector_Is_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__Inspection_Duration_Time_Is_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__Loc_Inspect_Reminder_Time_Is_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__LocationID_Change_After_Creation_Rule</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>TrackIT__Barcode_Label_Large</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>TrackIT__Barcode_Label_Small</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>TrackIT__Inspect_Location</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>TrackIT__Location_Repair</name>
+    </webLinks>
+</CustomObjectTranslation>

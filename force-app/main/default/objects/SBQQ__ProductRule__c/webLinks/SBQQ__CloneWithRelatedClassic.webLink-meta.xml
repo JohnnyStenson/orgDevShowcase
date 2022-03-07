@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__CloneWithRelatedClassic</fullName>
+    <availability>online</availability>
+    <description>Clones this product rule with related child records.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Clone with Related</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR($Action.SBQQ__ProductRule__c.Clone, SBQQ__ProductRule__c.Id, [retURL=$Site.Prefix &amp; &apos;/&apos; &amp; SBQQ__ProductRule__c.Id,saveURL=$Site.Prefix &amp; &apos;/apex/SBQQ__CloneProductRule?id=&apos; &amp; SBQQ__ProductRule__c.Id])}</url>
+</WebLink>

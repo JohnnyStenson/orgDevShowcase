@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Required</fullName>
+    <active>true</active>
+    <description>If custom settings Project required is ON then, Project field is required to save the timesheet</description>
+    <errorConditionFormula>AND($Setup.Krow__Krow_Timesheet_Configuration__c.Krow__Project_Required__c, AND(ISBLANK(Krow__Krow_Project__c), AND(AND(NOT(Krow__Exclude_From_Calculation__c), ISBLANK(Krow__Timesheet_Detail__c)), NOT(Krow__Timesheet_Detail__r.Krow__Is_From_PTO__c), NOT(Krow__Timesheet_Detail__r.Krow__Is_From_Holidays__c))))</errorConditionFormula>
+    <errorMessage>Project field is required to save the timesheet</errorMessage>
+</ValidationRule>

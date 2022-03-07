@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__SolutionGroup__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Solution group from which this quote group was generated (if any).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Solution group from which this quote group was generated (if any).</inlineHelpText>
+    <label>Solution Group</label>
+    <referenceTo>SBQQ__SolutionGroup__c</referenceTo>
+    <relationshipLabel>Quote Line Groups</relationshipLabel>
+    <relationshipName>QuoteLineGroups</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QuickNotes</fullName>
+    <description>page</description>
+    <displayedFields>
+        <field>Info_About_Lead__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>ScopeofWork__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>QuickNotes</label>
+</FieldSet>

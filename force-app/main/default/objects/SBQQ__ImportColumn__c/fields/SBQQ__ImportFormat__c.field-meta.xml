@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ImportFormat__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The format in which your records are being imported.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the format in which your records will be imported.</inlineHelpText>
+    <label>Import Format</label>
+    <referenceTo>SBQQ__ImportFormat__c</referenceTo>
+    <relationshipLabel>Import Columns</relationshipLabel>
+    <relationshipName>ImportColumns</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

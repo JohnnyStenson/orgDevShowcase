@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PartnerPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Partner unit price. Price after partner discount but before distributor discount.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Partner unit price. Price after partner discount but before distributor discount.</inlineHelpText>
+    <label>Partner Unit Price</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

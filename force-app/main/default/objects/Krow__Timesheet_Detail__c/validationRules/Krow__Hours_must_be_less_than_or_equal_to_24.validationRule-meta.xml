@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Hours_must_be_less_than_or_equal_to_24</fullName>
+    <active>false</active>
+    <description>Per day hours must be less than or equal to 24.</description>
+    <errorConditionFormula>AND($Setup.Krow__Krow_Timesheet_Configuration__c.Krow__Enable_Max_Hour_Per_Day_Limit__c, (Krow__Sun__c &gt; 24 || Krow__Mon__c &gt; 24 || Krow__Tue__c &gt; 24 || Krow__Wed__c &gt; 24 || Krow__Thu__c &gt; 24 || Krow__Fri__c &gt; 24 || Krow__Sat__c &gt; 24))</errorConditionFormula>
+    <errorMessage>Per day hours must be less than or equal to 24.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TrackIT__Barcode_Label_Small</fullName>
+    <availability>online</availability>
+    <description>Prints out the current inventory barcode label on Dymo 1 1/4&quot; by 2 1/4&quot; label size.</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Barcode Label - Small</masterLabel>
+    <openType>sidebar</openType>
+    <page>TrackIT__printinventorybarcode</page>
+    <protected>false</protected>
+</WebLink>

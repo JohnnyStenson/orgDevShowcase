@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__NetPrice__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Net price for this subscription.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Net price for this subscription.</inlineHelpText>
+    <label>Net Price</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

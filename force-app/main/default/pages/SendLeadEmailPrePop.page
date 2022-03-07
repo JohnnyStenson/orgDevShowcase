@@ -1,0 +1,7 @@
+<apex:page standardController="Lead" showHeader="false" sidebar="false">
+    <script>
+        if(typeof sforce !== 'undefined' && sforce !== null && '{!$User.UIThemeDisplayed}' === 'Theme4d'){
+            sforce.one.navigateToURL('{!'/_ui/core/email/author/EmailAuthor?p26=0D21U000000TQJl:info@teslaconcretecutting.com:TeslaConcreteCutting&p2_lkid=' & Lead.Id & '&p6=Tesla%20Concrete%20Cutting%20Information&rtype=00Q&template_id=00X1U000000dn9L&retURL=/' & Lead.Id }');
+        } 
+    </script>
+</apex:page>

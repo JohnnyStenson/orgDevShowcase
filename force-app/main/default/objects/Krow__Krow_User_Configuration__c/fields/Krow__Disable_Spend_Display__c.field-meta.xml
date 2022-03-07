@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Spend_Display__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, it will hide the spend tab on task detail panel.</description>
+    <externalId>false</externalId>
+    <label>Disable Spend Display</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

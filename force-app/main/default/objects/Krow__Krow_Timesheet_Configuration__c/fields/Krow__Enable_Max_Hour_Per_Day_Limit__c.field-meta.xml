@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Enable_Max_Hour_Per_Day_Limit__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked timesheet entry for any given day can not exceed 24 hours.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked timesheet entry for any given day can not exceed 24 hours.</inlineHelpText>
+    <label>Enable Max Hour Per Day Limit</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

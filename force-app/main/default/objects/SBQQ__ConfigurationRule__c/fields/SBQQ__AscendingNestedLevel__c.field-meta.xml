@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__AscendingNestedLevel__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Include parent bundle configuration with the specified level when evaluating this rule&apos;s conditions in the configurator for alert, validation and selection rules.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Include parent bundle configuration with the specified level when evaluating this rule&apos;s conditions in the configurator for alert, validation and selection rules.</inlineHelpText>
+    <label>Parent Bundle Condition Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

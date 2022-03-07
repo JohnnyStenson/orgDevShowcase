@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Date_cant_be_outside_timesheet_master</fullName>
+    <active>true</active>
+    <description>Date can&apos;t out beyond the timesheet master&apos;s dates.</description>
+    <errorConditionFormula>OR(Krow__Date__c &lt;  Krow__Timesheet__r.Krow__Week_Start_Date__c, Krow__Date__c &gt;  Krow__Timesheet__r.Krow__Week_End_Date__c)</errorConditionFormula>
+    <errorMessage>Date can&apos;t be outside the timesheet master dates.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Scheduled_Klient_Survey__c</fullName>
+    <deprecated>false</deprecated>
+    <description>used to store Scheduled Klient Survey Id.</description>
+    <externalId>false</externalId>
+    <label>Scheduled Klient Survey</label>
+    <referenceTo>Krow__Scheduled_Klient_Survey__c</referenceTo>
+    <relationshipLabel>Scheduled Klient Survey Recipients</relationshipLabel>
+    <relationshipName>Scheduled_Klient_Survey_Recipients</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Target__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price.</inlineHelpText>
+    <label>Target</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

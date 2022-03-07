@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>TrackIT__Inv_Location__c.TrackIT__Location_Name__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inv_Location__c.Max_Storage_Capacity__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inv_Location__c.Optimal_Quantity__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inv_Location__c.TrackIT__Quantity__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TrackIT__Inv_Location__c.Restock_Point__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Inventory Quantities  by Location</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$TrackIT__Inventory__c$TrackIT__Inv_Location__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>TrackIT__Inv_Location__c.TrackIT__Location_Name__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>TrackIT__Inventory__c.Last_Time_Competitive_Price_Shopped__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

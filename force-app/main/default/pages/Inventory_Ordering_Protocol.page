@@ -1,0 +1,7 @@
+<apex:page >
+  <h1>Embedded Video</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ATDRLYEyDZk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+  <h1>Instructions</h1>
+  <ol><li>first</li>
+  <li>Second</li></ol>
+</apex:page>

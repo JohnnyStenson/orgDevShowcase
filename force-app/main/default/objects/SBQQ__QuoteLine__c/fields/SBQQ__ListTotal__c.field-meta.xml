@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ListTotal__c</fullName>
+    <deprecated>false</deprecated>
+    <description>List total price for this quote line item.</description>
+    <externalId>false</externalId>
+    <formula>IF(OR(AND(SBQQ__Renewal__c, !SBQQ__Existing__c, !SBQQ__CarryoverLine__c, ISBLANK(SBQQ__PriorQuantity__c)),SBQQ__Bundled__c),0,CASE(SBQQ__PricingMethod__c,&apos;Block&apos;,SBQQ__ProratedListPrice__c * SBQQ__EffectiveQuantity__c,SBQQ__ProratedListPrice__c * IF(OR(AND(!SBQQ__Existing__c, !SBQQ__CarryoverLine__c), ISPICKVAL(SBQQ__SubscriptionPricing__c, &apos;Percent Of Total&apos;)),SBQQ__Quantity__c,SBQQ__Quantity__c - BLANKVALUE(SBQQ__PriorQuantity__c, 0) + BLANKVALUE(SBQQ__UpgradedQuantity__c, 0))))</formula>
+    <inlineHelpText>List total price for this quote line item.</inlineHelpText>
+    <label>List Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

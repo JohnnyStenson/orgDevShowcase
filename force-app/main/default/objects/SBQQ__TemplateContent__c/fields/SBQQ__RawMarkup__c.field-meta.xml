@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__RawMarkup__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Raw HTML markup. Rich Text field (Markup) strips out many HTML tags so this holds the original version as created by the editor.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Original HTML version of the content in the Markup field.</inlineHelpText>
+    <label>Raw Markup</label>
+    <length>32000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

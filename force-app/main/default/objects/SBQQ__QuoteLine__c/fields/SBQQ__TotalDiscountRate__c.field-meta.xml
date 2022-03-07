@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__TotalDiscountRate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total discount for this line item including volume discount, contracted discount, and additional discount.</description>
+    <externalId>false</externalId>
+    <formula>IF(SBQQ__ProratedListPrice__c == 0, 0,
+IF(ISPICKVAL(SBQQ__DiscountScheduleType__c, &apos;Slab&apos;) &amp;&amp; NOT(SBQQ__Existing__c),
+IF(SBQQ__Quantity__c == 0, 0, (SBQQ__ProratedListPrice__c * SBQQ__Quantity__c - SBQQ__CustomerPrice__c) / (SBQQ__Quantity__c * SBQQ__ProratedListPrice__c)),
+IF(ISPICKVAL(SBQQ__DiscountScheduleType__c, &apos;Slab&apos;) &amp;&amp; SBQQ__Existing__c,
+IF(SBQQ__Quantity__c == SBQQ__PriorQuantity__c, 0, (SBQQ__ProratedListPrice__c * (SBQQ__Quantity__c-SBQQ__PriorQuantity__c) - SBQQ__CustomerPrice__c) / ((SBQQ__Quantity__c-SBQQ__PriorQuantity__c) * SBQQ__ProratedListPrice__c)),
+(SBQQ__ProratedListPrice__c - SBQQ__CustomerPrice__c) / SBQQ__ProratedListPrice__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total discount for this line item including volume discount, contracted discount, and additional discount.</inlineHelpText>
+    <label>Total Discount (%)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Resend_Survey_Invitation</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Resend Survey Invitation</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/Krow__KlientResendSurveyInvitationPage?c__Id={!Krow__Survey_Response__c.Id}</url>
+</WebLink>

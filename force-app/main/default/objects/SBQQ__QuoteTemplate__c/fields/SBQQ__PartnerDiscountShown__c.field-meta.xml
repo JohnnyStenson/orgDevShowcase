@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PartnerDiscountShown__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Determines if the quote-level partner discount is displayed in the quote totals.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the checkbox if you want quote-level partner discount displayed in the quote totals.</inlineHelpText>
+    <label>Show Partner Discount</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

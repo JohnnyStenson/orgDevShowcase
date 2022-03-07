@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Disable_Mark_Billable_To_Project_Childs__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Disable update Billable And Currency On Project Childs (Project Assignment, Task, Timesheet)  process on update the project.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Disable update Billable And Currency On Project Childs (Project Assignment, Task, Timesheet)  process on update the project.</inlineHelpText>
+    <label>Disable Mark Billable To Project Childs</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

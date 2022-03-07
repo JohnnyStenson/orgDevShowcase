@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inventory_Type_Supply</fullName>
+    <columns>ListView_Thumbnail__c</columns>
+    <columns>NAME</columns>
+    <columns>Manufacturer_Model__c</columns>
+    <columns>Indiv_Unit_of_Measurement_Description__c</columns>
+    <columns>Individual_Weight_lbs__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Inventory_Type__c</field>
+        <operation>equals</operation>
+        <value>3. Supply</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>TrackIT__Inventory__c.Standard_Inventory</value>
+    </filters>
+    <label>Inventory Type: Supply</label>
+</ListView>

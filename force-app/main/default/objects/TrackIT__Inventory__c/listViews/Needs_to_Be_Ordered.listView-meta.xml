@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Needs_to_Be_Ordered</fullName>
+    <columns>ListView_Thumbnail__c</columns>
+    <columns>NAME</columns>
+    <columns>Units_of_Measurement_Conversion__c</columns>
+    <columns>Quantity_Needed__c</columns>
+    <columns>Manufacturer_Model__c</columns>
+    <columns>Best_Indiv_Item_Product_Website__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Needs_to_be_Ordered__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Needs to Be Ordered</label>
+</ListView>

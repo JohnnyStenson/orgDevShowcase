@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__ImportLines</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Import Lines</masterLabel>
+    <openType>sidebar</openType>
+    <page>SBQQ__ImportLines</page>
+    <protected>false</protected>
+</WebLink>

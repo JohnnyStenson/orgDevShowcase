@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QTY_cannot_be_less_than_zero</fullName>
+    <active>false</active>
+    <description>Quantity can be Zero or Greater</description>
+    <errorConditionFormula>TrackIT__Quantity__c  &lt;= -0.0000001</errorConditionFormula>
+    <errorDisplayField>TrackIT__Quantity__c</errorDisplayField>
+    <errorMessage>Quantity at any location cannot be negative</errorMessage>
+</ValidationRule>

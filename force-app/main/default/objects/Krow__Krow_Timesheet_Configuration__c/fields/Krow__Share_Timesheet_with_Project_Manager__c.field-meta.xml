@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Share_Timesheet_with_Project_Manager__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this is checked, timesheet will be shared with project manager.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this is checked, timesheet will be shared with project manager.</inlineHelpText>
+    <label>Share Timesheet with Project Manager</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

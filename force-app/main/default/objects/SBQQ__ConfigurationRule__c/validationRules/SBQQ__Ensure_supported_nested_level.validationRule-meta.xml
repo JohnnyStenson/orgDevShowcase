@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Ensure_supported_nested_level</fullName>
+    <active>true</active>
+    <description>Ensure the value of either the parent or child bundle level field is None or 1.</description>
+    <errorConditionFormula>(TEXT(SBQQ__AscendingNestedLevel__c) != null &amp;&amp; TEXT(SBQQ__AscendingNestedLevel__c) != &apos;1&apos;) || (TEXT(SBQQ__DescendingNestedLevel__c) != null &amp;&amp; TEXT(SBQQ__DescendingNestedLevel__c) != &apos;1&apos;) || (TEXT(SBQQ__DescendingActionNesting__c) != null &amp;&amp; TEXT(SBQQ__DescendingActionNesting__c) != &apos;1&apos;)</errorConditionFormula>
+    <errorMessage>The maximum supported Bundle Level is 1.</errorMessage>
+</ValidationRule>

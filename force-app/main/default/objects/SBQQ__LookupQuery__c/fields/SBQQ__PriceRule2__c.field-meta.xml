@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__PriceRule2__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Price Rule associated with this Lookup Query. Replaces the legacy master-detail field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Price Rule associated with this Lookup Query. Replaces the legacy master-detail field.</inlineHelpText>
+    <label>Price Rule</label>
+    <referenceTo>SBQQ__PriceRule__c</referenceTo>
+    <relationshipLabel>Lookup Queries (Price Rule)</relationshipLabel>
+    <relationshipName>PriceRuleLookupQueries</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

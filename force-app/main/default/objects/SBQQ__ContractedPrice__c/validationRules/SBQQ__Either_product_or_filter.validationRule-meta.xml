@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Either_product_or_filter</fullName>
+    <active>true</active>
+    <description>Either product or filter must be specified; not both.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(SBQQ__Product__c)),NOT(ISPICKVAL(SBQQ__FilterField__c,&apos;&apos;)))</errorConditionFormula>
+    <errorMessage>You may not specify both product and filter.</errorMessage>
+</ValidationRule>

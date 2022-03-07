@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Project_Insights</fullName>
+    <fields>Name</fields>
+    <fields>Krow__Project_Status__c</fields>
+    <fields>Krow__Project_Complete__c</fields>
+    <fields>Krow__Project_Start_Date__c</fields>
+    <fields>Krow__Project_End_Date__c</fields>
+    <fields>Krow__Total_Hours__c</fields>
+    <fields>Krow__Total_Hours_Logged__c</fields>
+    <label>Project Insights</label>
+</CompactLayout>

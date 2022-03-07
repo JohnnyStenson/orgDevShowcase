@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Krow__Canceled</fullName>
+    <columns>NAME</columns>
+    <columns>Krow__Project_Start_Date__c</columns>
+    <columns>Krow__Project_End_Date__c</columns>
+    <columns>Krow__Billable__c</columns>
+    <columns>Krow__Organization__c</columns>
+    <columns>Krow__Project_Type__c</columns>
+    <columns>Krow__Region__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Krow__Completion_Date__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Krow__Project_Status__c</field>
+        <operation>equals</operation>
+        <value>Canceled</value>
+    </filters>
+    <label>Canceled</label>
+</ListView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of this content.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of this content.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HTML</fullName>
+                <default>true</default>
+                <label>HTML</label>
+            </value>
+            <value>
+                <fullName>Line Items</fullName>
+                <default>false</default>
+                <label>Line Items</label>
+            </value>
+            <value>
+                <fullName>Quote Terms</fullName>
+                <default>false</default>
+                <label>Quote Terms</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

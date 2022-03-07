@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inventory_Fulfillment</fullName>
+    <fields>Name</fields>
+    <fields>ListView_Thumbnail__c</fields>
+    <fields>Manufacturer_Model__c</fields>
+    <fields>Units_of_Measurement_Conversion__c</fields>
+    <fields>Needs_to_be_Ordered__c</fields>
+    <fields>Quantity_Needed_for_Field__c</fields>
+    <fields>Available_through_MMS__c</fields>
+    <label>Inventory Fulfillment</label>
+</CompactLayout>
