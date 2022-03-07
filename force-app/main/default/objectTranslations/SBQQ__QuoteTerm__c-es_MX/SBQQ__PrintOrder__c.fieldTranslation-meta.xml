@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifica el orden en el que los plazos se imprimen en un documento de presupuesto.</help>
+    <label></label>
+    <name>SBQQ__PrintOrder__c</name>
+</CustomFieldTranslation>

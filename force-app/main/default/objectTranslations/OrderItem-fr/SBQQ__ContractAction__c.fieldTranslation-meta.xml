@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>L&apos;action de contrat à partir de laquelle ce produit commandé est généré.</help>
+    <label></label>
+    <name>SBQQ__ContractAction__c</name>
+</CustomFieldTranslation>

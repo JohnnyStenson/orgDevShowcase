@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Data em que a assinatura relacionada desse produto do pedido foi encerrada</help>
+    <label></label>
+    <name>SBQQ__TerminatedDate__c</name>
+</CustomFieldTranslation>

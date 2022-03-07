@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei aktiviertem Kontrollkästchen wird die vom Benutzer definierte &quot;Einheit für Rabatte&quot; der Preisregelung auf &quot;Preis&quot; eingestellt.</help>
+    <label></label>
+    <name>SBQQ__UsePriceForAmount__c</name>
+</CustomFieldTranslation>

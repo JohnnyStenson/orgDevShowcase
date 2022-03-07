@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Escolha o comportamento dessa restrição: a dependência significa que a inclusão é necessária, enquanto a exclusão significa que a restrição da opção não é selecionada quando a opção de restrição é, e vice-versa.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Dependency</masterLabel>
+        <translation>Dependência</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exclusion</masterLabel>
+        <translation>Exclusão</translation>
+    </picklistValues>
+</CustomFieldTranslation>

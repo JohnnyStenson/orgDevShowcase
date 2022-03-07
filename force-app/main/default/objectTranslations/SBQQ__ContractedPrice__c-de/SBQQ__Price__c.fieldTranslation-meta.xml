@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie den Preis ein, der mit dem Kunden vereinbart wurde. Dieser Wert überschreibt alle anderen Preise, beispielsweise den Preis aus einem Preisbuch oder einen Mengenrabattpreis.</help>
+    <label></label>
+    <name>SBQQ__Price__c</name>
+</CustomFieldTranslation>

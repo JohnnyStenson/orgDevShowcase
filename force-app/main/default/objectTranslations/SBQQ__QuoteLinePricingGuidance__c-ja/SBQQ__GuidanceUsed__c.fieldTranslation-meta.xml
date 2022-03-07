@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>営業担当者が見積品目エディタで、この価格設定ガイダンスから割引目標値を承諾しました。</help>
+    <label></label>
+    <name>SBQQ__GuidanceUsed__c</name>
+</CustomFieldTranslation>

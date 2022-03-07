@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Méthode de tarification qui doit être appliquée à ce produit.</help>
+    <label></label>
+    <name>SBQQ__PricingMethod__c</name>
+    <picklistValues>
+        <masterLabel>Block</masterLabel>
+        <translation>Bloc</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost</masterLabel>
+        <translation>Coût</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List</masterLabel>
+        <translation>Catalogue</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percent Of Total</masterLabel>
+        <translation>Pourcentage du total</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Non_empty_URL_for_Save_and_Navigate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__URLTarget_for_Save_and_Navigate</name>
+    </validationRules>
+</CustomObjectTranslation>

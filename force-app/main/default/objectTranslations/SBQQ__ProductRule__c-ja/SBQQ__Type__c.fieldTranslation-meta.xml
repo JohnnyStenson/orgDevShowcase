@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルールの種別。[入力規則] の場合、エラーメッセージが表示されます。[選択] の場合、商品が追加または推奨されます。[アラート] の場合、警告が表示されますが修正は必要ありません。[条件] の場合、動的バンドルのオプションルックアップ検索結果が絞り込まれます。</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Alert</masterLabel>
+        <translation>アラート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Filter</masterLabel>
+        <translation>条件</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selection</masterLabel>
+        <translation>選択</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validation</masterLabel>
+        <translation>入力規則</translation>
+    </picklistValues>
+</CustomFieldTranslation>

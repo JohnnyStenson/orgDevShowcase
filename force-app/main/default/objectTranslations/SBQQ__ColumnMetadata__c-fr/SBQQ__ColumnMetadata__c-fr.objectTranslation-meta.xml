@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Métadonnée de colonne</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Métadonnées de colonne</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de métadonnées de colonne</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__ValidateMinimumPixelSize</name>
+    </validationRules>
+</CustomObjectTranslation>

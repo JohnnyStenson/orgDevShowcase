@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Une description de chaque composant dans ce package.</help>
+    <label></label>
+    <name>SBQQ__PackageProductDescription__c</name>
+</CustomFieldTranslation>

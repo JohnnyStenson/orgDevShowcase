@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Étiquette utilisée pour la remise client dans les sections de sous-total et de total.</help>
+    <label></label>
+    <name>SBQQ__CustomerDiscountLabel__c</name>
+</CustomFieldTranslation>

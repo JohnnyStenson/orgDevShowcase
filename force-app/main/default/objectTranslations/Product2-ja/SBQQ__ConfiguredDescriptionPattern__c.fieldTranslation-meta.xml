@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>設定対象の商品の動的な商品説明を生成するために使用されるパターン。</help>
+    <label></label>
+    <name>SBQQ__ConfiguredDescriptionPattern__c</name>
+</CustomFieldTranslation>

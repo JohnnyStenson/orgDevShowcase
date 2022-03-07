@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この割引率表で作成される価格の小数点の位置。</help>
+    <label></label>
+    <name>SBQQ__PriceScale__c</name>
+</CustomFieldTranslation>

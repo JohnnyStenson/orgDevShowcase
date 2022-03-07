@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique le niveau d&apos;imbrication de cette option (s&apos;applique uniquement aux lignes générées à partir d&apos;options).</help>
+    <label></label>
+    <name>SBQQ__OptionLevel__c</name>
+</CustomFieldTranslation>

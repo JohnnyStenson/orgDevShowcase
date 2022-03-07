@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Code, der von einer externen Ressource ausgeführt werden kann.</help>
+    <label></label>
+    <name>SBQQ__Code__c</name>
+</CustomFieldTranslation>

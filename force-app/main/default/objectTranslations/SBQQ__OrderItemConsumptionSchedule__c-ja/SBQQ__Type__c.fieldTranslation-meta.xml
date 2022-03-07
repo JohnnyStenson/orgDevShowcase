@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>範囲: 使用数量に適用される階層のみを使用するスケジュール価格。スラブ: 指定された境界内の使用量にその階層の値と等しい価格設定が適用されます</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation>範囲</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slab</masterLabel>
+        <translation>スラブ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

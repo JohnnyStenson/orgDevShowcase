@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si está marcado como oculto, el atributo de configuración no aparecerá en la página del configurador de productos.</help>
+    <label></label>
+    <name>SBQQ__Hidden__c</name>
+</CustomFieldTranslation>

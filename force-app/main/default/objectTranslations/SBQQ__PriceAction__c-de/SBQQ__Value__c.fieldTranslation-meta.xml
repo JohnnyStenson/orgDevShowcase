@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie den Wert ein, der in das Zielfeld eingefügt werden soll, wenn die Bedingungen erfüllt sind.</help>
+    <label></label>
+    <name>SBQQ__Value__c</name>
+</CustomFieldTranslation>

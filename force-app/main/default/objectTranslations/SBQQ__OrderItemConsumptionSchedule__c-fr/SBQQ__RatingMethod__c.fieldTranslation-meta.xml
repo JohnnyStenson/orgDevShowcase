@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Choisissez un cas d&apos;utilisation spécifique pour évaluer l&apos;utilisation par rapport à cette planification. Cette liste de sélection contrôle le champ Type.</help>
+    <label></label>
+    <name>SBQQ__RatingMethod__c</name>
+    <picklistValues>
+        <masterLabel>Tier</masterLabel>
+        <translation>Niveau</translation>
+    </picklistValues>
+</CustomFieldTranslation>

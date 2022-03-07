@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>いつこのルールを評価する必要があるかを指定します。見積品目を対象とする場合のみ使用します。従来の計算機能ではサポートされていません。</help>
+    <label></label>
+    <name>SBQQ__EvaluationEvent__c</name>
+    <picklistValues>
+        <masterLabel>After Calculate</masterLabel>
+        <translation>計算後</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Before Calculate</masterLabel>
+        <translation>計算前</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Calculate</masterLabel>
+        <translation>計算時</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Initialization</masterLabel>
+        <translation>初期化時</translation>
+    </picklistValues>
+</CustomFieldTranslation>

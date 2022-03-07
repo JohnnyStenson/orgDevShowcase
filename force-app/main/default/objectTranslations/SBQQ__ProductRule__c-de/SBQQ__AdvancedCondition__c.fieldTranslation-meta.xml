@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kann nur eingegeben werden, wenn &quot;Erfüllte Bedingungen&quot; auf &quot;Benutzerdefiniert&quot; eingestellt ist. Geben Sie eine Kombination aus den Indexnummern der Fehlerbedingung, AND, OR und Klammern ein (e.g. (123 AND 124) AND 125).</help>
+    <label></label>
+    <name>SBQQ__AdvancedCondition__c</name>
+</CustomFieldTranslation>

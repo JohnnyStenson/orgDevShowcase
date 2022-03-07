@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cantidad combinada de este producto de anteriores compras.</help>
+    <label></label>
+    <name>SBQQ__PriorQuantity__c</name>
+</CustomFieldTranslation>

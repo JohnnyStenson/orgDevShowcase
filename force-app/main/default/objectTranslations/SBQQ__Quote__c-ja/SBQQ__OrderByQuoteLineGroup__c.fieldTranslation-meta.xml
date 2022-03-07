@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積を「注文済み」に設定するときにフラグ設定すると、注文は見積品目グループごとに作成され、見積品目が関連付けられます。</help>
+    <label></label>
+    <name>SBQQ__OrderByQuoteLineGroup__c</name>
+</CustomFieldTranslation>

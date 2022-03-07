@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このプロセスを品目エディタのデフォルトの見積プロセスセレクタとして設定する場合は、チェックボックスをオンにします。これは、見積プロセスセレクタが選択リストとして表示される場合にのみ適用されます。</help>
+    <label></label>
+    <name>SBQQ__Default__c</name>
+</CustomFieldTranslation>

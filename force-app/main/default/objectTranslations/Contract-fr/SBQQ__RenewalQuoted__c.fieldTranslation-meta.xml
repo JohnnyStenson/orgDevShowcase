@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette option pour générer automatiquement un devis de renouvellement dans les opportunités de renouvellement.</help>
+    <label></label>
+    <name>SBQQ__RenewalQuoted__c</name>
+</CustomFieldTranslation>

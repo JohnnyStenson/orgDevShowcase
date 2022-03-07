@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gesamtbetrag von Komponenten in dieser Konfiguration. Dieses Feld wird nur ausgefüllt, wenn dieser Belegposten ein konfigurierbares Produkt referenziert.</help>
+    <label></label>
+    <name>SBQQ__ComponentTotal__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica si este campo debe resumirse en la partida principal. Solo se aplica si se especifica el campo Resumen en la plantilla.</help>
+    <label></label>
+    <name>SBQQ__RollUp__c</name>
+</CustomFieldTranslation>

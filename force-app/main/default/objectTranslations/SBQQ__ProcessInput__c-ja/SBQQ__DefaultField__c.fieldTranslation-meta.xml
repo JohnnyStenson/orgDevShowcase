@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この入力のデフォルト値のソースとなる見積項目。</help>
+    <label></label>
+    <name>SBQQ__DefaultField__c</name>
+    <picklistValues>
+        <masterLabel>Bill To Country</masterLabel>
+        <translation>請求先 国</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ship To Country</masterLabel>
+        <translation>納入先 国</translation>
+    </picklistValues>
+</CustomFieldTranslation>

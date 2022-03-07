@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Esse rótulo de ação na UI.</help>
+    <label></label>
+    <name>SBQQ__Label__c</name>
+</CustomFieldTranslation>

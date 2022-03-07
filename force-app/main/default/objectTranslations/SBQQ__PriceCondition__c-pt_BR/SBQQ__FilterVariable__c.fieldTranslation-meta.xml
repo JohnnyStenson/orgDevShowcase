@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a Variável de resumo que você deseja que essa condição use como filtro.</help>
+    <label></label>
+    <name>SBQQ__FilterVariable__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

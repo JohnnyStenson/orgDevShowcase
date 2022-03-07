@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsqu&apos;elle est définie, cette valeur remplace le montant d&apos;augmentation du segment précédent en calculant son augmentation.</help>
+    <label></label>
+    <name>SBQQ__PreviousSegmentUplift__c</name>
+</CustomFieldTranslation>

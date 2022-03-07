@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Para Regras de seleção de produto, indica que a ação é necessária.</help>
+    <label></label>
+    <name>SBQQ__Required__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção caso os termos da cotação renderizados por esse modelo devam ser numerados.</help>
+    <label></label>
+    <name>SBQQ__TermsNumbered__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ドキュメントの状況を示します: 待機中、送信済み、失敗。</help>
+    <label></label>
+    <name>SBQQ__DocumentStatus__c</name>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation>失敗</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>待機中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent</masterLabel>
+        <translation>送信済み</translation>
+    </picklistValues>
+</CustomFieldTranslation>

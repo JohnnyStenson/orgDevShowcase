@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Barème des remises basées sur la durée de l&apos;abonnement. La valeur « Groupe » applique le taux de remise à la durée du groupe, alors que la valeur « Devis » applique le taux de remise à toute la durée du devis, quelles que soient les différences de durée dans vos groupes.</help>
+    <label></label>
+    <name>SBQQ__TermDiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

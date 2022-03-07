@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Weisen Sie einem Produkt einen Festpreis auf der Basis der Menge bzw. des Mengenbereichs zu. Dies überschreibt die automatische Berechnung nach der Formel Menge x Stückpreis.</help>
+    <label></label>
+    <name>SBQQ__BlockPrice__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>カスタマーコミュニティでこの商品を使用可能にする方法を選択します。</help>
+    <label></label>
+    <name>SBQQ__CustomerCommunityAvailability__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>常に</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>表示しない</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Only when already owned</masterLabel>
+        <translation>すでに所有されている場合のみ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

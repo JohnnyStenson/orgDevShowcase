@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>条件に一致する行から返す項目の API 参照名。</help>
+    <label></label>
+    <name>SBQQ__SourceLookupField__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__Value__c</masterLabel>
+        <translation>SBQQ__Value__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

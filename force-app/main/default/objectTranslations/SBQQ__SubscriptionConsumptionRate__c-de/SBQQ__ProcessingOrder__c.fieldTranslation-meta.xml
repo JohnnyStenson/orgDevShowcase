@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Reihenfolge für die Verarbeitung der Nutzungswerte über mehrere Werte hinweg. Verbrauchswerte werden in aufsteigender Reihenfolge ausgewertet.</help>
+    <label></label>
+    <name>SBQQ__ProcessingOrder__c</name>
+</CustomFieldTranslation>

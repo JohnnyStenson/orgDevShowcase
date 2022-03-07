@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, um einen separaten Vertrag für Abonnements in dieser Gruppe zu generieren.</help>
+    <label></label>
+    <name>SBQQ__SeparateContract__c</name>
+</CustomFieldTranslation>

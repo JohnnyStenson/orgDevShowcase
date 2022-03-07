@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Rabattregelung, die auf das Produkt angewandt werden soll, das von allen Optionen in dieser Funktion ausgewählt wurde. Dies überschreibt die im Produkt ausgewählte Rabattregelung.</help>
+    <label></label>
+    <name>SBQQ__DiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

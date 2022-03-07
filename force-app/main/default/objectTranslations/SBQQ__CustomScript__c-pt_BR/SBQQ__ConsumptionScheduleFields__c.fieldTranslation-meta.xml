@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nomes da API dos campos de cronogramas de consumo referenciados por este plug-in. Insira até 10 campos, um campo em cada linha.</help>
+    <label></label>
+    <name>SBQQ__ConsumptionScheduleFields__c</name>
+</CustomFieldTranslation>

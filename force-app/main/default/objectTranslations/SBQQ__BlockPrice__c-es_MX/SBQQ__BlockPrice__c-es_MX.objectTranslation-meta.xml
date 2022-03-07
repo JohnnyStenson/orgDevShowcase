@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Precio de bloque</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Precios de bloque</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de precios</nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__EditAll</name>
+    </webLinks>
+</CustomObjectTranslation>

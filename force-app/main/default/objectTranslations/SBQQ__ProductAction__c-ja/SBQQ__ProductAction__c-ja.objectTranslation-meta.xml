@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>商品アクション</value>
+    </caseValues>
+    <nameFieldLabel>商品アクション番号</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Value_attr_required_if_global_field</name>
+    </validationRules>
+</CustomObjectTranslation>

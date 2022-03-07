@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione el modo en que este producto debe estar disponible en comunidades de clientes.</help>
+    <label></label>
+    <name>SBQQ__CustomerCommunityAvailability__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Siempre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>Nunca</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Only when already owned</masterLabel>
+        <translation>Solo cuando ya tiene propiedad</translation>
+    </picklistValues>
+</CustomFieldTranslation>

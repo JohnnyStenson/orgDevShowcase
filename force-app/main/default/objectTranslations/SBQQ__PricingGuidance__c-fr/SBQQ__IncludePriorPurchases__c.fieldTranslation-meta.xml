@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lors de la définition du niveau de prix indicatif pour une ligne de devis, incluez les quantités de produits vendues précédemment</help>
+    <label></label>
+    <name>SBQQ__IncludePriorPurchases__c</name>
+</CustomFieldTranslation>

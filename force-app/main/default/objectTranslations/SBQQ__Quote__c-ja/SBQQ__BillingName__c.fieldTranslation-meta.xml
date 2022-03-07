@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>請求先住所の名前。</help>
+    <label></label>
+    <name>SBQQ__BillingName__c</name>
+</CustomFieldTranslation>

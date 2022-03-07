@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione la casilla de verificación si los plazos del presupuesto representados por esta plantilla deben numerarse.</help>
+    <label></label>
+    <name>SBQQ__TermsNumbered__c</name>
+</CustomFieldTranslation>

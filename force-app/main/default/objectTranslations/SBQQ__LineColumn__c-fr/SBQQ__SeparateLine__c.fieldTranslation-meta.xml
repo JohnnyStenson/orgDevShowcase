@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette case pour imprimer ce champ sur sa propre ligne. Utilisée pour les champs de texte long tels que les descriptions de produits.</help>
+    <label></label>
+    <name>SBQQ__SeparateLine__c</name>
+</CustomFieldTranslation>

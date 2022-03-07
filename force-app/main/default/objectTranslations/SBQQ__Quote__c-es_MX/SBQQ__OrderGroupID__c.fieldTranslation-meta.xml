@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El identificador exclusivo para la transacción Corrección: Presupuesto repetido, que es el Id. del presupuesto principal original.</help>
+    <label></label>
+    <name>SBQQ__OrderGroupID__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Costo de una unidad del producto presupuestado en esta partida si no se aplicaron las programaciones de costos.</help>
+    <label></label>
+    <name>SBQQ__OriginalUnitCost__c</name>
+</CustomFieldTranslation>

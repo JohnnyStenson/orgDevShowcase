@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie eine Formel mit Operatoren, Funktionen und verfügbaren Feldern in Angebots- und Zielobjekt ein. Wird bei altem Rechner nicht unterstützt.</help>
+    <label></label>
+    <name>SBQQ__TestedFormula__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この顧客のサービスおよびサブスクリプション契約の期間調整方法を決定します。</help>
+    <label></label>
+    <name>SBQQ__ContractCoTermination__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>常に</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>表示しない</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prompt</masterLabel>
+        <translation>ユーザが選択</translation>
+    </picklistValues>
+</CustomFieldTranslation>

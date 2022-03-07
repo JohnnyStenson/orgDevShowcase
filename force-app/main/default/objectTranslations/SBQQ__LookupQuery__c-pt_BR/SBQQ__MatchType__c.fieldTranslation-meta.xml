@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se Tipo de correspondência = Valor do campo, selecione um Objeto testado e um Campo testado. Se Tipo de correspondência = Valor estático, insira o valor em Valor testado. Se Tipo de correspondência = Atributo de configuração, especifique um Atributo de configuração.</help>
+    <label></label>
+    <name>SBQQ__MatchType__c</name>
+    <picklistValues>
+        <masterLabel>Configuration Attribute Value</masterLabel>
+        <translation>Valor do atributo de configuração</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Field Value</masterLabel>
+        <translation>Valor do campo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Static Value</masterLabel>
+        <translation>Valor estático</translation>
+    </picklistValues>
+</CustomFieldTranslation>

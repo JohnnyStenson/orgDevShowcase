@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>SBQQ__DefaultPricingTable__c</name>
+    <picklistValues>
+        <masterLabel>Segmented</masterLabel>
+        <translation>分割</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard</masterLabel>
+        <translation>標準</translation>
+    </picklistValues>
+</CustomFieldTranslation>

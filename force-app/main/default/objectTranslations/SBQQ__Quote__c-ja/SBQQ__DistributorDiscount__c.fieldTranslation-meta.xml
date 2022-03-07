@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積に適用される流通業者割引。ただし、品目レベルでこの値を上書きできます。</help>
+    <label></label>
+    <name>SBQQ__DistributorDiscount__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prix contracté si le produit a une tarification négociée pour le compte de l&apos;opportunité. Les prix contractés sont disponibles dans le compte et peuvent être appliqués à n&apos;importe quel produit de n&apos;importe quel catalogue de prix.</help>
+    <label></label>
+    <name>SBQQ__ContractedPrice__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

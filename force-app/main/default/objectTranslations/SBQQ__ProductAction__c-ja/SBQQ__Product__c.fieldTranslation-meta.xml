@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積で自動的に選択される商品を選択します。注意: 商品ルールの [種別] は [選択] に設定する必要があります。</help>
+    <label></label>
+    <name>SBQQ__Product__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

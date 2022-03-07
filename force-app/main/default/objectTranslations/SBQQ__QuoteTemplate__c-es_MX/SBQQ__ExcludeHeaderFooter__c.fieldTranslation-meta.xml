@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Excluye el encabezado y el pie de la plantilla en la primera página, en la última página o en la primera y la última página a la vez.</help>
+    <label></label>
+    <name>SBQQ__ExcludeHeaderFooter__c</name>
+    <picklistValues>
+        <masterLabel>First Page</masterLabel>
+        <translation>Primera página</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First and Last</masterLabel>
+        <translation>Primera y última</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Last Page</masterLabel>
+        <translation>Última página</translation>
+    </picklistValues>
+</CustomFieldTranslation>

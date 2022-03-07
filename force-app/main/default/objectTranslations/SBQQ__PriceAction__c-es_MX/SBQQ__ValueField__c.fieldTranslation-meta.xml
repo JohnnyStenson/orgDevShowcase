@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si el valor que desea insertar se calcula en otro campo Partida de presupuesto, seleccione el campo aquí.</help>
+    <label></label>
+    <name>SBQQ__ValueField__c</name>
+</CustomFieldTranslation>

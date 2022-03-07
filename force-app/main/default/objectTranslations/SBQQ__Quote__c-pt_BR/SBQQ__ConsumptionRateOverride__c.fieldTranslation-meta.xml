@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indicador somente leitura para mostrar se uma cotação contém taxas de consumo de substituição.</help>
+    <label></label>
+    <name>SBQQ__ConsumptionRateOverride__c</name>
+</CustomFieldTranslation>

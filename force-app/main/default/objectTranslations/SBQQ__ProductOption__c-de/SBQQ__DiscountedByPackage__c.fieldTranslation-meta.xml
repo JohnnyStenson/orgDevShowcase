@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie das Kontrollkästchen, um automatisch einen zusätzlichen Rabatt aus dem übergeordneten Paket auf diese Komponente anzuwenden. Es kann nur ein prozentbasierter Rabatt angewandt werden.</help>
+    <label></label>
+    <name>SBQQ__DiscountedByPackage__c</name>
+</CustomFieldTranslation>

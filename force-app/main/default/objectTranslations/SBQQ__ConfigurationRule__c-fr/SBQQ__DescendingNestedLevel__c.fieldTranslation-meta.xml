@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Inclure les configurations d’offre groupée enfant au niveau spécifié lors de l’évaluation des conditions de cette règle dans le configurateur, pour les règles d’alerte, de validation et de sélection.</help>
+    <label></label>
+    <name>SBQQ__DescendingNestedLevel__c</name>
+    <picklistValues>
+        <masterLabel>1</masterLabel>
+        <translation>1</translation>
+    </picklistValues>
+</CustomFieldTranslation>

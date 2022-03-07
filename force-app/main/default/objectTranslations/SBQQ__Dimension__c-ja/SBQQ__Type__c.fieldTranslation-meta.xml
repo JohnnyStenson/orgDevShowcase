@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>価格ディメンションの種別を [1 回] または [年] から選択してください。年ディメンションは常にサブスクリプションとして処理されます。</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation>カスタム</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Month</masterLabel>
+        <translation>月</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>One-time</masterLabel>
+        <translation>1 回</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarter</masterLabel>
+        <translation>四半期</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Year</masterLabel>
+        <translation>年</translation>
+    </picklistValues>
+</CustomFieldTranslation>

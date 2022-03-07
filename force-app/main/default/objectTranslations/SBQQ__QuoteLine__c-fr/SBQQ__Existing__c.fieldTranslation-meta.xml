@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique que le client détient déjà ce produit. Utilisé généralement pour les produits contenant des options lors de la génération d&apos;un devis complémentaire. Le produit figure sur le devis uniquement pour piloter le configurateur.</help>
+    <label></label>
+    <name>SBQQ__Existing__c</name>
+</CustomFieldTranslation>

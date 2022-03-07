@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>追加された商品の一致項目の値を使用して動的機能から商品を追加する場合は、この属性の値を設定します。</help>
+    <label></label>
+    <name>SBQQ__AutoSelect__c</name>
+</CustomFieldTranslation>

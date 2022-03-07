@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Un descuento mediano basado en ventas anteriores. Si un representante desde utilizar este precio, debe aplicar el descuento a la partida de presupuesto manualmente. Este descuento podría requerir aprobaciones en base a los parámetros de aprobaciones de su organización.</help>
+    <label></label>
+    <name>SBQQ__Norm__c</name>
+</CustomFieldTranslation>

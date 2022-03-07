@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Termo para essa assinatura. Se esse produto não for uma assinatura, esse valor não terá efeito.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionTerm__c</name>
+</CustomFieldTranslation>

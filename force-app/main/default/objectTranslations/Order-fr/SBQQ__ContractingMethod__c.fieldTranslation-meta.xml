@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>« Par date de fin d&apos;abonnement » crée un contrat séparé pour chaque date de fin d&apos;abonnement unique, contenant uniquement ces abonnements. « Contrat unique » crée un contrat contenant tous les abonnements, quelle que soit leur date de fin.</help>
+    <label></label>
+    <name>SBQQ__ContractingMethod__c</name>
+</CustomFieldTranslation>

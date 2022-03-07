@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique comment ce produit est converti en ressource.</help>
+    <label></label>
+    <name>SBQQ__AssetConversion__c</name>
+    <picklistValues>
+        <masterLabel>One per quote line</masterLabel>
+        <translation>Un par ligne de devis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>One per unit</masterLabel>
+        <translation>Un par unité</translation>
+    </picklistValues>
+</CustomFieldTranslation>

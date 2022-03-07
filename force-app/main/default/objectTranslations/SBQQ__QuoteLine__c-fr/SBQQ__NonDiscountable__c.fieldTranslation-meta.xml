@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque cet élément de ligne comme sans remise possible.</help>
+    <label></label>
+    <name>SBQQ__NonDiscountable__c</name>
+</CustomFieldTranslation>

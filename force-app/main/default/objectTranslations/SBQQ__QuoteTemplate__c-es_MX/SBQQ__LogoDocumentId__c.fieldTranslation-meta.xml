@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Id. de Salesforce para el documento que contiene la imagen de logotipo empleada en el PDF del presupuesto.</help>
+    <label></label>
+    <name>SBQQ__LogoDocumentId__c</name>
+</CustomFieldTranslation>

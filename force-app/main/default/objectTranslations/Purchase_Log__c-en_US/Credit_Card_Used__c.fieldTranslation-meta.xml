@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Credit_Card_Used__c</name>
+    <picklistValues>
+        <masterLabel>AmerExp-7894</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PNC BANK Debit 0194</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie an, wie Belegposten in erstellten Dokumenten nummeriert werden sollen. &quot;Beginn bei Angebot&quot; bestimmt, dass alle Belegposten über Gruppen hinweg (sofern vorhanden) fortlaufend nummeriert werden. &quot;Beginn bei Gruppe&quot; setzt die Nummerierung innerhalb jeder Gruppe zurück.</help>
+    <label></label>
+    <name>SBQQ__LineNumbering__c</name>
+    <picklistValues>
+        <masterLabel>Start at group</masterLabel>
+        <translation>Beginn bei Gruppe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start at quote</masterLabel>
+        <translation>Beginn bei Angebot</translation>
+    </picklistValues>
+</CustomFieldTranslation>

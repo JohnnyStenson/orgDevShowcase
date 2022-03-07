@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>他に指定されていない場合、修正商談のレコードタイプ。</help>
+    <label></label>
+    <name>SBQQ__AmendmentOpportunityRecordTypeId__c</name>
+</CustomFieldTranslation>

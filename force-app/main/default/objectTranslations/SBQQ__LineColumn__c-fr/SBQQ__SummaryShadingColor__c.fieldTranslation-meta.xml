@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez la couleur (en valeur hexadécimale) à l&apos;arrière-plan de la cellule de la ligne de résumé de cette colonne. Si vous laissez ce champ vide, l&apos;arrière-plan hérite de la couleur de trame du modèle.</help>
+    <label></label>
+    <name>SBQQ__SummaryShadingColor__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Acción que realiza esta acción personalizada.</help>
+    <label></label>
+    <name>SBQQ__Action__c</name>
+    <picklistValues>
+        <masterLabel>Add Favorites</masterLabel>
+        <translation>Agregar Favoritos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Add Group</masterLabel>
+        <translation>Agregar grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Add Products</masterLabel>
+        <translation>Agregar productos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Add Solution Group</masterLabel>
+        <translation>Agregar grupo de soluciones</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Add To Favorites</masterLabel>
+        <translation>Agregar a Favoritos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amend</masterLabel>
+        <translation>Corregir</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amend Assets</masterLabel>
+        <translation>Corregir activos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amend Contract</masterLabel>
+        <translation>Corregir contrato</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Calculate</masterLabel>
+        <translation>Calcular</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel</masterLabel>
+        <translation>Cancelar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clone Group</masterLabel>
+        <translation>Duplicar grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clone Line</masterLabel>
+        <translation>Duplicar partida</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clone with Related</masterLabel>
+        <translation>Duplicar con relacionada</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Create Order</masterLabel>
+        <translation>Crear pedido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete Group</masterLabel>
+        <translation>Eliminar grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete Line</masterLabel>
+        <translation>Eliminar partida</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete Lines</masterLabel>
+        <translation>Eliminar partidas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Desegment Line</masterLabel>
+        <translation>Retirar segmentos de partida</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edit Lines</masterLabel>
+        <translation>Modificar partidas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edit Order Products</masterLabel>
+        <translation>Modificar productos de pedido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Email</masterLabel>
+        <translation>Email</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generate Document</masterLabel>
+        <translation>Generar documento</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Import Lines</masterLabel>
+        <translation>Importar partidas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Include Document</masterLabel>
+        <translation>Incluir documento</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Launch External</masterLabel>
+        <translation>Iniciar externa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Modify Quote Terms</masterLabel>
+        <translation>Modificar condiciones de presupuesto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optional: All</masterLabel>
+        <translation>Opcional: Todos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optional: None</masterLabel>
+        <translation>Opcional: Ninguno</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preview Document</masterLabel>
+        <translation>Vista previa de documento</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quick Save</masterLabel>
+        <translation>Guardado rápido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reconfigure Line</masterLabel>
+        <translation>Volver a configurar partida</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refresh Prices</masterLabel>
+        <translation>Actualizar precios</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remove From Favorites</masterLabel>
+        <translation>Eliminar de Favoritos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renew Assets</masterLabel>
+        <translation>Renovar activos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renew Contracts</masterLabel>
+        <translation>Renovar contratos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renew Subscriptions</masterLabel>
+        <translation>Renovar suscripciones</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resegment Line</masterLabel>
+        <translation>Volver a segmentar partida</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reset Discounts</masterLabel>
+        <translation>Restablecer descuentos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save</masterLabel>
+        <translation>Guardar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save and Navigate</masterLabel>
+        <translation>Guardar y navegar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ungroup</masterLabel>
+        <translation>Desagrupar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upgrade Assets</masterLabel>
+        <translation>Mejorar activos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>View</masterLabel>
+        <translation>Ver</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>View Consumption Schedule</masterLabel>
+        <translation>Ver programación de consumo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>View Discount Schedule</masterLabel>
+        <translation>Ver programación de descuentos</translation>
+    </picklistValues>
+</CustomFieldTranslation>

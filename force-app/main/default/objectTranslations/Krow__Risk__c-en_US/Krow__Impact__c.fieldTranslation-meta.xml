@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Krow__Impact__c</name>
+    <picklistValues>
+        <masterLabel>1. Very little impact on the project.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2. Impact will have small change in the project outcome.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3. Event will cause some impact to the project; project can be completed with minimal budget, schedule changes, etc.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4. An event will have a major impact to the project; can complete project but may be over budget, schedule, etc.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5. Very high impact including financial loss, personal injury, termination of contract, loss of client, etc.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

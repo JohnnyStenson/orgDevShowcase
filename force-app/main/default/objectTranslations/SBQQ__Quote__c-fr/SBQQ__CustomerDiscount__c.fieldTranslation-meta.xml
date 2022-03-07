@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remise supplémentaire étendue au client dans ce devis. Cette valeur peut être remplacée au niveau de l&apos;élément de ligne individuel. Tout élément de ligne dans lequel aucune remise supplémentaire explicite n&apos;est spécifiée utilise par défaut cette valeur.</help>
+    <label></label>
+    <name>SBQQ__CustomerDiscount__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>範囲: 見積品目数量に適用された価格設定ガイダンス層のみを使用して割り引きます。</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation>範囲</translation>
+    </picklistValues>
+</CustomFieldTranslation>

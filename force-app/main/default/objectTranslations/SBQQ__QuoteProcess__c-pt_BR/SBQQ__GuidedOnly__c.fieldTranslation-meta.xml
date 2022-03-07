@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção se deseja que as cotações cobertas por esse processo sejam forçadas em uma seleção de produto guiada, caso contrário, isso assumirá como padrão filtragem ad-hoc.</help>
+    <label></label>
+    <name>SBQQ__GuidedOnly__c</name>
+</CustomFieldTranslation>

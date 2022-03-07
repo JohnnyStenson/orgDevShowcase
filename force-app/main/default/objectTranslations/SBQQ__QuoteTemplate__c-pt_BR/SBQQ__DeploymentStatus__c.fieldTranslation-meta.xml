@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Status de implantação desse modelo. Altere para &quot;Implantado&quot; para tornar esse modelo visível a usuários não administradores.</help>
+    <label></label>
+    <name>SBQQ__DeploymentStatus__c</name>
+    <picklistValues>
+        <masterLabel>Deployed</masterLabel>
+        <translation>Implantado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Development</masterLabel>
+        <translation>Em desenvolvimento</translation>
+    </picklistValues>
+</CustomFieldTranslation>

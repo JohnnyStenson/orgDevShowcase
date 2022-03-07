@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se desmarcada, a Data final da cotação de alteração será definida conforme a configuração de Comportamento de alteração e renovação. Se marcada, nenhuma Data final será definida.</help>
+    <label></label>
+    <name>SBQQ__DisableAmendmentCoTerm__c</name>
+</CustomFieldTranslation>

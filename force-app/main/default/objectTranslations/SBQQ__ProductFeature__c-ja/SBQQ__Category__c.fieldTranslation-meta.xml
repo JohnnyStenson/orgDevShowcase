@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>関連するオプションが含まれる複数の機能が同じグループになるように、この機能をカテゴリに割り当てます。</help>
+    <label></label>
+    <name>SBQQ__Category__c</name>
+    <picklistValues>
+        <masterLabel>Hardware</masterLabel>
+        <translation>ハードウェア</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Software</masterLabel>
+        <translation>ソフトウェア</translation>
+    </picklistValues>
+</CustomFieldTranslation>

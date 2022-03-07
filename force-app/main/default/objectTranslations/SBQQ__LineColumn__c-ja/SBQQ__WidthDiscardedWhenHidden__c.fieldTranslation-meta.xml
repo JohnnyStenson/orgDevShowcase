@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>条件付きで表示される列で別の列を置き換えるには、チェックボックスをオンにします。このボックスをオフのままにした場合、この列が非表示になるとその幅が別の列に再割り当てされるため、テーブル幅が変更されません。</help>
+    <label></label>
+    <name>SBQQ__WidthDiscardedWhenHidden__c</name>
+</CustomFieldTranslation>

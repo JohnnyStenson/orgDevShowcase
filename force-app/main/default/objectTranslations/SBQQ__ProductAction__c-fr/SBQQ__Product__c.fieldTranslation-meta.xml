@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez le produit qui doit être automatiquement sélectionné dans le devis. Remarque : la règle de produit Type doit être définie sur « Sélection ».</help>
+    <label></label>
+    <name>SBQQ__Product__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

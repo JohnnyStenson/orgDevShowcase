@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>URL a la que volver tras una ejecución correcta. No se aplica a todas las acciones.</help>
+    <label></label>
+    <name>SBQQ__ReturnURL__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remise (montant) basée sur le champ, lorsque le produit référencé pour cette option est offert seul. Cependant, vous devez étendre une remise si le produit fait partie d&apos;une offre groupée.</help>
+    <label></label>
+    <name>SBQQ__DiscountAmount__c</name>
+</CustomFieldTranslation>

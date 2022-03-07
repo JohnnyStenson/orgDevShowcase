@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie das Produkt an, für das das Upgrade durchgeführt wurde. Ist nur anwendbar, wenn dieses Produkt ein Upgrade ist, was daran erkennbar ist, dass das Feld &quot;Upgrade-Quelle&quot; ausgefüllt ist oder zugehörige &quot;Upgrade-Quelle&quot;-Datensätze vorhanden sind.</help>
+    <label></label>
+    <name>SBQQ__UpgradeTarget__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

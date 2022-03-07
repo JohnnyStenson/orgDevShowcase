@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilice &quot;Componente&quot; si esta opción, incluyendo la cantidad, depende del principal. Utilice &quot;Accesorio&quot; si esta opción depende del principal pero la cantidad es independiente. Utilice &quot;Producto relacionado&quot; para productos relacionados pero completamente independientes.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Accessory</masterLabel>
+        <translation>Accesorio</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Component</masterLabel>
+        <translation>Componente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Related Product</masterLabel>
+        <translation>Producto relacionado</translation>
+    </picklistValues>
+</CustomFieldTranslation>

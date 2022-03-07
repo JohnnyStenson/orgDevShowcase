@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ermöglicht Benutzern, die Datensatz-ID des Angebotsdokuments anzuzeigen.</help>
+    <label></label>
+    <name>SBQQ__ViewRecordId__c</name>
+</CustomFieldTranslation>

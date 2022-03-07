@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Abschnitt, für den diese Belegpostenspalte gilt. Wird kein Abschnitt angegeben, bedeutet dies, dass die Spalte für alle Abschnitte gilt.</help>
+    <label></label>
+    <name>SBQQ__Section__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

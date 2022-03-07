@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Krow__Likelihood__c</name>
+    <picklistValues>
+        <masterLabel>1. This event is not very likely to occur.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2. This event may occur.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3. The chances of this event occurring is about 50%</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4. This event is likely to occur.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5.This event is very likely to occur and mitigation plans should be in place.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

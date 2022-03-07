@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nivel dentro de la programación de descuentos por plazos empleada para aplicar descuentos a esta partida.</help>
+    <label></label>
+    <name>SBQQ__TermDiscountTier__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El tipo de facturación que define el momento en que se produce la facturación. La facturación por anticipado le permite facturar a sus clientes por productos o servicios antes de proporcionarlos; la facturación con retraso le permite facturar a sus clientes después de proporcionar los productos o servicios.</help>
+    <label></label>
+    <name>SBQQ__BillingType__c</name>
+</CustomFieldTranslation>

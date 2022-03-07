@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Programación de descuentos que se aplicará al producto seleccionado por todas las opciones de esta función. Invalida la programación de descuentos seleccionada en el producto.</help>
+    <label></label>
+    <name>SBQQ__DiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

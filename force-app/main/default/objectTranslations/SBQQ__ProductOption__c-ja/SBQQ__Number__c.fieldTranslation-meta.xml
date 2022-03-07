@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このオプションが割り当てられている機能内でのこのオプションの表示順序を設定します。</help>
+    <label></label>
+    <name>SBQQ__Number__c</name>
+</CustomFieldTranslation>

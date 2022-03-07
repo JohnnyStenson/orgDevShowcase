@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Hiermit legen Sie Beschränkungen für dynamisch berechnete Preise fest.</help>
+    <label></label>
+    <name>SBQQ__DynamicPricingConstraint__c</name>
+    <picklistValues>
+        <masterLabel>List price is maximum</masterLabel>
+        <translation>Listenpreis ist Maximum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List price is minimum</masterLabel>
+        <translation>Listenpreis ist Minimum</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das Angebotsbelegposten-Feld, mit dem die Auftragsgruppierung festgelegt wird.</help>
+    <label></label>
+    <name>SBQQ__OrderBy__c</name>
+    <picklistValues>
+        <masterLabel>ProductFamily__c</masterLabel>
+        <translation>ProductFamily__c</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QuantityBasedFormulaField__c</masterLabel>
+        <translation>QuantityBasedFormulaField__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

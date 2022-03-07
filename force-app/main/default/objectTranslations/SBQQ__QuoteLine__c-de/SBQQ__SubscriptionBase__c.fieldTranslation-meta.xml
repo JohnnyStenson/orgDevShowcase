@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bestimmt, ob &quot;Prozent vom Gesamtwert&quot; anhand der Listen- oder Nettopreise der Produkte berechnet wird.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionBase__c</name>
+</CustomFieldTranslation>

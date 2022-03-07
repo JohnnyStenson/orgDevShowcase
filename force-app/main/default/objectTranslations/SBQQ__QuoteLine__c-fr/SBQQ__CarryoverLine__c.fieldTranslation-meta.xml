@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique que cette ligne est une option automatiquement sélectionnée pour une offre groupée de mise à niveau.</help>
+    <label></label>
+    <name>SBQQ__CarryoverLine__c</name>
+</CustomFieldTranslation>

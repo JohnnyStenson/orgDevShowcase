@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>取引先内の制約オプションの以前の購入を検索する場合はオンにします。</help>
+    <label></label>
+    <name>SBQQ__CheckPriorPurchases__c</name>
+</CustomFieldTranslation>

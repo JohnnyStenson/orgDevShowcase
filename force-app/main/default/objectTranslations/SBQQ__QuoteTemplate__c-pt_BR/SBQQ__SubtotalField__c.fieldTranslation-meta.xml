@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione um Campo para somar e exibir como subtotal de grupo/cotação.</help>
+    <label></label>
+    <name>SBQQ__SubtotalField__c</name>
+    <picklistValues>
+        <masterLabel>Customer Total</masterLabel>
+        <translation>Total do cliente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List Total</masterLabel>
+        <translation>Total de lista</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net Total</masterLabel>
+        <translation>Total líquido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular Total</masterLabel>
+        <translation>Total regular</translation>
+    </picklistValues>
+</CustomFieldTranslation>

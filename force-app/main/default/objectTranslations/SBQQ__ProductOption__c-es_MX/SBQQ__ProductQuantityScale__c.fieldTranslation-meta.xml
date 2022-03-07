@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifica el número de lugares decimales empleado en el campo Cantidad.</help>
+    <label></label>
+    <name>SBQQ__ProductQuantityScale__c</name>
+</CustomFieldTranslation>

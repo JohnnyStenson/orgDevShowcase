@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Autoriser l&apos;utilisateur à afficher l&apos;ID de l&apos;enregistrement du document du devis.</help>
+    <label></label>
+    <name>SBQQ__ViewRecordId__c</name>
+</CustomFieldTranslation>

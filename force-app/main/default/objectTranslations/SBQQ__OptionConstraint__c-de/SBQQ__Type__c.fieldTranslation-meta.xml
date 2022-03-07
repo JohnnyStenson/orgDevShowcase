@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie das Verhalten dieser Beschränkung: &quot;Abhängigkeit&quot; bedeutet, dass der Einschluss erforderlich ist, während &quot;Ausschluss&quot; bestimmt, dass die Optionsbeschränkung nicht ausgewählt wird, wenn die beschränkende Option ausgewählt wird, und umgekehrt.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Dependency</masterLabel>
+        <translation>Abhängigkeit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exclusion</masterLabel>
+        <translation>Ausschluss</translation>
+    </picklistValues>
+</CustomFieldTranslation>

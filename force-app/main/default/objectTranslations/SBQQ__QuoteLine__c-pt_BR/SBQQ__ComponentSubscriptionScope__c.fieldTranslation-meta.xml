@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Escopo do percentual do total definido no nível do componente. Esse campo substitui o escopo do Percentual do total copiado da Opção de produto.</help>
+    <label></label>
+    <name>SBQQ__ComponentSubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Components</masterLabel>
+        <translation>Componentes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entire Hierarchy</masterLabel>
+        <translation>Hierarquia completa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package</masterLabel>
+        <translation>Pacote</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package &amp; Components</masterLabel>
+        <translation>Pacote e componentes</translation>
+    </picklistValues>
+</CustomFieldTranslation>

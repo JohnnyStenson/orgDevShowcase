@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Höchstmenge des Angebotsbelegpostens, die für diese Klasse gilt. Dieser Wert muss über der Höchstmenge liegen, die diese Klasse einschließen soll.</help>
+    <label></label>
+    <name>SBQQ__UpperBound__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione el modo de mostrar las programaciones de descuentos en el documento de presupuesto. Por partida de presupuesto mostrará la programación de descuentos y los niveles alineados a la derecha bajo cada partida de presupuesto.</help>
+    <label></label>
+    <name>SBQQ__DiscountScheduleShown__c</name>
+    <picklistValues>
+        <masterLabel>Per Quote Line</masterLabel>
+        <translation>Por partida de presupuesto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

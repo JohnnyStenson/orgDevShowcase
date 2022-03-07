@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção se deseja estender os descontos por volume sobre o volume total que o cliente possui (ou seja, a quantidade cotada mais compras anteriores).</help>
+    <label></label>
+    <name>SBQQ__CrossOrders__c</name>
+</CustomFieldTranslation>

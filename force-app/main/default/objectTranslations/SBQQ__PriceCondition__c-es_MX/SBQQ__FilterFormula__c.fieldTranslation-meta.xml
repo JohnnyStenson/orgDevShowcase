@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ingrese una fórmula con operadores, funciones y campos disponibles en el objeto del presupuesto y de destino. No se admite en la calculadora heredada.</help>
+    <label></label>
+    <name>SBQQ__FilterFormula__c</name>
+</CustomFieldTranslation>

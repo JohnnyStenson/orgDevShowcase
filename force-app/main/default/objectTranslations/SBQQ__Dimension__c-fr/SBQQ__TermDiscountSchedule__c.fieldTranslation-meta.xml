@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Correspond à un barème de remises basées sur la durée d&apos;abonnement. Les valeurs saisies dans ces champs remplacent celles saisies au niveau du produit.</help>
+    <label></label>
+    <name>SBQQ__TermDiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

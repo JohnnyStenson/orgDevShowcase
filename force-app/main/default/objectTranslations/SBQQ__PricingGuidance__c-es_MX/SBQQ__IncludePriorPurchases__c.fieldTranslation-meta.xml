@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cuando establezca el nivel de orientación sobre precios para una partida de presupuesto, incluya las cantidades de productos que se vendieron anteriormente</help>
+    <label></label>
+    <name>SBQQ__IncludePriorPurchases__c</name>
+</CustomFieldTranslation>

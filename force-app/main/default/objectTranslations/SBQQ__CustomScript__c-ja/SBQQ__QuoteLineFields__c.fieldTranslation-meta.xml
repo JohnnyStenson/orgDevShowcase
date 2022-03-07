@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このプラグインで参照されるすべての見積品目項目の API 参照名を 1 行に 1 つずつ入力します。</help>
+    <label></label>
+    <name>SBQQ__QuoteLineFields__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Legen Sie fest, wie dieser Prozentsatz der gesamten Produktoption berechnet wird. Bei &quot;Paket&quot; erfolgt die Berechnung spezifisch für das übergeordnete Produkt. Bei &quot;Komponenten&quot; ist sie spezifisch für gleichrangige Komponenten. &quot;Gesamte Hierarchie&quot; deckt alle Posten in der Konfiguration ab.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Components</masterLabel>
+        <translation>Komponenten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entire Hierarchy</masterLabel>
+        <translation>Gesamte Hierarchie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package</masterLabel>
+        <translation>Paket</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package &amp; Components</masterLabel>
+        <translation>Paket und Komponenten</translation>
+    </picklistValues>
+</CustomFieldTranslation>

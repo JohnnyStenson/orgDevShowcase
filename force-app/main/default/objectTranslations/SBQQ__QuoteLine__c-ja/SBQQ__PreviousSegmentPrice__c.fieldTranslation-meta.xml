@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>設定されている場合、この値はこのセグメントの上昇を計算するときに前のセグメントの定価として使用されます。</help>
+    <label></label>
+    <name>SBQQ__PreviousSegmentPrice__c</name>
+</CustomFieldTranslation>

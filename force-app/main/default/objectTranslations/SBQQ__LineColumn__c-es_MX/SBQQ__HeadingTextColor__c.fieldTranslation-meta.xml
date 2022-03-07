@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique el color (en notación hexadecimal) para el texto del encabezado de esta columna. Si se deja en blanco, se hereda desde el color del texto para esta columna.</help>
+    <label></label>
+    <name>SBQQ__HeadingTextColor__c</name>
+</CustomFieldTranslation>

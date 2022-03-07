@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Listenstückpreis für das Produkt, das mit diesem Belegposten angeboten wird. Der Listenpreis stammt aus dem Preisbuch.</help>
+    <label></label>
+    <name>SBQQ__QuotedListPrice__c</name>
+</CustomFieldTranslation>

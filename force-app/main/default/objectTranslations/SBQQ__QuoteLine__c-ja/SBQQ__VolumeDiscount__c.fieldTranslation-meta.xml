@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>購入した数量または期間を使用して商品の価格から割引される割合に基づくボリューム割引を指定します。異なる割引率の階層の数量または期間の範囲を設定できます。また、サブスクリプション期間に割引率表を適用することもできます。</help>
+    <label></label>
+    <name>SBQQ__VolumeDiscount__c</name>
+</CustomFieldTranslation>

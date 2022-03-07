@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção para aplicar imediatamente as alterações a essa opção. Use com cautela para evitar tornar a experiência do usuário lenta.</help>
+    <label></label>
+    <name>SBQQ__AppliedImmediately__c</name>
+</CustomFieldTranslation>

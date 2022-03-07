@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Produto do pedido ao qual esse cronograma de descontos se aplica.</help>
+    <label></label>
+    <lookupFilter>
+        <errorMessage></errorMessage>
+    </lookupFilter>
+    <name>SBQQ__OrderProduct__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

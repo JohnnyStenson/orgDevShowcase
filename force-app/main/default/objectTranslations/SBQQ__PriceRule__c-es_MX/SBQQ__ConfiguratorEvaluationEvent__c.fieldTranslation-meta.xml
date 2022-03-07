@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cuando se selecciona Ninguno o Guardar, las reglas de precios del ámbito del configurador se desencadenarán al guardar. Cuando se selecciona Modificar, las reglas de precios del ámbito del configurador se desencadenarán al modificar y guardar.</help>
+    <label></label>
+    <name>SBQQ__ConfiguratorEvaluationEvent__c</name>
+    <picklistValues>
+        <masterLabel>Edit</masterLabel>
+        <translation>Modificar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save</masterLabel>
+        <translation>Guardar</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remise élevée pour les prix d&apos;exception basés sur les ventes passées. Si un commercial souhaite utiliser ce prix, il doit appliquer la remise de la ligne de devis manuellement. Cette remise peut nécessiter des approbations en fonction des paramètres d&apos;approbation de votre organisation.</help>
+    <label></label>
+    <name>SBQQ__Floor__c</name>
+</CustomFieldTranslation>

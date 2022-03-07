@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Use essa opção para limitar os cálculos de totais para determinadas categorias de produto. Por exemplo, a manutenção do software deve calcular apenas o percentual sobre os produtos com uma categoria de percentual do total de manutenção de software.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionCategory__c</name>
+    <picklistValues>
+        <masterLabel>Hardware</masterLabel>
+        <translation>Hardware</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Software</masterLabel>
+        <translation>Software</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie das Verhalten für Ihre Bedingungen: &quot;Alle&quot; entspricht AND, &quot;Beliebige&quot; entspricht OR.</help>
+    <label></label>
+    <name>SBQQ__ConditionsMet__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation>Alle</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Any</masterLabel>
+        <translation>Beliebig</translation>
+    </picklistValues>
+</CustomFieldTranslation>

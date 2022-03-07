@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Escolha o operador que determina como o Campo de filtro se aplicará ao Valor do filtro.</help>
+    <label></label>
+    <name>SBQQ__Operator__c</name>
+    <picklistValues>
+        <masterLabel>contains</masterLabel>
+        <translation>contém</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>equals</masterLabel>
+        <translation>igual a</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>not equals</masterLabel>
+        <translation>não igual a</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>starts with</masterLabel>
+        <translation>começa com</translation>
+    </picklistValues>
+</CustomFieldTranslation>

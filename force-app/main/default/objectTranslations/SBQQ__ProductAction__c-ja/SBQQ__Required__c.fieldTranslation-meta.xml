@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>[商品ルックアップ] 項目の商品が見積で選択されるようにする場合はオンにします。</help>
+    <label></label>
+    <name>SBQQ__Required__c</name>
+</CustomFieldTranslation>

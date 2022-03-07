@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie den gewünschten Kundenbetrag ein, um automatisch den zusätzlichen Rabatt für rabattfähige Belegposten zu berechnen.</help>
+    <label></label>
+    <name>SBQQ__TargetCustomerAmount__c</name>
+</CustomFieldTranslation>

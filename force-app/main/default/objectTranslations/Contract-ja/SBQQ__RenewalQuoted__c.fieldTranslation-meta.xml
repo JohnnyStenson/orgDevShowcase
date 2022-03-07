@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>更新商談で更新見積を自動的に生成する場合はこのオプションを選択します。</help>
+    <label></label>
+    <name>SBQQ__RenewalQuoted__c</name>
+</CustomFieldTranslation>

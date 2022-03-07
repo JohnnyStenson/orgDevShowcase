@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Preço proporcional para o produto cotado por esse item de linha. Esse preço diferirá do Preço especial apenas se o produto for uma assinatura e o item de linha estiver sendo dividido proporcionalmente.</help>
+    <label></label>
+    <name>SBQQ__ProratedPrice__c</name>
+</CustomFieldTranslation>

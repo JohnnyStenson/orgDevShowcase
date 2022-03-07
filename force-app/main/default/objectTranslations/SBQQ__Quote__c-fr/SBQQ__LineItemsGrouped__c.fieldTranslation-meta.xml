@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette option pour utiliser SolutionGroups(TM) ou ajoutez vos propres groupes à la page Modifier les lignes afin de classer et de calculer le sous-total des éléments de ligne de devis.</help>
+    <label></label>
+    <name>SBQQ__LineItemsGrouped__c</name>
+</CustomFieldTranslation>

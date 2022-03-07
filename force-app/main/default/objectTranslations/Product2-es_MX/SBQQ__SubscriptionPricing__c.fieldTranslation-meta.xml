@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tipo de precios que se utilizará para esta suscripción. &quot;Ninguno&quot; significa que el producto no es una suscripción.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionPricing__c</name>
+    <picklistValues>
+        <masterLabel>Fixed Price</masterLabel>
+        <translation>Precio fijo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percent Of Total</masterLabel>
+        <translation>Porcentaje del total</translation>
+    </picklistValues>
+</CustomFieldTranslation>

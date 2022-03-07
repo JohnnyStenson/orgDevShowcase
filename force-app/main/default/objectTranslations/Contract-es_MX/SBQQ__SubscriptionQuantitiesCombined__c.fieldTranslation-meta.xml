@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione para combinar las cantidades de suscripciones para el mismo producto en una partida en Presupuestos y Correcciones de renovación.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionQuantitiesCombined__c</name>
+</CustomFieldTranslation>

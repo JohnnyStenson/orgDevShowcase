@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Clause du devis</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Clauses du devis</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>N° de clause</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

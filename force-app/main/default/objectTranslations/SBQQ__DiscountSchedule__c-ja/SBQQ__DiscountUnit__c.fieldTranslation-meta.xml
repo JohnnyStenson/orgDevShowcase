@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>割引単位 (金額またはパーセント) を指定します。</help>
+    <label></label>
+    <name>SBQQ__DiscountUnit__c</name>
+    <picklistValues>
+        <masterLabel>Amount</masterLabel>
+        <translation>金額</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percent</masterLabel>
+        <translation>パーセント</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Feld im Nachschlageobjekt, das der Auswahlliste &quot;Produktaktionstyp&quot; entspricht. Das Feld muss eine Auswahlliste sein oder im Textformat vorliegen.</help>
+    <label></label>
+    <name>SBQQ__LookupTypeField__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__Type__c</masterLabel>
+        <translation>SBQQ__Type__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

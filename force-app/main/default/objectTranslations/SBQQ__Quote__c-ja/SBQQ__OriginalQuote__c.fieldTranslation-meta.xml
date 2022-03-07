@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積レコードが修正: 再見積を表す場合、この項目を使用して元の見積にリンクします。</help>
+    <label></label>
+    <name>SBQQ__OriginalQuote__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

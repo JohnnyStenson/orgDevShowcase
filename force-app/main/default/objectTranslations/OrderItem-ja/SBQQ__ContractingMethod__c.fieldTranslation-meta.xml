@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>注文商品の契約処理を制御します。</help>
+    <label></label>
+    <name>SBQQ__ContractingMethod__c</name>
+    <picklistValues>
+        <masterLabel>Contract Separately</masterLabel>
+        <translation>個別に契約</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Do Not Contract</masterLabel>
+        <translation>契約しない</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inherit</masterLabel>
+        <translation>継承</translation>
+    </picklistValues>
+</CustomFieldTranslation>

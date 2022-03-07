@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ボリューム割引計算の目的でこの表を使用してすべての商品の数量を集計するには、チェックボックスをオンにします。クロス商品割引にはスラブ割引を使用できません。</help>
+    <label></label>
+    <name>SBQQ__CrossProducts__c</name>
+</CustomFieldTranslation>

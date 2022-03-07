@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique el momento en que debe evaluarse esta regla. Solo se debe utilizar cuando se dirija a Partida de presupuesto y no se admite en la calculadora heredada.</help>
+    <label></label>
+    <name>SBQQ__EvaluationEvent__c</name>
+    <picklistValues>
+        <masterLabel>After Calculate</masterLabel>
+        <translation>Después de calcular</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Before Calculate</masterLabel>
+        <translation>Antes de calcular</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Calculate</masterLabel>
+        <translation>Al calcular</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Initialization</masterLabel>
+        <translation>En la inicialización</translation>
+    </picklistValues>
+</CustomFieldTranslation>

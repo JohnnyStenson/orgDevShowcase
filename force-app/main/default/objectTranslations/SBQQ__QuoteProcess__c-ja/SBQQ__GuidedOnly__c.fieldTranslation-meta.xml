@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このプロセスでカバーされる見積を強制的にガイド付き商品選択にする場合は、チェックボックスをオンにします。オフにすると、デフォルトの任意の絞り込みに設定されます。</help>
+    <label></label>
+    <name>SBQQ__GuidedOnly__c</name>
+</CustomFieldTranslation>

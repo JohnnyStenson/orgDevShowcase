@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie eine Meldung ein, die angezeigt werden soll, wenn die Regel aktiviert wird. Eine Fehlermeldung wird angezeigt, wenn eine Validierung ausgelöst wird. Bei Auslösung einer Benachrichtigung wird eine Warnmeldung angezeigt. Gilt nicht für Filterregeln.</help>
+    <label></label>
+    <name>SBQQ__ErrorMessage__c</name>
+</CustomFieldTranslation>

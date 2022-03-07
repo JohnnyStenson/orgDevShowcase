@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei Produkten mit mehreren Segmenten ist dies der Index, der die Position dieses Auftragsprodukts in der Segmenttabelle angibt.</help>
+    <label></label>
+    <name>SBQQ__SegmentIndex__c</name>
+</CustomFieldTranslation>

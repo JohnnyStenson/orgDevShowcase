@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>集計行のこの列の表示ラベル出力。</help>
+    <label></label>
+    <name>SBQQ__SummaryLabel__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique a cor (em Hex) para o texto no cabeçalho dessa coluna. Deixar em branco herda da cor do texto para essa coluna.</help>
+    <label></label>
+    <name>SBQQ__HeadingTextColor__c</name>
+</CustomFieldTranslation>

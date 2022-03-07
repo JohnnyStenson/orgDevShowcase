@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dimensões dentro de um Produto MDQ em que todo segmento deve ser precificado de modo independente. Cada Produto pode conter várias Dimensões de preço. As Dimensões de preço anuais são tratadas como Assinaturas.</help>
+    <label></label>
+    <name>SBQQ__Dimension__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique os descontos por volume com base em um % do preço do produto a ser descontado usando a quantidade comprada ou o termo. É possível definir os intervalos de quantidade ou termo em níveis de diferentes % de desconto. Também é possível aplicar cronogramas de descontos ao Termo da assinatura.</help>
+    <label></label>
+    <name>SBQQ__VolumeDiscount__c</name>
+</CustomFieldTranslation>

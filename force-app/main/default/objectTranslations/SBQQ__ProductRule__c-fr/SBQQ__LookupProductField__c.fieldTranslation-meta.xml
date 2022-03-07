@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Champ de l&apos;objet de référence correspondant à la référence produit Action produit. Le champ doit être une référence à l&apos;objet produit.</help>
+    <label></label>
+    <name>SBQQ__LookupProductField__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__Product__c</masterLabel>
+        <translation>SBQQ__Product__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Estilo de tipo de letra para títulos de grupos. El valor predeterminado es Normal si se deja en blanco.</help>
+    <label></label>
+    <name>SBQQ__GroupFontStyle__c</name>
+    <picklistValues>
+        <masterLabel>Bold</masterLabel>
+        <translation>Negrita</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italic</masterLabel>
+        <translation>Cursiva</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation>Normal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Underline</masterLabel>
+        <translation>Subrayado</translation>
+    </picklistValues>
+</CustomFieldTranslation>

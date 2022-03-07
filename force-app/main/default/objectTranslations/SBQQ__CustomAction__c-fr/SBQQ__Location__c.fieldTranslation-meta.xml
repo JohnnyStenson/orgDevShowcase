@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Emplacement de cette action sur la page.</help>
+    <label></label>
+    <name>SBQQ__Location__c</name>
+    <picklistValues>
+        <masterLabel>Account Panel</masterLabel>
+        <translation>Panneau des comptes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Configurator</masterLabel>
+        <translation>Configurateur</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract Panel</masterLabel>
+        <translation>Panneau des contrats</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>Groupe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Line</masterLabel>
+        <translation>Ligne</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunity Panel</masterLabel>
+        <translation>Panneau des opportunités</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Panel</masterLabel>
+        <translation>Panneau des commandes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Devis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Document Panel</masterLabel>
+        <translation>Panneau des documents de devis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Panel</masterLabel>
+        <translation>Panneau des devis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote/Group</masterLabel>
+        <translation>Devis/Groupe</translation>
+    </picklistValues>
+</CustomFieldTranslation>

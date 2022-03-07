@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Date à laquelle ce prix par bloc entre en vigueur. Cette valeur est appliquée lorsqu&apos;un instantané de prix par bloc est pris au moment de la création de la commande.</help>
+    <label></label>
+    <name>SBQQ__EffectiveDate__c</name>
+</CustomFieldTranslation>

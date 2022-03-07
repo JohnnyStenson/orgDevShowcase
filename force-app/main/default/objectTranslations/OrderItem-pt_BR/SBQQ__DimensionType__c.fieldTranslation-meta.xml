@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Para Produtos multissegmentados, esse é o tipo de dimensão de preço (por exemplo, &quot;ANO&quot;, &quot;MÊS&quot;, &quot;TRIMESTRE&quot;) do item do pedido.</help>
+    <label></label>
+    <name>SBQQ__DimensionType__c</name>
+</CustomFieldTranslation>

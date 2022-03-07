@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez Basé sur les ressources pour générer les renouvellements en fonction des ressources d&apos;un compte ou Basé sur le contrat pour générer les renouvellements en fonction du contrat créé à partir d&apos;un devis.</help>
+    <label></label>
+    <name>SBQQ__RenewalModel__c</name>
+    <picklistValues>
+        <masterLabel>Asset Based</masterLabel>
+        <translation>Basé sur les ressources</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract Based</masterLabel>
+        <translation>Basé sur le contrat</translation>
+    </picklistValues>
+</CustomFieldTranslation>

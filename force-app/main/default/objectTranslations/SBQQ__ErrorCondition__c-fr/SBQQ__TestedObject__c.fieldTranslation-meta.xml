@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez l&apos;objet qui contient le champ testé.</help>
+    <label></label>
+    <name>SBQQ__TestedObject__c</name>
+    <picklistValues>
+        <masterLabel>Configuration Attributes</masterLabel>
+        <translation>Attributs de configuration</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Option</masterLabel>
+        <translation>Option produit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Devis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Line</masterLabel>
+        <translation>Ligne de devis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Line Group</masterLabel>
+        <translation>Groupe de lignes de devis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upgraded Asset</masterLabel>
+        <translation>Ressource mise à niveau</translation>
+    </picklistValues>
+</CustomFieldTranslation>

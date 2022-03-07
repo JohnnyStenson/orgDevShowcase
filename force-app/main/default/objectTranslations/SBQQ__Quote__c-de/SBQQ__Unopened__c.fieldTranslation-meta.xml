@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt an, ob das Angebot jemals geöffnet wurde, um zu bestimmen, ob es sich um ein neues Angebot handelt.</help>
+    <label></label>
+    <name>SBQQ__Unopened__c</name>
+</CustomFieldTranslation>

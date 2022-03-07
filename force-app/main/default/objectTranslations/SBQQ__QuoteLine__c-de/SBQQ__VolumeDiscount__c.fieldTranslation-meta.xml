@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie Mengenrabatte auf der Basis eines Prozentwerts des Produktpreises an, der auf der Grundlage von gekaufter Menge oder Laufzeit vom Produktpreis abgezogen wird. Sie können die Mengen- bzw. Laufzeitbereiche in Klassen unterschiedlicher Rabattsätze festlegen. Sie können auch Rabattregelungen auf die Abonnementlaufzeit anwenden.</help>
+    <label></label>
+    <name>SBQQ__VolumeDiscount__c</name>
+</CustomFieldTranslation>

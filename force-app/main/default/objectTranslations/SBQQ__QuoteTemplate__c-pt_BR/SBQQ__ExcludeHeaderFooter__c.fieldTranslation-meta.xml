@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Exclui o cabeçalho e o rodapé do modelo da Primeira página, Última página ou tanto da Primeira quanto da Última página.</help>
+    <label></label>
+    <name>SBQQ__ExcludeHeaderFooter__c</name>
+    <picklistValues>
+        <masterLabel>First Page</masterLabel>
+        <translation>Primeira página</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First and Last</masterLabel>
+        <translation>Primeira e última</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Last Page</masterLabel>
+        <translation>Última página</translation>
+    </picklistValues>
+</CustomFieldTranslation>

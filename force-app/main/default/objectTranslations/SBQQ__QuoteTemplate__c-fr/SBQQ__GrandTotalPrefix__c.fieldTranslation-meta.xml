@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Préfixe des étiquettes de sous-total et de total dans les totaux généraux.</help>
+    <label></label>
+    <name>SBQQ__GrandTotalPrefix__c</name>
+</CustomFieldTranslation>

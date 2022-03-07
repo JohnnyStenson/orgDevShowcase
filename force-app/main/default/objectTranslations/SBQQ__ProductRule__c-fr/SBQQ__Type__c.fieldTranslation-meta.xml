@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Type de règle. « Validation » affiche des messages d&apos;erreur. « Sélection » entraîne l&apos;ajout ou la suggestion de produits. « Alerte » affiche un avertissement, mais ne demande aucune rectification. « Filtre » affine les résultats de référence d&apos;option pour les offres produits dynamiques.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Alert</masterLabel>
+        <translation>Alerte</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Filter</masterLabel>
+        <translation>Filtre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selection</masterLabel>
+        <translation>Sélection</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validation</masterLabel>
+        <translation>Validation</translation>
+    </picklistValues>
+</CustomFieldTranslation>

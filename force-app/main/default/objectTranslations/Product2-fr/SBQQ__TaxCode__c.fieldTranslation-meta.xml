@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifie un code de taxe pour les règles fiscales.</help>
+    <label></label>
+    <name>SBQQ__TaxCode__c</name>
+</CustomFieldTranslation>

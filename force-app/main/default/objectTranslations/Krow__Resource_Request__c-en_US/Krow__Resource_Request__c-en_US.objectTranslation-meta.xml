@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <label></label>
+        <name>Krow__Compare_Resources</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__Create_Job_Order</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__Search_Resources</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique le statut de votre document : En attente, Envoyé, Échoué.</help>
+    <label></label>
+    <name>SBQQ__DocumentStatus__c</name>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation>Échoué</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>En attente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent</masterLabel>
+        <translation>Envoyé</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione el tipo de descuento que esta orientación sobre precios aplica a la partida de presupuesto.</help>
+    <label></label>
+    <name>SBQQ__Unit__c</name>
+    <picklistValues>
+        <masterLabel>Percent</masterLabel>
+        <translation>Porcentaje</translation>
+    </picklistValues>
+</CustomFieldTranslation>

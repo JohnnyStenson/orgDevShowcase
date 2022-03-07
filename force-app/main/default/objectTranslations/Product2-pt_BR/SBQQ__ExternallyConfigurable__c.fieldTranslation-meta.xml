@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando marcada, indica que configurar esse produto ativa automaticamente o URL de Configuração externa definido nas configurações do Salesforce CPQ.</help>
+    <label></label>
+    <name>SBQQ__ExternallyConfigurable__c</name>
+</CustomFieldTranslation>

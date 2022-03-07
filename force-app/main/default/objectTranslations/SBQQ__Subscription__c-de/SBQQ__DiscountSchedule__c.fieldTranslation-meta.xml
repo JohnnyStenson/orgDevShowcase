@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie Rabatte als Prozentwert oder Betrag an, der auf der Grundlage von gekaufter Menge oder Laufzeit vom Produktpreis abgezogen wird. Legen Sie Mengen-/Laufzeitbereiche in Klassen unterschiedlicher Rabattsätze fest. Der Rabatt wird auf den Listenpreis gewährt und der sich daraus ergebende Gesamtwert wird als &quot;Regulärer Preis&quot; gespeichert.</help>
+    <label></label>
+    <name>SBQQ__DiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

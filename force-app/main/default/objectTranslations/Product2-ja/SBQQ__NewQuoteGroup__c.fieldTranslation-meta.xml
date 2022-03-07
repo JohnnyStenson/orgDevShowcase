@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この商品が追加されたときに新しい見積グループを作成する (現在のグループが空の場合を除く) 場合は、オンにします。</help>
+    <label></label>
+    <name>SBQQ__NewQuoteGroup__c</name>
+</CustomFieldTranslation>

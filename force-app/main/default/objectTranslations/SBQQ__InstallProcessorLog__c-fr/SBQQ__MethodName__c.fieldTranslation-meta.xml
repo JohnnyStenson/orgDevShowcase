@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nom de l&apos;exécution de la méthode dans le script d&apos;installation</help>
+    <label></label>
+    <name>SBQQ__MethodName__c</name>
+</CustomFieldTranslation>

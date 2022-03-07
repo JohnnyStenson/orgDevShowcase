@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Insira o valor com relação ao qual deseja avaliar a variável testada. O valor da data deve utilizar o seguinte formato: AAAA-MM-DD 00:00:00</help>
+    <label></label>
+    <name>SBQQ__FilterValue__c</name>
+</CustomFieldTranslation>

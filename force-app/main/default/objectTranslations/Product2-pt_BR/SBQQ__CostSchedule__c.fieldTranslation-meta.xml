@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cronograma de descontos usado como Cronograma de custos com esse produto.</help>
+    <label></label>
+    <name>SBQQ__CostSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

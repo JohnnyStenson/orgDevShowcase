@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このスケジュールに対して使用量を評価する特定の使用事例を選択します。これは、[種別] 項目の制御選択リストです。</help>
+    <label></label>
+    <name>SBQQ__RatingMethod__c</name>
+    <picklistValues>
+        <masterLabel>Tier</masterLabel>
+        <translation>階層</translation>
+    </picklistValues>
+</CustomFieldTranslation>

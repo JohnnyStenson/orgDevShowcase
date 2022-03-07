@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Exclut l&apos;en-tête et le pied page du modèle sur la première page, la dernière page ou les deux.</help>
+    <label></label>
+    <name>SBQQ__ExcludeHeaderFooter__c</name>
+    <picklistValues>
+        <masterLabel>First Page</masterLabel>
+        <translation>Première page</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First and Last</masterLabel>
+        <translation>Première et dernière pages</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Last Page</masterLabel>
+        <translation>Dernière page</translation>
+    </picklistValues>
+</CustomFieldTranslation>

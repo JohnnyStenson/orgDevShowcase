@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Generiert einen Vertragspreis auf der Basis des angepassten Angebotsbelegpostens, sofern gekennzeichnet.</help>
+    <label></label>
+    <name>SBQQ__GenerateContractedPrice__c</name>
+    <picklistValues>
+        <masterLabel>Discount Schedule</masterLabel>
+        <translation>Rabattregelung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Do Not Generate</masterLabel>
+        <translation>Nicht generieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation>Preis</translation>
+    </picklistValues>
+</CustomFieldTranslation>

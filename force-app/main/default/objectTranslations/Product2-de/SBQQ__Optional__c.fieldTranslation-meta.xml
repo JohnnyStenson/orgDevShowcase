@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, wenn dieses Produkt standardmäßig optional ist. Optionale Produkte zählen nicht zum Angebotsgesamtwert und werden auch nicht in die Opportunity übertragen.</help>
+    <label></label>
+    <name>SBQQ__Optional__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Salesforce CPQ では、この項目を使用して納入商品とサブスクリプションを自動的に変換します。</help>
+    <label></label>
+    <name>SBQQ__Contracted__c</name>
+</CustomFieldTranslation>

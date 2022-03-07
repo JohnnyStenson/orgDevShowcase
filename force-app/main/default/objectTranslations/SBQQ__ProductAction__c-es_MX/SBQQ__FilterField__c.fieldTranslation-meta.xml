@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione el campo que hay que actualizar cuando se desencadene la regla.</help>
+    <label></label>
+    <name>SBQQ__FilterField__c</name>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>Código del producto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Family</masterLabel>
+        <translation>Familia de productos</translation>
+    </picklistValues>
+</CustomFieldTranslation>

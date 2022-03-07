@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, wenn dieser Inhalt für das Produkt erforderlich ist. Benutzer müssen ihn dann beim Erstellen eines Angebotdokuments einbeziehen.</help>
+    <label></label>
+    <name>SBQQ__Required__c</name>
+</CustomFieldTranslation>

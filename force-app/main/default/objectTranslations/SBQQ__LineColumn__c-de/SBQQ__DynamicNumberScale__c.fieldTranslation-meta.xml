@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Zahl der Dezimalstellen für Ziffern in der Spalte wird auf der Grundlage der größten Genauigkeit in der Spalte festgelegt.</help>
+    <label></label>
+    <name>SBQQ__DynamicNumberScale__c</name>
+</CustomFieldTranslation>

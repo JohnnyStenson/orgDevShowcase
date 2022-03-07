@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>DetailsRFP</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>Links</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>ListNote</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>RFIs</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>SOW</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>SetupDetails</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>Submitted_Stage</name>
+    </fieldSets>
+    <layouts>
+        <layout>Accom Submitted Stage 2 Cols</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Opportunity</section>
+        </sections>
+        <sections>
+            <label>Volviendo a calcular</label>
+            <section>Recalculating</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom PRIMARY</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Opportunity</section>
+        </sections>
+        <sections>
+            <label>Volviendo a calcular</label>
+            <section>Recalculating</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>New Opportunity Layout</layout>
+        <sections>
+            <label></label>
+            <section>Slack Messages</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Delete_Oppty_Related</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Log_A_Completed_Task</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Log_Activity</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>New_RFP_to_Evaluate</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Estimate_Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Must_have_ACCOUNT</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>hashtag_included_in_slack_channel</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Amend_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__CreateOrder</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Start_New_Proposal_Discovery</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Submitted_Proposal_List</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>slackv2__Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>slackv2__Slack_Alerts</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>synety__Click_to_Call</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>synety__Synety</name>
+    </webLinks>
+</CustomObjectTranslation>

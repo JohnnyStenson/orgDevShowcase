@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>サブスクリプション期間に基づく割引率表。[グループ] に設定すると、グループ期間の割引率が適用されます。[見積] に設定すると、グループ内に異なる期間があっても見積全体の期間の割引率が適用されます。</help>
+    <label></label>
+    <name>SBQQ__TermDiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

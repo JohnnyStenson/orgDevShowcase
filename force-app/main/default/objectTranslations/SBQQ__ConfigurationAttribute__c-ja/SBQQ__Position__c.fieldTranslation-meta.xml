@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この属性の位置を指定します。[最上位へ] の場合、オプションの上に表示されます。[最下位へ] の場合、下に表示されます。</help>
+    <label></label>
+    <name>SBQQ__Position__c</name>
+    <picklistValues>
+        <masterLabel>Bottom</masterLabel>
+        <translation>最下位へ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Top</masterLabel>
+        <translation>最上位へ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

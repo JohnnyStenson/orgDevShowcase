@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez l&apos;URL à laquelle accéder. Vous pouvez accéder aux champs Lignes, Groupes et Enregistrement de devis, selon l&apos;emplacement sélectionné. Exemples : http://www.salesforce.com, http://www.yoursite.com/{!Id}, or /{!SBQQ__Quote__c.Name}/{!SBQQ__YourCustomVar__c}</help>
+    <label></label>
+    <name>SBQQ__URL__c</name>
+</CustomFieldTranslation>

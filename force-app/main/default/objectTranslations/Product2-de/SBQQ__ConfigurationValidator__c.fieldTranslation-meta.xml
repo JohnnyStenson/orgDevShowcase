@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>JavaScript-Funktion, die zum Validieren der Konfiguration dieses Produkts verwendet wird.</help>
+    <label></label>
+    <name>SBQQ__ConfigurationValidator__c</name>
+</CustomFieldTranslation>

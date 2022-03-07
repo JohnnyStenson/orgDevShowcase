@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>選択した演算子を使用して選択した項目で照合する値を入力します。</help>
+    <label></label>
+    <name>SBQQ__Value__c</name>
+</CustomFieldTranslation>

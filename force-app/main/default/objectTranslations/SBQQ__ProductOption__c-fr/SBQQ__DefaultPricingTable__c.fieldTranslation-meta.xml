@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez le tableau de tarification de ce produit à afficher par défaut lors de la définition des dimensions de prix.</help>
+    <label></label>
+    <name>SBQQ__DefaultPricingTable__c</name>
+    <picklistValues>
+        <masterLabel>Segmented</masterLabel>
+        <translation>Segmenté</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard</masterLabel>
+        <translation>Standard</translation>
+    </picklistValues>
+</CustomFieldTranslation>

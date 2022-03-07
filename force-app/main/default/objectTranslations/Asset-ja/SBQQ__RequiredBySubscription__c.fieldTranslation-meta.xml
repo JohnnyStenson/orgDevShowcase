@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>親サブスクリプション。入力された場合、この納入商品はバンドル内の子です。</help>
+    <label></label>
+    <name>SBQQ__RequiredBySubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

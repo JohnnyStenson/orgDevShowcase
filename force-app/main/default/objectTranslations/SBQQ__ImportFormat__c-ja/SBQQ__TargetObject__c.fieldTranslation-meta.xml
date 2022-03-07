@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>インポートする対象オブジェクト。</help>
+    <label></label>
+    <name>SBQQ__TargetObject__c</name>
+    <picklistValues>
+        <masterLabel>Quote Line</masterLabel>
+        <translation>見積品目</translation>
+    </picklistValues>
+</CustomFieldTranslation>

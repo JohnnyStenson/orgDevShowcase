@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Modèle qui doit être utilisé avec ce devis. Salesforce CPQ sélectionne automatiquement le modèle spécifié ici lorsque vous cliquez sur « Générer le document ».</help>
+    <label></label>
+    <name>SBQQ__DefaultTemplate__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

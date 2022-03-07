@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remise calculée en appliquant la durée d&apos;abonnement au barème de remise sur la durée.</help>
+    <label></label>
+    <name>SBQQ__TermDiscount__c</name>
+</CustomFieldTranslation>

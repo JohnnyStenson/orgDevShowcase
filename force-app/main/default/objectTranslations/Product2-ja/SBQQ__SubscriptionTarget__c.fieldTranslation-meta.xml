@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>全体に対する割合の計算に含まれる商品を上書きする場合は、この項目を使用します。このルックアップが、現在の商品の全体に対する割合の計算で使用するリスト価格が設定されている商品を指し示すようにします。</help>
+    <label></label>
+    <name>SBQQ__SubscriptionTarget__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

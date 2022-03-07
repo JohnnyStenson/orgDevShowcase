@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez le champ qui doit contenir la valeur que vous saisissez dans le champ Valeur.</help>
+    <label></label>
+    <name>SBQQ__Field__c</name>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>Code produit</translation>
+    </picklistValues>
+</CustomFieldTranslation>

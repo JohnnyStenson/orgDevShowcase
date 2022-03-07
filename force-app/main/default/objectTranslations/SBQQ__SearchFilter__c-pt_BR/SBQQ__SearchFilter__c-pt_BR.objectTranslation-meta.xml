@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Filtro de pesquisa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Filtros de pesquisa</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do filtro</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Require_filter_object_for_filter_field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Require_hidden_object_for_hidden_field</name>
+    </validationRules>
+</CustomObjectTranslation>

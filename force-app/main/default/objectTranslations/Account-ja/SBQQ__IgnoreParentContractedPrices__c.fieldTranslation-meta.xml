@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>契約価格を親取引先から継承しない場合に選択します。</help>
+    <label></label>
+    <name>SBQQ__IgnoreParentContractedPrices__c</name>
+</CustomFieldTranslation>

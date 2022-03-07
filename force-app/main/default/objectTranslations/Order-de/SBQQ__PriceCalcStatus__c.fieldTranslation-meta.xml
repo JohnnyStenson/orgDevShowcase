@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt den Status zur Preisberechnung des Auftrags an. Der Wert wird vom System festgelegt.</help>
+    <label></label>
+    <name>SBQQ__PriceCalcStatus__c</name>
+</CustomFieldTranslation>

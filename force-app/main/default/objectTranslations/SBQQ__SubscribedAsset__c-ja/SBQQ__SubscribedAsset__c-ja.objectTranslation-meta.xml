@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>サブスクリプション対象納入商品</value>
+    </caseValues>
+    <nameFieldLabel>サブスクリプション対象納入商品番号</nameFieldLabel>
+</CustomObjectTranslation>

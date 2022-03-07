@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilisez « Composant » si cette option, y compris la quantité, dépend du parent. Utilisez « Accessoire » si cette option dépend du parent, mais que la quantité est indépendante. Utilisez « Produit associé » pour associée, mais totalement indépendante des produits.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Accessory</masterLabel>
+        <translation>Accessoire</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Component</masterLabel>
+        <translation>Composant</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Related Product</masterLabel>
+        <translation>Produit associé</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Descuento del precio de la lista de precios (porcentual) representado por este Precio contratado. Debe establecerse este campo o Precio, pero no ambos.</help>
+    <label></label>
+    <name>SBQQ__Discount__c</name>
+</CustomFieldTranslation>

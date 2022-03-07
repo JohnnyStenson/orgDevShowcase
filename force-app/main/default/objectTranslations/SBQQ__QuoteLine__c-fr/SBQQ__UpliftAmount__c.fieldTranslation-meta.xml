@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>L&apos;augmentation (montant) est mesurée en tant que montant en devise. Ce champ est calculé par le système, car l&apos;augmentation peut être appliquée uniquement à des segments MDQ en pourcentage.</help>
+    <label></label>
+    <name>SBQQ__UpliftAmount__c</name>
+</CustomFieldTranslation>

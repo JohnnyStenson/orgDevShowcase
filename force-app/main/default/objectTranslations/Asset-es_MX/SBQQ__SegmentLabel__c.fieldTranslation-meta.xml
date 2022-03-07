@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Para productos con múltiples segmentos, esta es la etiqueta del encabezado de columna (por ej. &quot;Año 1&quot;) asociada con esta partida.</help>
+    <label></label>
+    <name>SBQQ__SegmentLabel__c</name>
+</CustomFieldTranslation>

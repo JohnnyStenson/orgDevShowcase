@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifica la función y la opción dinámica de esta partida.</help>
+    <label></label>
+    <name>SBQQ__DynamicOptionId__c</name>
+</CustomFieldTranslation>

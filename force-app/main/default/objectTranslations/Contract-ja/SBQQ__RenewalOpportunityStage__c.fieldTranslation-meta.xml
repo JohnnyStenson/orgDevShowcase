@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この更新のデフォルトの商談フェーズを上書きします。更新商談で有効にするには、これを [更新売上予測] の選択より前に行う必要があります。</help>
+    <label></label>
+    <name>SBQQ__RenewalOpportunityStage__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>請求サイクルを決定するために請求期間単位で使用される数値。</help>
+    <label></label>
+    <name>SBQQ__BillingTerm__c</name>
+</CustomFieldTranslation>

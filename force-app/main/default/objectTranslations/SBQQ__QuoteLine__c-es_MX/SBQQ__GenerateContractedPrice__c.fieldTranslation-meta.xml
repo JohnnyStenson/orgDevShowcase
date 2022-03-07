@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Generará un precio contratado en base a la partida de presupuesto ajustada si está marcada.</help>
+    <label></label>
+    <name>SBQQ__GenerateContractedPrice__c</name>
+    <picklistValues>
+        <masterLabel>Discount Schedule</masterLabel>
+        <translation>Programación de descuentos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Do Not Generate</masterLabel>
+        <translation>No generar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation>Precio</translation>
+    </picklistValues>
+</CustomFieldTranslation>

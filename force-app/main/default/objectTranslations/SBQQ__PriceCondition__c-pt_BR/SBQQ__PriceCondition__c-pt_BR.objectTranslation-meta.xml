@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condição de preço</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Condições de preços</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº da condição</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Config_attr_config_scoped_price_rules</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Config_attr_tested_object_with_formula</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Filter_formula_field_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Tested_field_or_variable</name>
+    </validationRules>
+</CustomObjectTranslation>

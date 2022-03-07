@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se sinalizado ao configurar a Cotação para &quot;Pedido&quot;, um Pedido será criado para cada Grupo de linhas de cotação com suas Linhas de cotação associadas.</help>
+    <label></label>
+    <name>SBQQ__OrderByQuoteLineGroup__c</name>
+</CustomFieldTranslation>

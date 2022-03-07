@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>数量項目で使用される小数位の桁数を指定します。</help>
+    <label></label>
+    <name>SBQQ__ProductQuantityScale__c</name>
+</CustomFieldTranslation>

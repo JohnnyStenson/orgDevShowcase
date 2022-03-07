@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Esta es una programación de descuentos basada en el Plazo de suscripción. Los valores ingresados en estos campos invalidarán los valores ingresados en el nivel de Producto.</help>
+    <label></label>
+    <name>SBQQ__TermDiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

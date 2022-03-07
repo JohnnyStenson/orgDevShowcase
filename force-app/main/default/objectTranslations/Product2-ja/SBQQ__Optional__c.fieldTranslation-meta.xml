@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この商品がデフォルトでオプションの場合は選択します。オプション商品は、見積合計に加算されず、商談にも移行されません。</help>
+    <label></label>
+    <name>SBQQ__Optional__c</name>
+</CustomFieldTranslation>

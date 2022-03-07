@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>レコードで同じ [一致する属性] 値を共有している場合、使用量はレコード消費スケジュールと一致します。</help>
+    <label></label>
+    <name>SBQQ__MatchingAttribute__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Escolha como exibir cronogramas de descontos no documento de cotação. A opção Por linha de cotação mostrará o cronograma de descontos e a os Níveis alinhados à direita sob cada Linha de cotação.</help>
+    <label></label>
+    <name>SBQQ__DiscountScheduleShown__c</name>
+    <picklistValues>
+        <masterLabel>Per Quote Line</masterLabel>
+        <translation>Por linha de cotação</translation>
+    </picklistValues>
+</CustomFieldTranslation>

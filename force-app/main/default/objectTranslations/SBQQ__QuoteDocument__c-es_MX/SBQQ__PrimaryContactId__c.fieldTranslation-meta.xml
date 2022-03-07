@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Hace referencia al contacto principal del presupuesto que se utilizará en el botón Email, que toma el valor predeterminado del campo Para.</help>
+    <label></label>
+    <name>SBQQ__PrimaryContactId__c</name>
+</CustomFieldTranslation>

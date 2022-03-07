@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Compte auquel ce barème de prix s&apos;applique. Utilisé uniquement avec Remplacement du barème de prix dans l&apos;interface utilisateur de l&apos;éditeur de ligne de devis.</help>
+    <label></label>
+    <name>SBQQ__Account__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

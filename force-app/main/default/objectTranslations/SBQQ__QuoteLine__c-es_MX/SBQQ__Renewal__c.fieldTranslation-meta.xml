@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica que esta partida representa un producto que se está renovando. Este campo no debe modificarse.</help>
+    <label></label>
+    <name>SBQQ__Renewal__c</name>
+</CustomFieldTranslation>

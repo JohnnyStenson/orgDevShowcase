@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Preço contratado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Preços contratados</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Número do preço do contratado</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Discount_or_price_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Either_product_or_filter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Filter_requires_operators</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Product_or_filter_required</name>
+    </validationRules>
+</CustomObjectTranslation>

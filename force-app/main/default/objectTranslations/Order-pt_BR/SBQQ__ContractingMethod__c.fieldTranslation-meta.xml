@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;Por data final da assinatura&quot; cria um Contrato separado para cada Data final da assinatura única contendo apenas aquelas Assinaturas. &quot;Contrato único&quot; cria um Contrato contendo todas as Assinaturas, independentemente de quais sejam as Datas finais.</help>
+    <label></label>
+    <name>SBQQ__ContractingMethod__c</name>
+</CustomFieldTranslation>

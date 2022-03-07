@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione la regla de productos que contiene la lógica para validar sus configuraciones de productos.</help>
+    <label></label>
+    <name>SBQQ__ProductRule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

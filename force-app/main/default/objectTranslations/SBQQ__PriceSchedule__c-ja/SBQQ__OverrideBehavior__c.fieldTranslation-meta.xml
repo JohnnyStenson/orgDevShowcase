@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品が含まれる現在の割引層が編集可能か、すべての割引層が編集可能か、またはどちらも編集不可かを決定します。</help>
+    <label></label>
+    <name>SBQQ__OverrideBehavior__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation>すべて</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current Tier Only</masterLabel>
+        <translation>現在の階層のみ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

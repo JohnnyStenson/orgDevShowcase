@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione para combinar as quantidades de assinaturas para o mesmo produto em uma linha nas Cotações e alterações de renovação.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionQuantitiesCombined__c</name>
+</CustomFieldTranslation>

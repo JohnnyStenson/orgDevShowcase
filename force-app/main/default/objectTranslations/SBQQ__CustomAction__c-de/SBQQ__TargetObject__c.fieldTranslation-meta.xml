@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Objekt, das Ziel dieser Aktion ist.</help>
+    <label></label>
+    <name>SBQQ__TargetObject__c</name>
+    <picklistValues>
+        <masterLabel>Asset</masterLabel>
+        <translation>Vermögenswert</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Favorite</masterLabel>
+        <translation>Favorit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>Produkt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscription</masterLabel>
+        <translation>Abonnement</translation>
+    </picklistValues>
+</CustomFieldTranslation>

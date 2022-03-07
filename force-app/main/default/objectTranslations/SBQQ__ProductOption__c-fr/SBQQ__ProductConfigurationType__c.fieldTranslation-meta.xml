@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Extrait la valeur du Type de configuration de l&apos;objet Produit afin d&apos;éviter le chargement d&apos;un enregistrement produit associé.</help>
+    <label></label>
+    <name>SBQQ__ProductConfigurationType__c</name>
+</CustomFieldTranslation>

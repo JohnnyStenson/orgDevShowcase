@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Define como produtos de assinatura segmentados aparecerão em cotações de renovação. Cancelar segmentação renovará como uma linha de cotação padrão com os últimos dados dos segmentos.</help>
+    <label></label>
+    <name>SBQQ__MDQRenewalBehavior__c</name>
+    <picklistValues>
+        <masterLabel>De-segmented</masterLabel>
+        <translation>Cancelar segmentação</translation>
+    </picklistValues>
+</CustomFieldTranslation>

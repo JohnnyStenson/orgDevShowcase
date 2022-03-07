@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O pacote de produtos que inclui esse recurso. Se você tiver criado o recurso a partir da página de detalhes do produto, isso já deverá estar preenchido.</help>
+    <label></label>
+    <name>SBQQ__ConfiguredSKU__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

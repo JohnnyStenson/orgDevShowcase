@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この品目で提供される特別価格の種別を保存します。値が Null の場合は、特別価格が設定されていないことを示します。</help>
+    <label></label>
+    <name>SBQQ__SpecialPriceType__c</name>
+    <picklistValues>
+        <masterLabel>Contracted Price</masterLabel>
+        <translation>契約価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation>カスタム</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewal</masterLabel>
+        <translation>更新</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie einen spezifischen Anwendungsfall aus, um die Nutzung auf der Grundlage dieses Plans zu bewerten. Dies ist eine steuernde Auswahlliste für das Feld &quot;Typ&quot;.</help>
+    <label></label>
+    <name>SBQQ__RatingMethod__c</name>
+    <picklistValues>
+        <masterLabel>Tier</masterLabel>
+        <translation>Klasse</translation>
+    </picklistValues>
+</CustomFieldTranslation>

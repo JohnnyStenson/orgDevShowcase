@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Schließt Seitenzahlen bei allen Seiten, der ersten Seite, der zweiten Seite und/oder sowohl der ersten als auch zweiten Seite aus.</help>
+    <label></label>
+    <name>SBQQ__ExcludedPages__c</name>
+    <picklistValues>
+        <masterLabel>All Pages</masterLabel>
+        <translation>Alle Seiten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First Page</masterLabel>
+        <translation>Erste Seite</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First and Last</masterLabel>
+        <translation>Erste und letzte</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Last Page</masterLabel>
+        <translation>Letzte Seite</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このオプションを含む機能を入力または参照します。これは、設定対象 SKU に連動します。</help>
+    <label></label>
+    <name>SBQQ__Feature__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

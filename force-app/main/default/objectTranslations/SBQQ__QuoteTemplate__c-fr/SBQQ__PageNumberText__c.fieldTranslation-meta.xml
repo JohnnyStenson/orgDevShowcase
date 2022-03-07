@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Déclarez la description de texte du numéro de page. « {0} » représente la page actuelle seule. « {1} » dépend de « {0} » et représente le total des pages numérotées. Si ce champ est vide, le texte par défaut est « Page {0} sur {1} ».</help>
+    <label></label>
+    <name>SBQQ__PageNumberText__c</name>
+</CustomFieldTranslation>

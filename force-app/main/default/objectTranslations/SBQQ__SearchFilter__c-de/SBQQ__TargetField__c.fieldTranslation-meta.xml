@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie das Feld an, das gesucht werden soll.</help>
+    <label></label>
+    <name>SBQQ__TargetField__c</name>
+    <picklistValues>
+        <masterLabel>Name</masterLabel>
+        <translation>Name</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>Produktcode</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Description</masterLabel>
+        <translation>Produktbeschreibung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Family</masterLabel>
+        <translation>Produktfamilie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity</masterLabel>
+        <translation>Menge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Status</masterLabel>
+        <translation>Status</translation>
+    </picklistValues>
+</CustomFieldTranslation>

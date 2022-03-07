@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique si ce champ doit être cumulé dans la ligne principale. Applicable uniquement si Cumuler le champ est spécifié dans le modèle.</help>
+    <label></label>
+    <name>SBQQ__RollUp__c</name>
+</CustomFieldTranslation>

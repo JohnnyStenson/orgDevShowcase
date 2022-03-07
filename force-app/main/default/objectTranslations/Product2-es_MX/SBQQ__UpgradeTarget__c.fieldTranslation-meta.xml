@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique el producto mejorado. Solo se aplica si este producto es una mejora según indica el campo Origen de mejora que se está rellenando o que tiene registros Origen de mejora relacionados.</help>
+    <label></label>
+    <name>SBQQ__UpgradeTarget__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

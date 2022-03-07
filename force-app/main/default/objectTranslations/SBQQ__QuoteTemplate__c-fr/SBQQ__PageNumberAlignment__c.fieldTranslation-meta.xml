@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez l&apos;alignement des numéros de page du document. Si ce champ est vide, l&apos;alignement par défaut est Centre.</help>
+    <label></label>
+    <name>SBQQ__PageNumberAlignment__c</name>
+    <picklistValues>
+        <masterLabel>Center</masterLabel>
+        <translation>Centre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Left</masterLabel>
+        <translation>Gauche</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Right</masterLabel>
+        <translation>Droite</translation>
+    </picklistValues>
+</CustomFieldTranslation>

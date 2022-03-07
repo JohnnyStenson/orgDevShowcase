@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Valeur à laquelle le champ de filtrage est comparé afin de déterminer si ce prix contracté doit être appliqué.</help>
+    <label></label>
+    <name>SBQQ__FilterValue__c</name>
+</CustomFieldTranslation>

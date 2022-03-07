@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Linha de cotação da assinatura que cobre a linhas de cotação de ativo.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionQuoteLine__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

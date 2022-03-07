@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Objeto de destino para el valor predeterminado del atributo.</help>
+    <label></label>
+    <name>SBQQ__DefaultObject__c</name>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Presupuesto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Line Group</masterLabel>
+        <translation>Grupo de partidas de presupuesto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

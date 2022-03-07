@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>選択した演算子を使用して選択した項目内で一致させる値。[一致項目] = [静的値] の場合は必須です。</help>
+    <label></label>
+    <name>SBQQ__TestedValue__c</name>
+</CustomFieldTranslation>

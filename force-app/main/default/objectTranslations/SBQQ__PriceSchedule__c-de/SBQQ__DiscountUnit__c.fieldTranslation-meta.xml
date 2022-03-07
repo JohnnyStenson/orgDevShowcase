@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie die Einheit für Rabatte an: Betrag oder Prozent.</help>
+    <label></label>
+    <name>SBQQ__DiscountUnit__c</name>
+    <picklistValues>
+        <masterLabel>Amount</masterLabel>
+        <translation>Betrag</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percent</masterLabel>
+        <translation>Prozent</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation>Preis</translation>
+    </picklistValues>
+</CustomFieldTranslation>

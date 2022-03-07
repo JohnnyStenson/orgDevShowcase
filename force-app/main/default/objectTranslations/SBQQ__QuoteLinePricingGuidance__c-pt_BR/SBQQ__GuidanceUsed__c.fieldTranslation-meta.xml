@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Um representante de vendas aceitou o desconto de destino deste guia de preços no editor de linha da cotação.</help>
+    <label></label>
+    <name>SBQQ__GuidanceUsed__c</name>
+</CustomFieldTranslation>

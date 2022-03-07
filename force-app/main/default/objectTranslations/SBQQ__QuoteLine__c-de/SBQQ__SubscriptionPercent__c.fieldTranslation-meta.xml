@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prozentanteil vom Gesamtwert, der beim Berechnen des Preises für diesen Belegposten verwendet werden soll.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionPercent__c</name>
+</CustomFieldTranslation>

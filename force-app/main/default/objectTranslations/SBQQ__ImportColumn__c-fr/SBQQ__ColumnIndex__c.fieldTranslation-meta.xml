@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Saisissez une valeur d&apos;index numérique qui représente l&apos;emplacement de la colonne. L&apos;index de la colonne doit commencer à 1.</help>
+    <label></label>
+    <name>SBQQ__ColumnIndex__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>URL への移動方法。</help>
+    <label></label>
+    <name>SBQQ__URLTarget__c</name>
+    <picklistValues>
+        <masterLabel>Popup</masterLabel>
+        <translation>ポップアップ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Replace Page</masterLabel>
+        <translation>ページを置換</translation>
+    </picklistValues>
+</CustomFieldTranslation>

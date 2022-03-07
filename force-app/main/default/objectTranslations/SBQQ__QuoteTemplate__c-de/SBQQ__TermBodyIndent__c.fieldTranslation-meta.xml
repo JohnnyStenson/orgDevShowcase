@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Einrückung des Angebotsklauseltexts neben der Klauselnummer in Pixel.</help>
+    <label></label>
+    <name>SBQQ__TermBodyIndent__c</name>
+</CustomFieldTranslation>

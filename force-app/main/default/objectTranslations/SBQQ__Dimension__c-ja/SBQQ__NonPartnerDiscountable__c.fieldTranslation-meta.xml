@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このディメンションをパートナーに対する割引不可としてマークします。</help>
+    <label></label>
+    <name>SBQQ__NonPartnerDiscountable__c</name>
+    <picklistValues>
+        <masterLabel>Inherit</masterLabel>
+        <translation>継承</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation>いいえ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation>はい</translation>
+    </picklistValues>
+</CustomFieldTranslation>

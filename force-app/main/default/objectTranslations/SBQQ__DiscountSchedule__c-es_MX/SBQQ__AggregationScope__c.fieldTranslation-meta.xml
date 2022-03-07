@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique el modo de agregar cantidades de partidas de presupuesto para productos empleando esta programación. La cantidad de cada partida (incluso para el mismo producto) se considera de forma independiente de forma predeterminada.</help>
+    <label></label>
+    <name>SBQQ__AggregationScope__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>Grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Presupuesto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

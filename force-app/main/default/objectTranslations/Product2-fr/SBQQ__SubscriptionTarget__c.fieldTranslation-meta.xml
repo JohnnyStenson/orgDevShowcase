@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilisez ce champ pour remplacer un produit inclus dans un calcul de pourcentage du total. Pointez cette référence vers un produit avec un prix catalogue que vous souhaitez utiliser pour les calculs de pourcentage de total du produit actuel.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionTarget__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ドキュメントのどこにページ番号を表示するのかを指定します。この項目を空白にすると、デフォルトの [フッター] になります。</help>
+    <label></label>
+    <name>SBQQ__PageNumberPosition__c</name>
+    <picklistValues>
+        <masterLabel>Footer</masterLabel>
+        <translation>フッター</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Header</masterLabel>
+        <translation>ヘッダー</translation>
+    </picklistValues>
+</CustomFieldTranslation>

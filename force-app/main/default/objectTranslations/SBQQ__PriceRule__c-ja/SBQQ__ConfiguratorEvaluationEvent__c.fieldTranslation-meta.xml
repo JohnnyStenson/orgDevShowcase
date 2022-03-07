@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>[なし] または [保存] が選択された場合、範囲が設定されたコンフィグレータの価格ルールが保存時に起動されます。[編集] が選択された場合、範囲が設定されたコンフィグレータの価格ルールが編集時および保存時に起動されます。</help>
+    <label></label>
+    <name>SBQQ__ConfiguratorEvaluationEvent__c</name>
+    <picklistValues>
+        <masterLabel>Edit</masterLabel>
+        <translation>編集</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save</masterLabel>
+        <translation>保存</translation>
+    </picklistValues>
+</CustomFieldTranslation>

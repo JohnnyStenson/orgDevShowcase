@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>テスト対象変数を評価する基準の値を入力します。日付値には YYYY-MM-DD 00:00:00 の形式を使用する必要があります</help>
+    <label></label>
+    <name>SBQQ__FilterValue__c</name>
+</CustomFieldTranslation>

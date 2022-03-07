@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fonctionnalité produit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fonctionnalités produit</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>SBQQ__Configurator</name>
+    </fieldSets>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de la fonctionnalité</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Dynamic_OptionSelectionMethod_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__MinOptionValidation</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

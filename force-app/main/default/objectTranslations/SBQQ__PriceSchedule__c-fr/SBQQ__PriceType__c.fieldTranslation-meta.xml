@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Type de prix qui détermine le mode de calcul des prix ou des remises.</help>
+    <label></label>
+    <name>SBQQ__PriceType__c</name>
+</CustomFieldTranslation>

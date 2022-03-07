@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Valor de lista da cotação no momento em que este documento foi gerado.</help>
+    <label></label>
+    <name>SBQQ__ListAmount__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remise distributeur qui s&apos;applique à ce devis, sauf si elle est remplacée au niveau de l&apos;élément de ligne.</help>
+    <label></label>
+    <name>SBQQ__DistributorDiscount__c</name>
+</CustomFieldTranslation>

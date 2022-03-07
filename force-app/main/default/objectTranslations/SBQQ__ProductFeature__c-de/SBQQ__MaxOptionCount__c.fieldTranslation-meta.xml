@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Maximale Anzahl von Optionen für diese Funktion, die als Bestandteil des Projektpakets ausgewählt werden können.</help>
+    <label></label>
+    <name>SBQQ__MaxOptionCount__c</name>
+</CustomFieldTranslation>

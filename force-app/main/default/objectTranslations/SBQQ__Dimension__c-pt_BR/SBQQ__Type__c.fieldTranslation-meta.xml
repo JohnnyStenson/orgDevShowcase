@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione o tipo de Dimensão de preço: uma vez ou anualmente. Dimensões anuais sempre são tratadas como Assinaturas.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation>Personalizado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Month</masterLabel>
+        <translation>Mês</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>One-time</masterLabel>
+        <translation>Uma vez</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarter</masterLabel>
+        <translation>Trimestre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Year</masterLabel>
+        <translation>Ano</translation>
+    </picklistValues>
+</CustomFieldTranslation>

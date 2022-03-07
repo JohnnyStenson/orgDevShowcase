@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この更新商談によって更新される契約。複数の契約がこの商談に積み上げ集計されている場合、これは主契約を指し示します。</help>
+    <label></label>
+    <name>SBQQ__RenewedContract__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

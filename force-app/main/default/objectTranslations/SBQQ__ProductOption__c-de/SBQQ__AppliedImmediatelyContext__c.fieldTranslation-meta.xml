@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei &quot;Sofort anwenden bei Auswahl&quot; werden Änderungen sofort bei der Produktauswahl angewandt, bei &quot;Sofort anwenden bei Mengenänderung&quot; dagegen bei einer Änderung der Menge. &quot;Immer&quot; bewirkt, dass Änderungen in beiden Fällen angewandt werden, also bei einer Produktauswahl und Mengenänderung.</help>
+    <label></label>
+    <name>SBQQ__AppliedImmediatelyContext__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Immer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Quantity Change</masterLabel>
+        <translation>Bei Mengenänderung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Selection</masterLabel>
+        <translation>Bei Auswahl</translation>
+    </picklistValues>
+</CustomFieldTranslation>

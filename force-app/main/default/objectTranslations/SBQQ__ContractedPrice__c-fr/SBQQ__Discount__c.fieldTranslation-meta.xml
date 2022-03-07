@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remise sur le prix catalogue (en pourcentage) représentée par ce prix contracté. Ce champ ou le prix doit être défini, mais pas les deux.</help>
+    <label></label>
+    <name>SBQQ__Discount__c</name>
+</CustomFieldTranslation>

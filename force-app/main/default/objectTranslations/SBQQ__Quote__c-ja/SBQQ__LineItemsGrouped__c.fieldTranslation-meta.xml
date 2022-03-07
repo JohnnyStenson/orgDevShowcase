@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>SolutionGroups(TM) を使用するか [品目の編集] ページで独自のグループを追加して、見積品目を分類して小計を出す場合は、このオプションを選択します。</help>
+    <label></label>
+    <name>SBQQ__LineItemsGrouped__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Produkt, das dieses Produkt bei einer Verlängerung ersetzt. Hiermit verwenden Sie bei der Verlängerung im Angebot eine andere SKU.</help>
+    <label></label>
+    <name>SBQQ__RenewalProduct__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

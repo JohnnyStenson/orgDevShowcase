@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Total de descontos adicionais oferecidos a esse item de linha. O Desconto adicional é definido como o desconto oferecido sobre o desconto por volume ou sobre os preços negociados.</help>
+    <label></label>
+    <name>SBQQ__AdditionalDiscount__c</name>
+</CustomFieldTranslation>

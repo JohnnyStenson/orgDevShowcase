@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção se os itens de linha de cotação com a opção Empacotado habilitada forem exibidos em documentos de cotação gerados a partir desse modelo.</help>
+    <label></label>
+    <name>SBQQ__BundledProductsShown__c</name>
+</CustomFieldTranslation>

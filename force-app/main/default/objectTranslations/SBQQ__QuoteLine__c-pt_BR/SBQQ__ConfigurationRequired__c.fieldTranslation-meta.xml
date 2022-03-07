@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sinalizador que indica que essa linha de cotação requer configuração. Pode ser usado pelo código personalizado do sistema para solicitar a reconfiguração desse produto.</help>
+    <label></label>
+    <name>SBQQ__ConfigurationRequired__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque para sempre incluir esse produto nos cálculos de percentual do total (normalmente, produtos com assinatura são excluídos dos cálculos de percentual do total).</help>
+    <label></label>
+    <name>SBQQ__IncludeInMaintenance__c</name>
+</CustomFieldTranslation>

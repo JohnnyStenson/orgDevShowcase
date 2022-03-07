@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique el momento en que debe evaluarse esta regla.</help>
+    <label></label>
+    <name>SBQQ__EvaluationEvent__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Siempre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edit</masterLabel>
+        <translation>Modificar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Load</masterLabel>
+        <translation>Cargar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save</masterLabel>
+        <translation>Guardar</translation>
+    </picklistValues>
+</CustomFieldTranslation>

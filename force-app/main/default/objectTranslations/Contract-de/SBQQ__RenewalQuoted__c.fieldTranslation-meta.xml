@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie diese Option aus, wenn automatisch ein Verlängerungs-Angebot für Verlängerungs-Opportunities erstellt werden soll.</help>
+    <label></label>
+    <name>SBQQ__RenewalQuoted__c</name>
+</CustomFieldTranslation>

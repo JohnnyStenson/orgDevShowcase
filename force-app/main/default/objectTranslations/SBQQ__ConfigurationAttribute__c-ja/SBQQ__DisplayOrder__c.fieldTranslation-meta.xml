@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>設定属性に表示順序が関連付けられていない場合、順序は関連コンテンツ名によって決まります。</help>
+    <label></label>
+    <name>SBQQ__DisplayOrder__c</name>
+</CustomFieldTranslation>

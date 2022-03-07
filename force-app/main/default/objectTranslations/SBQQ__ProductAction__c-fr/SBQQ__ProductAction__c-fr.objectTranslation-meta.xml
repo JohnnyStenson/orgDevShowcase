@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Action de produit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Actions de produit</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>N° d&apos;action du produit</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Value_attr_required_if_global_field</name>
+    </validationRules>
+</CustomObjectTranslation>

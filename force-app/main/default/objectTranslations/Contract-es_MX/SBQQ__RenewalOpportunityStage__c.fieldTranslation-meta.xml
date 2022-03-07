@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Invalida la etapa de la oportunidad predeterminada para esta renovación. Debe hacerse antes de seleccionar Pronóstico de renovación para que entre en vigor en la oportunidad de renovación.</help>
+    <label></label>
+    <name>SBQQ__RenewalOpportunityStage__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>全体に対する割合の計算を特定の商品カテゴリに限定する場合にこれを使用します。たとえば、ソフトウェアメンテナンスでは、全体に対する割合のカテゴリがソフトウェアメンテナンスである商品の割合のみを計算します。</help>
+    <label></label>
+    <name>SBQQ__SubscriptionCategory__c</name>
+    <picklistValues>
+        <masterLabel>Hardware</masterLabel>
+        <translation>ハードウェア</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Software</masterLabel>
+        <translation>ソフトウェア</translation>
+    </picklistValues>
+</CustomFieldTranslation>

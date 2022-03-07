@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chave usada para garantir a combinação única de ID da cotação e número de versão.</help>
+    <label></label>
+    <name>SBQQ__Key__c</name>
+</CustomFieldTranslation>

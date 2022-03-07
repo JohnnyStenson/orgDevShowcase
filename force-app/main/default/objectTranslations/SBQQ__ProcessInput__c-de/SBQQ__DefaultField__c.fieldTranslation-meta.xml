@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Angebotsfeld, aus dem der Standardwert für diese Eingabe stammt.</help>
+    <label></label>
+    <name>SBQQ__DefaultField__c</name>
+    <picklistValues>
+        <masterLabel>Bill To Country</masterLabel>
+        <translation>Rechnungsanschrift Land</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ship To Country</masterLabel>
+        <translation>Lieferanschrift Land</translation>
+    </picklistValues>
+</CustomFieldTranslation>

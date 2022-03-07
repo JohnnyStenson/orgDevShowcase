@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積ドキュメントを一括生成するとき、この見積に使用する言語</help>
+    <label></label>
+    <name>SBQQ__QuoteLanguage__c</name>
+    <picklistValues>
+        <masterLabel>Chinese (Simplified)</masterLabel>
+        <translation>中国語 (簡体字)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (Traditional)</masterLabel>
+        <translation>中国語 (繁体字)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Danish</masterLabel>
+        <translation>デンマーク語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dutch</masterLabel>
+        <translation>オランダ語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English</masterLabel>
+        <translation>英語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finnish</masterLabel>
+        <translation>フィンランド語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French</masterLabel>
+        <translation>フランス語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German</masterLabel>
+        <translation>ドイツ語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italian</masterLabel>
+        <translation>イタリア語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japanese</masterLabel>
+        <translation>日本語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Korean</masterLabel>
+        <translation>韓国語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norwegian</masterLabel>
+        <translation>ノルウェー語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese (Brazilian)</masterLabel>
+        <translation>ポルトガル語 (ブラジル)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Russian</masterLabel>
+        <translation>ロシア語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish</masterLabel>
+        <translation>スペイン語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Mexican)</masterLabel>
+        <translation>スペイン語 (メキシコ)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swedish</masterLabel>
+        <translation>スウェーデン語</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai</masterLabel>
+        <translation>タイ語</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>全体に対する割合が商品のリスト価格と正価のどちらに基づいて計算されるかを決定します。</help>
+    <label></label>
+    <name>SBQQ__SubscriptionBase__c</name>
+    <picklistValues>
+        <masterLabel>Customer</masterLabel>
+        <translation>顧客</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List</masterLabel>
+        <translation>リスト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net</masterLabel>
+        <translation>正価</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular</masterLabel>
+        <translation>通常</translation>
+    </picklistValues>
+</CustomFieldTranslation>

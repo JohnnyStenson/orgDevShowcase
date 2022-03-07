@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この商品へのアップグレードの見積を作成するときにクレジットを指定する場合は使用します。</help>
+    <label></label>
+    <name>SBQQ__UpgradeCredit__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Columna de partidas</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Columnas de partidas</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Encabezado de columna</nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Translate</name>
+    </webLinks>
+</CustomObjectTranslation>

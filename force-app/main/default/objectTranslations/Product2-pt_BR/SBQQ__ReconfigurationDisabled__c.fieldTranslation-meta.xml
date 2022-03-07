@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando essa opção é marcada, esse produto somente pode ser configurado quando adicionado primeiro a uma cotação. Se selecionada, os usuários não terão acesso a um link de Configuração, na página Editar linhas, após o produto ter sido adicionado.</help>
+    <label></label>
+    <name>SBQQ__ReconfigurationDisabled__c</name>
+</CustomFieldTranslation>

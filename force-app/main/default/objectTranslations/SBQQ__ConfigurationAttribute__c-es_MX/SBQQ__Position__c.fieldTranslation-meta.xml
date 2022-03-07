@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique la posición de este atributo. Superior aparece por encima de las opciones. Inferior lo hace por debajo.</help>
+    <label></label>
+    <name>SBQQ__Position__c</name>
+    <picklistValues>
+        <masterLabel>Bottom</masterLabel>
+        <translation>Inferior</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Top</masterLabel>
+        <translation>Superior</translation>
+    </picklistValues>
+</CustomFieldTranslation>

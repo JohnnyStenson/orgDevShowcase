@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この価格一覧に適用される期間割引。この値は積み上げ価格種別にのみ使用できます。ボリューム価格種別の場合、価格層ごとに期間割引が使用できます。</help>
+    <label></label>
+    <name>SBQQ__TermDiscount__c</name>
+</CustomFieldTranslation>

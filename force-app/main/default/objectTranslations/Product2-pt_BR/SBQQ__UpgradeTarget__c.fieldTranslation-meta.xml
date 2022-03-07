@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique o produto da atualização. Aplica-se somente se esse produto for uma atualização, conforme indicado pelo preenchimento do campo Origem de atualização ou pela presença de registro de Origem de atualização relacionados.</help>
+    <label></label>
+    <name>SBQQ__UpgradeTarget__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

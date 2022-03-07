@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Oportunidad de renovación generada para realizar un seguimiento de la renovación de este contrato.</help>
+    <label></label>
+    <name>SBQQ__RenewalOpportunity__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

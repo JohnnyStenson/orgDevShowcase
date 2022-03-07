@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez comment afficher les barèmes de remise dans le document du devis. Par ligne de devis affiche le barème de remise et le Niveau aligné à droite sous chaque ligne de devis.</help>
+    <label></label>
+    <name>SBQQ__DiscountScheduleShown__c</name>
+    <picklistValues>
+        <masterLabel>Per Quote Line</masterLabel>
+        <translation>Par ligne de devis</translation>
+    </picklistValues>
+</CustomFieldTranslation>

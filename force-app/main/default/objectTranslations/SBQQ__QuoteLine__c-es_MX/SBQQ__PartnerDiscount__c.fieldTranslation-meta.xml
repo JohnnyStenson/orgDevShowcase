@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si su organización vende a través de un canal/VARI, se puede dar un descuento de socios en un presupuesto o una partida de productos individual. Los descuentos de socios se aplican después de todos los descuentos automáticos y discrecionales.</help>
+    <label></label>
+    <name>SBQQ__PartnerDiscount__c</name>
+</CustomFieldTranslation>

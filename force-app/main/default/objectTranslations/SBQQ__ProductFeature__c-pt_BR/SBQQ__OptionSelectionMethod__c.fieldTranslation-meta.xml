@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determina como o usuário seleciona opções anexadas a esse produto. O método de &quot;Clique&quot; representa as opções com caixas de seleção ao lado dele. A opção &quot;Adicionar&quot; renderiza um botão que abre as opções predefinidas e a opção &quot;Dinâmico&quot; renderiza um botão que obtém todos os produtos ativos.</help>
+    <label></label>
+    <name>SBQQ__OptionSelectionMethod__c</name>
+    <picklistValues>
+        <masterLabel>Add</masterLabel>
+        <translation>Adicionar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Click</masterLabel>
+        <translation>Clicar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynamic</masterLabel>
+        <translation>Dinâmico</translation>
+    </picklistValues>
+</CustomFieldTranslation>

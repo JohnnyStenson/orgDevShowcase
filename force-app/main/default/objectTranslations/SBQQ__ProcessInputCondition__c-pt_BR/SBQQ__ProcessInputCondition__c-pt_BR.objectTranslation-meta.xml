@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condição de entrada do processo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Condições de entrada do processo</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome das condições de entrada do process</nameFieldLabel>
+</CustomObjectTranslation>

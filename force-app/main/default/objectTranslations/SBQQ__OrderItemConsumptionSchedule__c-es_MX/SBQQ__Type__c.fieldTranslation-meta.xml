@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Intervalo: La programación asigna precios únicamente empleando el nivel que se aplica a la cantidad de uso. Porción: El uso dentro de unos límites específicos recibe precios iguales al valor de su nivel</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation>Intervalo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slab</masterLabel>
+        <translation>Porción</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção caso todos os produtos do pacote devam ser impressos em documentos de cotação, caso contrário, apenas aqueles que forem diferentes de zero serão impressos.</help>
+    <label></label>
+    <name>SBQQ__AllPackageProductsShown__c</name>
+</CustomFieldTranslation>

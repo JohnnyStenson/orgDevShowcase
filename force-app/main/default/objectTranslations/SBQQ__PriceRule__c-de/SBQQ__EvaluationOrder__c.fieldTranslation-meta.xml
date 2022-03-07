@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie die Reihenfolge der Evaluierung für diese Preisregel ein. Regeln mit einer höheren Position in der Reihenfolge werden zuletzt ausgewertet, was bedeutet, dass sie im Fall eines Konflikts &quot;gewinnen&quot;.</help>
+    <label></label>
+    <name>SBQQ__EvaluationOrder__c</name>
+</CustomFieldTranslation>

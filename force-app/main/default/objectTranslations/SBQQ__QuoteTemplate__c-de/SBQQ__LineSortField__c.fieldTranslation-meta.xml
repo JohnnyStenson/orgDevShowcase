@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie das Feld an, das zum Sortieren von Belegposten im Dokument verwendet wird.</help>
+    <label></label>
+    <name>SBQQ__LineSortField__c</name>
+    <picklistValues>
+        <masterLabel>Number</masterLabel>
+        <translation>Nummer</translation>
+    </picklistValues>
+</CustomFieldTranslation>

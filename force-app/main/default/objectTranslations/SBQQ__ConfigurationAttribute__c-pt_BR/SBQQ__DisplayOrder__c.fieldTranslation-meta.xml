@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se não houver uma ordem de exibição associada ao Atributo de configuração, a ordem será determinada pelo nome do Conteúdo relacionado.</help>
+    <label></label>
+    <name>SBQQ__DisplayOrder__c</name>
+</CustomFieldTranslation>

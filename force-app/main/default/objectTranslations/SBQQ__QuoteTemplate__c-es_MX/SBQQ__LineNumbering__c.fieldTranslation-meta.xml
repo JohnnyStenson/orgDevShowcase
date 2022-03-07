@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique el modo de numerar partidas en documentos generados. &quot;Iniciar en presupuesto&quot; numera todas las líneas secuencialmente entre todos los grupos (si los hubiera). &quot;Iniciar en grupo&quot; restablece los números dentro de cada grupo.</help>
+    <label></label>
+    <name>SBQQ__LineNumbering__c</name>
+    <picklistValues>
+        <masterLabel>Start at group</masterLabel>
+        <translation>Iniciar en grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start at quote</masterLabel>
+        <translation>Iniciar en presupuesto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

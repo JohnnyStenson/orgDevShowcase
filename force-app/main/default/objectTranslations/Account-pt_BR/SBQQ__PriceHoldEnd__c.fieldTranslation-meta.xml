@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Insira a data até a qual os preços devem ser retidos.</help>
+    <label></label>
+    <name>SBQQ__PriceHoldEnd__c</name>
+</CustomFieldTranslation>

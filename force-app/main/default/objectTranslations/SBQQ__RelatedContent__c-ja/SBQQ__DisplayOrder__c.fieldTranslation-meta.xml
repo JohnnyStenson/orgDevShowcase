@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この項目が営業ユーザの [関連コンテンツ] メニューに表示される順序を設定します。空白にすると、そのコンテンツは最後に並び替えられます。</help>
+    <label></label>
+    <name>SBQQ__DisplayOrder__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>割引層</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>SBQQ__DiscountScheduleModal</name>
+    </fieldSets>
+    <nameFieldLabel>階層名</nameFieldLabel>
+</CustomObjectTranslation>

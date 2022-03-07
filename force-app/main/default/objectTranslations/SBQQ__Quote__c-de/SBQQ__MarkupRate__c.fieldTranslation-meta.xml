@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Standardmäßiger Aufschlagsatz, der für Belegposten in diesem Angebot gilt. Sie können diesen Wert für einzelne Gruppen und Belegposten überschreiben.</help>
+    <label></label>
+    <name>SBQQ__MarkupRate__c</name>
+</CustomFieldTranslation>

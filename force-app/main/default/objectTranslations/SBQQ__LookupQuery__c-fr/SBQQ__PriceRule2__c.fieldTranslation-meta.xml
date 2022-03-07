@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La règle de tarification associée à cette requête de référence. Remplace le champ principal-détails hérité.</help>
+    <label></label>
+    <name>SBQQ__PriceRule2__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

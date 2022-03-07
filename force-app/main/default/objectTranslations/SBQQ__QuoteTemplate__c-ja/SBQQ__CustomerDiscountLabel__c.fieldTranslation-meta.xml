@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>小計セクションと合計セクションの顧客割引で使用される表示ラベル。</help>
+    <label></label>
+    <name>SBQQ__CustomerDiscountLabel__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Idioma empleado para este presupuesto cuando se generan en masa documentos de presupuesto.</help>
+    <label></label>
+    <name>SBQQ__QuoteLanguage__c</name>
+    <picklistValues>
+        <masterLabel>Chinese (Simplified)</masterLabel>
+        <translation>Chino (Simplificado)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chinese (Traditional)</masterLabel>
+        <translation>Chino (Tradicional)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Danish</masterLabel>
+        <translation>Danés</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dutch</masterLabel>
+        <translation>Neerlandés</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>English</masterLabel>
+        <translation>Inglés</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finnish</masterLabel>
+        <translation>Finés</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French</masterLabel>
+        <translation>Francés</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German</masterLabel>
+        <translation>Alemán</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italian</masterLabel>
+        <translation>Italiano</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japanese</masterLabel>
+        <translation>Japonés</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Korean</masterLabel>
+        <translation>Coreano</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norwegian</masterLabel>
+        <translation>Noruego</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portuguese (Brazilian)</masterLabel>
+        <translation>Portugués (Brasil)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Russian</masterLabel>
+        <translation>Ruso</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish</masterLabel>
+        <translation>Español</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish (Mexican)</masterLabel>
+        <translation>Español (México)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Swedish</masterLabel>
+        <translation>Sueco</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai</masterLabel>
+        <translation>Tailandés</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dimensionen innerhalb eines Produkts, bei dem Angebote für mehrere Dimensionen gelten, bei denen der Preis jedes Segments separat festgelegt wird. Jedes Produkt kann mehrere Preisdimensionen enthalten. Preisdimensionen, die ein Jahr umspannen, gelten als Abonnements.</help>
+    <label></label>
+    <name>SBQQ__Dimension__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sinalizador definido internamente pela lógica do aplicativo quando uma linha é salva em um banco de dados incompleto. Isso pode ocorrer quando as regras de preço são avaliadas. Teste esse campo nas regras de validação para evitar acioná-los prematuramente. NÃO adicione ao layout de página nem atualize de outra forma.</help>
+    <label></label>
+    <name>SBQQ__Incomplete__c</name>
+</CustomFieldTranslation>

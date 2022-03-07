@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Les quantités et les taux d&apos;utilisation appliquent cette unité de mesure.</help>
+    <label></label>
+    <name>SBQQ__UnitOfMeasure__c</name>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation>Aucun</translation>
+    </picklistValues>
+</CustomFieldTranslation>

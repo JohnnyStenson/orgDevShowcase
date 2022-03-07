@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>[一致項目] = [項目値] の場合、[テスト対象オブジェクト] と [テスト対象項目] を選択します。[一致項目] = [静的値] の場合、[テスト対象値] に値を入力します。[一致項目] = [設定属性] の場合、設定属性を指定します。</help>
+    <label></label>
+    <name>SBQQ__MatchType__c</name>
+    <picklistValues>
+        <masterLabel>Configuration Attribute Value</masterLabel>
+        <translation>設定属性の値</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Field Value</masterLabel>
+        <translation>項目値</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Static Value</masterLabel>
+        <translation>静的値</translation>
+    </picklistValues>
+</CustomFieldTranslation>

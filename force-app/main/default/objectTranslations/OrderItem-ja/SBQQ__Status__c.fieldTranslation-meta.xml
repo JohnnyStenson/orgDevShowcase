@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>注文商品の現在の状態を示します。注文作成時のデフォルトはドラフトです。</help>
+    <label></label>
+    <name>SBQQ__Status__c</name>
+</CustomFieldTranslation>

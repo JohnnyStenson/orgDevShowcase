@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El modo en que se categoriza/agrupa/organiza esto producto dentro de Salesforce (ya sea una familia de productos nueva o existente). Adicionalmente, este campo puede utilizarse durante la selección de productos para filtrar el producto o SKU de producto correcto.</help>
+    <label></label>
+    <name>SBQQ__ProductFamily__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determina el modo en el que el usuario selecciona opciones adjuntas a este producto. El método &quot;Clic&quot; presenta opciones con casillas de verificación junto a ellas. &quot;Agregar&quot; representa un botón que abre un opciones predefinidas. &quot;Dinámico&quot; representa un botón que abre todos los productos activos.</help>
+    <label></label>
+    <name>SBQQ__OptionSelectionMethod__c</name>
+    <picklistValues>
+        <masterLabel>Add</masterLabel>
+        <translation>Agregar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Click</masterLabel>
+        <translation>Clic</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dynamic</masterLabel>
+        <translation>Dinámico</translation>
+    </picklistValues>
+</CustomFieldTranslation>

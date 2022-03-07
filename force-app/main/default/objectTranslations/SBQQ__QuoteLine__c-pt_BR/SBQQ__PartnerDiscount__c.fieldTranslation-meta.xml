@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se sua organização vender por meio de um canal/VARI, um Desconto de parceiro poderá ser dado sobre um item de linha de produto individual ou cotação. Os Descontos de parceiro são aplicados depois de todos os descontos automáticos e opcionais.</help>
+    <label></label>
+    <name>SBQQ__PartnerDiscount__c</name>
+</CustomFieldTranslation>

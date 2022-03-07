@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>API 参照名を入力します。</help>
+    <label></label>
+    <name>SBQQ__FieldName__c</name>
+    <picklistValues>
+        <masterLabel>Discount (%)</masterLabel>
+        <translation>割引 (%)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount (Amt)</masterLabel>
+        <translation>割引 (金額)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List Price</masterLabel>
+        <translation>リスト価格</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Discount</masterLabel>
+        <translation>パートナー割引</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>商品コード</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity</masterLabel>
+        <translation>数量</translation>
+    </picklistValues>
+</CustomFieldTranslation>

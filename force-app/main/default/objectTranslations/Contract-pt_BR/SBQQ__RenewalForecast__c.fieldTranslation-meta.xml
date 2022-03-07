@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione para acionar a geração de uma oportunidade de renovação para fins de previsões. Não é possível gerar automaticamente uma cotação de renovação.</help>
+    <label></label>
+    <name>SBQQ__RenewalForecast__c</name>
+</CustomFieldTranslation>

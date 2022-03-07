@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque cette dimension comme sans remise possible.</help>
+    <label></label>
+    <name>SBQQ__NonDiscountable__c</name>
+    <picklistValues>
+        <masterLabel>Inherit</masterLabel>
+        <translation>Hériter</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation>Non</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation>Oui</translation>
+    </picklistValues>
+</CustomFieldTranslation>

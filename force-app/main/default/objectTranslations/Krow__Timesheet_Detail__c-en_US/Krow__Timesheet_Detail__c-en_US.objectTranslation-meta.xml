@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>Krow__Mobile_Timesheet_Detail_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>Krow__Timesheet_Detail_Fieldset</name>
+    </fieldSets>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Krow__Account_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Krow__Hours_must_be_less_than_or_equal_to_24</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Krow__Milestone_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Krow__Project_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Krow__Task_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Krow__Time_should_be_in_15_min_increments</name>
+    </validationRules>
+</CustomObjectTranslation>

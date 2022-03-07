@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Usado para identificar o atributo específico se o Campo testado for um campo de Atributos de configuração global.</help>
+    <label></label>
+    <name>SBQQ__TestedAttribute__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

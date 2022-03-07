@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Legt als Komponentenaufschlag den Aufschlag des übergeordneten Pakets fest. Der Aufschlag gilt nur für Produkte mit mehreren Segmenten.</help>
+    <label></label>
+    <name>SBQQ__ComponentUpliftedByPackage__c</name>
+</CustomFieldTranslation>

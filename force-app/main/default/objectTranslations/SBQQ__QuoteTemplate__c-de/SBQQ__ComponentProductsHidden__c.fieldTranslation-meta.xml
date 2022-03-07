@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, wenn Komponentenprodukte, für die die Angabe &quot;Komponente&quot; aktiviert ist, auf Angebotdokumenten nicht ausgegeben werden sollen.</help>
+    <label></label>
+    <name>SBQQ__ComponentProductsHidden__c</name>
+</CustomFieldTranslation>

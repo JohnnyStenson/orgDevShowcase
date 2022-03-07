@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Génère un prix contracté basé sur la ligne de devis ajustée si indiqué.</help>
+    <label></label>
+    <name>SBQQ__GenerateContractedPrice__c</name>
+    <picklistValues>
+        <masterLabel>Discount Schedule</masterLabel>
+        <translation>Barème de remise</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Do Not Generate</masterLabel>
+        <translation>Ne pas générer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation>Prix</translation>
+    </picklistValues>
+</CustomFieldTranslation>

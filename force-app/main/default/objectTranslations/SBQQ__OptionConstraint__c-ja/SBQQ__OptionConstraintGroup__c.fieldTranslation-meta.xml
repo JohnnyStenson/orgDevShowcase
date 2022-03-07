@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>複数のオプション制約が同じオプションを制約する場合、同じグループにオプション制約を入れるには、すべての制約オプションを選択する必要があります。</help>
+    <label></label>
+    <name>SBQQ__OptionConstraintGroup__c</name>
+</CustomFieldTranslation>

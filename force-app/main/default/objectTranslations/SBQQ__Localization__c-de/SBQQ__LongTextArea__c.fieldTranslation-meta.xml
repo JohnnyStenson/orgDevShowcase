@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dieses Feld speichert Übersetzungen für Felder vom Typ &quot;Langer Text&quot;.</help>
+    <label></label>
+    <name>SBQQ__LongTextArea__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Valor de desconto total para esse item de linha, incluindo o desconto por volume, o desconto contratado e o desconto adicional.</help>
+    <label></label>
+    <name>SBQQ__TotalDiscountAmount__c</name>
+</CustomFieldTranslation>

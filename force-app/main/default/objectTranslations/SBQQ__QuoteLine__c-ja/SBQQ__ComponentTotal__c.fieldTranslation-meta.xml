@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この設定のコンポーネントの合計額。この項目は、この品目が設定可能な商品を参照している場合にのみ入力されます。</help>
+    <label></label>
+    <name>SBQQ__ComponentTotal__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt an, ob dieser Belegposten ein Paket darstellt, das heißt, ob er andere Belegposten in diesem Angebot beinhaltet.</help>
+    <label></label>
+    <name>SBQQ__Bundle__c</name>
+</CustomFieldTranslation>

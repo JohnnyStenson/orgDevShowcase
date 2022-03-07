@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Zusätzliche Menge für dieses Produkt, die bei der Berechnung des Mengenrabatts berücksichtigt wird</help>
+    <label></label>
+    <name>SBQQ__AdditionalQuantity__c</name>
+</CustomFieldTranslation>

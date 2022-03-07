@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積を商談の主見積として指定し、見積品目を商談品目と同期する場合は、このチェックボックスをオンにします。</help>
+    <label></label>
+    <name>SBQQ__Primary__c</name>
+</CustomFieldTranslation>

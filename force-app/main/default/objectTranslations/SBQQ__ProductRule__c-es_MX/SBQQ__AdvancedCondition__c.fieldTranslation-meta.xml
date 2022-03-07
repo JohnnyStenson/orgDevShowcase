@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Solo se puede ingresar si Condiciones cumplidas es Personalizado. Ingrese una combinación de los números de índice de condición de error, AND, OR y paréntesis (por ej. (123 AND 124) AND 125).</help>
+    <label></label>
+    <name>SBQQ__AdvancedCondition__c</name>
+</CustomFieldTranslation>

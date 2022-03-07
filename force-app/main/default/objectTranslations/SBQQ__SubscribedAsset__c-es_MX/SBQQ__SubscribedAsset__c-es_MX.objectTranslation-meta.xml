@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Activo suscrito</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Activos suscritos</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nº de activo suscrito</nameFieldLabel>
+</CustomObjectTranslation>

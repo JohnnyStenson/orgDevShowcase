@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この階層に適用する最大見積品目数量。この数値は、この階層に含める最大数量に 1 を加えた値でなければなりません。</help>
+    <label></label>
+    <name>SBQQ__UpperBound__c</name>
+</CustomFieldTranslation>

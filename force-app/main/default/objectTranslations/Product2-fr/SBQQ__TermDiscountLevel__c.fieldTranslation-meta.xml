@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez un niveau de durée d&apos;abonnement qui doit être utilisé dans le calcul de la remise sur la durée. Laissez ce champ vide pour spécifier la valeur par défaut.</help>
+    <label></label>
+    <name>SBQQ__TermDiscountLevel__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>Groupe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Line</masterLabel>
+        <translation>Ligne</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Devis</translation>
+    </picklistValues>
+</CustomFieldTranslation>

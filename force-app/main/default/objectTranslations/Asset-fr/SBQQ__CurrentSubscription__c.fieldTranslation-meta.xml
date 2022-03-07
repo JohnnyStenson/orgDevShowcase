@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Abonnement qui couvre actuellement cette ressource. Automatiquement renseigné si un seul abonnement couvre cette ressource. Les renouvellements remplacent avec le nouvel abonnement.</help>
+    <label></label>
+    <name>SBQQ__CurrentSubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

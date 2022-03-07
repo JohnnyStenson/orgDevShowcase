@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção caso os produtos do componente com Componente habilitado não devam ser impressos em documentos de cotação.</help>
+    <label></label>
+    <name>SBQQ__ComponentProductsHidden__c</name>
+</CustomFieldTranslation>

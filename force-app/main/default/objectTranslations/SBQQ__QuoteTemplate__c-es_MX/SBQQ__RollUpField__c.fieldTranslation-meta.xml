@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo de presupuesto empleado para resúmenes. Todas las partidas con este campo devuelven el mismo valor y se resumirán en la primera partida donde esté el valor.</help>
+    <label></label>
+    <name>SBQQ__RollUpField__c</name>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>Producto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

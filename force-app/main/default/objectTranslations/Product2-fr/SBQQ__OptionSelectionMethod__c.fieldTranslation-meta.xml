@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Détermine comment l&apos;utilisateur sélectionne les options jointes à ce produit. « Cliquer » présente les options avec des cases à cocher en regard. « Ajouter » affiche un bouton qui ouvre une boîte de dialogue contenant les options disponibles.</help>
+    <label></label>
+    <name>SBQQ__OptionSelectionMethod__c</name>
+    <picklistValues>
+        <masterLabel>Add</masterLabel>
+        <translation>Ajouter</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Click</masterLabel>
+        <translation>Cliquer</translation>
+    </picklistValues>
+</CustomFieldTranslation>

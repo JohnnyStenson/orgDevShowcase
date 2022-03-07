@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Escolha o produto a ser selecionado automaticamente na cotação. Observação: o Tipo de regra do produto deve ser definido como &quot;Seleção&quot;.</help>
+    <label></label>
+    <name>SBQQ__Product__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>関連商品が主商品にバンドルされていることを示す場合は、チェックボックスをオンにします。バンドルされているオプションは、数量が固定で価格は 0 です。これは、価格が主商品に含まれているためです。オプションに価格を追加する場合は、このチェックボックスをオフのままにします。</help>
+    <label></label>
+    <name>SBQQ__Bundled__c</name>
+</CustomFieldTranslation>

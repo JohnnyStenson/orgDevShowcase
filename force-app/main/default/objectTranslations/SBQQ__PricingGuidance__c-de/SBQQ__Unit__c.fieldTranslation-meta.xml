@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie den Typ des Rabatts, den diese Preisempfehlung dem Angebotsbelegposten zuordnet.</help>
+    <label></label>
+    <name>SBQQ__Unit__c</name>
+    <picklistValues>
+        <masterLabel>Percent</masterLabel>
+        <translation>Prozent</translation>
+    </picklistValues>
+</CustomFieldTranslation>

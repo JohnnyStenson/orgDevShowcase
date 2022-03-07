@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Precio prorrateado para el producto presupuestado por esta partida. Este precio solo difiere del precio especial si el producto es una suscripción y se está prorrateando la partida.</help>
+    <label></label>
+    <name>SBQQ__ProratedPrice__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utiliser le devis ou la ligne de devis où l’étendue d’évaluation de règle de prix = calcul, utiliser l&apos;option produit où l’étendue d’évaluation de règle de prix = configuration</help>
+    <label></label>
+    <name>SBQQ__TargetObject__c</name>
+    <picklistValues>
+        <masterLabel>Product Option</masterLabel>
+        <translation>Option produit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Devis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Line</masterLabel>
+        <translation>Ligne de devis</translation>
+    </picklistValues>
+</CustomFieldTranslation>

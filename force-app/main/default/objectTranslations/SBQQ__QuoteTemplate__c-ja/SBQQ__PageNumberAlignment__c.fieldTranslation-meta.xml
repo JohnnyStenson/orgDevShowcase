@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ドキュメントのページ番号の配置を指定します。この項目を空白にすると、デフォルトの [中央揃え] になります。</help>
+    <label></label>
+    <name>SBQQ__PageNumberAlignment__c</name>
+    <picklistValues>
+        <masterLabel>Center</masterLabel>
+        <translation>中央揃え</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Left</masterLabel>
+        <translation>左</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Right</masterLabel>
+        <translation>右</translation>
+    </picklistValues>
+</CustomFieldTranslation>

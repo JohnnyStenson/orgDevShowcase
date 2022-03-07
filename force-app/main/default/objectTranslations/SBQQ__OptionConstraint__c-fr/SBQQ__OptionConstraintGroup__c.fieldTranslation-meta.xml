@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si plusieurs contraintes d&apos;options ciblent la même option contrainte, le regroupement des contraintes d&apos;options dans le même groupe nécessite la sélection de toutes les options contraignantes.</help>
+    <label></label>
+    <name>SBQQ__OptionConstraintGroup__c</name>
+</CustomFieldTranslation>

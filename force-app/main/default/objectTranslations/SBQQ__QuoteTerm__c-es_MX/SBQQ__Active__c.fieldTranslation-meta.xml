@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica que este plazo de presupuesto está disponible para su uso.</help>
+    <label></label>
+    <name>SBQQ__Active__c</name>
+</CustomFieldTranslation>

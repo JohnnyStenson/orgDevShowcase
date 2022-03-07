@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La suscripción que está mejorando esta partida de presupuesto. Cuando el presupuesto se contrata, esta suscripción tendrá relleno su campo Fecha de terminación.</help>
+    <label></label>
+    <name>SBQQ__UpgradedSubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

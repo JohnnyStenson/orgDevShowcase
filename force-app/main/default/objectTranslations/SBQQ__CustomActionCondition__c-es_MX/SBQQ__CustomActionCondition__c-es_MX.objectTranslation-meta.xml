@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condición de acción personalizada</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Condiciones de acción personalizada</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de condición de acción personaliz</nameFieldLabel>
+</CustomObjectTranslation>

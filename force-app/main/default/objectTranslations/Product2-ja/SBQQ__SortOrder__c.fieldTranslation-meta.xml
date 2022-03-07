@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>[商品ルックアップ] ページでの商品のデフォルトの並び替え順を決定します。この順序で商品が見積に追加されます。</help>
+    <label></label>
+    <name>SBQQ__SortOrder__c</name>
+</CustomFieldTranslation>

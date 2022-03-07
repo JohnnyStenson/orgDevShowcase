@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indicador de solo lectura que indica si un presupuesto contiene índices de consumo de sustitución.</help>
+    <label></label>
+    <name>SBQQ__ConsumptionRateOverride__c</name>
+</CustomFieldTranslation>

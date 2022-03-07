@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si cette case est cochée, l&apos;unité de remise du barème défini par l&apos;utilisateur est définie sur le prix.</help>
+    <label></label>
+    <name>SBQQ__UsePriceForAmount__c</name>
+</CustomFieldTranslation>

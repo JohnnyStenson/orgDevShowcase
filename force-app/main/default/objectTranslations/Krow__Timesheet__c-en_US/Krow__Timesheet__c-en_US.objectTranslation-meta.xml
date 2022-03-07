@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>Krow__MassTimeSheetFieldSet</name>
+    </fieldSets>
+    <sharingReasons>
+        <label></label>
+        <name>Krow__Manager_Sharing</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label></label>
+        <name>Krow__Project_Manager_Sharing</name>
+    </sharingReasons>
+    <webLinks>
+        <label></label>
+        <name>Krow__Manage_Sharing</name>
+    </webLinks>
+</CustomObjectTranslation>

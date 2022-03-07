@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ページ番号のテキストの説明を宣言します。「{0}」は単独で現在のページを表します。「{1}」は「{0}」と連動しており、ページ番号と共に合計ページを表します。この項目を空白にすると、デフォルトの [ページ {0}/{1}] になります。</help>
+    <label></label>
+    <name>SBQQ__PageNumberText__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção para a coluna exibida condicionalmente a fim de substituir outra coluna. Ao deixar essa caixa desmarcada, a largura dessa coluna será realocada quando ela for oculta para outra coluna, mantendo, assim, a largura da tabela inalterada.</help>
+    <label></label>
+    <name>SBQQ__WidthDiscardedWhenHidden__c</name>
+</CustomFieldTranslation>

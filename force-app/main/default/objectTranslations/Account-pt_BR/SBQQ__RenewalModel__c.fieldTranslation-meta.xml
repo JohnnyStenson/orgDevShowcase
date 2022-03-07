@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Escolha Baseado em ativo para tornar as renovações baseadas nos Ativos da conta ou escolha Baseado em assinatura para tornar as renovações baseadas em assinaturas criadas a partir de uma cotação.</help>
+    <label></label>
+    <name>SBQQ__RenewalModel__c</name>
+    <picklistValues>
+        <masterLabel>Asset Based</masterLabel>
+        <translation>Baseado em ativo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract Based</masterLabel>
+        <translation>Baseado em contrato</translation>
+    </picklistValues>
+</CustomFieldTranslation>

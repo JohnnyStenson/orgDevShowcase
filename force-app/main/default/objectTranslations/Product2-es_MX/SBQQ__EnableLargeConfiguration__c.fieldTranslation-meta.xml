@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Debe estar activada si sufre errores de desempeño durante la configuración de paquetes. El paquete se procesará de forma asíncrona.</help>
+    <label></label>
+    <name>SBQQ__EnableLargeConfiguration__c</name>
+</CustomFieldTranslation>

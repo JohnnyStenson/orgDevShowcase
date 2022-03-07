@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Suscripción que cubre este activo en estos momentos. Se rellena automáticamente si una y solo una suscripción cubre este activo. Las renovaciones sobrescribirán la nueva suscripción.</help>
+    <label></label>
+    <name>SBQQ__CurrentSubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

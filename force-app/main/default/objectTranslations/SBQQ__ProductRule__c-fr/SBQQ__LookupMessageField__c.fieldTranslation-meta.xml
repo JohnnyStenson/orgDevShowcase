@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Champ de l&apos;objet de référence correspondant au message de règle produit. Le champ doit être de type texte.</help>
+    <label></label>
+    <name>SBQQ__LookupMessageField__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__Message__c</masterLabel>
+        <translation>SBQQ__Message__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

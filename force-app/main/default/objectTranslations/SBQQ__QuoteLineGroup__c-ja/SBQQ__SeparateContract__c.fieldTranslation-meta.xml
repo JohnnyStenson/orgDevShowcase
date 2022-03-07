@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このグループのサブスクリプションの別の契約を生成する場合は、チェックボックスをオンにします。</help>
+    <label></label>
+    <name>SBQQ__SeparateContract__c</name>
+</CustomFieldTranslation>

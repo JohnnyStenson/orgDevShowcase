@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie dies aus, um die Erstellung einer Verlängerungs-Opportunity zu Prognosezwecken auszulösen. Es wird nicht automatisch ein Verlängerungsangebot erstellt.</help>
+    <label></label>
+    <name>SBQQ__RenewalForecast__c</name>
+</CustomFieldTranslation>

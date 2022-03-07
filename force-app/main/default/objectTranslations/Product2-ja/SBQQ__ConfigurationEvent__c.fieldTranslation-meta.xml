@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>これは、この商品の [商品の設定] 画面が表示された場合の制御に使用します。初期設定に限定する場合は [追加] を選択します。その後の設定を行う場合は [編集] を選択します。</help>
+    <label></label>
+    <name>SBQQ__ConfigurationEvent__c</name>
+    <picklistValues>
+        <masterLabel>Add</masterLabel>
+        <translation>加算</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>常に</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edit</masterLabel>
+        <translation>編集</translation>
+    </picklistValues>
+</CustomFieldTranslation>

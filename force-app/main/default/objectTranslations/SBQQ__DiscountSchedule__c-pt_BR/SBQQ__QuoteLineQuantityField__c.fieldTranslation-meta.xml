@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo usado para calcular o preço do cronograma de descontos.</help>
+    <label></label>
+    <name>SBQQ__QuoteLineQuantityField__c</name>
+    <picklistValues>
+        <masterLabel>Quantity</masterLabel>
+        <translation>Quantidade</translation>
+    </picklistValues>
+</CustomFieldTranslation>

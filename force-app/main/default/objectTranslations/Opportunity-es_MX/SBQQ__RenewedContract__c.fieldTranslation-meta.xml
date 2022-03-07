@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El contrato que esta oportunidad de renovación está renovando. Si se resumen varios contratos en esta oportunidad, esta opción apunta al contrato principal.</help>
+    <label></label>
+    <name>SBQQ__RenewedContract__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

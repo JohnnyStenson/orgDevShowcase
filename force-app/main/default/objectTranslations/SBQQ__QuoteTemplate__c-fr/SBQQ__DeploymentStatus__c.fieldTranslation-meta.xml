@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Statut de déploiement de ce modèle. Changez ce statut en « Déployé » pour rendre ce modèle visible par les utilisateurs non-administrateurs.</help>
+    <label></label>
+    <name>SBQQ__DeploymentStatus__c</name>
+    <picklistValues>
+        <masterLabel>Deployed</masterLabel>
+        <translation>Déployé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Development</masterLabel>
+        <translation>Développement en cours</translation>
+    </picklistValues>
+</CustomFieldTranslation>

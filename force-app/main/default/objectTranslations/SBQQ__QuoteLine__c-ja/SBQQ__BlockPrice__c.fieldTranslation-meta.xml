@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>数量および数量範囲に基づいて商品に固定価格を割り当てます。これは、自動的に計算された数量 * 単価の価格を上書きします。</help>
+    <label></label>
+    <name>SBQQ__BlockPrice__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

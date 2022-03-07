@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Orientation de la page dans les documents PDF générés avec ce modèle.</help>
+    <label></label>
+    <name>SBQQ__PageOrientation__c</name>
+    <picklistValues>
+        <masterLabel>Landscape</masterLabel>
+        <translation>Paysage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portrait</masterLabel>
+        <translation>Portrait</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>MDQ 商品内のディメンション。すべての各セグメントが独立した価格設定になります。各商品には複数の価格ディメンションが含まれる場合があります。1 年間の価格ディメンションはサブスクリプションとして扱われます。</help>
+    <label></label>
+    <name>SBQQ__Dimension__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

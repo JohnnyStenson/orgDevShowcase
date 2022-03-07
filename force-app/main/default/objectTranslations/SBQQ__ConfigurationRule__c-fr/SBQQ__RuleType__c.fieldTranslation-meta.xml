@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Type de règle produit référencée par cette règle de configuration.</help>
+    <label></label>
+    <name>SBQQ__RuleType__c</name>
+</CustomFieldTranslation>

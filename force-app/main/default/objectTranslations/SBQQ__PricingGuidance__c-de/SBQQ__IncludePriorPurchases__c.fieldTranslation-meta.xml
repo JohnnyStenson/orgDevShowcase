@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei der Festlegung der Preisempfehlungsklasse für einen Angebotsbelegposten Produktmengen einschließen, die zuvor verkauft wurden</help>
+    <label></label>
+    <name>SBQQ__IncludePriorPurchases__c</name>
+</CustomFieldTranslation>

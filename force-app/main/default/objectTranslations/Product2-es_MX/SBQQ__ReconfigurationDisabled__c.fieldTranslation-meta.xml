@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cuando está marcada, este producto solo puede configurarse cuando se incorpora por primera vez a un presupuesto. Si se selecciona, los usuarios no tendrán acceso a un vínculo Configurar en la página Modificar partidas después de agregar el producto.</help>
+    <label></label>
+    <name>SBQQ__ReconfigurationDisabled__c</name>
+</CustomFieldTranslation>

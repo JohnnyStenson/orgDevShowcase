@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der Wert, mit dem das ausgewählte Feld unter Verwendung des festgelegten Operators verglichen werden soll. Erforderlich bei &quot;Übereinstimmungstyp = Statischer Wert&quot;.</help>
+    <label></label>
+    <name>SBQQ__TestedValue__c</name>
+</CustomFieldTranslation>

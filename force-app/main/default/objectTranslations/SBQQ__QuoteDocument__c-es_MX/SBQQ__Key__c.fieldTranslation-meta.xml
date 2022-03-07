@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Clave empleada para garantizar la combinación exclusiva de Id. de presupuesto y número de versión.</help>
+    <label></label>
+    <name>SBQQ__Key__c</name>
+</CustomFieldTranslation>

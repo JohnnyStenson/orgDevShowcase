@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo no Objeto de pesquisa que corresponde à Pesquisa de produto de Ação do produto. O campo deve ser uma pesquisa para o objeto Produto.</help>
+    <label></label>
+    <name>SBQQ__LookupProductField__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__Product__c</masterLabel>
+        <translation>SBQQ__Product__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

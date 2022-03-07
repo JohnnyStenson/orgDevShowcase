@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Descuento por plazo en total que se aplica a esta programación de precios. El valor solo está disponible para el tipo de precios Por niveles. Para el tipo de precios Por volumen, el descuento por plazo está disponible para cada nivel de precios.</help>
+    <label></label>
+    <name>SBQQ__TermDiscount__c</name>
+</CustomFieldTranslation>

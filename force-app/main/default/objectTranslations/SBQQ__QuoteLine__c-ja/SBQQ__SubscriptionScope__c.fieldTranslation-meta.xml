@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>合計価格に対する割合の計算方法を示します。[見積] の場合、すべての非サブスクリプションを使用し、全体に対する割合に見積の商品を含めます。[グループ] の場合、非サブスクリプション商品のみを使用し、全体に対する割合に同じグループの商品を含めます。</help>
+    <label></label>
+    <name>SBQQ__SubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>グループ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>見積</translation>
+    </picklistValues>
+</CustomFieldTranslation>

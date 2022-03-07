@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lorsque l&apos;option Aucun ou Enregistrer est sélectionnée, les règles de prix de l&apos;étendue du configurateur sont déclenchées lors de l&apos;enregistrement. Lorsque l&apos;option Modifier est sélectionnée, les règles de prix de l&apos;étendue du configurateur sont déclenchées lors de la modification et l&apos;enregistrement.</help>
+    <label></label>
+    <name>SBQQ__ConfiguratorEvaluationEvent__c</name>
+    <picklistValues>
+        <masterLabel>Edit</masterLabel>
+        <translation>Modification</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save</masterLabel>
+        <translation>Enregistrer</translation>
+    </picklistValues>
+</CustomFieldTranslation>

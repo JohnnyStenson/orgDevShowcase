@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kundengesamtpreis für diesen Angebotsbelegposten. Dies ist der Nettogesamtpreis ohne Partnerrabatte.</help>
+    <label></label>
+    <name>SBQQ__CustomerTotal__c</name>
+</CustomFieldTranslation>

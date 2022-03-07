@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica o status do trabalho de cálculo de preço do pedido. É definido pelo sistema.</help>
+    <label></label>
+    <name>SBQQ__PriceCalcStatus__c</name>
+</CustomFieldTranslation>

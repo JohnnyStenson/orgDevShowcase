@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Importe total de partidas no opcionales antes de aplicar descuentos adicionales.</help>
+    <label></label>
+    <name>SBQQ__RegularAmount__c</name>
+</CustomFieldTranslation>

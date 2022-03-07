@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette case pour indiquer que le produit associé est groupé avec le produit principal. Les options d&apos;offres groupées ont une quantité fixe et un prix nul, car le prix est inclus dans le produit principal. Laissez cette case désactivée si le prix doit être ajouté à l&apos;option.</help>
+    <label></label>
+    <name>SBQQ__Bundled__c</name>
+</CustomFieldTranslation>

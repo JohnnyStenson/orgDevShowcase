@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie die Laufzeit der Verlängerung an. Standardmäßig entspricht sie der ursprünglichen Vertragslaufzeit.</help>
+    <label></label>
+    <name>SBQQ__RenewalTerm__c</name>
+</CustomFieldTranslation>

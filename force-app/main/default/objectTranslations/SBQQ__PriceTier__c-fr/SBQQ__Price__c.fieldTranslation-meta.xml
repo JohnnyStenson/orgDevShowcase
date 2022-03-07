@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prix actuel de ce niveau de prix. Ce champ est renseigné lors de la création d&apos;un ensemble de barèmes de remise pour un nouvel enregistrement de commande.</help>
+    <label></label>
+    <name>SBQQ__Price__c</name>
+</CustomFieldTranslation>

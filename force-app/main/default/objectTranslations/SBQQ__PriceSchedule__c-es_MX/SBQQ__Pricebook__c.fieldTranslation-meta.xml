@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lista de precios al que se aplica esta programación de precios. Solo se utiliza con la búsqueda de consulta de productos para asignar una programación específica de productos/listas de precios.</help>
+    <label></label>
+    <name>SBQQ__Pricebook__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

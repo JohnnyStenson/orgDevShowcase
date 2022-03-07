@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quantidade existente desse produto. Opção calculada analisando os ativos anexados à conta.</help>
+    <label></label>
+    <name>SBQQ__ExistingQuantity__c</name>
+</CustomFieldTranslation>

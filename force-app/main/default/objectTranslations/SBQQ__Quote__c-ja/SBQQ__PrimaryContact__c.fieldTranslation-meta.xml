@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積の主取引先責任者。この取引責任者の名前が、生成される見積ドキュメントに表示されます。</help>
+    <label></label>
+    <name>SBQQ__PrimaryContact__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

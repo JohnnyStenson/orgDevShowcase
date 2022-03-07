@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique la URL a la que navegar. Tiene que tener acceso a los campos Partida, Grupo y Presupuesto del registro dependientes de la ubicación seleccionada. Ejemplos: http://www.salesforce.com, http://www.susitio.com/{!Id}, o /{!SBQQ__Quote__c.Name}/{!SBQQ__SuVarPersonalizada__c}</help>
+    <label></label>
+    <name>SBQQ__URL__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie das Verhalten beim Ändern von Vermögenswerten aus, die dieses Produkt repräsentieren. Die Vermögenswertmengen können standardmäßig nicht verringert werden, es sei denn, es wird ein Upgrade hinzugefügt und keine Erstattung angewendet.</help>
+    <label></label>
+    <name>SBQQ__AssetAmendmentBehavior__c</name>
+    <picklistValues>
+        <masterLabel>Allow Refund</masterLabel>
+        <translation>Erstattung zulassen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default</masterLabel>
+        <translation>Standard</translation>
+    </picklistValues>
+</CustomFieldTranslation>

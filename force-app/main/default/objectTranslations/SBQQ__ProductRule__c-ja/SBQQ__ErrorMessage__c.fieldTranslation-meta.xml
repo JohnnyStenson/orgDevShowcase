@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルールが有効化されたときに表示するメッセージを入力します。[入力規則] が起動されたときにエラーメッセージが表示されます。[アラート] が起動されたときに警告メッセージが表示されます。[条件] ルールには適用されません。</help>
+    <label></label>
+    <name>SBQQ__ErrorMessage__c</name>
+</CustomFieldTranslation>

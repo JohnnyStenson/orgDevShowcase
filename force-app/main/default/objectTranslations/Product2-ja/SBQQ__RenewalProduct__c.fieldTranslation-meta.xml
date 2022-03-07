@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>更新時にこの商品を置き換える商品。更新時に異なる SKU の見積を作成する場合はこれを使用します。</help>
+    <label></label>
+    <name>SBQQ__RenewalProduct__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

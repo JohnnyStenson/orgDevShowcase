@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione la casilla de verificación si se requiere este contenido para el producto. Los usuarios deben incluirlo cuando generan un documento de presupuesto.</help>
+    <label></label>
+    <name>SBQQ__Required__c</name>
+</CustomFieldTranslation>

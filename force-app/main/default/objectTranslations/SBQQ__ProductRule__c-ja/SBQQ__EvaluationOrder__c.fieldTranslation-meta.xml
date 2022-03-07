@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この価格ルールの評価の順序を指定します。高い順序のルールは最後に評価され、矛盾があった場合に優先されます。</help>
+    <label></label>
+    <name>SBQQ__EvaluationOrder__c</name>
+</CustomFieldTranslation>

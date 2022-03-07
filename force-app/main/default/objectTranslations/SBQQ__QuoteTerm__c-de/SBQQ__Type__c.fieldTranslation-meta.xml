@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt an, ob es sich um eine Standardklausel bzw. eine benutzerdefinierte oder geänderte Klausel handelt.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+</CustomFieldTranslation>

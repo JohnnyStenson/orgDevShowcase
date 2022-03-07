@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>Krow__Hours_Completion_Percent__c</name>
+    <picklistValues>
+        <masterLabel>Project Estimated</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Task Estimated</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Task Scheduled</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

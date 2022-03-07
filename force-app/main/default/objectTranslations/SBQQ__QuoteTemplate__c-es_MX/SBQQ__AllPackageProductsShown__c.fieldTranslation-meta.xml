@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione la casilla de verificación si se deben imprimir los productos de todo el paquete en documentos de presupuesto; en caso contrario, solo se imprimen los que no son cero.</help>
+    <label></label>
+    <name>SBQQ__AllPackageProductsShown__c</name>
+</CustomFieldTranslation>

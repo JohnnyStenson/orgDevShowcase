@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique l&apos;état actuel du produit commandé. Le statut par défaut Brouillon est appliqué à la création de la commande.</help>
+    <label></label>
+    <name>SBQQ__Status__c</name>
+</CustomFieldTranslation>

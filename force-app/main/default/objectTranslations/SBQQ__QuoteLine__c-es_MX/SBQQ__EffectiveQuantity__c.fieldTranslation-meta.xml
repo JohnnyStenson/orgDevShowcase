@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cantidad vigente empleada en el cálculo de los totales. Es igual que la cantidad a no ser que el producto tenga precios en bloque, esté cubierta por una programación de descuentos de tipo &quot;Porción&quot; o una suscripción existente.</help>
+    <label></label>
+    <name>SBQQ__EffectiveQuantity__c</name>
+</CustomFieldTranslation>

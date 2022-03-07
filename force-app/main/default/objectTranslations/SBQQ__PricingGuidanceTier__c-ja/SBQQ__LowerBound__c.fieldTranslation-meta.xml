@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この階層に適用する最小見積品目数量。この数値は前の階層の上限に一致する必要があります。</help>
+    <label></label>
+    <name>SBQQ__LowerBound__c</name>
+</CustomFieldTranslation>

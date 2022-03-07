@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この項目を主品目に積み上げ集計するかどうかを示します。テンプレートに積み上げ項目が指定されている場合にのみ適用されます。</help>
+    <label></label>
+    <name>SBQQ__RollUp__c</name>
+</CustomFieldTranslation>

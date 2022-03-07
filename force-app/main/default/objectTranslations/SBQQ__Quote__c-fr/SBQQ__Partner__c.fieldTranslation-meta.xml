@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Partenaire principal de cette affaire (le cas échéant). Ce champ utilise par défaut le partenaire marqué comme principal dans la liste associée Partenaires de l&apos;opportunité.</help>
+    <label></label>
+    <name>SBQQ__Partner__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

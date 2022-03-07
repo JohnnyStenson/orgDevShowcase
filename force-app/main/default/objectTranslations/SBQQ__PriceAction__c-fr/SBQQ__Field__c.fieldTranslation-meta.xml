@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez le champ que vous souhaitez mettre à jour lorsque les conditions sont remplies.</help>
+    <label></label>
+    <name>SBQQ__Field__c</name>
+    <picklistValues>
+        <masterLabel>Discount (%)</masterLabel>
+        <translation>Remise (%)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount (Amt)</masterLabel>
+        <translation>Remise (montant)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Markup (%)</masterLabel>
+        <translation>Marge (%)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Markup (Amt)</masterLabel>
+        <translation>Marge (montant)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ__Description__c</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ__ProductName__c</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ__Quantity__c</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unit Price</masterLabel>
+        <translation>Prix unitaire</translation>
+    </picklistValues>
+</CustomFieldTranslation>

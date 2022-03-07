@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Attribuez un prix fixe à un produit en fonction de la quantité et de la plage de quantités. Il remplace le calcul automatique quantité x prix unitaire.</help>
+    <label></label>
+    <name>SBQQ__BlockPrice__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

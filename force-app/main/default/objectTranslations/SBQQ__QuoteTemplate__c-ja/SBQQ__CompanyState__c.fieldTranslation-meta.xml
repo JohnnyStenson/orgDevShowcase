@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積ドキュメントに表示される会社住所の都道府県部分。</help>
+    <label></label>
+    <name>SBQQ__CompanyState__c</name>
+</CustomFieldTranslation>

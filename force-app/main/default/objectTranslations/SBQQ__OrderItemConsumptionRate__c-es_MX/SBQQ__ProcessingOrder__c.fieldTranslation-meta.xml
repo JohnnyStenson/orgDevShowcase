@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El orden para procesar el índice de uso entre índices múltiples. Los Índices de consumo se evalúan empezando por el orden de procesamiento más bajo.</help>
+    <label></label>
+    <name>SBQQ__ProcessingOrder__c</name>
+</CustomFieldTranslation>

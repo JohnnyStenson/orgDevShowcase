@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>L’API du champ cible dans l’objet par défaut pour la valeur par défaut de l’attribut.</help>
+    <label></label>
+    <name>SBQQ__DefaultField__c</name>
+</CustomFieldTranslation>

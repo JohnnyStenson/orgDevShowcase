@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si votre organisation vend via un canal/VARI, une remise partenaire peut être accordée à un devis ou à un élément de ligne de produit individuelle. Les remises partenaires sont appliquées après toutes les remises automatiques et discrétionnaires.</help>
+    <label></label>
+    <name>SBQQ__PartnerDiscount__c</name>
+</CustomFieldTranslation>

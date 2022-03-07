@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pode ser inserida apenas se as Condições atendidas forem Personalizadas. Insira uma combinação dos Números do índice de condição do erro, AND, OR e parênteses (por exemplo, (123 AND 124) AND 125).</help>
+    <label></label>
+    <name>SBQQ__AdvancedCondition__c</name>
+</CustomFieldTranslation>

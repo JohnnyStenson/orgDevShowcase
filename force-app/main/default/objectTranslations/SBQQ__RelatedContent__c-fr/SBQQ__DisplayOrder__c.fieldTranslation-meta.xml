@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Définissez l&apos;ordre d&apos;affichage de cet élément pour un utilisateur commercial dans le menu Contenu associé. Si ce champ est vide, le contenu est classé en dernier.</help>
+    <label></label>
+    <name>SBQQ__DisplayOrder__c</name>
+</CustomFieldTranslation>

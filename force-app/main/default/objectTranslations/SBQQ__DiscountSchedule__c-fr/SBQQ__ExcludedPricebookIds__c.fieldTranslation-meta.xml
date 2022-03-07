@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Saisissez la liste des ID de catalogue de prix, séparés par une virgule, qui ne doivent pas s&apos;appliquer à ce barème de remise.</help>
+    <label></label>
+    <name>SBQQ__ExcludedPricebookIds__c</name>
+</CustomFieldTranslation>

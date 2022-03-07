@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El incremento se aplica como un porcentaje frente al precio del año anterior; el precio resultante se ingresa en el campo Precio normal sobre Precios especiales o contratados. Los incrementos se acrecientan año tras año. El incremento no puede aplicarse al primer año de cualquier suscripción.</help>
+    <label></label>
+    <name>SBQQ__Uplift__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Catalogue de prix auquel ce barème de remise s&apos;applique. Utilisé uniquement en combinaison d&apos;une référence Produit pour attribuer un barème spécifique au produit/catalogue de prix.</help>
+    <label></label>
+    <name>SBQQ__Pricebook__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

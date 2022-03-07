@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der ursprüngliche Stückpreis für das Produkt, das mit diesem Belegposten angeboten wird. Der ursprüngliche Preis stammt aus dem Preisbuch.</help>
+    <label></label>
+    <name>SBQQ__OriginalPrice__c</name>
+</CustomFieldTranslation>

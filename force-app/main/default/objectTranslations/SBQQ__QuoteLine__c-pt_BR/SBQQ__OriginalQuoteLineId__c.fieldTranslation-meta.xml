@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O ID da linha de cotação original da qual esta linha deriva.</help>
+    <label></label>
+    <name>SBQQ__OriginalQuoteLineId__c</name>
+</CustomFieldTranslation>

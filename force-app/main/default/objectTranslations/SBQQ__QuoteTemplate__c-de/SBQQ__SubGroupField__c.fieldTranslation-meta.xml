@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Feld, das für die Einordnung von Belegposten in Untergruppen verwendet wird.</help>
+    <label></label>
+    <name>SBQQ__SubGroupField__c</name>
+    <picklistValues>
+        <masterLabel>Product Family</masterLabel>
+        <translation>Produktfamilie</translation>
+    </picklistValues>
+</CustomFieldTranslation>

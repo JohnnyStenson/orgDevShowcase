@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Preis des Zielprodukts, auf dessen Grundlage der Prozentanteil vom Gesamtwert berechnet werden soll.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionTargetPrice__c</name>
+</CustomFieldTranslation>

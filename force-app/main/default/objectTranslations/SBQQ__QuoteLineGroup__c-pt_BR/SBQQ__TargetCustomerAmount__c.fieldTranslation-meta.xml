@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Insira o valor do cliente desejado para calcular automaticamente o desconto adicional nos itens de linha descontáveis.</help>
+    <label></label>
+    <name>SBQQ__TargetCustomerAmount__c</name>
+</CustomFieldTranslation>

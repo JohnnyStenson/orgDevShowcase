@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die API-Namen der Verbrauchsregelungsfelder, auf die dieses Plugin verweist. Geben Sie 10 Felder ein, jeweils ein Feld pro Zeile.</help>
+    <label></label>
+    <name>SBQQ__ConsumptionScheduleFields__c</name>
+</CustomFieldTranslation>

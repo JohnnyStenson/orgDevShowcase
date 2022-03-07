@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>すべてのパッケージ商品を見積ドキュメントに出力する必要がある場合は、チェックボックスをオンにします。オフにすると、ゼロでないパッケージ商品のみが出力されます。</help>
+    <label></label>
+    <name>SBQQ__AllPackageProductsShown__c</name>
+</CustomFieldTranslation>

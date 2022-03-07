@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Um campo de uso interno que aponta para a raiz de seu pacote pai.</help>
+    <label></label>
+    <name>SBQQ__BundleRoot__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

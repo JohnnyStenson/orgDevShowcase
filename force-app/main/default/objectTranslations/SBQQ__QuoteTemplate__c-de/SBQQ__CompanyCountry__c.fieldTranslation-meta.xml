@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Angabe des Landes in der Firmenanschrift auf Angebotsdokumenten.</help>
+    <label></label>
+    <name>SBQQ__CompanyCountry__c</name>
+</CustomFieldTranslation>

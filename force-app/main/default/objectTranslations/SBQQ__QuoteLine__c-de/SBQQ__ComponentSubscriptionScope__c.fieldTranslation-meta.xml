@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der auf der Komponentenebene festgelegte Prozentsatz vom Gesamtumfang. Dieses Feld überschreibt den aus der Produktoption übernommenen Abonnementumfang.</help>
+    <label></label>
+    <name>SBQQ__ComponentSubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Components</masterLabel>
+        <translation>Komponenten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entire Hierarchy</masterLabel>
+        <translation>Gesamte Hierarchie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package</masterLabel>
+        <translation>Paket</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package &amp; Components</masterLabel>
+        <translation>Paket und Komponenten</translation>
+    </picklistValues>
+</CustomFieldTranslation>

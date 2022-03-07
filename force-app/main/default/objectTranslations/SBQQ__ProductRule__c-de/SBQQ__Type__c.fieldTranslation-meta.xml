@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Regeltyp. &quot;Validierung&quot; führt zur Anzeige von Fehlermeldungen. &quot;Auswahl&quot; bewirkt, dass Produkte hinzugefügt oder vorgeschlagen werden. &quot;Benachrichtigung&quot; blendet eine Warnung ein, es ist aber keine Korrektur notwendig. &quot;Filter&quot; grenzt die Nachschlageergebnisse für Optionen bei dynamischen Paketen ein.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Alert</masterLabel>
+        <translation>Benachrichtigung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Filter</masterLabel>
+        <translation>Filter</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selection</masterLabel>
+        <translation>Auswahl</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validation</masterLabel>
+        <translation>Validierung</translation>
+    </picklistValues>
+</CustomFieldTranslation>

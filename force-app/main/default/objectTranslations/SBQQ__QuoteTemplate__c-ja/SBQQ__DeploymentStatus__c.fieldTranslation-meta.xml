@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このテンプレートのリリース状況。このテンプレートをシステム管理者以外のユーザに表示する場合は、[リリース済み] に変更します。</help>
+    <label></label>
+    <name>SBQQ__DeploymentStatus__c</name>
+    <picklistValues>
+        <masterLabel>Deployed</masterLabel>
+        <translation>リリース済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Development</masterLabel>
+        <translation>開発中</translation>
+    </picklistValues>
+</CustomFieldTranslation>

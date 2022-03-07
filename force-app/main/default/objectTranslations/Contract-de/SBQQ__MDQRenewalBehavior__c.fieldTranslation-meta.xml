@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Definiert, wie segmentierte abonnementbezogene Produkte in Verlängerungsangeboten angezeigt werden. &quot;Segmentierung aufgehoben&quot; wird als Standardangebotsbelegposten mit den Daten des letzten Segments verlängert.</help>
+    <label></label>
+    <name>SBQQ__MDQRenewalBehavior__c</name>
+    <picklistValues>
+        <masterLabel>De-segmented</masterLabel>
+        <translation>Segmentierung aufgehoben</translation>
+    </picklistValues>
+</CustomFieldTranslation>

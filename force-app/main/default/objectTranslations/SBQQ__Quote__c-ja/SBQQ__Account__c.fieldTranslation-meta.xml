@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積のカスタマー取引先。デフォルトは見積作成時の商談の取引先です。</help>
+    <label></label>
+    <name>SBQQ__Account__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

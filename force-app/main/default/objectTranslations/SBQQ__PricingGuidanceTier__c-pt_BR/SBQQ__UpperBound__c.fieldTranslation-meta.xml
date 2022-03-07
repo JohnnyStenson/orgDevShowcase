@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>A quantidade mais alta de linha de cotação que se aplica a este grupo. Este número deve ser um número acima da quantidade mais alta que você queira que este grupo inclua.</help>
+    <label></label>
+    <name>SBQQ__UpperBound__c</name>
+</CustomFieldTranslation>

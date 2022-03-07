@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Méthode de navigation jusqu&apos;à l&apos;URL.</help>
+    <label></label>
+    <name>SBQQ__URLTarget__c</name>
+    <picklistValues>
+        <masterLabel>Popup</masterLabel>
+        <translation>Fenêtre contextuelle</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Replace Page</masterLabel>
+        <translation>Remplacement de la page</translation>
+    </picklistValues>
+</CustomFieldTranslation>

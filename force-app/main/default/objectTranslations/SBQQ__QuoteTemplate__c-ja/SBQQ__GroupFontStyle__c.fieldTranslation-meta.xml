@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>グループタイトルのフォントスタイル。空白にした場合のデフォルトは標準です。</help>
+    <label></label>
+    <name>SBQQ__GroupFontStyle__c</name>
+    <picklistValues>
+        <masterLabel>Bold</masterLabel>
+        <translation>太字</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italic</masterLabel>
+        <translation>イタリック体</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation>標準</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Underline</masterLabel>
+        <translation>下線</translation>
+    </picklistValues>
+</CustomFieldTranslation>

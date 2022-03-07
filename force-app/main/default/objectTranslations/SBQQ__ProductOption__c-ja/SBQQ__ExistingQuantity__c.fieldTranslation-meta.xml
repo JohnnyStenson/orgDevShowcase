@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この商品の既存の数量。取引先に付随する納入商品を参照することによって計算されます。</help>
+    <label></label>
+    <name>SBQQ__ExistingQuantity__c</name>
+</CustomFieldTranslation>

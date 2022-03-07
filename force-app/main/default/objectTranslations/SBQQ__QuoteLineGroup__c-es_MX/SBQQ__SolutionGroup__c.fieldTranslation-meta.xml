@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Grupo de soluciones desde el que se generó este grupo de presupuestos (si lo hubiera).</help>
+    <label></label>
+    <name>SBQQ__SolutionGroup__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

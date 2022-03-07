@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>該当する場合、ブロック価格設定を受信する商品を選択します。</help>
+    <label></label>
+    <name>SBQQ__Product__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

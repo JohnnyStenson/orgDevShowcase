@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remplace l&apos;étape de l&apos;opportunité par défaut pour ce renouvellement. Doit être effectué avant de sélectionner la prévision de renouvellement pour entrer en vigueur dans l&apos;opportunité de renouvellement.</help>
+    <label></label>
+    <name>SBQQ__RenewalOpportunityStage__c</name>
+</CustomFieldTranslation>

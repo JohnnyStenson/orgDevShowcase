@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>対応する項目の列のサイズ。デフォルトは 150px です。</help>
+    <label></label>
+    <name>SBQQ__FieldColumnSize__c</name>
+</CustomFieldTranslation>

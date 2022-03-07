@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione la casilla de verificación si desea ampliar los descuentos por volumen sobre el volumen total propiedad del cliente (por ej. la cantidad presupuestada más compras anteriores).</help>
+    <label></label>
+    <name>SBQQ__CrossOrders__c</name>
+</CustomFieldTranslation>

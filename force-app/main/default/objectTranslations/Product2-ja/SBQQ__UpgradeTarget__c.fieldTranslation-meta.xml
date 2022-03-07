@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>アップグレード後の商品を指定します。[アップグレード元] 項目への入力または関連する [アップグレード元] レコードの存在によってこの商品がアップグレードであることが示されている場合のみ適用されます。</help>
+    <label></label>
+    <name>SBQQ__UpgradeTarget__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

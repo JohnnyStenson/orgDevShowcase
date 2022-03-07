@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>どのプロセス入力条件を満たす必要があるかを示します。</help>
+    <label></label>
+    <name>SBQQ__ConditionsMet__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation>すべて</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Any</masterLabel>
+        <translation>いずれか</translation>
+    </picklistValues>
+</CustomFieldTranslation>

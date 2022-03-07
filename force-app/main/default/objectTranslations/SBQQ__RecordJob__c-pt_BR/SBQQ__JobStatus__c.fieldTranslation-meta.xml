@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O status do trabalho em segundo plano executado, se nenhum ID de trabalho tiver sido especificado.</help>
+    <label></label>
+    <name>SBQQ__JobStatus__c</name>
+</CustomFieldTranslation>

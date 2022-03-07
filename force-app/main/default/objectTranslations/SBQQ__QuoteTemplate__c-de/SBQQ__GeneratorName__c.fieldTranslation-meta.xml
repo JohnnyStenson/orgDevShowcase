@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Name der Visualforce-Seite, die von dieser Vorlage zum Erstellen einer XSL:FO-Struktur verwendet werden soll.</help>
+    <label></label>
+    <name>SBQQ__GeneratorName__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>移動先の URL を指定します。選択した場所に応じて、[品目]、[グループ]、および [見積] のレコード項目にアクセスできます。例: http://www.salesforce.com, http://www.yoursite.com/{!Id}, or /{!SBQQ__Quote__c.Name}/{!SBQQ__YourCustomVar__c}</help>
+    <label></label>
+    <name>SBQQ__URL__c</name>
+</CustomFieldTranslation>

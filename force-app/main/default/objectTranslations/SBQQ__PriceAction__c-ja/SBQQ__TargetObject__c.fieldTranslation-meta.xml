@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>価格ルールの評価範囲が [計算機能] の場合は [見積] または [見積品目] を使用し、価格ルールの評価範囲が [設定] の場合は [商品オプション] を使用します。</help>
+    <label></label>
+    <name>SBQQ__TargetObject__c</name>
+    <picklistValues>
+        <masterLabel>Product Option</masterLabel>
+        <translation>商品オプション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>見積</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Line</masterLabel>
+        <translation>見積品目</translation>
+    </picklistValues>
+</CustomFieldTranslation>

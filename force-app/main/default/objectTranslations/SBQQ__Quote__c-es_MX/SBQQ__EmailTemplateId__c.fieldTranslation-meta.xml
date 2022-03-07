@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si tiene una plantilla de email específica para utilizar con documentos generados y enviados por email desde este presupuesto, ingrese aquí el Id. de la plantilla de email.</help>
+    <label></label>
+    <name>SBQQ__EmailTemplateId__c</name>
+</CustomFieldTranslation>

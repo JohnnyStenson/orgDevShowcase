@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque la opción para aplicar automáticamente un descuento adicional procedente del paquete principal a este componente. Solo se pueden aplicar descuentos basados en porcentaje.</help>
+    <label></label>
+    <name>SBQQ__DiscountedByPackage__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品オプションオブジェクトの対応する選択リスト項目から、このバンドルで非表示にする値を入力します。</help>
+    <label></label>
+    <name>SBQQ__HiddenValues__c</name>
+</CustomFieldTranslation>

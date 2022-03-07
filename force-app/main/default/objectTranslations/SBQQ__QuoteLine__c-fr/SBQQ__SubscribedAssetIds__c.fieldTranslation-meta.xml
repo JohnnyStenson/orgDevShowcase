@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Liste des ressources couvertes par cet élément de ligne d&apos;abonnement. Ne pas mettre à jour, sauf instruction spécifique.</help>
+    <label></label>
+    <name>SBQQ__SubscribedAssetIds__c</name>
+</CustomFieldTranslation>

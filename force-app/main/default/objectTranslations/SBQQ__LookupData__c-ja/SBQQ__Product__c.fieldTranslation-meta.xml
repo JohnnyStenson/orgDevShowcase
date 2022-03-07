@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品選択ルールと併用する場合、商品アクションを適用する商品を表します。</help>
+    <label></label>
+    <name>SBQQ__Product__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

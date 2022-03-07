@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Peut être saisie uniquement si Conditions remplies est Personnalisé. Saisissez une combinaison de numéros d&apos;index de condition de clause, AND, OR et des parenthèses (ex.: (123 AND 124) AND 125).</help>
+    <label></label>
+    <name>SBQQ__AdvancedCondition__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le nom d&apos;API de l&apos;ensemble de champs utilisé lors du filtrage des options dynamiques pour cette fonctionnalité lors de la configuration.</help>
+    <label></label>
+    <name>SBQQ__DynamicProductFilterFieldSet__c</name>
+    <picklistValues>
+        <masterLabel>ConfiguratorFilter</masterLabel>
+        <translation>ConfiguratorFilter</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Opção para combinar as quantidades de vários ativos para o mesmo produto em uma linha quando a cotação de renovação é gerada.</help>
+    <label></label>
+    <name>SBQQ__AssetQuantitiesCombined__c</name>
+</CustomFieldTranslation>

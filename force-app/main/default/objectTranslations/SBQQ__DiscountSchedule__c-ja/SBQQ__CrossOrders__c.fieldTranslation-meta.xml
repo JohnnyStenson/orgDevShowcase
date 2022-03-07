@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>顧客が所有する総ボリュームに対してボリューム割引を拡張する場合 (見積もられた数量 + 以前の購入数)、チェックボックスをオンにします。</help>
+    <label></label>
+    <name>SBQQ__CrossOrders__c</name>
+</CustomFieldTranslation>

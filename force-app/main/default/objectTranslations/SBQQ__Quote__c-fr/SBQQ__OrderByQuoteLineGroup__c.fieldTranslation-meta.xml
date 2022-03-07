@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>S&apos;il est marqué lors de la définition du devis sur « Commandé », une commande est créée pour chaque groupe de lignes de devis avec ses lignes de devis associées.</help>
+    <label></label>
+    <name>SBQQ__OrderByQuoteLineGroup__c</name>
+</CustomFieldTranslation>

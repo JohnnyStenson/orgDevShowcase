@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>[条件項目] を [条件値] ではなくこの項目と比較します。</help>
+    <label></label>
+    <name>SBQQ__ValueField__c</name>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>商品コード</translation>
+    </picklistValues>
+</CustomFieldTranslation>

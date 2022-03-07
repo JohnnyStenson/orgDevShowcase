@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez l&apos;option dans l&apos;offre groupée que vous souhaitez appliquer à cette contrainte.</help>
+    <label></label>
+    <name>SBQQ__ConstrainedOption__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

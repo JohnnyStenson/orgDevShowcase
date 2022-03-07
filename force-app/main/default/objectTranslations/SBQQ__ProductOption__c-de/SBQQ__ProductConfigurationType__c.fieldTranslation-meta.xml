@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Liest den im Produktobjekt festgelegten Konfigurationstyp ein, um das erneute Laden des zugehörigen Produktdatensatzes zu vermeiden.</help>
+    <label></label>
+    <name>SBQQ__ProductConfigurationType__c</name>
+</CustomFieldTranslation>

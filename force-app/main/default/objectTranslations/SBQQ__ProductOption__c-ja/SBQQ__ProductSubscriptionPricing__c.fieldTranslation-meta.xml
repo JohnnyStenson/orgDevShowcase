@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このサブスクリプションに使用する価格設定の種類。[なし] は、この商品がサブスクリプションではないことを意味します。</help>
+    <label></label>
+    <name>SBQQ__ProductSubscriptionPricing__c</name>
+</CustomFieldTranslation>

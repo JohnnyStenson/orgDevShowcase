@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Acción a la que se aplica este filtro. Un valor en blanco significa que el filtro es global.</help>
+    <label></label>
+    <name>SBQQ__Action__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

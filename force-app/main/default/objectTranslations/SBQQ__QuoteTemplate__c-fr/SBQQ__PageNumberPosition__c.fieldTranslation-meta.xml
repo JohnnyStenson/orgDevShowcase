@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez l&apos;emplacement d&apos;affichage des numéros de page dans le document. Si ce champ est vide, l&apos;emplacement par défaut est Pied de page.</help>
+    <label></label>
+    <name>SBQQ__PageNumberPosition__c</name>
+    <picklistValues>
+        <masterLabel>Footer</masterLabel>
+        <translation>Pied de page</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Header</masterLabel>
+        <translation>En-tête</translation>
+    </picklistValues>
+</CustomFieldTranslation>

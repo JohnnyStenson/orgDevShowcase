@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>[選択時] を選択すると、商品を選択したときに変更がすぐに適用されます。[数量変更時] を選択すると、数量を変更したときに変更がすぐに適用されます。[常に] を選択すると、商品の選択と数量の変更の両方の場合に変更が適用されます。</help>
+    <label></label>
+    <name>SBQQ__AppliedImmediatelyContext__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>常に</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Quantity Change</masterLabel>
+        <translation>数量変更時</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Selection</masterLabel>
+        <translation>選択時</translation>
+    </picklistValues>
+</CustomFieldTranslation>

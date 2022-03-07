@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aumento é aplicado como um % com relação ao preço do ano anterior. O preço resultante é inserido no campo Preço regular sobre os Preços especiais ou contatados. Aumentos são compostos ano após ano. Aumento não pode ser aplicado ao 1º ano de nenhuma assinatura.</help>
+    <label></label>
+    <name>SBQQ__Uplift__c</name>
+</CustomFieldTranslation>

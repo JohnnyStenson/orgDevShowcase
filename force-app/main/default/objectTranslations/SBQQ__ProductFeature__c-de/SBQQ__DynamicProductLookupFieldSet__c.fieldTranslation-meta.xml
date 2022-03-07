@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der API-Name des Feldsets, das während der Konfiguration beim Anzeigen dynamischer Optionen für diese Funktion verwendet wird.</help>
+    <label></label>
+    <name>SBQQ__DynamicProductLookupFieldSet__c</name>
+    <picklistValues>
+        <masterLabel>ConfiguratorLookup</masterLabel>
+        <translation>Konfigurator nachschlagen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

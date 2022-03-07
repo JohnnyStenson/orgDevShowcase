@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Noms d&apos;API des champs de taux de consommation référencés par ce plug-in. Saisissez jusqu&apos;à 10 champs, un pour chaque ligne.</help>
+    <label></label>
+    <name>SBQQ__ConsumptionRateFields__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>割引率表の種別。関連付けられている割引率表の [種別] 項目からコピーされます。</help>
+    <label></label>
+    <name>SBQQ__DiscountScheduleType__c</name>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation>範囲</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slab</masterLabel>
+        <translation>スラブ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

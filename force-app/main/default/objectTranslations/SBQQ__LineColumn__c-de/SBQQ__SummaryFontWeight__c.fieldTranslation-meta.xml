@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie die Schriftbreite für Text in der Zusammenfassungszeile dieser Spalte an. Wird keine Einstellung vorgenommen, wird standardmäßig die Schriftbreite für die Spalte verwendet.</help>
+    <label></label>
+    <name>SBQQ__SummaryFontWeight__c</name>
+    <picklistValues>
+        <masterLabel>Bold</masterLabel>
+        <translation>Fett</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation>Normal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

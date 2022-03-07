@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>品目が不完全なデータベースに保存されたときに、アプリケーションロジックによってフラグが内部的に設定されます。これは、価格ルールを評価しているときに発生することがあります。入力規則を時期尚早に起動することを避けるため、入力規則のこの項目をテストします。ページレイアウトに追加するなど、その他の変更は行わないでください。</help>
+    <label></label>
+    <name>SBQQ__Incomplete__c</name>
+</CustomFieldTranslation>

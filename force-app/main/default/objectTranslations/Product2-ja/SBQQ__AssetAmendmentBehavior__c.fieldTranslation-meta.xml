@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この商品を表す納入商品を修正する場合の動作を選択してください。デフォルトでは、アップグレードが追加されない限り、納入商品の数量を減らすことはできず、返金は適用されません。</help>
+    <label></label>
+    <name>SBQQ__AssetAmendmentBehavior__c</name>
+    <picklistValues>
+        <masterLabel>Allow Refund</masterLabel>
+        <translation>返金を許可</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default</masterLabel>
+        <translation>デフォルト</translation>
+    </picklistValues>
+</CustomFieldTranslation>

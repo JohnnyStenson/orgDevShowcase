@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione la casilla de verificación para agregar cantidades de todos los productos empleando esta programación para el cálculo del descuento por volumen. Los descuentos de porciones no pueden utilizarse para descuentos de productos cruzados.</help>
+    <label></label>
+    <name>SBQQ__CrossProducts__c</name>
+</CustomFieldTranslation>

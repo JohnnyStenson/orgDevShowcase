@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica el modo en que se convierte este producto en activo.</help>
+    <label></label>
+    <name>SBQQ__AssetConversion__c</name>
+    <picklistValues>
+        <masterLabel>One per quote line</masterLabel>
+        <translation>Uno por partida de presupuesto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>One per unit</masterLabel>
+        <translation>Uno por unidad</translation>
+    </picklistValues>
+</CustomFieldTranslation>

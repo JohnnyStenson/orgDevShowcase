@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt den aktuellen Status des Auftragsprodukts an. Dieser lautet standardmäßig &quot;Entwurf&quot;, wenn ein Auftrag erstellt wird.</help>
+    <label></label>
+    <name>SBQQ__Status__c</name>
+</CustomFieldTranslation>

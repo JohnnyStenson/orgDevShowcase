@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この注文商品の発生元である契約アクション。</help>
+    <label></label>
+    <name>SBQQ__ContractAction__c</name>
+</CustomFieldTranslation>

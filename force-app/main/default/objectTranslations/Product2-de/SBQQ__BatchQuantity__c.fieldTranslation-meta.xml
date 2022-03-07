@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wird hier ein Wert eingegeben, bedeutet dies, dass dieses Produkt in Losen verkauft wird. Geben Sie die Menge je Los ein. Die eingegebene Menge wird durch diesen Wert dividiert und auf die nächste Ganzzahl gerundet.</help>
+    <label></label>
+    <name>SBQQ__BatchQuantity__c</name>
+</CustomFieldTranslation>

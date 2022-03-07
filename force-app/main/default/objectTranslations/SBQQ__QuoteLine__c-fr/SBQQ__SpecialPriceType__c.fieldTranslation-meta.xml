@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stocke le type de prix spécial offert dans cet élément de ligne. Une valeur nulle indique l&apos;absence de prix spécial.</help>
+    <label></label>
+    <name>SBQQ__SpecialPriceType__c</name>
+    <picklistValues>
+        <masterLabel>Contracted Price</masterLabel>
+        <translation>Prix contracté</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation>Personnalisé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewal</masterLabel>
+        <translation>Renouvellement</translation>
+    </picklistValues>
+</CustomFieldTranslation>

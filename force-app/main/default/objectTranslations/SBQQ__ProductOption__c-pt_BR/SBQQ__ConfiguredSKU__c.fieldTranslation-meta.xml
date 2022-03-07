@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>SKU do produto do pacote que está sendo configurado com essa opção. Se você criar a opção a partir da página de detalhes do produto, isso já deve estar preenchido.</help>
+    <label></label>
+    <name>SBQQ__ConfiguredSKU__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

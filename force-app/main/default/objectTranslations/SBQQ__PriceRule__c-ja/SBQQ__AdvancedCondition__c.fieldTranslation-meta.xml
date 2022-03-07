@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>[一致した条件] が [カスタム] の場合にのみ入力できます。価格条件インデックス番号、AND、OR、およびかっこの組み合わせを入力します (例: 「(123 AND 124) AND 125」)。</help>
+    <label></label>
+    <name>SBQQ__AdvancedCondition__c</name>
+</CustomFieldTranslation>

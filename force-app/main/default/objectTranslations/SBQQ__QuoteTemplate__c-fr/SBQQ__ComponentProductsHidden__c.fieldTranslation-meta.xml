@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette case si les produits des composants dans lesquels Composant est activé doivent être imprimés dans les documents de devis.</help>
+    <label></label>
+    <name>SBQQ__ComponentProductsHidden__c</name>
+</CustomFieldTranslation>

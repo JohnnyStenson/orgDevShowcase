@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determina se o percentual do total é calculado com desconto sobre os preços do produto Líquidos ou de Lista.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionBase__c</name>
+    <picklistValues>
+        <masterLabel>Customer</masterLabel>
+        <translation>Cliente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List</masterLabel>
+        <translation>Lista</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net</masterLabel>
+        <translation>Líquido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular</masterLabel>
+        <translation>Regular</translation>
+    </picklistValues>
+</CustomFieldTranslation>

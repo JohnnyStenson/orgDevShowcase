@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;Por Fecha de finalización de suscripción&quot; crea un contrato separado para cada Fecha de finalización de suscripción única, que contiene únicamente esas suscripciones. &quot;Contrato único&quot; crea un contrato que contiene todas las suscripciones, sin que las fechas de finalización sean relevantes.</help>
+    <label></label>
+    <name>SBQQ__ContractingMethod__c</name>
+    <picklistValues>
+        <masterLabel>By Subscription End Date</masterLabel>
+        <translation>Por Fecha de finalización de suscripción</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Contract</masterLabel>
+        <translation>Contrato único</translation>
+    </picklistValues>
+</CustomFieldTranslation>

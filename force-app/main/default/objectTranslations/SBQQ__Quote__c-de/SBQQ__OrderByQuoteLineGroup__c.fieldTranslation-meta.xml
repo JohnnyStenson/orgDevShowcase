@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn diese Option markiert ist, während die Angebotseinstellung auf &quot;Angeordnet&quot; festgelegt ist, wird ein Auftrag für jede einzelne Angebotsbelegposten-Gruppe mit ihren zugehörigen Angebotsbelegposten erstellt.</help>
+    <label></label>
+    <name>SBQQ__OrderByQuoteLineGroup__c</name>
+</CustomFieldTranslation>

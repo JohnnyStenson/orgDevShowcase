@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione o formato em que seus registros serão importados.</help>
+    <label></label>
+    <name>SBQQ__ImportFormat__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

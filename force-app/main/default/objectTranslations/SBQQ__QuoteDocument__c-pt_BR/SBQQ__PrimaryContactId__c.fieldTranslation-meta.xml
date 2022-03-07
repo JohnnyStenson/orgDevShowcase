@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Faz referência ao contato primário para a cotação a ser usada no botão Email, que assume como padrão o campo Para.</help>
+    <label></label>
+    <name>SBQQ__PrimaryContactId__c</name>
+</CustomFieldTranslation>

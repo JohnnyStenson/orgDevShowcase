@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, um eine neue Angebotsgruppe zu erstellen, wenn dieses Produkt hinzugefügt wird (es sei denn, die aktuelle Gruppe ist leer).</help>
+    <label></label>
+    <name>SBQQ__NewQuoteGroup__c</name>
+</CustomFieldTranslation>

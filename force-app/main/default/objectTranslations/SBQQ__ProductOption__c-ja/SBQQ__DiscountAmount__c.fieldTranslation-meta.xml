@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このオプションで参照されている商品がスタンドアロンで提供された場合の、項目に基づく割引 (金額)。ただし、この商品の一部をバンドルとして購入した場合、割引を適用する必要があります。</help>
+    <label></label>
+    <name>SBQQ__DiscountAmount__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>検索で 1 つの商品のみが返される場合に商品を自動選択するかどうかを判断する場合は、チェックボックスをオンにします。</help>
+    <label></label>
+    <name>SBQQ__ProductAutoSelected__c</name>
+</CustomFieldTranslation>

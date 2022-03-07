@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determina se o Nível de desconto atual em que o produto se enquadra é editável, se todos os Níveis são editáveis ou se nenhum é editável.</help>
+    <label></label>
+    <name>SBQQ__OverrideBehavior__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation>Todos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Current Tier Only</masterLabel>
+        <translation>Apenas nível atual</translation>
+    </picklistValues>
+</CustomFieldTranslation>

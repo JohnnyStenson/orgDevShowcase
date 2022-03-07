@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Controla se o custo para esse produto pode ser modificado em cotações individuais.</help>
+    <label></label>
+    <name>SBQQ__CostEditable__c</name>
+    <picklistValues>
+        <masterLabel>Inherit</masterLabel>
+        <translation>Herdar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation>Não</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation>Sim</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Estado de implementación de esta plantilla. Cambie a &quot;Implementado&quot; para hacer que esta plantilla sea visible para usuarios que no son administradores.</help>
+    <label></label>
+    <name>SBQQ__DeploymentStatus__c</name>
+    <picklistValues>
+        <masterLabel>Deployed</masterLabel>
+        <translation>Implementado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Development</masterLabel>
+        <translation>En desarrollo</translation>
+    </picklistValues>
+</CustomFieldTranslation>

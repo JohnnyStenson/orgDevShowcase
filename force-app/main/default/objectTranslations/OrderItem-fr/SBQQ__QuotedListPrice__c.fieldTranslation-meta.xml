@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prix unitaire catalogue du produit généré dans le devis par cet élément de ligne. Le prix catalogue provient du catalogue de prix.</help>
+    <label></label>
+    <name>SBQQ__QuotedListPrice__c</name>
+</CustomFieldTranslation>

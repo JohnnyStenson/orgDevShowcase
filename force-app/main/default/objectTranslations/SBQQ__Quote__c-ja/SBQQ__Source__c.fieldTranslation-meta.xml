@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コピーされた見積のソース。コピーされている場合、これはコピー元の見積を参照します。</help>
+    <label></label>
+    <name>SBQQ__Source__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

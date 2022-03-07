@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando definido, esse valor assume o lugar do preço regular do segmento anterior ao calcular o Aumento para esse segmento.</help>
+    <label></label>
+    <name>SBQQ__PreviousSegmentPrice__c</name>
+</CustomFieldTranslation>

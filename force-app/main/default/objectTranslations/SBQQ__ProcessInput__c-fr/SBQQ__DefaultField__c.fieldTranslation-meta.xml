@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le champ de devis source de la valeur par défaut de cette entrée.</help>
+    <label></label>
+    <name>SBQQ__DefaultField__c</name>
+    <picklistValues>
+        <masterLabel>Bill To Country</masterLabel>
+        <translation>Pays de facturation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ship To Country</masterLabel>
+        <translation>Pays de livraison</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>顧客の価格表を取得し、「ショッピングカート」見積に関連付けるために E コマースモジュールで使用されるこの取引先のデフォルトの商談。</help>
+    <label></label>
+    <name>SBQQ__DefaultOpportunity__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

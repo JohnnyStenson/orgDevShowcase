@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo de cotação que adquire o valor padrão para essa entrada.</help>
+    <label></label>
+    <name>SBQQ__DefaultField__c</name>
+    <picklistValues>
+        <masterLabel>Bill To Country</masterLabel>
+        <translation>País ao qual faturar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ship To Country</masterLabel>
+        <translation>País ao qual enviar</translation>
+    </picklistValues>
+</CustomFieldTranslation>

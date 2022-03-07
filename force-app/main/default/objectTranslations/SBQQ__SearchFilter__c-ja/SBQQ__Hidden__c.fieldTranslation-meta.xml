@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この条件を非表示としてマークする場合は、チェックボックスをオンにします。非表示条件は UI には表示されませんが、検索クエリには影響します。</help>
+    <label></label>
+    <name>SBQQ__Hidden__c</name>
+</CustomFieldTranslation>

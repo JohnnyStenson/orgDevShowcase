@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Clé utilisée pour vérifier la combinaison unique d&apos;ID et de numéro de version du devis.</help>
+    <label></label>
+    <name>SBQQ__Key__c</name>
+</CustomFieldTranslation>

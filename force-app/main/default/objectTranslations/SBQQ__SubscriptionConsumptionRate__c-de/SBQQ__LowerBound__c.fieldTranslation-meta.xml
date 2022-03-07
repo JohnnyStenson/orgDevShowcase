@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die niedrigste Nutzungsmenge für diesen Verbrauchswert.</help>
+    <label></label>
+    <name>SBQQ__LowerBound__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Insira o preço que foi negociado com o cliente. Esse valor substituirá qualquer outro preço, como aquele de um catálogo de preços ou um preço de desconto por volume.</help>
+    <label></label>
+    <name>SBQQ__Price__c</name>
+</CustomFieldTranslation>

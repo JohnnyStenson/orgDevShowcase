@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sección a la que se aplica esta columna de partidas. Si no hay ninguna sección se aplica la columna a todas las secciones.</help>
+    <label></label>
+    <name>SBQQ__Section__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>Krow__Application_Fields</name>
+    </fieldSets>
+    <webLinks>
+        <label></label>
+        <name>Krow__Accept_Resource</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__Hire_Resource</name>
+    </webLinks>
+</CustomObjectTranslation>

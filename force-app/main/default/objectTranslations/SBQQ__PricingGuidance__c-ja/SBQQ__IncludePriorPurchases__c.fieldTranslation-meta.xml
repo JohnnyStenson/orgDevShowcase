@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積品目の価格設定ガイダンス層を設定するときに、以前に販売された商品数量を含めます。</help>
+    <label></label>
+    <name>SBQQ__IncludePriorPurchases__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>売上予測目的で更新商談の生成をトリガする場合に選択します。更新見積を自動的に生成することはありません。</help>
+    <label></label>
+    <name>SBQQ__RenewalForecast__c</name>
+</CustomFieldTranslation>

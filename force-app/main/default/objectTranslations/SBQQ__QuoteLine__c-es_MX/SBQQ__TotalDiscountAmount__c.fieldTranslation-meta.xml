@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Importe de descuento total para esta partida, incluyendo los descuentos por volumen, los descuentos contratados y los descuentos adicionales.</help>
+    <label></label>
+    <name>SBQQ__TotalDiscountAmount__c</name>
+</CustomFieldTranslation>

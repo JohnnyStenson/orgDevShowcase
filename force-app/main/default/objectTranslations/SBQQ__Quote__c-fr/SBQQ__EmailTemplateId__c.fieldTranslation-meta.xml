@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si vous avez un modèle d&apos;e-mail spécifique à utiliser pour les documents générés et envoyés par e-mail depuis ce devis, saisissez l&apos;ID de ce modèle ici.</help>
+    <label></label>
+    <name>SBQQ__EmailTemplateId__c</name>
+</CustomFieldTranslation>

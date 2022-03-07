@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt an, ob es sich um einen Vertrag mit Dauergültigkeit handelt.</help>
+    <label></label>
+    <name>SBQQ__Evergreen__c</name>
+</CustomFieldTranslation>

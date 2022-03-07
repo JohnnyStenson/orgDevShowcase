@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Date de début de votre amendement. Si la date est vide, l&apos;amendement commence à la date du jour.</help>
+    <label></label>
+    <name>SBQQ__AmendmentStartDate__c</name>
+</CustomFieldTranslation>

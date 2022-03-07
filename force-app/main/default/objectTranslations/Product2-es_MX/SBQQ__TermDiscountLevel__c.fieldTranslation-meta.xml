@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique el nivel del plazo de suscripción que debe utilizarse al calcular el descuento por plazos. Deje en blanco la opción para indicar el valor predeterminado.</help>
+    <label></label>
+    <name>SBQQ__TermDiscountLevel__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>Grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Line</masterLabel>
+        <translation>Partida</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Presupuesto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

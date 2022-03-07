@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このオプションによって生成される見積品目を表示するかどうかを設定します。</help>
+    <label></label>
+    <name>SBQQ__QuoteLineVisibility__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>常に</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Document Only</masterLabel>
+        <translation>ドキュメントのみ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Editor Only</masterLabel>
+        <translation>エディタのみ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>表示しない</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt an, dass der Kunde das Produkt bereits besitzt. Wird in der Regel für Produkte mit Optionen beim Erstellen von Add-on-Angeboten verwendet. Das Produkt wird nur im Angebot aufgeführt, um den Konfigurator zu steuern.</help>
+    <label></label>
+    <name>SBQQ__Existing__c</name>
+</CustomFieldTranslation>

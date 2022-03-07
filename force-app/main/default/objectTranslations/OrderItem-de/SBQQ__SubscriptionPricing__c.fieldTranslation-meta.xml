@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt an, wie der Abonnementpreis berechnet wird. Ist dieses Feld leer, steht der Belegposten nicht für ein Abonnementprodukt.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionPricing__c</name>
+</CustomFieldTranslation>

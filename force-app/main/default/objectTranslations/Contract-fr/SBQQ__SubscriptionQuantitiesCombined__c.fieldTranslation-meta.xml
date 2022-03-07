@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette option pour combiner les quantités des abonnements à un même produit sur une seule ligne dans les devis de renouvellement et les amendements.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionQuantitiesCombined__c</name>
+</CustomFieldTranslation>

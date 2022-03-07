@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このクエリで評価される設定属性。[一致項目] = [設定属性] であって、このクエリが商品ルールに関連付けられている場合に限って必須です。</help>
+    <label></label>
+    <name>SBQQ__TestedConfigurationAttribute__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

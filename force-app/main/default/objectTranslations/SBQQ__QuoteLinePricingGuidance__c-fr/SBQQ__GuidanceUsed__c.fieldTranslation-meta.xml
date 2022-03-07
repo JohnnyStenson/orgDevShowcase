@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Un commercial a accepté la remise cible à partir de ce prix indicatif dans l&apos;éditeur de ligne de devis.</help>
+    <label></label>
+    <name>SBQQ__GuidanceUsed__c</name>
+</CustomFieldTranslation>

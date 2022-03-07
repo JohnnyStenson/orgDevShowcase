@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>追加割引を適用する前の非オプション品目の総額。</help>
+    <label></label>
+    <name>SBQQ__RegularAmount__c</name>
+</CustomFieldTranslation>

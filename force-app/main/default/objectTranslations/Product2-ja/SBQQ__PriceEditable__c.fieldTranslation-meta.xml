@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積を作成するときに、この商品の価格を自由に編集できることを示します。</help>
+    <label></label>
+    <name>SBQQ__PriceEditable__c</name>
+</CustomFieldTranslation>

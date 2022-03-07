@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez la case pour agréger les quantités de tous les produits utilisant ce barème pour le calcul de remise sur volume. Les remises par palier ne peuvent être utilisées pour les remises sur les produits croisés.</help>
+    <label></label>
+    <name>SBQQ__CrossProducts__c</name>
+</CustomFieldTranslation>

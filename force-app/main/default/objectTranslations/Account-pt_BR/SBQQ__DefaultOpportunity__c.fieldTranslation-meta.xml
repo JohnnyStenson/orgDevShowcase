@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Oportunidade padrão para essa conta usada por um módulo de comércio eletrônico para obter o catálogo de preços do cliente e associar a cotações do &quot;carrinho de compras&quot;.</help>
+    <label></label>
+    <name>SBQQ__DefaultOpportunity__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

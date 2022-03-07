@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, um die Mengen aller Produkte mit dieser Rabattregelung zu aggregieren, damit der Mengenrabatt berechnet werden kann. Durchschnittsrabatte können für produktübergreifende Rabatte nicht verwendet werden.</help>
+    <label></label>
+    <name>SBQQ__CrossProducts__c</name>
+</CustomFieldTranslation>

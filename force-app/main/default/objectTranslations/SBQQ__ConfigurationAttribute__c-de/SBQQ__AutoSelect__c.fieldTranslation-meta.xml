@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Legen Sie den Wert dieses Attributs fest, wenn Sie ein Produkt aus einer dynamischen Funktion hinzufügen, das den Wert im entsprechenden Feld des hinzugefügten Produkts verwendet.</help>
+    <label></label>
+    <name>SBQQ__AutoSelect__c</name>
+</CustomFieldTranslation>

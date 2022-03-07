@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique la méthode de calcul du pourcentage du total des prix : « Devis » utilise tous les produits sans abonnement et Inclure dans le pourcentage total des produits dans le devis, alors que « Groupe » utilise uniquement les produits sans abonnement et Inclure dans le pourcentage total des produits dans le même groupe.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>Groupe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Devis</translation>
+    </picklistValues>
+</CustomFieldTranslation>

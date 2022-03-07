@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Precio unitario de lista para el producto presupuestado por esta partida. El precio de lista se origina desde la lista de precios.</help>
+    <label></label>
+    <name>SBQQ__ListPrice__c</name>
+</CustomFieldTranslation>

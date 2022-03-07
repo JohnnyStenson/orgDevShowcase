@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die ID des Abonnements oder Vermögenswerts am Stamm des Pakets, das den zugehörigen Vermögenswert enthält</help>
+    <label></label>
+    <name>SBQQ__AssetRootId__c</name>
+</CustomFieldTranslation>

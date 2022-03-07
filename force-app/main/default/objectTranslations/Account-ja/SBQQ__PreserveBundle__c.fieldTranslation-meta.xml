@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>更新見積と修正のバンドル階層を保持するにはチェックボックスをオンにします。</help>
+    <label></label>
+    <name>SBQQ__PreserveBundle__c</name>
+</CustomFieldTranslation>

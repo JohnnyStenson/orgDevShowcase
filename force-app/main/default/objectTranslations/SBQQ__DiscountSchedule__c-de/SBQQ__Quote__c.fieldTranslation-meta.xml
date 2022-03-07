@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Angebot, für das diese Rabattregelung gilt. Wird nur in Verbindung mit &quot;Rabattregelung überschreiben&quot; in der Benutzeroberfläche des Angebotsbelegposten-Editors verwendet.</help>
+    <label></label>
+    <name>SBQQ__Quote__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

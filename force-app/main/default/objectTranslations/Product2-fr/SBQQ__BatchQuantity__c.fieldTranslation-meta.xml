@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Une valeur non vide indique que ce produit est vendu par lots. Saisissez la quantité de chaque lot. La quantité saisie dans le devis est divisée par cette valeur et arrondie à l&apos;entier le plus proche.</help>
+    <label></label>
+    <name>SBQQ__BatchQuantity__c</name>
+</CustomFieldTranslation>

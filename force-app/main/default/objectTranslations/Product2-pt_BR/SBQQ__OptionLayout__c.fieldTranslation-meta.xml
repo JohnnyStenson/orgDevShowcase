@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determina como as opções são apresentadas aos usuários.</help>
+    <label></label>
+    <name>SBQQ__OptionLayout__c</name>
+    <picklistValues>
+        <masterLabel>Sections</masterLabel>
+        <translation>Seções</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabs</masterLabel>
+        <translation>Guias</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wizard</masterLabel>
+        <translation>Assistente</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilisé pour placer des contraintes dans des prix calculés dynamiquement.</help>
+    <label></label>
+    <name>SBQQ__DynamicPricingConstraint__c</name>
+    <picklistValues>
+        <masterLabel>List price is maximum</masterLabel>
+        <translation>Prix catalogue est maximum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List price is minimum</masterLabel>
+        <translation>Prix catalogue est minimum</translation>
+    </picklistValues>
+</CustomFieldTranslation>

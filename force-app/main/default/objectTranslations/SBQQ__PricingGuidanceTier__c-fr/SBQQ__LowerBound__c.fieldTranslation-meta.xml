@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La quantité de ligne de devis la plus basse qui s&apos;applique à ce niveau. Ce nombre doit correspondre à la limite supérieure du niveau précédent.</help>
+    <label></label>
+    <name>SBQQ__LowerBound__c</name>
+</CustomFieldTranslation>

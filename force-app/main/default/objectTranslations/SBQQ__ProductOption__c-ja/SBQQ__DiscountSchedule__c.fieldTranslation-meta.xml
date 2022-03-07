@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このオプションによって選択される商品に適用される割引率表を参照します。この割引率表は、商品または機能で選択されている割引率表を上書きします。</help>
+    <label></label>
+    <name>SBQQ__DiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Catálogo de preços ao qual esse Cronograma de preços se aplica. Usado apenas em combinação com a pesquisa do produto para atribuir o cronograma específico do produto/catálogo de preços.</help>
+    <label></label>
+    <name>SBQQ__Pricebook__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

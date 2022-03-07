@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この商品の設定種別。ユーザが商品/バンドルの設定を許可されているが必須ではない場合は [許可] を、バンドルのオプションが自動的に選択される場合は [無効] を、商品/バンドルの設定が必須の場合は [必須] を選択します。</help>
+    <label></label>
+    <name>SBQQ__ConfigurationType__c</name>
+    <picklistValues>
+        <masterLabel>Allowed</masterLabel>
+        <translation>許可</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>無効</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Required</masterLabel>
+        <translation>必須</translation>
+    </picklistValues>
+</CustomFieldTranslation>

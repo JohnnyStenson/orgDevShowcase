@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se esse registro de Cotação representar uma Alteração: nova cotação, use este campo para vincular de volta à cotação original.</help>
+    <label></label>
+    <name>SBQQ__OriginalQuote__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このドキュメントの出力形式を選択します。</help>
+    <label></label>
+    <name>SBQQ__OutputFormat__c</name>
+    <picklistValues>
+        <masterLabel>MS Word</masterLabel>
+        <translation>MS Word</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PDF</masterLabel>
+        <translation>PDF</translation>
+    </picklistValues>
+</CustomFieldTranslation>

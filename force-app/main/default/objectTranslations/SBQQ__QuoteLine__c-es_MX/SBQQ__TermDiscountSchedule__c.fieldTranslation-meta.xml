@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Programación de descuentos basada en el plazo de suscripción. Al establecer esta opción en &quot;Grupo&quot; aplica la tasa de descuento para el plazo del grupo, mientras que al establecerla en &quot;Presupuesto&quot; aplica la tasa de descuento para todo el plazo del presupuesto, sin que importen los plazos diferentes en sus grupos.</help>
+    <label></label>
+    <name>SBQQ__TermDiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

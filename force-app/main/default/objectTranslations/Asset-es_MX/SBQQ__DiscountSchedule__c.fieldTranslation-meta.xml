@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifica descuentos en porcentajes o el importe que hay que descontar del precio del producto empleando la cantidad o el plazo adquiridos. Establece los intervalos de cantidad/plazo en niveles de porcentajes de descuento diferentes. El descuento se aplica a la lista de precios y el total resultante se almacena en el precio normal.</help>
+    <label></label>
+    <name>SBQQ__DiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

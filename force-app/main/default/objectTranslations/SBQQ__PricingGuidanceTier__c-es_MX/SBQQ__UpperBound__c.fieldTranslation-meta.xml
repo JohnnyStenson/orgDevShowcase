@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La cantidad de la partida de presupuesto más alta que se aplica a este nivel. Este número debe ser uno por encima de la cantidad más alta que desee que incluya este nivel.</help>
+    <label></label>
+    <name>SBQQ__UpperBound__c</name>
+</CustomFieldTranslation>

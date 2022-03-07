@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Partida de presupuesto a la que se aplica esta programación de descuentos. Solo se utiliza en combinación con Invalidación de programación de descuentos en el Editor de partidas de presupuesto de la interfaz de usuario.</help>
+    <label></label>
+    <name>SBQQ__QuoteLine__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

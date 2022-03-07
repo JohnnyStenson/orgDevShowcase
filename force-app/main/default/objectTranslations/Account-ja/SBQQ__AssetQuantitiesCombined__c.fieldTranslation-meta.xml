@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>更新見積の生成時、同じ商品の複数の納入商品の数量を 1 つの品目に統合するオプション。</help>
+    <label></label>
+    <name>SBQQ__AssetQuantitiesCombined__c</name>
+</CustomFieldTranslation>

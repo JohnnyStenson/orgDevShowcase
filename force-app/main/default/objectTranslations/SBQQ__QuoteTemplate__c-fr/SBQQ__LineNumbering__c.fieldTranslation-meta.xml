@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez la méthode de numérotation des éléments de ligne dans les documents générés. « Commencer dans le devis » numérote toutes les lignes de façon séquentielle à travers tous les groupes (le cas échéant). « Commencer dans le groupe » réinitialise les numéros dans chaque groupe.</help>
+    <label></label>
+    <name>SBQQ__LineNumbering__c</name>
+    <picklistValues>
+        <masterLabel>Start at group</masterLabel>
+        <translation>Commencer dans le groupe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start at quote</masterLabel>
+        <translation>Commencer dans le devis</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie das Kontrollkästchen, wenn alle Paketprodukte auf Angebotsdokumenten ausgegeben werden sollen. Andernfalls werden nur die Produkte ausgegeben, bei denen Werte angegeben wurden.</help>
+    <label></label>
+    <name>SBQQ__AllPackageProductsShown__c</name>
+</CustomFieldTranslation>

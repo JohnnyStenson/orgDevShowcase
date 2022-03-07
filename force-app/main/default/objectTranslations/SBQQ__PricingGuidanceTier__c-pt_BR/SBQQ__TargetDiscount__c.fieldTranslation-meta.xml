@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Desconto baixo ideal com base em vendas anteriores. Caso os representantes de vendas aceitem este guia de preços, o Salesforce CPQ aplica um desconto para atingir esse preço.</help>
+    <label></label>
+    <name>SBQQ__TargetDiscount__c</name>
+</CustomFieldTranslation>

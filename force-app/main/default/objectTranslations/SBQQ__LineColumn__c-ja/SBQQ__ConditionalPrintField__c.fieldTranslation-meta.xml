@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>生成される PDF ドキュメントにこの列が出力されるかどうかを制御する見積オブジェクトの項目。</help>
+    <label></label>
+    <name>SBQQ__ConditionalPrintField__c</name>
+    <picklistValues>
+        <masterLabel>Group Line Items</masterLabel>
+        <translation>グループ品目</translation>
+    </picklistValues>
+</CustomFieldTranslation>

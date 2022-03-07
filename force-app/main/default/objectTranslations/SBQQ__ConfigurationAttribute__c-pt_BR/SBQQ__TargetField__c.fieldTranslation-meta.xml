@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique o campo na Opção de produto que conterá esse valor de atributo.</help>
+    <label></label>
+    <name>SBQQ__TargetField__c</name>
+    <picklistValues>
+        <masterLabel>Discount (%)</masterLabel>
+        <translation>Desconto (%)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount (Amt)</masterLabel>
+        <translation>Desconto (Valor)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unit Price</masterLabel>
+        <translation>Preço unitário</translation>
+    </picklistValues>
+</CustomFieldTranslation>

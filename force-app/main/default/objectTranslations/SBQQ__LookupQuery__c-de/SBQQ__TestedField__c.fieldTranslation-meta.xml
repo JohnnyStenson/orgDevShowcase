@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Feld in Angebots-, Angebotsbelegposten- oder Produktoptions-Objekt, das von dieser Abfrage ausgewertet wird. Erforderlich bei &quot;Übereinstimmungstyp = Feldwert&quot;.</help>
+    <label></label>
+    <name>SBQQ__TestedField__c</name>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>Produktcode</translation>
+    </picklistValues>
+</CustomFieldTranslation>

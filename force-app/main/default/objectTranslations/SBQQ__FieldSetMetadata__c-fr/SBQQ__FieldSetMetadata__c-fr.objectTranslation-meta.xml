@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Métadonnée d&apos;ensemble de champs</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Métadonnées d&apos;ensemble de champs</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de métadonnées d’ensemble de cham</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

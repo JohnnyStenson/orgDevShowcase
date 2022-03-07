@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Verlängerungs-Opportunity, die erstellt wird, um die Verlängerung dieses Vertrags nachzuverfolgen.</help>
+    <label></label>
+    <name>SBQQ__RenewalOpportunity__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

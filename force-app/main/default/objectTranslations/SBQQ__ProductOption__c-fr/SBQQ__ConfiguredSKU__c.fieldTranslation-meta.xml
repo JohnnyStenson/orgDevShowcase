@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Unité de gestion de stock du produit de l&apos;offre groupée configurée avec cette option. Si vous créez l&apos;option depuis la page de détail du produit, elle doit déjà être renseignée.</help>
+    <label></label>
+    <name>SBQQ__ConfiguredSKU__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

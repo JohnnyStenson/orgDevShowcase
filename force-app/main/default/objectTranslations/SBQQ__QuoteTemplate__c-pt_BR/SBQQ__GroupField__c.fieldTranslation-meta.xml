@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione o campo que tem os valores que você deseja usar ao agrupar e calcular o subtotal dos itens de linha.</help>
+    <label></label>
+    <name>SBQQ__GroupField__c</name>
+    <picklistValues>
+        <masterLabel>Product Family</masterLabel>
+        <translation>Família de produtos</translation>
+    </picklistValues>
+</CustomFieldTranslation>

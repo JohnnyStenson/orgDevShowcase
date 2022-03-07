@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O campo no objeto de Cotação, de Linha de cotação ou de Opção de produto que é avaliado por essa consulta. Exigido se Tipo de correspondência = Valor do campo.</help>
+    <label></label>
+    <name>SBQQ__TestedField__c</name>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>Código do produto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

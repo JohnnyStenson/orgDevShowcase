@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Plage : Les remises de prix indicatif qui utilisent uniquement le niveau de prix indicatif qui s’applique à la quantité de la ligne de devis.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation>Plage</translation>
+    </picklistValues>
+</CustomFieldTranslation>

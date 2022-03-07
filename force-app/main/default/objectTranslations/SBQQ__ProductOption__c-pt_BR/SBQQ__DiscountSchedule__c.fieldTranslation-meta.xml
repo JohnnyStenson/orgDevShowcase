@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pesquise o cronograma de descontos a ser aplicado ao produto selecionado por essa opção. Esse cronograma de descontos substitui o cronograma de descontos selecionado no produto ou recurso.</help>
+    <label></label>
+    <name>SBQQ__DiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

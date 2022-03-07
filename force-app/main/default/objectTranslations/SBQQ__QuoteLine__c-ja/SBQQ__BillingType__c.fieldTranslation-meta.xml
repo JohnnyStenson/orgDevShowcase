@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>請求の発生タイミングを定義する請求種別。[前払い請求] の場合は、商品またはサービスを提供する前に顧客に請求でき、[後払い請求] の場合は、商品またはサービスの提供後に顧客に請求することができます。</help>
+    <label></label>
+    <name>SBQQ__BillingType__c</name>
+</CustomFieldTranslation>

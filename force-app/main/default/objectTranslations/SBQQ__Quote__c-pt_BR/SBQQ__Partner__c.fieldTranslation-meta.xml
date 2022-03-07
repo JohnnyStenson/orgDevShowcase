@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Parceiro primário nesse negócio (se houver). Esse campo assume como padrão o parceiro marcado como primário na lista relacionada de Parceiros na oportunidade.</help>
+    <label></label>
+    <name>SBQQ__Partner__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

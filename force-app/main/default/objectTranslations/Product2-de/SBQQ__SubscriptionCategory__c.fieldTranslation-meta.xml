@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Hiermit können Sie die Berechnungen von &quot;Prozent vom Gesamtwert&quot; auf bestimmte Produktkategorien beschränken. &quot;Softwarepflege&quot; sollte beispielsweise nur bei Produkten mit einer entsprechenden &quot;Prozent vom Gesamtwert&quot;-Kategorie in die Berechnung einfließen.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionCategory__c</name>
+    <picklistValues>
+        <masterLabel>Hardware</masterLabel>
+        <translation>Hardware</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Software</masterLabel>
+        <translation>Software</translation>
+    </picklistValues>
+</CustomFieldTranslation>

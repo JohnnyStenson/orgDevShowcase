@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Representante de ventas responsable de este presupuesto si es diferente del usuario que es propietario del registro Presupuesto.</help>
+    <label></label>
+    <name>SBQQ__SalesRep__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

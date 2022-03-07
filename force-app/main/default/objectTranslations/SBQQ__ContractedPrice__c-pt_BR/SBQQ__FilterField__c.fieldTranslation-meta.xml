@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione um campo a ser usado em um filtro, como Família de produtos, se quiser aplicar esse preço a um conjunto de produtos. Se estiver usando um campo personalizado, adicione o nome da API ao Campo de filtro como um valor da lista de opções.</help>
+    <label></label>
+    <name>SBQQ__FilterField__c</name>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>Produto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>Código do produto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Family</masterLabel>
+        <translation>Família de produtos</translation>
+    </picklistValues>
+</CustomFieldTranslation>

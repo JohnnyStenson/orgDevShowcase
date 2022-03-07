@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Feld im Produktobjekt, das zum Filtern von Produkten verwendet wird, die mit dieser Eingabe übereinstimmen.</help>
+    <label></label>
+    <name>SBQQ__ProductField__c</name>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>Produktcode</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Family</masterLabel>
+        <translation>Produktfamilie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Name</masterLabel>
+        <translation>Produktname</translation>
+    </picklistValues>
+</CustomFieldTranslation>

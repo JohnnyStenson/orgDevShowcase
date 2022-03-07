@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Doit être activé si vous rencontrez des erreurs de performance lors de la configuration de l&apos;offre groupée. L&apos;offre groupée doit être traitée de manière asynchrone.</help>
+    <label></label>
+    <name>SBQQ__EnableLargeConfiguration__c</name>
+</CustomFieldTranslation>

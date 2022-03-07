@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このオプションによって表されるコンポーネントの説明。これは、商品オブジェクトの [設定対象の説明パターン] 項目と組み合わせて使用されます。</help>
+    <label></label>
+    <name>SBQQ__ComponentDescription__c</name>
+</CustomFieldTranslation>

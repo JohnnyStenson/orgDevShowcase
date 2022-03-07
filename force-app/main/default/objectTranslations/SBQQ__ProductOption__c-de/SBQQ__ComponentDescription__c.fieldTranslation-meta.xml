@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Beschreibung für die Komponente, die diese Option darstellt. Wird zusammen mit dem Feld &quot;Konfiguriert – Muster für Beschreibung&quot; im Produktobjekt verwendet.</help>
+    <label></label>
+    <name>SBQQ__ComponentDescription__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Laufzeit des Abonnements, die nur gilt, wenn das Produkt ein Abonnement ist. Der Wert wird beim ersten Erstellen des Belegpostens aus dem Feld &quot;Abonnementlaufzeit&quot; des zugehörigen Produkts kopiert.</help>
+    <label></label>
+    <name>SBQQ__DefaultSubscriptionTerm__c</name>
+</CustomFieldTranslation>

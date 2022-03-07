@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cuando se establece, este valor toma el lugar del importe del incremento del segmento anterior cuando se calcula el incremento para este segmento.</help>
+    <label></label>
+    <name>SBQQ__PreviousSegmentUplift__c</name>
+</CustomFieldTranslation>

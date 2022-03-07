@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nome da API para o campo no objeto Linha de cotação que você deseja que seja exibido nessa coluna.</help>
+    <label></label>
+    <name>SBQQ__FieldName__c</name>
+</CustomFieldTranslation>

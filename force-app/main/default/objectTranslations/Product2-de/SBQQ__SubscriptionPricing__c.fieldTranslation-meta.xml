@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Art der Preisfestlegung für dieses Abonnement. &quot;Keine&quot; bedeutet, dass dieses Produkt kein Abonnement ist.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionPricing__c</name>
+    <picklistValues>
+        <masterLabel>Fixed Price</masterLabel>
+        <translation>Festpreis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percent Of Total</masterLabel>
+        <translation>Prozent vom Gesamtwert</translation>
+    </picklistValues>
+</CustomFieldTranslation>

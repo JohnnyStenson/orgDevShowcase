@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この表を使用して商品の見積品目数量を集計する方法を指定します。デフォルトでは、各品目の数量 (同じ商品に使用される場合も含め) が別個に考慮されます。</help>
+    <label></label>
+    <name>SBQQ__AggregationScope__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>グループ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>見積</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Valor que não esteja em branco designa que esse produto é vendido em lotes. Insira a quantidade em cada lote. A quantidade inserida na cotação será dividida por esse valor e arredondada para o número inteiro mais próximo.</help>
+    <label></label>
+    <name>SBQQ__BatchQuantity__c</name>
+</CustomFieldTranslation>

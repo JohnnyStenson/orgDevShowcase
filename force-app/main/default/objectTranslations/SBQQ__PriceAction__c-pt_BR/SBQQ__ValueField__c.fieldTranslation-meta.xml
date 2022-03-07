@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se o valor que você deseja inserir for calculado em outro campo da Linha de cotação, selecione o campo aqui.</help>
+    <label></label>
+    <name>SBQQ__ValueField__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Rótulo de resumo para o nível do subgrupo.</help>
+    <label></label>
+    <name>SBQQ__SubGroupSummaryLabel__c</name>
+</CustomFieldTranslation>

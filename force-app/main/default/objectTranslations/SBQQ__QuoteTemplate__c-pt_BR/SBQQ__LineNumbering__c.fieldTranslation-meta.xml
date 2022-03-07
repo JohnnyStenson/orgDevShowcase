@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique como numerar itens de linha em documentos gerados. &quot;Iniciar na cotação&quot; numera todas as linhas sequencialmente entre os grupos (se houver). &quot;Iniciar no grupo&quot; redefine os números dentro de cada grupo.</help>
+    <label></label>
+    <name>SBQQ__LineNumbering__c</name>
+    <picklistValues>
+        <masterLabel>Start at group</masterLabel>
+        <translation>Iniciar no grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start at quote</masterLabel>
+        <translation>Iniciar na cotação</translation>
+    </picklistValues>
+</CustomFieldTranslation>

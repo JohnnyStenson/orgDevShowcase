@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione essa caixa de seleção para criar Preços contratados sem criar um Contrato.</help>
+    <label></label>
+    <name>SBQQ__CreateContractedPrices__c</name>
+</CustomFieldTranslation>

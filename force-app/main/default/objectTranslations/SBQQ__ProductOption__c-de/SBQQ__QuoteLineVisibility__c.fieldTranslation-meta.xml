@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Konfigurieren Sie die Sichtbarkeit des von dieser Option generierten Angebotsbelegpostens.</help>
+    <label></label>
+    <name>SBQQ__QuoteLineVisibility__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Immer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Document Only</masterLabel>
+        <translation>Nur Dokument</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Editor Only</masterLabel>
+        <translation>Nur Editor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>Nie</translation>
+    </picklistValues>
+</CustomFieldTranslation>

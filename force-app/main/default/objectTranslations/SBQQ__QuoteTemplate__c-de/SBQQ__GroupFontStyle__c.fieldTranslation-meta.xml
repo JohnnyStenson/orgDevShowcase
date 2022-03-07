@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Schriftschnitt für Gruppentitel. Wenn nicht angegeben, lautet die Standardeinstellung &quot;Normal&quot;.</help>
+    <label></label>
+    <name>SBQQ__GroupFontStyle__c</name>
+    <picklistValues>
+        <masterLabel>Bold</masterLabel>
+        <translation>Fett</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italic</masterLabel>
+        <translation>Kursiv</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation>Normal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Underline</masterLabel>
+        <translation>Unterstrichen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

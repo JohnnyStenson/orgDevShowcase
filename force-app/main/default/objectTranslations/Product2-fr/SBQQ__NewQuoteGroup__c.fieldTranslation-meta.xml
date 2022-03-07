@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette case pour créer un groupe de devis lors de l&apos;ajout de ce produit (sauf si le groupe actuel est vide).</help>
+    <label></label>
+    <name>SBQQ__NewQuoteGroup__c</name>
+</CustomFieldTranslation>

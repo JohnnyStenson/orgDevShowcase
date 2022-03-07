@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Registro del procesador de instalación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Registros del procesador de instalación</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de registro del procesador de ins</nameFieldLabel>
+</CustomObjectTranslation>

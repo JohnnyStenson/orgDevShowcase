@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nom d&apos;API du champ personnalisé utilisé dans la requête.</help>
+    <label></label>
+    <name>SBQQ__LookupField__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__Category__c</masterLabel>
+        <translation>SBQQ__Category__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

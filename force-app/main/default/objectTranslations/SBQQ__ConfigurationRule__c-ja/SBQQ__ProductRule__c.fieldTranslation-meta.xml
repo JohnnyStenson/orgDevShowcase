@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品設定を検証するロジックが含まれる商品ルールを選択します。</help>
+    <label></label>
+    <name>SBQQ__ProductRule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>左境界と内容の間のスペース (ピクセル単位)。</help>
+    <label></label>
+    <name>SBQQ__LeftMargin__c</name>
+</CustomFieldTranslation>

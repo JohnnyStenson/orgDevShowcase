@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ingrese un porcentaje de descuento basado en el campo, donde el producto al que hace referencia esta opción se ofrece por separado. No obstante, tendrá que ampliar un descuento si se adquirió una parte de este producto aparejada.</help>
+    <label></label>
+    <name>SBQQ__Discount__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a tabela de precificação em que esse produto deve aparecer por padrão quando as dimensões de preço forem definidas.</help>
+    <label></label>
+    <name>SBQQ__DefaultPricingTable__c</name>
+    <picklistValues>
+        <masterLabel>Segmented</masterLabel>
+        <translation>Segmentado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard</masterLabel>
+        <translation>Padrão</translation>
+    </picklistValues>
+</CustomFieldTranslation>

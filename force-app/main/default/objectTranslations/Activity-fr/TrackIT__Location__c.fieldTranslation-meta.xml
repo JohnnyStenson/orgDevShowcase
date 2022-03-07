@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Affiche l&apos;emplacement au moment où l&apos;événement a été créé. Mettre à jour si nécessaire.</help>
+    <label></label>
+    <name>TrackIT__Location__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

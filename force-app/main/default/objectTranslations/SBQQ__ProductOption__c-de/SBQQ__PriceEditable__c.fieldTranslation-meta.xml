@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie das Kontrollkästchen, wenn der Preis als bearbeitbar festgelegt werden soll, sodass Benutzer Änderungen an Optionspreis vornehmen können.</help>
+    <label></label>
+    <name>SBQQ__PriceEditable__c</name>
+</CustomFieldTranslation>

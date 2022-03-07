@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>設定時にこの機能の動的オプションを絞り込むときに使用される項目セットの API 参照名。</help>
+    <label></label>
+    <name>SBQQ__DynamicProductFilterFieldSet__c</name>
+    <picklistValues>
+        <masterLabel>ConfiguratorFilter</masterLabel>
+        <translation>ConfiguratorFilter</translation>
+    </picklistValues>
+</CustomFieldTranslation>

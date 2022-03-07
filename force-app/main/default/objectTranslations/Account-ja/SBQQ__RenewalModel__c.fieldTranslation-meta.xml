@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>取引先の納入商品に基づいて更新を行うには [納入商品ベース] を選択し、見積から作成されたサブスクリプションに基づいて更新を行うには [サブスクリプションベース] を選択します。</help>
+    <label></label>
+    <name>SBQQ__RenewalModel__c</name>
+    <picklistValues>
+        <masterLabel>Asset Based</masterLabel>
+        <translation>納入商品ベース</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract Based</masterLabel>
+        <translation>契約ベース</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ingrese el valor que hay que actualizar en el Campo de filtro elegido.</help>
+    <label></label>
+    <name>SBQQ__FilterValue__c</name>
+</CustomFieldTranslation>

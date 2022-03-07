@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>設定時にこの商品に使用される項目セットの API 参照名。</help>
+    <label></label>
+    <name>SBQQ__ConfigurationFieldSet__c</name>
+    <picklistValues>
+        <masterLabel>OptionConfiguration</masterLabel>
+        <translation>OptionConfiguration</translation>
+    </picklistValues>
+</CustomFieldTranslation>

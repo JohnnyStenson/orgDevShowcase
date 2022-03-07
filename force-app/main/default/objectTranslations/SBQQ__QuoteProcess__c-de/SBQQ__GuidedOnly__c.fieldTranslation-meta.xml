@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, wenn für Angebote, die zu diesem Prozess gehören, nur die geführte Produktauswahl möglich sein soll. Andernfalls ist standardmäßig die Ad-hoc-Filterung festgelegt.</help>
+    <label></label>
+    <name>SBQQ__GuidedOnly__c</name>
+</CustomFieldTranslation>

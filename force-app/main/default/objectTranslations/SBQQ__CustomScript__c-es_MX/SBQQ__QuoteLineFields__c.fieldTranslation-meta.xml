@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ingrese los nombres de API de todos los campos de Partida de presupuesto al que haga referencia este complemento, uno por línea.</help>
+    <label></label>
+    <name>SBQQ__QuoteLineFields__c</name>
+</CustomFieldTranslation>

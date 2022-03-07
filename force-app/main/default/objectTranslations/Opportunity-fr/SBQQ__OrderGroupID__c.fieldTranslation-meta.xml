@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identificateur unique de la transaction du nouveau devis d’amendement, qui correspond à l&apos;ID du devis principal d&apos;origine.</help>
+    <label></label>
+    <name>SBQQ__OrderGroupID__c</name>
+</CustomFieldTranslation>

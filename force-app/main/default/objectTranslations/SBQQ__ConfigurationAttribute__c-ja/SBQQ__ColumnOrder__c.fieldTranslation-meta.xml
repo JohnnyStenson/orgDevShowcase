@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>列は、設定属性ごとに選択リスト (1、2、3 のいずれか) で構成されます。最大 3 列まで許容されます。</help>
+    <label></label>
+    <name>SBQQ__ColumnOrder__c</name>
+    <picklistValues>
+        <masterLabel>1</masterLabel>
+        <translation>1</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2</masterLabel>
+        <translation>2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3</masterLabel>
+        <translation>3</translation>
+    </picklistValues>
+</CustomFieldTranslation>

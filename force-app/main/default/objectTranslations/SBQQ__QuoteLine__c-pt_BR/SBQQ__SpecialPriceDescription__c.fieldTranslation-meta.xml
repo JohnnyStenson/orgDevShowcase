@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nome do Nível de desconto ou do Preço contratado aplicado para atingir o preço especial para esse item de linha.</help>
+    <label></label>
+    <name>SBQQ__SpecialPriceDescription__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Preço contratado se o produto tiver precificação negociada para a conta da oportunidade. Preços contratados estão disponíveis na Conta e podem ser aplicados a qualquer produto em qualquer catálogo de preços.</help>
+    <label></label>
+    <name>SBQQ__ContractedPrice__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

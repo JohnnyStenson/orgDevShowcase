@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>オンの場合、この商品は見積に最初に追加するときのみ設定できます。選択されている場合、ユーザは商品が追加された後に [品目の編集] ページの [設定] リンクにアクセスできなくなります。</help>
+    <label></label>
+    <name>SBQQ__ReconfigurationDisabled__c</name>
+</CustomFieldTranslation>

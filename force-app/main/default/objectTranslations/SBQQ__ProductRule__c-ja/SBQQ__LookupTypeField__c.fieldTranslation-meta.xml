@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品アクションのタイプ選択リストに対応する参照オブジェクトの項目。この項目は、選択リストまたはテキストにする必要があります。</help>
+    <label></label>
+    <name>SBQQ__LookupTypeField__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__Type__c</masterLabel>
+        <translation>SBQQ__Type__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Zugeteilter Preis für das Produkt, das mit diesem Belegposten angeboten wird. Dieser Preis unterscheidet sich nur vom Sonderpreis, wenn das Produkt ein Abonnement ist und der Belegposten zugeteilt wird.</help>
+    <label></label>
+    <name>SBQQ__ProratedPrice__c</name>
+</CustomFieldTranslation>

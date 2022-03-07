@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gesamter Laufzeitrabatt, der auf diese Preisregelung angewandt wurde. Der Wert steht nur für in Preisklassen gestaffelte Preise zur Verfügung.  Bei mengenbezogenen Preisen steht der Laufzeitrabatt für jede Preisklasse zur Verfügung.</help>
+    <label></label>
+    <name>SBQQ__TermDiscount__c</name>
+</CustomFieldTranslation>

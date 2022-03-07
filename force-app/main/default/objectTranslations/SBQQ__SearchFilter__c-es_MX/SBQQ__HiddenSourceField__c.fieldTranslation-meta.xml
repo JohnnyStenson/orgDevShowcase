@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique el campo que origina el valor para utilizar al determinar si el filtro está oculto.</help>
+    <label></label>
+    <name>SBQQ__HiddenSourceField__c</name>
+    <picklistValues>
+        <masterLabel>Primary</masterLabel>
+        <translation>Principal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

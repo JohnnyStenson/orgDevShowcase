@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La valeur à laquelle vous souhaitez correspondre dans le champ sélectionné avec l&apos;opérateur choisi. Requis si Type de correspondance = Valeur statique.</help>
+    <label></label>
+    <name>SBQQ__TestedValue__c</name>
+</CustomFieldTranslation>

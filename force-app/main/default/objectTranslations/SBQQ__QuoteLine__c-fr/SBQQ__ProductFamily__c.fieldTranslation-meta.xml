@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Méthode de classement/regroupement/organisation dans Salesforce (selon qu&apos;il s&apos;agit d&apos;une famille de produits nouvelle ou existante). De plus, ce champ peut être envoyé lors de la sélection des produits pour filtrer le produit ou l&apos;unité de gestion de stock produit approprié.</help>
+    <label></label>
+    <name>SBQQ__ProductFamily__c</name>
+</CustomFieldTranslation>

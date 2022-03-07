@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt an, wie &quot;Prozent vom Gesamtwert&quot;-Preise berechnet werden: Bei &quot;Angebot&quot; werden alle nicht abonnementbezogenen und mit &quot;In &quot;Prozent vom Gesamtwert&quot; einbeziehen&quot; gekennzeichneten Produkte im Angebot verwendet, während bei &quot;Gruppe&quot; nur nicht abonnementbezogene und mit &quot;In &quot;Prozent vom Gesamtwert&quot; einbeziehen&quot; markierte Produkte derselben Gruppe berücksichtigt werden.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>Gruppe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Angebot</translation>
+    </picklistValues>
+</CustomFieldTranslation>

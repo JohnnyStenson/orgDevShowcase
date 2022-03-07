@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品の関連リストでの並び替え順を決定する連続番号。</help>
+    <label></label>
+    <name>SBQQ__Number__c</name>
+</CustomFieldTranslation>

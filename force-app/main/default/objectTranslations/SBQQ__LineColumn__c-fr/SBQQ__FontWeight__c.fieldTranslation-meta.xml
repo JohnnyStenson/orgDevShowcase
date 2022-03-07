@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez l&apos;épaisseur de police du texte cette colonne. Si vous laissez ce champ vide, l&apos;épaisseur « Normal » est appliquée au texte.</help>
+    <label></label>
+    <name>SBQQ__FontWeight__c</name>
+    <picklistValues>
+        <masterLabel>Bold</masterLabel>
+        <translation>Gras</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation>Normal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

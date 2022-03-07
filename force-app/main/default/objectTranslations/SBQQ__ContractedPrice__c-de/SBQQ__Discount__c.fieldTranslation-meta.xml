@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Rabatt gegenüber dem Preis laut Preisbuch (in Prozent), den dieser Vertragspreis darstellt. Es sollte entweder dieses Feld oder &quot;Preis&quot; festgelegt werden, nicht jedoch beide.</help>
+    <label></label>
+    <name>SBQQ__Discount__c</name>
+</CustomFieldTranslation>

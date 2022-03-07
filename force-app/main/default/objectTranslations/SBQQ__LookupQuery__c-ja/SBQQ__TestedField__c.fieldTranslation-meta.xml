@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このクエリによって評価される見積、見積品目、商品オプションオブジェクトのいずれかの項目。[一致項目] = [項目値] の場合は必須です。</help>
+    <label></label>
+    <name>SBQQ__TestedField__c</name>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>商品コード</translation>
+    </picklistValues>
+</CustomFieldTranslation>

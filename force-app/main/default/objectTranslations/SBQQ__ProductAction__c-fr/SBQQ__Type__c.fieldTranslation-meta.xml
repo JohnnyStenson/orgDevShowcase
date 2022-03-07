@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez le type d&apos;action.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Add</masterLabel>
+        <translation>Ajouter</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default Filter</masterLabel>
+        <translation>Filtre par défaut</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disable</masterLabel>
+        <translation>Désactiver</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disable &amp; Remove</masterLabel>
+        <translation>Désactiver et retirer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enable</masterLabel>
+        <translation>Activer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enable &amp; Add</masterLabel>
+        <translation>Activer et ajouter</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide</masterLabel>
+        <translation>Masquer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hide &amp; Remove</masterLabel>
+        <translation>Masquer et retirer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Optional Filter</masterLabel>
+        <translation>Filtre facultatif</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remove</masterLabel>
+        <translation>Retirer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Show</masterLabel>
+        <translation>Afficher</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Show &amp; Add</masterLabel>
+        <translation>Afficher et ajouter</translation>
+    </picklistValues>
+</CustomFieldTranslation>

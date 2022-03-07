@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Deklarieren Sie die Textbeschreibung der Seitenzahl. &quot;{0}&quot; stellt die aktuelle Seite unabhängig dar. &quot;{1}&quot; hängt von &quot;{0}&quot; ab und stellt die Gesamtzahl an Seiten mit Seitenzahlen dar. Wenn Sie dieses Feld leer lassen, wird standardmäßig &quot;Seite {0} von {1}&quot; verwendet.</help>
+    <label></label>
+    <name>SBQQ__PageNumberText__c</name>
+</CustomFieldTranslation>

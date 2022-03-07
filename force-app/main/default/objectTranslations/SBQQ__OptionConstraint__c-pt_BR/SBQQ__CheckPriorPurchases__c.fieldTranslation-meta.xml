@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Verifique se você deseja pesquisar compras anteriores na Opção de restrição dentro da Conta.</help>
+    <label></label>
+    <name>SBQQ__CheckPriorPurchases__c</name>
+</CustomFieldTranslation>

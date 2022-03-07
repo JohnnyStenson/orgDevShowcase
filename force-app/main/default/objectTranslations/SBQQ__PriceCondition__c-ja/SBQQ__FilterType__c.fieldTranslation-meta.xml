@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この条件をサマリー変数に対して評価する場合は [変数] を選択します。その他の場合は [値] を選択します。</help>
+    <label></label>
+    <name>SBQQ__FilterType__c</name>
+    <picklistValues>
+        <masterLabel>Formula</masterLabel>
+        <translation>数式</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Value</masterLabel>
+        <translation>値</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variable</masterLabel>
+        <translation>変数</translation>
+    </picklistValues>
+</CustomFieldTranslation>

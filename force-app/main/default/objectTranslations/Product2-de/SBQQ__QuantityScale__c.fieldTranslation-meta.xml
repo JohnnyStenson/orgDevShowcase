@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt die Anzahl an Dezimalstellen im Feld &quot;Menge&quot; an.</help>
+    <label></label>
+    <name>SBQQ__QuantityScale__c</name>
+</CustomFieldTranslation>

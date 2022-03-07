@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El atributo de configuración que evalúa esta consulta. Es obligatorio si Tipo de coincidencia = Atributo de configuración y solo si esta consulta está asociada con una Regla de productos.</help>
+    <label></label>
+    <name>SBQQ__TestedConfigurationAttribute__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

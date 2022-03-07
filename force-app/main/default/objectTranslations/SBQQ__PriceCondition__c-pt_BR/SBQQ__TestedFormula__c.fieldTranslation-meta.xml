@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Insira uma fórmula com operadores, funções e campos disponíveis na cotação e no objeto de destino. Não é compatível com a calculadora legada.</help>
+    <label></label>
+    <name>SBQQ__TestedFormula__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Option produit qui remplace cette option produit lors d&apos;un renouvellement. Utilisez-la pour générer un devis avec une Unité de gestion de stock différente lors du renouvellement.</help>
+    <label></label>
+    <name>SBQQ__RenewalProductOption__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

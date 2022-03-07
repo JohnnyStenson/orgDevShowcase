@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Abonnement, für das mit diesem Belegposten ein Upgrade durchgeführt wird. Bei der Vertragserstellung für das Angebot wird das Feld für das Beendigungsdatum dieses Abonnements ausgefüllt.</help>
+    <label></label>
+    <name>SBQQ__UpgradedSubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

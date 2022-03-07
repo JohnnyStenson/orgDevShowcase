@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Niveau de remise utilisé par cet élément de ligne. Ce champ est renseigné uniquement si une remise sur volume a été appliquée et si le barème de remise est de type « Plage ».</help>
+    <label></label>
+    <name>SBQQ__DiscountTier__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

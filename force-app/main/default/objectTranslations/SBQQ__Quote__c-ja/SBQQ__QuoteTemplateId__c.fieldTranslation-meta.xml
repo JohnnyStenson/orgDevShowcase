@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積 PDF ドキュメントを生成するときに見積テンプレートを使用することが指定されている場合は、見積テンプレート ID を保存します。</help>
+    <label></label>
+    <name>SBQQ__QuoteTemplateId__c</name>
+</CustomFieldTranslation>

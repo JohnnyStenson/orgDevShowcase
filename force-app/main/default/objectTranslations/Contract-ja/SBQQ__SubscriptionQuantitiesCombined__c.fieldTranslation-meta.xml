@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>同じ商品のサブスクリプションの数量を更新見積と修正の 1 つの品目に統合する場合に選択します。</help>
+    <label></label>
+    <name>SBQQ__SubscriptionQuantitiesCombined__c</name>
+</CustomFieldTranslation>

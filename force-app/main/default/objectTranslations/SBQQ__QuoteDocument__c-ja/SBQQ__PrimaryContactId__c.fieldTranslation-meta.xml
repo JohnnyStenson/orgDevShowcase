@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>[メール] ボタン (デフォルトでは [宛先] 項目) で使用される見積の主取引先責任者を参照します。</help>
+    <label></label>
+    <name>SBQQ__PrimaryContactId__c</name>
+</CustomFieldTranslation>

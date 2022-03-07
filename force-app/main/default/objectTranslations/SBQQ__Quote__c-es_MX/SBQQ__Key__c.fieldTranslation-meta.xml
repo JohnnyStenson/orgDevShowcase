@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Clave interna única que se utiliza para identificar presupuestos de &quot;carrito de la compra&quot; sin basarse en identificadores internos.</help>
+    <label></label>
+    <name>SBQQ__Key__c</name>
+</CustomFieldTranslation>

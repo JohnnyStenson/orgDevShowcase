@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica como os preços de percentual do total são calculados: a Cotação usa todos os grupos sem assinatura e inclui no percentual do total os produtos na cotação; o Grupo usa apenas produtos sem assinatura e inclui no percentual do total os produtos no mesmo grupo.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>Grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Cotação</translation>
+    </picklistValues>
+</CustomFieldTranslation>

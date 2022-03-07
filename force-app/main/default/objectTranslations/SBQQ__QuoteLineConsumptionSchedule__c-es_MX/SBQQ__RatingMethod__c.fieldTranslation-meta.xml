@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione un caso de uso específico para el puntuaje del uso en esta programación. Esta es una lista de selección de control para el campo Tipo.</help>
+    <label></label>
+    <name>SBQQ__RatingMethod__c</name>
+    <picklistValues>
+        <masterLabel>Tier</masterLabel>
+        <translation>Nivel</translation>
+    </picklistValues>
+</CustomFieldTranslation>

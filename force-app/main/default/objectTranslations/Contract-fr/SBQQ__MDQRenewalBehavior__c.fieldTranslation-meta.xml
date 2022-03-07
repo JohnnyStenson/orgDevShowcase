@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Définit l&apos;affichage des produits d&apos;abonnement segmentés dans les devis de renouvellement. Les produits désegmentés sont renouvelés en tant que ligne de devis standard avec les données du dernier segment.</help>
+    <label></label>
+    <name>SBQQ__MDQRenewalBehavior__c</name>
+    <picklistValues>
+        <masterLabel>De-segmented</masterLabel>
+        <translation>Désegmenté</translation>
+    </picklistValues>
+</CustomFieldTranslation>

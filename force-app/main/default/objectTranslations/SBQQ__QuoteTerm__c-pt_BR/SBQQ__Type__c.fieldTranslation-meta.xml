@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica se o termo é padrão, personalizado ou modificado.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+</CustomFieldTranslation>

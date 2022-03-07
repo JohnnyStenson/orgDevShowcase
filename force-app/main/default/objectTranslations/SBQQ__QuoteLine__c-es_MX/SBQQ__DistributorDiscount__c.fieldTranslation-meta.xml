@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Este es un descuento que se aplica a un precio de socios y que se refleja en el precio neto.</help>
+    <label></label>
+    <name>SBQQ__DistributorDiscount__c</name>
+</CustomFieldTranslation>

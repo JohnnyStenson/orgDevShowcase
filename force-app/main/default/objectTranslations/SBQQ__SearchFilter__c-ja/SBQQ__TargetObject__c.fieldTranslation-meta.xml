@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>検索するオブジェクトを指定します。</help>
+    <label></label>
+    <name>SBQQ__TargetObject__c</name>
+    <picklistValues>
+        <masterLabel>Asset</masterLabel>
+        <translation>納入商品</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>商品</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscription</masterLabel>
+        <translation>サブスクリプション</translation>
+    </picklistValues>
+</CustomFieldTranslation>

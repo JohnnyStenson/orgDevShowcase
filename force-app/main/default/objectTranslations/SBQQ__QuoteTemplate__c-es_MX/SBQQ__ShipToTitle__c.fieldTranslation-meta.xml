@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Etiqueta empleada para la sección &quot;Enviar a&quot;. El valor predeterminado es &quot;Enviar a&quot;.</help>
+    <label></label>
+    <name>SBQQ__ShipToTitle__c</name>
+</CustomFieldTranslation>

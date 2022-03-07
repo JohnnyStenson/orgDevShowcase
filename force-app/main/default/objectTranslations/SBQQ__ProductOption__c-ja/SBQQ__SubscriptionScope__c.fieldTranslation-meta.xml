@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この全体に対する割合の商品オプションを計算する方法を選択します。パッケージは親商品に固有です。コンポーネントは同階層コンポーネントに固有です。階層全体では設定内のすべての品目が対象となります。</help>
+    <label></label>
+    <name>SBQQ__SubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Components</masterLabel>
+        <translation>コンポーネント</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entire Hierarchy</masterLabel>
+        <translation>階層全体</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package</masterLabel>
+        <translation>パッケージ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package &amp; Components</masterLabel>
+        <translation>パッケージおよびコンポーネント</translation>
+    </picklistValues>
+</CustomFieldTranslation>

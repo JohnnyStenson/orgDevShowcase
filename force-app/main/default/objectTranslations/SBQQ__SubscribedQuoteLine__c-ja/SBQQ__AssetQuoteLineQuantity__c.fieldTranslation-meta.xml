@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>納入商品見積品目の見積数量。</help>
+    <label></label>
+    <name>SBQQ__AssetQuoteLineQuantity__c</name>
+</CustomFieldTranslation>

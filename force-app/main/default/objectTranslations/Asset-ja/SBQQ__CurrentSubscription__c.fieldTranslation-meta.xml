@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>現在この納入商品を対象とするサブスクリプション。この納入商品を対象とするサブスクリプションが 1 つのみの場合は自動的に入力されます。更新によって新しいサブスクリプションで上書きされます。</help>
+    <label></label>
+    <name>SBQQ__CurrentSubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

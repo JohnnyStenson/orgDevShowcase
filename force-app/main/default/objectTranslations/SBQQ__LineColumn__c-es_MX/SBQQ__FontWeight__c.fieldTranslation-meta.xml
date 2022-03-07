@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique el peso del tipo de letra de esta columna. Si se deja en blanco, se toma &quot;Normal&quot; como valor predeterminado.</help>
+    <label></label>
+    <name>SBQQ__FontWeight__c</name>
+    <picklistValues>
+        <masterLabel>Bold</masterLabel>
+        <translation>Negrita</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation>Normal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

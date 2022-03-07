@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ID Salesforce du document contenant l&apos;image du logo utilisé dans le devis PDF.</help>
+    <label></label>
+    <name>SBQQ__LogoDocumentId__c</name>
+</CustomFieldTranslation>

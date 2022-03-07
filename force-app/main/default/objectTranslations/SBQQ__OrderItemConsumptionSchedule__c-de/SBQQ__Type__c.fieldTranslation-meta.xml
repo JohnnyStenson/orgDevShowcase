@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bereich: Die Preisberechnung erfolgt ausschließlich auf Grundlage der Stufe, die der Nutzungsmenge entspricht. Spanne: Die Nutzung innerhalb eines vorgegebenen Rahmens wird entsprechend dem Wert der Stufe berechnet.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation>Bereich</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slab</masterLabel>
+        <translation>Durchschnitt</translation>
+    </picklistValues>
+</CustomFieldTranslation>

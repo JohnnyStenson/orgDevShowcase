@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se várias Restrições da opção forem direcionadas à mesma Opção restrita, colocar as Restrições da opção no mesmo grupo exigirá que TODAS as Opções de restrição sejam selecionadas.</help>
+    <label></label>
+    <name>SBQQ__OptionConstraintGroup__c</name>
+</CustomFieldTranslation>

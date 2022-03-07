@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Escolha o tipo de desconto que determina como o valor ou os percentuais serão subtraídos do preço.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation>Intervalo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slab</masterLabel>
+        <translation>Placa</translation>
+    </picklistValues>
+</CustomFieldTranslation>

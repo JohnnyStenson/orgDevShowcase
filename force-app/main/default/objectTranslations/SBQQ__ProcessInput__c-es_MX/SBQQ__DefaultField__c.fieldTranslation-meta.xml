@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo de presupuesto que origina el valor predeterminado para esta entrada.</help>
+    <label></label>
+    <name>SBQQ__DefaultField__c</name>
+    <picklistValues>
+        <masterLabel>Bill To Country</masterLabel>
+        <translation>País para facturar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ship To Country</masterLabel>
+        <translation>País para enviar</translation>
+    </picklistValues>
+</CustomFieldTranslation>

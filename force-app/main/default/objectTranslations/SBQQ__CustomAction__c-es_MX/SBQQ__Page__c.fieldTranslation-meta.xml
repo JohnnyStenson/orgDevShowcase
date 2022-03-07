@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La página a la que agregar la acción personalizada.</help>
+    <label></label>
+    <name>SBQQ__Page__c</name>
+    <picklistValues>
+        <masterLabel>Account Detail</masterLabel>
+        <translation>Detalle de cuenta</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract Detail</masterLabel>
+        <translation>Detalle de contrato</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunity Detail</masterLabel>
+        <translation>Detalle de oportunidad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Detail</masterLabel>
+        <translation>Detalle de pedido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Configurator</masterLabel>
+        <translation>Configurador de productos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Detail</masterLabel>
+        <translation>Detalle de presupuesto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Document Detail</masterLabel>
+        <translation>Detalle de documento de presupuesto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Line Editor</masterLabel>
+        <translation>Editor de partidas de presupuesto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

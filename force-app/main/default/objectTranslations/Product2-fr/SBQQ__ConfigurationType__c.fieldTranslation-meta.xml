@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Type de configuration de ce produit : sélectionnez Autorisé si l&apos;utilisateur est autorisé à configurer le produit/offre groupée, sans obligation, sélectionnez Désactivé lorsque votre offre groupée sélectionne automatiquement les options, ou sélectionnez Obligatoire si le produit/offre groupée doit être configuré.</help>
+    <label></label>
+    <name>SBQQ__ConfigurationType__c</name>
+    <picklistValues>
+        <masterLabel>Allowed</masterLabel>
+        <translation>Autorisé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>Désactivé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Required</masterLabel>
+        <translation>Obligatoire</translation>
+    </picklistValues>
+</CustomFieldTranslation>

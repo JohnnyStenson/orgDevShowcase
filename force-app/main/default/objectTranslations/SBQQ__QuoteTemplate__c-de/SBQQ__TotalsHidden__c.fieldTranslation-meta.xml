@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, um Gesamtwerte im Angebotsdokument auszublenden.</help>
+    <label></label>
+    <name>SBQQ__TotalsHidden__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Produit qui remplace le produit actuel lors du renouvellement. Utilisez-le pour générer un devis avec une Unité de gestion de stock différente lors du renouvellement.</help>
+    <label></label>
+    <name>SBQQ__RenewalProduct__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

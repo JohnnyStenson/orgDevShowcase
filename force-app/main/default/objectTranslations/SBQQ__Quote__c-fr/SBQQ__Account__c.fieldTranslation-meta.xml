@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le compte client de ce devis. Utilise par défaut le compte de l&apos;opportunité lors de la création d&apos;un devis.</help>
+    <label></label>
+    <name>SBQQ__Account__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

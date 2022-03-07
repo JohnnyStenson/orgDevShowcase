@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Precio unitario neto para el producto presupuestado por esta partida.</help>
+    <label></label>
+    <name>SBQQ__NetPrice__c</name>
+</CustomFieldTranslation>

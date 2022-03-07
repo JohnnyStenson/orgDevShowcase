@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Attribuez un numéro unique à cette condition pour la référencer dans la condition avancée de la règle de prix.</help>
+    <label></label>
+    <name>SBQQ__Index__c</name>
+</CustomFieldTranslation>

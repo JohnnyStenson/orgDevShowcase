@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifica el lugar donde se muestran los números de página en el documento. Toma como predeterminado Pie de página si el campo está en blanco.</help>
+    <label></label>
+    <name>SBQQ__PageNumberPosition__c</name>
+    <picklistValues>
+        <masterLabel>Footer</masterLabel>
+        <translation>Pie de página</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Header</masterLabel>
+        <translation>Encabezado</translation>
+    </picklistValues>
+</CustomFieldTranslation>

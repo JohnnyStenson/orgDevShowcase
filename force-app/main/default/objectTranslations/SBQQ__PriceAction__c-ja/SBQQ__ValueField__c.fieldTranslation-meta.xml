@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>挿入する値が別の見積品目項目で計算される場合、ここで項目を選択します。</help>
+    <label></label>
+    <name>SBQQ__ValueField__c</name>
+</CustomFieldTranslation>

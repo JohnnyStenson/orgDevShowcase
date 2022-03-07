@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kennzeichen, das intern von Anwendungslogik gesetzt wird, wenn ein Belegposten in einer unvollständigen Datenbank gespeichert wird. Dies kann beim Auswerten von Preisregeln passieren. Testen Sie dieses Feld in Validierungsregeln, um eine vorzeitiges Auslösen der Regeln zu vermeiden. Fügen Sie diese Option NICHT zum Seitenlayout hinzu oder ändern Sie sie anderweitig.</help>
+    <label></label>
+    <name>SBQQ__Incomplete__c</name>
+</CustomFieldTranslation>

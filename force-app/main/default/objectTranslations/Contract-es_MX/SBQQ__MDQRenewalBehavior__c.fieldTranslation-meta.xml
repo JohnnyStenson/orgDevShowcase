@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Define el modo en que los productos de suscripción segmentados aparecerán en presupuestos de renovación. Sin segmentos renovará como una partida estándar con los datos del último segmento.</help>
+    <label></label>
+    <name>SBQQ__MDQRenewalBehavior__c</name>
+    <picklistValues>
+        <masterLabel>De-segmented</masterLabel>
+        <translation>Sin segmentos</translation>
+    </picklistValues>
+</CustomFieldTranslation>

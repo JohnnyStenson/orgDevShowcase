@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quantité effective utilisée dans le calcul des totaux. Identique à la quantité, sauf si le produit a un prix par bloc, est couvert par un barème de remise « par palier » ou est un abonnement existant.</help>
+    <label></label>
+    <name>SBQQ__EffectiveQuantity__c</name>
+</CustomFieldTranslation>

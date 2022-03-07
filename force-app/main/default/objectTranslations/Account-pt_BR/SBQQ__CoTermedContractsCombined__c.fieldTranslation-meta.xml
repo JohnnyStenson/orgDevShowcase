@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Permita combinar ativos e assinaturas a partir de vários contratos com termo combinado. Por padrão, cada contrato com termo combinado gera um grupo separado na cotação de renovação.</help>
+    <label></label>
+    <name>SBQQ__CoTermedContractsCombined__c</name>
+</CustomFieldTranslation>

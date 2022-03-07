@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Exclut la numérotation de page dans Toutes les pages, Première page, Deuxième page et/ou Première et deuxième pages.</help>
+    <label></label>
+    <name>SBQQ__ExcludedPages__c</name>
+    <picklistValues>
+        <masterLabel>All Pages</masterLabel>
+        <translation>Toutes les pages</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First Page</masterLabel>
+        <translation>Première page</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First and Last</masterLabel>
+        <translation>Première et dernière pages</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Last Page</masterLabel>
+        <translation>Dernière page</translation>
+    </picklistValues>
+</CustomFieldTranslation>

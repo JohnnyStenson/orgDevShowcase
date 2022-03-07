@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Assinaturas renováveis serão transferidas para Cotações de renovação. Assinaturas únicas não serão.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionType__c</name>
+    <picklistValues>
+        <masterLabel>Evergreen</masterLabel>
+        <translation>Perene</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>One-time</masterLabel>
+        <translation>Uma vez</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewable</masterLabel>
+        <translation>Renovável</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewable/Evergreen</masterLabel>
+        <translation>Renovável/perene</translation>
+    </picklistValues>
+</CustomFieldTranslation>

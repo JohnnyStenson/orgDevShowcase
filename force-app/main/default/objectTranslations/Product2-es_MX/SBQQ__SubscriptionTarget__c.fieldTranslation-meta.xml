@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilice este campo para invalidar un producto que está incluido en un porcentaje del cálculo total. Dirija esta búsqueda de consulta a un producto con un precio de lista que desea utilizar para los cálculos de Porcentaje del total del producto actual.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionTarget__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

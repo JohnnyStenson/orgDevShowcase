@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Insira uma lista de IDs do catálogo de preços separados por vírgulas que não devem ser aplicados a esse cronograma de descontos.</help>
+    <label></label>
+    <name>SBQQ__ExcludedPricebookIds__c</name>
+</CustomFieldTranslation>

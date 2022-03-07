@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pour les produits à segments multiples, saisissez la date de fin pour calculer au prorata du premier segment.</help>
+    <label></label>
+    <name>SBQQ__FirstSegmentTermEndDate__c</name>
+</CustomFieldTranslation>

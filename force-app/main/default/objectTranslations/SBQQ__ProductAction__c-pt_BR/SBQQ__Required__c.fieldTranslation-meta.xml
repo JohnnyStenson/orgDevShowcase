@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione se quiser que o produto no campo Pesquisa do produto seja selecionado na cotação.</help>
+    <label></label>
+    <name>SBQQ__Required__c</name>
+</CustomFieldTranslation>

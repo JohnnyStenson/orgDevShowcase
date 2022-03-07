@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção caso essa opção de produto deva ser selecionada automaticamente por padrão.</help>
+    <label></label>
+    <name>SBQQ__Selected__c</name>
+</CustomFieldTranslation>

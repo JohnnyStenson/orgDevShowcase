@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Abonnement mis à niveau par cette ligne de devis. Lorsque le devis est contracté, la Date de résiliation de cet abonnement est renseignée.</help>
+    <label></label>
+    <name>SBQQ__UpgradedSubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

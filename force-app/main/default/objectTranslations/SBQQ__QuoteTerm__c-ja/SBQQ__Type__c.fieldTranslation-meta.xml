@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>規約の種別 (標準規約、カスタム規約、変更対象規約) を示します。</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+</CustomFieldTranslation>

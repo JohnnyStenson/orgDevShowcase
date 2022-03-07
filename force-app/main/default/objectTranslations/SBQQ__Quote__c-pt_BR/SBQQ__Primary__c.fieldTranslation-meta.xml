@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione essa caixa de seleção para designar essa cotação como a primária na oportunidade e sincronizar os itens de linha de cotação com itens de linha de oportunidade.</help>
+    <label></label>
+    <name>SBQQ__Primary__c</name>
+</CustomFieldTranslation>

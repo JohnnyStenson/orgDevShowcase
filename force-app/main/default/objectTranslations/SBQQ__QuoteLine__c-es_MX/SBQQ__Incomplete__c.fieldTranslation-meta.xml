@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Etiqueta establecida internamente por la lógica de la aplicación cuando se guarda una partida en una base de datos incompleta. Esto puede ocurrir cuando se evalúan las reglas de precios. Pruebe este campo en reglas de validación para evitar desencadenarlo de forma prematura. NO lo agregue a un formato de página ni lo actualice.</help>
+    <label></label>
+    <name>SBQQ__Incomplete__c</name>
+</CustomFieldTranslation>

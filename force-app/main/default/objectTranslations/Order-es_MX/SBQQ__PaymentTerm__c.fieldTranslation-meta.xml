@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El plazo de pago para este pedido.</help>
+    <label></label>
+    <name>SBQQ__PaymentTerm__c</name>
+</CustomFieldTranslation>

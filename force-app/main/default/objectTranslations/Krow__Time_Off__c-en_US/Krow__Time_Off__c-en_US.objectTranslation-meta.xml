@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingReasons>
+        <label></label>
+        <name>Krow__Manager_Sharing</name>
+    </sharingReasons>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Krow__Resource_Is_Required</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Krow__Manage_Sharing</name>
+    </webLinks>
+</CustomObjectTranslation>

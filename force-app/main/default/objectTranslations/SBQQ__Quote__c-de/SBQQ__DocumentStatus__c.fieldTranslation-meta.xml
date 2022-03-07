@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt den Status Ihres Dokuments an: &quot;Ausstehend&quot;, &quot;Gesendet&quot; oder &quot;Fehlgeschlagen&quot;.</help>
+    <label></label>
+    <name>SBQQ__DocumentStatus__c</name>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation>Fehlgeschlagen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>Ausstehend</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent</masterLabel>
+        <translation>Gesendet</translation>
+    </picklistValues>
+</CustomFieldTranslation>

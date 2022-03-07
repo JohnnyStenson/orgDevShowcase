@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Der für dieses Angebot zuständige Vertriebsmitarbeiter, falls dieser nicht der Inhaber des Angebotsdatensatzes ist.</help>
+    <label></label>
+    <name>SBQQ__SalesRep__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

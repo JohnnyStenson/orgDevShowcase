@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Porcentaje del ámbito total establecido en el nivel de componentes. Este campo invalida el ámbito del porcentaje del total que se copia desde la opción de productos.</help>
+    <label></label>
+    <name>SBQQ__ComponentSubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Components</masterLabel>
+        <translation>Componentes</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entire Hierarchy</masterLabel>
+        <translation>Jerarquía completa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package</masterLabel>
+        <translation>Paquete</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package &amp; Components</masterLabel>
+        <translation>Paquete y componentes</translation>
+    </picklistValues>
+</CustomFieldTranslation>

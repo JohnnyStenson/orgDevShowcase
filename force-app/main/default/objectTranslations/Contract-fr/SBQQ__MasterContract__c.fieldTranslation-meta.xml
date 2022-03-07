@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette case pour désigner ce contrat en tant que contrat principal de ce compte. Lors du renouvellement, tous les contrats sont cumulés dans celui-ci.</help>
+    <label></label>
+    <name>SBQQ__MasterContract__c</name>
+</CustomFieldTranslation>

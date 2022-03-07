@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>提供する割引に関するこの価格設定ガイダンスとおすすめの説明。営業担当は見積品目エディタでこの説明を価格設定ガイダンスと共に参照できます。</help>
+    <label></label>
+    <name>SBQQ__Explanation__c</name>
+</CustomFieldTranslation>

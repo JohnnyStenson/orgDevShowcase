@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Champ source de la valeur à utiliser dans le filtrage.</help>
+    <label></label>
+    <name>SBQQ__FilterSourceField__c</name>
+    <picklistValues>
+        <masterLabel>Status</masterLabel>
+        <translation>Statut</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type</masterLabel>
+        <translation>Type</translation>
+    </picklistValues>
+</CustomFieldTranslation>

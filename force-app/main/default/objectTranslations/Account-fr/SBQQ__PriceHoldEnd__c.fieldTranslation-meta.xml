@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Saisissez la date limite de maintien des prix.</help>
+    <label></label>
+    <name>SBQQ__PriceHoldEnd__c</name>
+</CustomFieldTranslation>

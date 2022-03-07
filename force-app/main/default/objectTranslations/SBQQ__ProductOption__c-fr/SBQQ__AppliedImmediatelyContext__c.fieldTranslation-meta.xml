@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>L&apos;option « Appliquer immédiatement lors de la sélection » applique les modifications immédiatement après la sélection du produit, alors que l&apos;option « Appliquer immédiatement lors d&apos;un changement de quantité » applique les modifications lorsque la quantité change. L&apos;option « Toujours » applique les modifications dans les deux cas, lors de la sélection du produit et lors d&apos;un changement de quantité.</help>
+    <label></label>
+    <name>SBQQ__AppliedImmediatelyContext__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Toujours</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Quantity Change</masterLabel>
+        <translation>Lors d&apos;un changement de quantité</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Selection</masterLabel>
+        <translation>Sur sélection</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Farbe der Schattierung für Tabellenzellen, die Gruppentitel und -beschreibung enthalten.</help>
+    <label></label>
+    <name>SBQQ__GroupShadingColor__c</name>
+</CustomFieldTranslation>

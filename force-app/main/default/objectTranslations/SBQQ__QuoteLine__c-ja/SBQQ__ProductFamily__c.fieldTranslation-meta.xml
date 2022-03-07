@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Salesforce 内でこれを分類/グループ化/整理する方法 (新規または既存の商品ファミリ)。さらに、商品選択のときにこの項目を使用して、適切な商品または商品 SKU に絞り込むこともできます。</help>
+    <label></label>
+    <name>SBQQ__ProductFamily__c</name>
+</CustomFieldTranslation>

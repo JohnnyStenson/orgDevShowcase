@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>イベントが作成された時に割り当て先が表示されます。必要に応じて更新してください。</help>
+    <label></label>
+    <name>TrackIT__Assignee__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

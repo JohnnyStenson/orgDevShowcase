@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remise client supplémentaire étendue dans cet élément de ligne exprimée en pourcentage.</help>
+    <label></label>
+    <name>SBQQ__Discount__c</name>
+</CustomFieldTranslation>

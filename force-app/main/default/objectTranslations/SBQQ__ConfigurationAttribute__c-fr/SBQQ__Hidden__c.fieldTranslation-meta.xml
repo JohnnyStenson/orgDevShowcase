@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>S&apos;il est défini sur masqué, l&apos;attribut de configuration n&apos;est pas affiché dans la page du configurateur du produit.</help>
+    <label></label>
+    <name>SBQQ__Hidden__c</name>
+</CustomFieldTranslation>

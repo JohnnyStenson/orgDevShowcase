@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Desconto do termo no total aplicado a esse cronograma de preços. O valor está disponível apenas para o Tipo de preço por nível. Para o Tipo de preço por volume, o desconto do termo está disponível para cada nível de preço.</help>
+    <label></label>
+    <name>SBQQ__TermDiscount__c</name>
+</CustomFieldTranslation>

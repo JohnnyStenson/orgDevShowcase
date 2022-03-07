@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積品目の設定が必要であることをマークするフラグ。この商品の再設定を要求するためにカスタムコードによって使用することができます。</help>
+    <label></label>
+    <name>SBQQ__ConfigurationRequired__c</name>
+</CustomFieldTranslation>

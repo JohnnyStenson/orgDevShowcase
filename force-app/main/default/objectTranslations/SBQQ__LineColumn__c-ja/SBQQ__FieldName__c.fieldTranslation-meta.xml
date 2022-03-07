@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この列に表示する見積品目オブジェクトの項目の API 参照名。</help>
+    <label></label>
+    <name>SBQQ__FieldName__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Determina como os contratos de serviço e as assinaturas para esse cliente são encerrados de modo combinado.</help>
+    <label></label>
+    <name>SBQQ__ContractCoTermination__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Sempre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>Nunca</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prompt</masterLabel>
+        <translation>Avisar</translation>
+    </picklistValues>
+</CustomFieldTranslation>

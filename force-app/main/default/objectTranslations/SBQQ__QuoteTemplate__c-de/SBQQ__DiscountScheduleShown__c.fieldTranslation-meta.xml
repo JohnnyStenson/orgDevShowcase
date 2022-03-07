@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Legen Sie fest, wie Rabattregelungen im Angebotdokument angezeigt werden sollen. Bei Auswahl von &quot;Je Angebotsbelegposten&quot; werden Rabattregelung und Rabattklassen rechtsbündig unter jedem Angebotsbelegposten aufgeführt.</help>
+    <label></label>
+    <name>SBQQ__DiscountScheduleShown__c</name>
+    <picklistValues>
+        <masterLabel>Per Quote Line</masterLabel>
+        <translation>Je Angebotsbelegposten</translation>
+    </picklistValues>
+</CustomFieldTranslation>

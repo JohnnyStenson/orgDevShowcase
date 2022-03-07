@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Titre utilisé pour la section de facturation. La valeur défaut est « Facturation ».</help>
+    <label></label>
+    <name>SBQQ__BillToTitle__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique a posição desse atributo. Topo renderiza acima das opções. Base renderiza abaixo.</help>
+    <label></label>
+    <name>SBQQ__Position__c</name>
+    <picklistValues>
+        <masterLabel>Bottom</masterLabel>
+        <translation>Base</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Top</masterLabel>
+        <translation>Topo</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>価格を編集可能とマークしてユーザがオプション価格を変更できるようにする場合はオンにします。</help>
+    <label></label>
+    <name>SBQQ__PriceEditable__c</name>
+</CustomFieldTranslation>

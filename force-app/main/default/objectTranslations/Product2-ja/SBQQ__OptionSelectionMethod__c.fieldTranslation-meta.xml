@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ユーザがこの商品に付随するオプションを選択する方法を決定します。[クリック] の場合は、オプションの横にチェックボックスが表示されます。[追加] の場合は、使用可能なオプションを表示するダイアログボックスを開くボタンが表示されます。</help>
+    <label></label>
+    <name>SBQQ__OptionSelectionMethod__c</name>
+    <picklistValues>
+        <masterLabel>Add</masterLabel>
+        <translation>加算</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Click</masterLabel>
+        <translation>クリック</translation>
+    </picklistValues>
+</CustomFieldTranslation>

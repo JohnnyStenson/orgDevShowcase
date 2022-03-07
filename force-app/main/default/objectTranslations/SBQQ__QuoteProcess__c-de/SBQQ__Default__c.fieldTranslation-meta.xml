@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, wenn dieser Prozess im Belegposten-Editor der Standardwert für die Angebotsprozessauswahl sein soll. Gilt nur, wenn die Angebotsprozessauswahl als Auswahlliste dargestellt wird.</help>
+    <label></label>
+    <name>SBQQ__Default__c</name>
+</CustomFieldTranslation>

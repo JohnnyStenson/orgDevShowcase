@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Couleur de la trame des cellules du tableau qui contiennent le titre et la description du groupe.</help>
+    <label></label>
+    <name>SBQQ__GroupShadingColor__c</name>
+</CustomFieldTranslation>

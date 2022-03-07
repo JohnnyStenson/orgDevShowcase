@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <label></label>
+        <name>Krow__Add_Products</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__Clone_Proposal</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__Create_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__Create_Project</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__Import_from_Project</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__Sync_Project</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Krow__View_Project</name>
+    </webLinks>
+</CustomObjectTranslation>

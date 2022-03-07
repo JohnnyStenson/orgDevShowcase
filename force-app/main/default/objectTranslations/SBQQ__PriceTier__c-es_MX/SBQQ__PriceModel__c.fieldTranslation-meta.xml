@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El modelo de precios que determina el modo en que se calculan los precios o los descuentos.</help>
+    <label></label>
+    <name>SBQQ__PriceModel__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nome do método para o manipulador de clique dessa ação personalizada.</help>
+    <label></label>
+    <name>SBQQ__EventHandlerName__c</name>
+</CustomFieldTranslation>

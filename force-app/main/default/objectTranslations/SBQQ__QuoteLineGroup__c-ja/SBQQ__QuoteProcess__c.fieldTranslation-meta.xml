@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このグループで使用される見積プロセス。見積レベル項目よりも優先されます。</help>
+    <label></label>
+    <name>SBQQ__QuoteProcess__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

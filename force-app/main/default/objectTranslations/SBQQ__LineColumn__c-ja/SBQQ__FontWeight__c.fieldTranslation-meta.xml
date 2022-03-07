@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この列のテキストのフォントの太さを指定します。空白のままにするとデフォルトで [普通] になります。</help>
+    <label></label>
+    <name>SBQQ__FontWeight__c</name>
+    <picklistValues>
+        <masterLabel>Bold</masterLabel>
+        <translation>太字</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation>標準</translation>
+    </picklistValues>
+</CustomFieldTranslation>

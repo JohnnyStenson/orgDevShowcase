@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Numéro qui détermine l&apos;ordre d&apos;exécution des actions multiples d&apos;une règle.</help>
+    <label></label>
+    <name>SBQQ__Order__c</name>
+</CustomFieldTranslation>

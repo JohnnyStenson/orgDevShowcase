@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El incremento (Importe) se mide como un importe de divisa. Se trata de un campo calculado por el sistema, ya que Incremento solo puede aplicarse a segmentos MDQ en porcentaje.</help>
+    <label></label>
+    <name>SBQQ__UpliftAmount__c</name>
+</CustomFieldTranslation>

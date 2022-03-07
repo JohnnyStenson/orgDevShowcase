@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Basis, auf deren Grundlage das Startdatum für die Verlängerung und das Enddatum für die Änderung berechnet werden.</help>
+    <label></label>
+    <name>SBQQ__AmendmentRenewalBehavior__c</name>
+    <picklistValues>
+        <masterLabel>Earliest End Date</masterLabel>
+        <translation>Frühestes Enddatum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Latest End Date</masterLabel>
+        <translation>Spätestes Enddatum</translation>
+    </picklistValues>
+</CustomFieldTranslation>

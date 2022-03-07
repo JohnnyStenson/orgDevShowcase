@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;Aplicar inmediatamente Al seleccionar&quot; aplica cambios inmediatamente al seleccionar un producto, mientras que &quot;Aplicar inmediatamente Al cambiar la cantidad&quot; lo hace al realizarse un cambio en la cantidad. &quot;Siempre&quot; aplica los cambios en ambos supuestos, al seleccionar un producto y al cambiar la cantidad.</help>
+    <label></label>
+    <name>SBQQ__AppliedImmediatelyContext__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Siempre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Quantity Change</masterLabel>
+        <translation>Al cambiar la cantidad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Selection</masterLabel>
+        <translation>Al seleccionar</translation>
+    </picklistValues>
+</CustomFieldTranslation>

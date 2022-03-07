@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルールを見積全体または特定の商品に適用します。</help>
+    <label></label>
+    <name>SBQQ__Scope__c</name>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>商品</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>見積</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pour les produits à segments multiples, il correspond au type de dimension de prix (par exemple « ANNÉE », « MOIS », « TRIMESTRE ») de l&apos;élément commandé.</help>
+    <label></label>
+    <name>SBQQ__DimensionType__c</name>
+</CustomFieldTranslation>

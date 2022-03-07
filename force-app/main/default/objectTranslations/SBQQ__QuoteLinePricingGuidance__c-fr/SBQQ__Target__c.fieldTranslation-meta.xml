@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Faible remise idéale basée sur les ventes passées. Si un commercial accepte ce prix indicatif, Salesforce CPQ accorde une remise pour atteindre ce prix.</help>
+    <label></label>
+    <name>SBQQ__Target__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Mit &quot;Nach Abonnement-Enddatum&quot; wird ein separater Vertrag für jedes eindeutige Abonnement-Enddatum erstellt, der nur diese Abonnements enthält. Mit &quot;Einzelner Vertrag&quot; wird ein Vertrag erstellt, der alle Abonnements unabhängig von ihren jeweiligen Enddaten enthält.</help>
+    <label></label>
+    <name>SBQQ__ContractingMethod__c</name>
+    <picklistValues>
+        <masterLabel>By Subscription End Date</masterLabel>
+        <translation>Nach Abonnement-Enddatum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single Contract</masterLabel>
+        <translation>Einzelner Vertrag</translation>
+    </picklistValues>
+</CustomFieldTranslation>

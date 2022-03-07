@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Una explicación sobre esta orientación sobre precios y recomendaciones sobre los descuentos que se pueden proporcionar. Los representantes de ventas pueden ver esta explicación con la orientación sobre precios en el editor de partidas de presupuesto.</help>
+    <label></label>
+    <name>SBQQ__Explanation__c</name>
+</CustomFieldTranslation>

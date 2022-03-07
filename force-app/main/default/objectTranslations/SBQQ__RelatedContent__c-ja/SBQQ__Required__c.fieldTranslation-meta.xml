@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このコンテンツが商品で必要な場合は、チェックボックスをオンにします。ユーザは見積ドキュメントの生成時にこのコンテンツを含める必要があります。</help>
+    <label></label>
+    <name>SBQQ__Required__c</name>
+</CustomFieldTranslation>

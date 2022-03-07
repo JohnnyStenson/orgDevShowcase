@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Para Produtos multissegmentados, esse é o rótulo do cabeçalho de Coluna (por exemplo, &quot;Ano 1&quot;) associado a essa linha.</help>
+    <label></label>
+    <name>SBQQ__SegmentLabel__c</name>
+</CustomFieldTranslation>

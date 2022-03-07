@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Insira ou pesquise o recurso que inclui essa opção. Isso dependerá da SKU configurada.</help>
+    <label></label>
+    <name>SBQQ__Feature__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

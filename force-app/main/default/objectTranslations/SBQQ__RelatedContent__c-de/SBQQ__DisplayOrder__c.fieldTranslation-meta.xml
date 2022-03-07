@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Legen Sie die Reihenfolge fest, in der dieses Element einem Vertriebsbenutzer im Menü &quot;Zugehöriger Inhalt&quot; angezeigt wird. Wird kein Wert eingegeben, wird der Inhalt an der letzten Stelle platziert.</help>
+    <label></label>
+    <name>SBQQ__DisplayOrder__c</name>
+</CustomFieldTranslation>

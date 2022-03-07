@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dies ist eine Regelung für Rabatte, die auf der Abonnementlaufzeit basieren. In diese Felder eingegebene Werte überschreiben die auf der Produktebene festgelegten Werte.</help>
+    <label></label>
+    <name>SBQQ__TermDiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

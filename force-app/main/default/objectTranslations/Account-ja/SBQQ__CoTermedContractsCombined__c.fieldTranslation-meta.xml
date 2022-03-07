@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>複数の期間調整される契約から納入商品とサブスクリプションを統合できるようにします。デフォルトでは、期間調整される契約ごとに更新見積に別個のグループが生成されます。</help>
+    <label></label>
+    <name>SBQQ__CoTermedContractsCombined__c</name>
+</CustomFieldTranslation>

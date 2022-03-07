@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quantité supplémentaire de ce produit qui contribue aux calculs de remise sur volume</help>
+    <label></label>
+    <name>SBQQ__AdditionalQuantity__c</name>
+</CustomFieldTranslation>

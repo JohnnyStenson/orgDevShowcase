@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kennzeichen, das angibt, dass die Beschreibung dieses Produkts gesperrt ist (also im Angebot nicht bearbeitet werden kann).</help>
+    <label></label>
+    <name>SBQQ__DescriptionLocked__c</name>
+</CustomFieldTranslation>

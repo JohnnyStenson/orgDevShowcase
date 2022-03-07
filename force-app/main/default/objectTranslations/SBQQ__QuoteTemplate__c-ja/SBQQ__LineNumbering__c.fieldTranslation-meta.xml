@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>生成されるドキュメントの品目の採番方法を指定します。[見積で開始] では、すべての品目がグループ (存在する場合) を考慮せずに順番に採番されます。[グループで開始] では、各グループ内で番号がリセットされます。</help>
+    <label></label>
+    <name>SBQQ__LineNumbering__c</name>
+    <picklistValues>
+        <masterLabel>Start at group</masterLabel>
+        <translation>グループで開始</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start at quote</masterLabel>
+        <translation>見積で開始</translation>
+    </picklistValues>
+</CustomFieldTranslation>

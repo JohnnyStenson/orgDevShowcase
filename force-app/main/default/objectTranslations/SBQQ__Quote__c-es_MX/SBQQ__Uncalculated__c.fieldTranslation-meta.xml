@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si se selecciona, el presupuesto no se calcula aún.</help>
+    <label></label>
+    <name>SBQQ__Uncalculated__c</name>
+</CustomFieldTranslation>

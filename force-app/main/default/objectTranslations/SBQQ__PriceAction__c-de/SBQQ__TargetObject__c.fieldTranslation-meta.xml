@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>&quot;Angebot&quot; oder &quot;Angebotsbelegposten&quot; verwenden, wenn der Evaluierungsumfang der Preisregel &quot;Berechnung&quot; lautet; &quot;Produktoption&quot; verwenden, wenn der Evaluierungsumfang der Preisregel &quot;Konfiguration&quot; lautet</help>
+    <label></label>
+    <name>SBQQ__TargetObject__c</name>
+    <picklistValues>
+        <masterLabel>Product Option</masterLabel>
+        <translation>Produktoption</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Angebot</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Line</masterLabel>
+        <translation>Angebotsbelegposten</translation>
+    </picklistValues>
+</CustomFieldTranslation>

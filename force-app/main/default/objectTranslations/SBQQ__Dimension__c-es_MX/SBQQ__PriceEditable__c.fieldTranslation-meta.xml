@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica que esta dimensión permite que el precio pueda modificarse libremente cuando se confecciona un presupuesto.</help>
+    <label></label>
+    <name>SBQQ__PriceEditable__c</name>
+    <picklistValues>
+        <masterLabel>Inherit</masterLabel>
+        <translation>Heredar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation>No</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation>Sí</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品検索結果でこの商品の価格を非表示にする場合は、チェックボックスをオンにします。</help>
+    <label></label>
+    <name>SBQQ__HidePriceInSearchResults__c</name>
+</CustomFieldTranslation>

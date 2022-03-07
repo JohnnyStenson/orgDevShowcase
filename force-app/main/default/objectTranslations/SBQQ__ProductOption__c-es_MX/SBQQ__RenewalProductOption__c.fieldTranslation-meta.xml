@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Opción de producto que sustituye esta opción de producto en la renovación. Utilice esta opción para presupuestar un SKU diferente al renovar.</help>
+    <label></label>
+    <name>SBQQ__RenewalProductOption__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

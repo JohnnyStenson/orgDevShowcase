@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Abonnement, das diesen Vermögenswert derzeit abdeckt. Wird automatisch eingetragen, wenn nur ein einziges Abonnement diesen Vermögenswert abdeckt. Verlängerungen werden mit neuem Abonnement überschrieben.</help>
+    <label></label>
+    <name>SBQQ__CurrentSubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

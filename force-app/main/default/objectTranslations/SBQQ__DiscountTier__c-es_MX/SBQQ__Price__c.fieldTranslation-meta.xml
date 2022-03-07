@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El precio vigente de este nivel de descuentos. Este campo se rellenará cuando se cree un nuevo conjunto de programaciones de descuentos para un nuevo registro Pedido.</help>
+    <label></label>
+    <name>SBQQ__Price__c</name>
+</CustomFieldTranslation>

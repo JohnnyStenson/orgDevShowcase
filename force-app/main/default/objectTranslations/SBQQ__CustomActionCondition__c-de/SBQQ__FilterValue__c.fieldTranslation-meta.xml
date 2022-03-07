@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie den Wert ein, mit dem das ausgewählte Feld unter Verwendung des festgelegten Operators verglichen werden soll.</help>
+    <label></label>
+    <name>SBQQ__FilterValue__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette case si vous souhaitez masquer les sous-totaux de groupe dans les documents générés à partir de ce modèle.</help>
+    <label></label>
+    <name>SBQQ__HideGroupSubtotals__c</name>
+</CustomFieldTranslation>

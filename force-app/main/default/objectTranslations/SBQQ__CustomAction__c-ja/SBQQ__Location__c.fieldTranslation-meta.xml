@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このアクションのページ上の位置。</help>
+    <label></label>
+    <name>SBQQ__Location__c</name>
+    <picklistValues>
+        <masterLabel>Account Panel</masterLabel>
+        <translation>取引先パネル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Configurator</masterLabel>
+        <translation>コンフィグレータ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contract Panel</masterLabel>
+        <translation>契約パネル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>グループ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Line</masterLabel>
+        <translation>品目</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunity Panel</masterLabel>
+        <translation>商談パネル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Panel</masterLabel>
+        <translation>注文パネル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>見積</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Document Panel</masterLabel>
+        <translation>見積ドキュメントパネル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Panel</masterLabel>
+        <translation>見積パネル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote/Group</masterLabel>
+        <translation>見積/グループ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

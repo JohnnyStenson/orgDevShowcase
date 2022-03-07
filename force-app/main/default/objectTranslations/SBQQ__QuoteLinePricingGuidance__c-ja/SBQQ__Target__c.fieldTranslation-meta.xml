@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>過去の販売に基づく低域の適切な割引率。営業担当がこの価格設定ガイダンスを受け入れた場合、Salesforce CPQ はこの価格に達する割引を適用します。</help>
+    <label></label>
+    <name>SBQQ__Target__c</name>
+</CustomFieldTranslation>

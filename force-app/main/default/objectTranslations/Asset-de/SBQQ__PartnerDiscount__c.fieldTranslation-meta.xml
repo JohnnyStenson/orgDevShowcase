@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Partnerrabatte werden angewandt, nachdem alle automatischen und nach Ermessen gewährten Rabatte angewandt wurden. Der Partnerrabatt ist beim Partnerpreis bereits berücksichtigt.</help>
+    <label></label>
+    <name>SBQQ__PartnerDiscount__c</name>
+</CustomFieldTranslation>

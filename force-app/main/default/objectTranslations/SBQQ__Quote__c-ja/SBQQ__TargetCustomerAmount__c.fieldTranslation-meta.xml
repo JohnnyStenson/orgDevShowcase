@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>望ましい顧客金額を入力し、割引可能品目で自動的に追加割引を計算します。</help>
+    <label></label>
+    <name>SBQQ__TargetCustomerAmount__c</name>
+</CustomFieldTranslation>

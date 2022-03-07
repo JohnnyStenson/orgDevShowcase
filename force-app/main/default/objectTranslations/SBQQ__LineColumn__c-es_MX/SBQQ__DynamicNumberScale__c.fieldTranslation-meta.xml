@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La escala decimal para los números de la columna se establece en base a la precisión más grande de la columna.</help>
+    <label></label>
+    <name>SBQQ__DynamicNumberScale__c</name>
+</CustomFieldTranslation>

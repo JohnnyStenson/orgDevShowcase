@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>上昇 (金額) は、通貨金額として測定されます。上昇は MDQ セグメントにパーセントでのみ適用できるため、この項目はシステムによって計算されます。</help>
+    <label></label>
+    <name>SBQQ__UpliftAmount__c</name>
+</CustomFieldTranslation>

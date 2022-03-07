@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Legen Sie fest, wann diese Regel ausgewertet werden soll. Wird nur für Angebotsbelegposten verwendet; wird beim alten Rechner nicht unterstützt.</help>
+    <label></label>
+    <name>SBQQ__EvaluationEvent__c</name>
+    <picklistValues>
+        <masterLabel>After Calculate</masterLabel>
+        <translation>Nach der Berechnung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Before Calculate</masterLabel>
+        <translation>Vor der Berechnung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Calculate</masterLabel>
+        <translation>Bei der Berechnung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Initialization</masterLabel>
+        <translation>Bei Initialisierung</translation>
+    </picklistValues>
+</CustomFieldTranslation>

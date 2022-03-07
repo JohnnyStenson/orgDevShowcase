@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica que el producto de esta partida está aparejado (incluido) por otro producto en este presupuesto. Las partidas aparejadas tienen un precio cero y no permiten que se modifique el precio o la cantidad.</help>
+    <label></label>
+    <name>SBQQ__Bundled__c</name>
+</CustomFieldTranslation>

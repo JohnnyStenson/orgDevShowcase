@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>演算子、関数、および見積と対象オブジェクト上の使用可能な項目を使用して数式を入力します。従来の計算機能ではサポートされていません。</help>
+    <label></label>
+    <name>SBQQ__FilterFormula__c</name>
+</CustomFieldTranslation>

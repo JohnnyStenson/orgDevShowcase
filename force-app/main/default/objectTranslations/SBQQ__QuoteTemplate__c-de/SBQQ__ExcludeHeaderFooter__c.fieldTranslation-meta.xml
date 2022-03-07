@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Schließt Kopf- und Fußzeile der Vorlage für die erste Seite, die letzte Seite oder für erste und letzte Seite aus.</help>
+    <label></label>
+    <name>SBQQ__ExcludeHeaderFooter__c</name>
+    <picklistValues>
+        <masterLabel>First Page</masterLabel>
+        <translation>Erste Seite</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First and Last</masterLabel>
+        <translation>Erste und letzte</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Last Page</masterLabel>
+        <translation>Letzte Seite</translation>
+    </picklistValues>
+</CustomFieldTranslation>

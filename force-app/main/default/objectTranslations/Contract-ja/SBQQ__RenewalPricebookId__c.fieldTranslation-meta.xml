@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>元の商談の価格表 ID を使用しない場合、更新商談で使用する価格表 ID を指定します。</help>
+    <label></label>
+    <name>SBQQ__RenewalPricebookId__c</name>
+</CustomFieldTranslation>

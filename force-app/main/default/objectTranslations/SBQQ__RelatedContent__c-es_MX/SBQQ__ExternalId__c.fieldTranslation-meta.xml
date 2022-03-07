@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Id. del registro que contiene el contenido, como un documento o contenido de Salesforce.</help>
+    <label></label>
+    <name>SBQQ__ExternalId__c</name>
+</CustomFieldTranslation>

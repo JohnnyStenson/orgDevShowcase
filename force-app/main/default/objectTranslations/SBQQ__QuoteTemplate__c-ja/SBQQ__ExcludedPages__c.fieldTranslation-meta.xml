@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>すべてのページ、最初のページ、2 番目のページ、最初と最後のページのページ採番を除外します。</help>
+    <label></label>
+    <name>SBQQ__ExcludedPages__c</name>
+    <picklistValues>
+        <masterLabel>All Pages</masterLabel>
+        <translation>すべての Apex ページ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First Page</masterLabel>
+        <translation>最初のページ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First and Last</masterLabel>
+        <translation>最初と最後</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Last Page</masterLabel>
+        <translation>最後のページ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

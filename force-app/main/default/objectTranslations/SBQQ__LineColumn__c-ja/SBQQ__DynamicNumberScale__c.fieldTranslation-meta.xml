@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>列の数値の小数部桁数は、列内の最大精度に基づいて設定されます。</help>
+    <label></label>
+    <name>SBQQ__DynamicNumberScale__c</name>
+</CustomFieldTranslation>

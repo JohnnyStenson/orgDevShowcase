@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Descontos de parceiro são aplicados após todos os descontos automáticos e opcionais. O desconto de parceiro é levado em conta no Preço de parceiro.</help>
+    <label></label>
+    <name>SBQQ__PartnerDiscount__c</name>
+</CustomFieldTranslation>

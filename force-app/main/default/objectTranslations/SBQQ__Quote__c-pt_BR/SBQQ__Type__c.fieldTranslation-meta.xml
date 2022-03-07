@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica o tipo de cotação.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Amendment</masterLabel>
+        <translation>Alteração</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Cotação</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Re-Quote</masterLabel>
+        <translation>Nova cotação</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewal</masterLabel>
+        <translation>Renovação</translation>
+    </picklistValues>
+</CustomFieldTranslation>

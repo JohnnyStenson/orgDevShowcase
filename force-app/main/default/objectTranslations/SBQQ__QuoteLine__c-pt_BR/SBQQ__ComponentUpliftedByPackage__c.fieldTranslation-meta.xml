@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Fixa o aumento para esse componente para o aumento do pacote pai. O aumento aplica-se apenas a produtos multissegmentados.</help>
+    <label></label>
+    <name>SBQQ__ComponentUpliftedByPackage__c</name>
+</CustomFieldTranslation>

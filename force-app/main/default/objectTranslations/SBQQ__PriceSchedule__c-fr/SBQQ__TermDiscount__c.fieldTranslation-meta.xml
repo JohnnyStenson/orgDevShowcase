@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remise totale sur la durée appliquée à ce barème de prix. Cette valeur est disponible uniquement pour le type de prix différencié. Pour le type de prix au volume, la remise sur la durée est disponible pour chaque niveau de prix.</help>
+    <label></label>
+    <name>SBQQ__TermDiscount__c</name>
+</CustomFieldTranslation>

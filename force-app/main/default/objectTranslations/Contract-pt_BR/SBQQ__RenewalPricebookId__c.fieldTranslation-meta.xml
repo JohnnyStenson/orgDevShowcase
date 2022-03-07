@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique um ID do catálogo de preços a ser usado em Oportunidades de renovação se você não quiser usar o ID do catálogo de preços da oportunidade original.</help>
+    <label></label>
+    <name>SBQQ__RenewalPricebookId__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>オフにすると、修正見積終了日は [修正および更新動作] 設定に従って設定されます。オンにすると、終了日は設定されません。</help>
+    <label></label>
+    <name>SBQQ__DisableAmendmentCoTerm__c</name>
+</CustomFieldTranslation>

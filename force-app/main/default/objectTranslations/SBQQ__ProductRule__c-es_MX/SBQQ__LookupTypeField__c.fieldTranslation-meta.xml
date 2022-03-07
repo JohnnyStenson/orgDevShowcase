@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo en el Objeto de búsqueda correspondiente a la lista de selección de tipo de acción de producto. El campo debe ser una lista de selección o texto.</help>
+    <label></label>
+    <name>SBQQ__LookupTypeField__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__Type__c</masterLabel>
+        <translation>SBQQ__Type__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

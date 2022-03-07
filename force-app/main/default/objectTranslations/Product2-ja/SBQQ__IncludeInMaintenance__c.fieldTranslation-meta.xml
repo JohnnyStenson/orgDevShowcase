@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この商品を全体に対する割合の計算に常に含める場合は、オンにします (通常、サブスクリプション商品は全体に対する割合の計算から除外されます)。</help>
+    <label></label>
+    <name>SBQQ__IncludeInMaintenance__c</name>
+</CustomFieldTranslation>

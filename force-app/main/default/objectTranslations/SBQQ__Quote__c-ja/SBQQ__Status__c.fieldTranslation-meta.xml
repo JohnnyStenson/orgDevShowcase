@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積がライフサイクル内のどのフェーズにあるかを示す状況。</help>
+    <label></label>
+    <name>SBQQ__Status__c</name>
+    <picklistValues>
+        <masterLabel>Accepted</masterLabel>
+        <translation>承諾済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation>承認済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denied</masterLabel>
+        <translation>拒否済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation>ドラフト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Review</masterLabel>
+        <translation>レビュー中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presented</masterLabel>
+        <translation>提出済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejected</masterLabel>
+        <translation>却下済み</translation>
+    </picklistValues>
+</CustomFieldTranslation>

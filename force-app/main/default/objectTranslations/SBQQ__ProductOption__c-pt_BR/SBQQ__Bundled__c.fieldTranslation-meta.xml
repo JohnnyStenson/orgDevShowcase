@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção para indicar que o produto relacionado é empacotado com o produto principal. As opções empacotadas têm quantidade fixa e preço zero, uma vez que o preço está incluído no produto principal. Deixe desmarcada caso o preço deva ser adicionado à opção.</help>
+    <label></label>
+    <name>SBQQ__Bundled__c</name>
+</CustomFieldTranslation>

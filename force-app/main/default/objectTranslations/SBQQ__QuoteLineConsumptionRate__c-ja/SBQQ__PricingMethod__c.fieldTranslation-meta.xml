@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>SBQQ__PricingMethod__c</name>
+    <picklistValues>
+        <masterLabel>Flat Fee</masterLabel>
+        <translation>定額</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Per Unit</masterLabel>
+        <translation>単位ごと</translation>
+    </picklistValues>
+</CustomFieldTranslation>

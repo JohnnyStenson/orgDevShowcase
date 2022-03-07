@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Total de la suma de componentes de esta configuración. Este campo solo se rellena si esta partida hace referencia a un producto configurable.</help>
+    <label></label>
+    <name>SBQQ__ComponentTotal__c</name>
+</CustomFieldTranslation>

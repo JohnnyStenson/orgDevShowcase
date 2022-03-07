@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn mehrere Optionsbeschränkungen auf dieselbe beschränkte Option abzielen und die Optionsbeschränkungen derselben Gruppe zugeordnet werden, müssen ALLE beschränkenden Optionen ausgewählt werden.</help>
+    <label></label>
+    <name>SBQQ__OptionConstraintGroup__c</name>
+</CustomFieldTranslation>

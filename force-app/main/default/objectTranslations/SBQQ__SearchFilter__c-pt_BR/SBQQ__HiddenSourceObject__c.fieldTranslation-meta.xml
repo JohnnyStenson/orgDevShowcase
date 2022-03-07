@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique o objeto que adquire o valor a ser usado ao determinar se o campo é oculto.</help>
+    <label></label>
+    <name>SBQQ__HiddenSourceObject__c</name>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Cotação</translation>
+    </picklistValues>
+</CustomFieldTranslation>

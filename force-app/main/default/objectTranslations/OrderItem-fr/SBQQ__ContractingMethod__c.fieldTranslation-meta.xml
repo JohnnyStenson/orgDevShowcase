@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Contrôle le comportement d&apos;établissement du contrat d&apos;un produit commandé.</help>
+    <label></label>
+    <name>SBQQ__ContractingMethod__c</name>
+    <picklistValues>
+        <masterLabel>Contract Separately</masterLabel>
+        <translation>Contracter séparément</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Do Not Contract</masterLabel>
+        <translation>Ne pas contracter</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inherit</masterLabel>
+        <translation>Hériter</translation>
+    </picklistValues>
+</CustomFieldTranslation>

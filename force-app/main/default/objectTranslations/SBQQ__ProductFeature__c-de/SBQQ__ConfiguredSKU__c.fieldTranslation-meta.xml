@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das Produktpaket, das diese Funktion enthält. Wenn Sie die Funktion aus der Produktdetailseite heraus erstellt haben, sollte dieses Feld bereits ausgefüllt sein.</help>
+    <label></label>
+    <name>SBQQ__ConfiguredSKU__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Attribut de configuration dont cet attribut produit hérite.</help>
+    <label></label>
+    <lookupFilter>
+        <errorMessage></errorMessage>
+    </lookupFilter>
+    <name>SBQQ__Attribute__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Champ de l&apos;objet Devis qui contrôle si cette colonne est imprimée dans le document PDF généré.</help>
+    <label></label>
+    <name>SBQQ__ConditionalPrintField__c</name>
+    <picklistValues>
+        <masterLabel>Group Line Items</masterLabel>
+        <translation>Éléments de ligne de groupe</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si está marcada al establecer el presupuesto en &quot;Pedido&quot;, se creará un pedido para cada grupo de partidas de presupuesto con sus partidas de presupuesto asociadas.</help>
+    <label></label>
+    <name>SBQQ__OrderByQuoteLineGroup__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque para aplicar automaticamente desconto adicional do pacote pai a esse componente. Apenas desconto baseado em percentual pode ser aplicado.</help>
+    <label></label>
+    <name>SBQQ__DiscountedByPackage__c</name>
+</CustomFieldTranslation>

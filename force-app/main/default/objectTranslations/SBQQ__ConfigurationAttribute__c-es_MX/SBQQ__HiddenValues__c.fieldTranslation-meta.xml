@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ingrese valores desde el campo de lista de selección correspondiente en el objeto Opción de producto que desee que se oculte en este paquete.</help>
+    <label></label>
+    <name>SBQQ__HiddenValues__c</name>
+</CustomFieldTranslation>

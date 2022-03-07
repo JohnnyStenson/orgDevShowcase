@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Zielobjekt für den Standardwert des Attributs.</help>
+    <label></label>
+    <name>SBQQ__DefaultObject__c</name>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Angebot</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Line Group</masterLabel>
+        <translation>Gruppe von Angebotsbelegposten</translation>
+    </picklistValues>
+</CustomFieldTranslation>

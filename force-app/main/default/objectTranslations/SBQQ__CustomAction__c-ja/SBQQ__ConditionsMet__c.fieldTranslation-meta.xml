@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>条件の動作を選択します。「すべて」は AND、「いずれか」は OR になります。</help>
+    <label></label>
+    <name>SBQQ__ConditionsMet__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation>すべて</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Any</masterLabel>
+        <translation>いずれか</translation>
+    </picklistValues>
+</CustomFieldTranslation>

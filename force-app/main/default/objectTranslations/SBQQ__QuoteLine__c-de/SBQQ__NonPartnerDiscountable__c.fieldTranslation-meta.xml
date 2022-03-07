@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, um diesen Posten als nicht rabattfähig für Partner zu kennzeichnen.</help>
+    <label></label>
+    <name>SBQQ__NonPartnerDiscountable__c</name>
+</CustomFieldTranslation>

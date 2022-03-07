@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique como agregar quantidades de linhas de cotação para produtos usando esse cronograma. Por padrão, a quantidade de cada linha (inclusive para o mesmo produto) é considerada de modo independente.</help>
+    <label></label>
+    <name>SBQQ__AggregationScope__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>Grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Cotação</translation>
+    </picklistValues>
+</CustomFieldTranslation>

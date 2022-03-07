@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Número que indica a posição desse nível dentro do cronograma.</help>
+    <label></label>
+    <name>SBQQ__Number__c</name>
+</CustomFieldTranslation>

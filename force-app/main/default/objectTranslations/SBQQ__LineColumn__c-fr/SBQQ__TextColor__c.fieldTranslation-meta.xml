@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez la couleur (en valeur hexadécimale) du texte de cette colonne. Si vous laissez ce champ vide, le texte hérite de la couleur du modèle.</help>
+    <label></label>
+    <name>SBQQ__TextColor__c</name>
+</CustomFieldTranslation>

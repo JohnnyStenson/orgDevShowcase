@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Coût d&apos;une unité de produit généré dans le devis par cet élément de ligne si les barèmes de coût n&apos;ont pas été appliqués.</help>
+    <label></label>
+    <name>SBQQ__OriginalUnitCost__c</name>
+</CustomFieldTranslation>

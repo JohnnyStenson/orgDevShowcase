@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積品目の顧客合計。これは、すべてのパートナー割引を除外した正味合計です。</help>
+    <label></label>
+    <name>SBQQ__CustomerTotal__c</name>
+</CustomFieldTranslation>

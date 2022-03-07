@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Título da seção exibida no campo Observações. Para não exibir o título, deixe esse campo em branco.</help>
+    <label></label>
+    <name>SBQQ__NotesTitle__c</name>
+</CustomFieldTranslation>

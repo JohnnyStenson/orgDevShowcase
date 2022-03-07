@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le prix unitaire d&apos;origine du produit généré par cet élément de ligne. Ce prix d&apos;origine provient du catalogue de prix.</help>
+    <label></label>
+    <name>SBQQ__OriginalPrice__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El mensaje de estado del cálculo de los precios.</help>
+    <label></label>
+    <name>SBQQ__PriceCalcStatusMessage__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marca esta partida como opcional. Las partidas opcionales no contribuyen al total del presupuesto ni se transfieren a la oportunidad.</help>
+    <label></label>
+    <name>SBQQ__Optional__c</name>
+</CustomFieldTranslation>

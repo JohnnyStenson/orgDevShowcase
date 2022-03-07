@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Distributeur de ce devis. Utilise par défaut le partenaire de l&apos;opportunité qui dispose du rôle « Distributeur ».</help>
+    <label></label>
+    <name>SBQQ__Distributor__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

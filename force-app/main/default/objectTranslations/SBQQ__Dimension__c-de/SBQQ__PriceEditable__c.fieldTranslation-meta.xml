@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt an, dass es bei dieser Dimension zulässig ist, den Preis bei der Angebotserstellung uneingeschränkt zu ändern.</help>
+    <label></label>
+    <name>SBQQ__PriceEditable__c</name>
+    <picklistValues>
+        <masterLabel>Inherit</masterLabel>
+        <translation>Übernehmen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation>Nein</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation>Ja</translation>
+    </picklistValues>
+</CustomFieldTranslation>

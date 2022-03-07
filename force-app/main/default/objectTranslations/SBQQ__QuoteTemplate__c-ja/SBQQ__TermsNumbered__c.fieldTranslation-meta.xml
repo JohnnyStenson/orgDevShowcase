@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このテンプレートで表示される見積規約を採番する場合は、チェックボックスをオンにします。</help>
+    <label></label>
+    <name>SBQQ__TermsNumbered__c</name>
+</CustomFieldTranslation>

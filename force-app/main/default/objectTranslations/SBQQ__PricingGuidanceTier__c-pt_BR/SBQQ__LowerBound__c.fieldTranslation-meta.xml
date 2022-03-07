@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>A quantidade mais baixa de linha de cotação que se aplica a este grupo. O número deve corresponder ao limite superior do grupo anterior.</help>
+    <label></label>
+    <name>SBQQ__LowerBound__c</name>
+</CustomFieldTranslation>

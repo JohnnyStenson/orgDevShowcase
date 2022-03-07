@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ingrese el valor para lo que desea que aparezca cuando un usuario pase el ratón sobre el botón Acción personalizada.</help>
+    <label></label>
+    <name>SBQQ__Description__c</name>
+</CustomFieldTranslation>

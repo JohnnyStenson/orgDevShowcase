@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aumento (Valor) é medido como um valor monetário. Esse é um campo calculado pelo sistema, uma vez que Aumento pode ser aplicado apenas a segmentos MDQ em percentual.</help>
+    <label></label>
+    <name>SBQQ__UpliftAmount__c</name>
+</CustomFieldTranslation>

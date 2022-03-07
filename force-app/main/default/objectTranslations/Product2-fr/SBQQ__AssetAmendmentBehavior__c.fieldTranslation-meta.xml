@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez un comportement lors de l&apos;amendement des ressources qui représentent de produit. Par défaut, les quantités de ressources ne peuvent pas diminuer, sauf si une mise à niveau est ajoutée, et aucun remboursement n&apos;est appliqué.</help>
+    <label></label>
+    <name>SBQQ__AssetAmendmentBehavior__c</name>
+    <picklistValues>
+        <masterLabel>Allow Refund</masterLabel>
+        <translation>Autoriser le remboursement</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default</masterLabel>
+        <translation>Par défaut</translation>
+    </picklistValues>
+</CustomFieldTranslation>

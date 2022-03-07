@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Preço unitário para essa opção. Isso substituirá o valor do catálogo de preços.</help>
+    <label></label>
+    <name>SBQQ__UnitPrice__c</name>
+</CustomFieldTranslation>

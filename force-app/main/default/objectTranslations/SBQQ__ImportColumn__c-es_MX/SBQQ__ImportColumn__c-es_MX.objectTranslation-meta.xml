@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Columna de importación</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Columnas de importación</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de columna</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Column_index_must_start_from_1</name>
+    </validationRules>
+</CustomObjectTranslation>

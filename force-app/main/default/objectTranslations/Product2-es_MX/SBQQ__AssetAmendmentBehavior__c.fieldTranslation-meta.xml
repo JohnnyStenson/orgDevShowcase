@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione un comportamiento al corregir activos que representan este producto. Las cantidades de activos no pueden disminuir de forma predeterminada a no ser que se agregue una mejora, y no se aplica ningún reembolso.</help>
+    <label></label>
+    <name>SBQQ__AssetAmendmentBehavior__c</name>
+    <picklistValues>
+        <masterLabel>Allow Refund</masterLabel>
+        <translation>Permitir reembolso</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default</masterLabel>
+        <translation>Predeterminado</translation>
+    </picklistValues>
+</CustomFieldTranslation>

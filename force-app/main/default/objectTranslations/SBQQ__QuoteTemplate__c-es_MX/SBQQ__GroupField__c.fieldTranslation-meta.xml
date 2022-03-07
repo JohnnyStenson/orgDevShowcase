@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione el campo que tiene los valores que quiere utilizar al agrupar y subtotalizar partidas.</help>
+    <label></label>
+    <name>SBQQ__GroupField__c</name>
+    <picklistValues>
+        <masterLabel>Product Family</masterLabel>
+        <translation>Familia de productos</translation>
+    </picklistValues>
+</CustomFieldTranslation>

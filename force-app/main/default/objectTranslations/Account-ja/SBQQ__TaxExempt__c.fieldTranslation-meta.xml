@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この取引先に有効な証明書がある場合に選択</help>
+    <label></label>
+    <name>SBQQ__TaxExempt__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation>いいえ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation>はい</translation>
+    </picklistValues>
+</CustomFieldTranslation>

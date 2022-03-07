@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Règle de prix</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Règles de prix</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de la règle de prix</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__CloneWithRelated</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__CloneWithRelatedClassic</name>
+    </webLinks>
+</CustomObjectTranslation>

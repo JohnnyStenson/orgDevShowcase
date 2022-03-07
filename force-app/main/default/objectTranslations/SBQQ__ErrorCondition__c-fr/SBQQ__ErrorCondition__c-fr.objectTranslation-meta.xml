@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Condition d&apos;erreur</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Conditions d&apos;erreurs</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>N° de condition</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__FilterCombinationValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__ScopeAndErrorConditionTestedObject</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Tested_attr_required_if_global_field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Tested_field_or_variable_required</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ligne de devis de souscription qui couvre la ligne de devis de ressource.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionQuoteLine__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

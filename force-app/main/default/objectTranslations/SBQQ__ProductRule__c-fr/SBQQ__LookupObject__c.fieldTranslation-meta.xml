@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nom d&apos;API de l&apos;objet personnalisé qui stocke les données de référence.</help>
+    <label></label>
+    <name>SBQQ__LookupObject__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__LookupData__c</masterLabel>
+        <translation>SBQQ__LookupData__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

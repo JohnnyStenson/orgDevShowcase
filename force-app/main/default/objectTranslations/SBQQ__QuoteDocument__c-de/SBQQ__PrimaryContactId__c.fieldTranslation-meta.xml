@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Referenziert den Hauptansprechpartner für das Angebot, der bei der Schaltfläche &quot;E-Mail&quot; verwendet werden soll, deren Standardfeld das Feld &quot;An:&quot; ist.</help>
+    <label></label>
+    <name>SBQQ__PrimaryContactId__c</name>
+</CustomFieldTranslation>

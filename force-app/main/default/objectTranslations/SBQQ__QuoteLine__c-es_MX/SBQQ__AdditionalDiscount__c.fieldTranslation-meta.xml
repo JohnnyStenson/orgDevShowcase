@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Total de descuentos adicionales ampliados a esta partida. El descuento adicional se define como un descuento ampliado sobre el descuento por volumen o precios negociados.</help>
+    <label></label>
+    <name>SBQQ__AdditionalDiscount__c</name>
+</CustomFieldTranslation>

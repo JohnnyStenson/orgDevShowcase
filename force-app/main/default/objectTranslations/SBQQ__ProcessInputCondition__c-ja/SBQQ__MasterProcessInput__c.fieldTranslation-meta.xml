@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このプロセス入力の値によって現在の入力が表示されるかどうかが決定されます。</help>
+    <label></label>
+    <name>SBQQ__MasterProcessInput__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

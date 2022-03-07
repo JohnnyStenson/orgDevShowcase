@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Donne aux commerciaux une explication de ce prix indicatif et des recommandations sur les remises à fournir. Ils peuvent afficher cette explication avec les prix indicatifs dans l&apos;éditeur de ligne de devis.</help>
+    <label></label>
+    <name>SBQQ__Explanation__c</name>
+</CustomFieldTranslation>

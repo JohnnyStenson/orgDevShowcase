@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Assinatura recebendo uma atualização por essa linha de cotação. Quando a cotação for contratada, essa assinatura terá o campo Data de encerramento preenchido.</help>
+    <label></label>
+    <name>SBQQ__UpgradedSubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

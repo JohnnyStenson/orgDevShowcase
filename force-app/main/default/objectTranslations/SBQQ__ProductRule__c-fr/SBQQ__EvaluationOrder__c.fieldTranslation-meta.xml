@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez l&apos;ordre d&apos;évaluation de cette règle de prix. Les règles de niveau supérieur sont évaluées en dernier, ce qui signifie qu&apos;elles « gagnent » en cas de conflit.</help>
+    <label></label>
+    <name>SBQQ__EvaluationOrder__c</name>
+</CustomFieldTranslation>

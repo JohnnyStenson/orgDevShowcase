@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Fecha de finalización de vigencia para esta suscripción.</help>
+    <label></label>
+    <name>SBQQ__EffectiveEndDate__c</name>
+</CustomFieldTranslation>

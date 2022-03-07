@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo en el Objeto de búsqueda correspondiente a la casilla de verificación de acción de producto requerida. El campo debe ser una casilla de verificación.</help>
+    <label></label>
+    <name>SBQQ__LookupRequiredField__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__Required__c</masterLabel>
+        <translation>SBQQ__Required__c</translation>
+    </picklistValues>
+</CustomFieldTranslation>

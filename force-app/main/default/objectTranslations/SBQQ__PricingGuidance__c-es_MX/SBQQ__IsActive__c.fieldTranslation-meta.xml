@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Activa esta orientación sobre precios para utilizar en el producto asociado.</help>
+    <label></label>
+    <name>SBQQ__IsActive__c</name>
+</CustomFieldTranslation>

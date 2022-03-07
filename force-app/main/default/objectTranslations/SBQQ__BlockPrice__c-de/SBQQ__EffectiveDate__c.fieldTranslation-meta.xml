@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Das Datum, ab dem dieser Zonenpreis gilt. Der Wert wird verwendet, wenn beim Erstellen des Aufttrags ein Zonenpreis-Snapshot erstellt wird.</help>
+    <label></label>
+    <name>SBQQ__EffectiveDate__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Insira uma mensagem a ser exibida quando a regra for ativada. Uma mensagem de erro será exibida quando uma Validação for acionada. Uma mensagem de advertência será exibida quando um Alerta for acionado. Não se aplica a regras de Filtro.</help>
+    <label></label>
+    <name>SBQQ__ErrorMessage__c</name>
+</CustomFieldTranslation>

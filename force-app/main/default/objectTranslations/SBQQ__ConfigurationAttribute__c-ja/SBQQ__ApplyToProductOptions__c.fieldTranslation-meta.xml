@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>設定属性の選択内容を商品オプションに適用する場合はチェックボックスをオンにします。</help>
+    <label></label>
+    <name>SBQQ__ApplyToProductOptions__c</name>
+</CustomFieldTranslation>

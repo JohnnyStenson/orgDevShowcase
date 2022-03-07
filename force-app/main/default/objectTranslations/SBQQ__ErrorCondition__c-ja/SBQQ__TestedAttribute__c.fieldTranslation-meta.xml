@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>テスト対象項目がグローバルな設定属性項目である場合、特定の属性を識別するために使用します。</help>
+    <label></label>
+    <name>SBQQ__TestedAttribute__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

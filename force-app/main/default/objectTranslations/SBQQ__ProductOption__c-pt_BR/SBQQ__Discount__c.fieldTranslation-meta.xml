@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Insira um desconto (%), com base no campo, quando o produto referido por essa opção for oferecido de modo independente. Porém, será preciso oferecer um desconto se comprado como parte desse produto empacotado.</help>
+    <label></label>
+    <name>SBQQ__Discount__c</name>
+</CustomFieldTranslation>

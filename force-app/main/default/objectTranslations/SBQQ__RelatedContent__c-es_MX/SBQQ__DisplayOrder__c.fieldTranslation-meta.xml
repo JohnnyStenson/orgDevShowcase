@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Establezca el orden en el que este artículo aparecerá para un usuario de ventas en el menú Contenido relacionado. Si se deja en blanco, el contenido se ordenará en último lugar.</help>
+    <label></label>
+    <name>SBQQ__DisplayOrder__c</name>
+</CustomFieldTranslation>

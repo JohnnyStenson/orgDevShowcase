@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque ce produit en tant que composant, ce qui l&apos;exclut de la sélection dans la référence produit.</help>
+    <label></label>
+    <name>SBQQ__Component__c</name>
+</CustomFieldTranslation>

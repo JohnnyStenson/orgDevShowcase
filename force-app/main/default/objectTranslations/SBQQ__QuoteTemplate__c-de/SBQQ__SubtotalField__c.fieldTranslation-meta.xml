@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie ein Feld aus, das summiert und als Zwischensumme für eine Gruppe bzw. ein Angebot angezeigt werden soll.</help>
+    <label></label>
+    <name>SBQQ__SubtotalField__c</name>
+    <picklistValues>
+        <masterLabel>Customer Total</masterLabel>
+        <translation>Kundengesamtpreis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List Total</masterLabel>
+        <translation>Listengesamtpreis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net Total</masterLabel>
+        <translation>Netto gesamt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular Total</masterLabel>
+        <translation>Regulär gesamt</translation>
+    </picklistValues>
+</CustomFieldTranslation>

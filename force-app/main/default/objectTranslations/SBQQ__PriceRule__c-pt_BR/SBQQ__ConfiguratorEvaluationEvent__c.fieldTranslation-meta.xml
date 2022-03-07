@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando as opções Nenhum ou Salvar forem selecionadas, as regras de preço no escopo do Configurador serão acionadas ao salvar. Quando a opção Editar for selecionada, as regras de preço no escopo do Configurador serão acionadas ao editar e salvar.</help>
+    <label></label>
+    <name>SBQQ__ConfiguratorEvaluationEvent__c</name>
+    <picklistValues>
+        <masterLabel>Edit</masterLabel>
+        <translation>Editar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Save</masterLabel>
+        <translation>Salvar</translation>
+    </picklistValues>
+</CustomFieldTranslation>

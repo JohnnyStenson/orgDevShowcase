@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この契約をこの取引先の主契約として指定するには選択します。更新時、すべての契約はこの契約に集約されます。</help>
+    <label></label>
+    <name>SBQQ__MasterContract__c</name>
+</CustomFieldTranslation>

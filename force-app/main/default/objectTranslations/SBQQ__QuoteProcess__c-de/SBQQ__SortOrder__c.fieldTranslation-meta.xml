@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie die laufende Nummer an, die die Anzeigereihenfolge des Angebotsprozesses bestimmt.</help>
+    <label></label>
+    <name>SBQQ__SortOrder__c</name>
+</CustomFieldTranslation>

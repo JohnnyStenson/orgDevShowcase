@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn Ihr Unternehmen seine Produkte über einen Channel/Vertragshändler vertreibt, kann ein Partnerrabatt auf ein Angebot oder einen einzelnen Belegposten gegeben werden. Partnerrabatte werden nach Abzug aller automatischen und nach Ermessen gewährten Rabatte angewandt.</help>
+    <label></label>
+    <name>SBQQ__PartnerDiscount__c</name>
+</CustomFieldTranslation>

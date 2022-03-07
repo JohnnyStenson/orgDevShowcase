@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se hace coincidir el uso con una programación de consumo si los registros muestran el mismo valor de Atributo de coincidencia.</help>
+    <label></label>
+    <name>SBQQ__MatchingAttribute__c</name>
+</CustomFieldTranslation>

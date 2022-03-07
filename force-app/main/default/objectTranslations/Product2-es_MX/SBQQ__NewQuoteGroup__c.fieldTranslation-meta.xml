@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque esta opción para crear un nuevo grupo de presupuestos cuando se agrega este producto (a no ser que el grupo actual esté vacío).</help>
+    <label></label>
+    <name>SBQQ__NewQuoteGroup__c</name>
+</CustomFieldTranslation>

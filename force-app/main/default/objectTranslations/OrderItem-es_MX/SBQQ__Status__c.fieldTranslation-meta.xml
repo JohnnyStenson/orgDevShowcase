@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica el estado actual del producto de pedido. Toma como valor predeterminado Borrador cuando se crea un pedido.</help>
+    <label></label>
+    <name>SBQQ__Status__c</name>
+</CustomFieldTranslation>

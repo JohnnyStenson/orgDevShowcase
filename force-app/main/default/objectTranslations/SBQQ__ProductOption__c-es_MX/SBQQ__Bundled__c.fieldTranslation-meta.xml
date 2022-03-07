@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleccione la casilla de verificación para indicar que el producto relacionado está aparejado al producto principal. Las opciones aparejadas tienen una cantidad fija y precio cero, ya que el precio está incluido en el producto principal. Deje esta opción sin marcar si el precio debe agregarse a la opción.</help>
+    <label></label>
+    <name>SBQQ__Bundled__c</name>
+</CustomFieldTranslation>

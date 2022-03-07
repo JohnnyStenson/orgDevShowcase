@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>過去の販売に基づく中間域の割引率。営業担当はこの価格を使用する必要がある場合、見積品目に割引を手動で適用する必要があります。この割引には、組織の承認設定に基づく承認が必要です。</help>
+    <label></label>
+    <name>SBQQ__Norm__c</name>
+</CustomFieldTranslation>

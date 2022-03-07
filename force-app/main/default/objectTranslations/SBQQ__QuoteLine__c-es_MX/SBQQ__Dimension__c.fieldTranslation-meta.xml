@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dimensiones dentro de un producto MDQ en el que a cada segmento se asigna un precio de forma independiente. Cada producto puede contener varias dimensiones de precios. Las dimensiones de precios anuales se tratan como suscripciones.</help>
+    <label></label>
+    <name>SBQQ__Dimension__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

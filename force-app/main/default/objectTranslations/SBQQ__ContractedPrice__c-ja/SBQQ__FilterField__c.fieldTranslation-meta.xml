@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この価格を商品のセットに適用する場合は、商品ファミリなど、条件で使用する項目を選択します。カスタム項目を使用している場合、API 参照名を選択リスト値として [条件項目] に追加します。</help>
+    <label></label>
+    <name>SBQQ__FilterField__c</name>
+    <picklistValues>
+        <masterLabel>Product</masterLabel>
+        <translation>商品</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>商品コード</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Family</masterLabel>
+        <translation>商品ファミリ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

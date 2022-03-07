@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Chave única interna usada para identificar cotações de &quot;carrinho de compras&quot; sem depender de IDs internos</help>
+    <label></label>
+    <name>SBQQ__Key__c</name>
+</CustomFieldTranslation>

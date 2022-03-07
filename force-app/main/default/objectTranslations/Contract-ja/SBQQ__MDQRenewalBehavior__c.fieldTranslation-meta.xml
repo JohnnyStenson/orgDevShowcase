@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>セグメント化されたサブスクリプション商品を更新見積でどのように表示するかを定義します。セグメント化を解除すると、最終セグメントのデータで標準見積品目として更新されます。</help>
+    <label></label>
+    <name>SBQQ__MDQRenewalBehavior__c</name>
+    <picklistValues>
+        <masterLabel>De-segmented</masterLabel>
+        <translation>セグメント化解除</translation>
+    </picklistValues>
+</CustomFieldTranslation>

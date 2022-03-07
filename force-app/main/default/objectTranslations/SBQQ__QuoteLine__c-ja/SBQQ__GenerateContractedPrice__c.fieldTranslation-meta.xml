@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>フラグが付いている場合、調整済み見積品目に基づいて契約価格を生成します。</help>
+    <label></label>
+    <name>SBQQ__GenerateContractedPrice__c</name>
+    <picklistValues>
+        <masterLabel>Discount Schedule</masterLabel>
+        <translation>割引率表</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Do Not Generate</masterLabel>
+        <translation>生成しない</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation>価格</translation>
+    </picklistValues>
+</CustomFieldTranslation>

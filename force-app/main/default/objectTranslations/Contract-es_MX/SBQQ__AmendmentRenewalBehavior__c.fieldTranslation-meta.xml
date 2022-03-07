@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>La base con la que se calculan Fecha de inicio de renovación y Fecha de finalización de corrección.</help>
+    <label></label>
+    <name>SBQQ__AmendmentRenewalBehavior__c</name>
+    <picklistValues>
+        <masterLabel>Earliest End Date</masterLabel>
+        <translation>Fecha de finalización más temprana</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Latest End Date</masterLabel>
+        <translation>Fecha de finalización más tardía</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Use &quot;Mesmo&quot; para manter o mesmo preço pago na última vez. Use &quot;Lista&quot; para usar o preço de lista atual. Use &quot;Aumento&quot; para usar o preço pago na última vez mais algum aumento.</help>
+    <label></label>
+    <name>SBQQ__RenewalPricingMethod__c</name>
+    <picklistValues>
+        <masterLabel>List</masterLabel>
+        <translation>Lista</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Same</masterLabel>
+        <translation>Mesmo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uplift</masterLabel>
+        <translation>Aumento</translation>
+    </picklistValues>
+</CustomFieldTranslation>

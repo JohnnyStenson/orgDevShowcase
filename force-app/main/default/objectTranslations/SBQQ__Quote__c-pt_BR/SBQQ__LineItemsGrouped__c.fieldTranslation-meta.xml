@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione essa opção para usar SolutionGroups(TM) ou adicionar seus próprios grupos na página Editar linhas para classificar e subtotalizar itens de linha de cotação.</help>
+    <label></label>
+    <name>SBQQ__LineItemsGrouped__c</name>
+</CustomFieldTranslation>

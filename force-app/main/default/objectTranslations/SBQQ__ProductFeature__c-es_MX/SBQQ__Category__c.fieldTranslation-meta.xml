@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Asigne esta función a una categoría de modo que se agrupen juntas múltiples funciones con opciones relacionadas.</help>
+    <label></label>
+    <name>SBQQ__Category__c</name>
+    <picklistValues>
+        <masterLabel>Hardware</masterLabel>
+        <translation>Hardware</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Software</masterLabel>
+        <translation>Software</translation>
+    </picklistValues>
+</CustomFieldTranslation>

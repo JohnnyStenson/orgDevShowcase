@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione se esse produto for opcional por padrão. Produtos opcionais não contribuem para o total da cotação nem são transferidos para a oportunidade.</help>
+    <label></label>
+    <name>SBQQ__Optional__c</name>
+</CustomFieldTranslation>

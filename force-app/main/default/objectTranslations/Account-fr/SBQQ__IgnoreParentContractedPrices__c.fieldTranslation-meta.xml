@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez si les prix contractés doivent être hérités du compte parent.</help>
+    <label></label>
+    <name>SBQQ__IgnoreParentContractedPrices__c</name>
+</CustomFieldTranslation>

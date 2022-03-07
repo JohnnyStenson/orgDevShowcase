@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ID do Salesforce para o documento contendo a imagem de marca d&apos;água usada no PDF da cotação.</help>
+    <label></label>
+    <name>SBQQ__WatermarkId__c</name>
+</CustomFieldTranslation>

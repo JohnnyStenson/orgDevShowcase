@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>空白以外の値を設定すると、この商品がバッチで販売されることを指定します。各バッチに含める数量を入力します。見積に入力された数量は、この値で割って最も近い整数に切り上げられます。</help>
+    <label></label>
+    <name>SBQQ__BatchQuantity__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Benutzerdefinierte Visualforce-Seite, die bei jedem konfigurierbaren Produkt aufgerufen wird, um die Optionen zu initialisieren.</help>
+    <label></label>
+    <name>SBQQ__ProductConfigurationInitializer__c</name>
+</CustomFieldTranslation>

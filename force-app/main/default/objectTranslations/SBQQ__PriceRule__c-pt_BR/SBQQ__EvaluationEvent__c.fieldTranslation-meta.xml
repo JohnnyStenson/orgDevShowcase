@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique quando essa regra deve ser avaliada. Ela deve ser usada apenas ao focar em Linha de cotação e sem suporte na calculadora legada.</help>
+    <label></label>
+    <name>SBQQ__EvaluationEvent__c</name>
+    <picklistValues>
+        <masterLabel>After Calculate</masterLabel>
+        <translation>Depois de calcular</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Before Calculate</masterLabel>
+        <translation>Antes de calcular</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Calculate</masterLabel>
+        <translation>Ao calcular</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Initialization</masterLabel>
+        <translation>Na inicialização</translation>
+    </picklistValues>
+</CustomFieldTranslation>

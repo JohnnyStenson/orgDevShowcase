@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez la case pour indiquer que cette option est gérée par le système, ce qui signifie que l&apos;utilisateur ne peut plus la sélectionner.</help>
+    <label></label>
+    <name>SBQQ__System__c</name>
+</CustomFieldTranslation>

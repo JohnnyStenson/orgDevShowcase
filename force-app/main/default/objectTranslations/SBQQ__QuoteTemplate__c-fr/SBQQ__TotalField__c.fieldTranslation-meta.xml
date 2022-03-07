@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez le champ utilisé pour calculer et afficher le total du groupe/devis.</help>
+    <label></label>
+    <name>SBQQ__TotalField__c</name>
+    <picklistValues>
+        <masterLabel>Customer Total</masterLabel>
+        <translation>Total du client</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List Total</masterLabel>
+        <translation>Total catalogue</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net Total</masterLabel>
+        <translation>Total net</translation>
+    </picklistValues>
+</CustomFieldTranslation>

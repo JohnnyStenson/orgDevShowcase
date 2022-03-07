@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ingrese un mensaje que se mostrará cuando se active la regla. Se mostrará un mensaje de error cuando se desencadene una validación. Se mostrará un mensaje de advertencia cuando se desencadene una alerta. No se aplica a reglas de filtros.</help>
+    <label></label>
+    <name>SBQQ__ErrorMessage__c</name>
+</CustomFieldTranslation>

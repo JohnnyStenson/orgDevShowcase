@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Muster, das zum Erzeugen von Produktcode (SKU) für konfigurierte Produkte verwendet wird.</help>
+    <label></label>
+    <name>SBQQ__ConfiguredCodePattern__c</name>
+</CustomFieldTranslation>

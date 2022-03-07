@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>動的に計算される価格に対して制約を適用するために使用します。</help>
+    <label></label>
+    <name>SBQQ__DynamicPricingConstraint__c</name>
+    <picklistValues>
+        <masterLabel>List price is maximum</masterLabel>
+        <translation>リスト価格が最高</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List price is minimum</masterLabel>
+        <translation>リスト価格が最低</translation>
+    </picklistValues>
+</CustomFieldTranslation>

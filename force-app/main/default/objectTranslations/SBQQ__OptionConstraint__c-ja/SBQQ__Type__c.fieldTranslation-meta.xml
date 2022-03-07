@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この制約の動作を選択します。連動関係とは包含が必須であることを意味し、除外とは制約オプションが選択されているときにオプション制約が選択されない、またはその逆を意味します。</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Dependency</masterLabel>
+        <translation>連動関係</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exclusion</masterLabel>
+        <translation>除外</translation>
+    </picklistValues>
+</CustomFieldTranslation>

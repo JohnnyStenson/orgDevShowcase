@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>小計項目の表示ラベルを入力します。</help>
+    <label></label>
+    <name>SBQQ__SubtotalLabel__c</name>
+</CustomFieldTranslation>
