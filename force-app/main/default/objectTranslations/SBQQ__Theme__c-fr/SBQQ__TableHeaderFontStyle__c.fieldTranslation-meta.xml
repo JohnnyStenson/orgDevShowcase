@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Style de la police de l&apos;en-tête du tableau (pour plus d&apos;informations, cliquez sur l&apos;icône)</help>
+    <label></label>
+    <name>SBQQ__TableHeaderFontStyle__c</name>
+    <picklistValues>
+        <masterLabel>italic</masterLabel>
+        <translation>italic</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>normal</masterLabel>
+        <translation>normal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>oblique</masterLabel>
+        <translation>oblique</translation>
+    </picklistValues>
+</CustomFieldTranslation>

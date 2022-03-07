@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cor de segundo plano dos painéis laterais de navegação</help>
+    <label></label>
+    <name>SBQQ__NavigationDrawerColor__c</name>
+</CustomFieldTranslation>

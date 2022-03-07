@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品がバッチで販売される場合の各バッチの数量を示します。</help>
+    <label></label>
+    <name>SBQQ__BatchQuantity__c</name>
+</CustomFieldTranslation>

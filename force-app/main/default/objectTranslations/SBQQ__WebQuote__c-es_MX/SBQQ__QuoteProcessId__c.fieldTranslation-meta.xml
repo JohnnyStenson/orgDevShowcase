@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Id. del proceso de venta guiado para utilizar con este presupuesto, si lo hubiera.</help>
+    <label></label>
+    <name>SBQQ__QuoteProcessId__c</name>
+</CustomFieldTranslation>

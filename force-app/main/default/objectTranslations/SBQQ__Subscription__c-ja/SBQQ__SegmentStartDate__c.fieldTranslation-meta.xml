@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>MDQ 商品の場合、元のセグメントの見積品目からの開始日です。</help>
+    <label></label>
+    <name>SBQQ__SegmentStartDate__c</name>
+</CustomFieldTranslation>

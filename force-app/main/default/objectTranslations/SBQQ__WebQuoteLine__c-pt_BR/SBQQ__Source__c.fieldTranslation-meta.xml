@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Item da linha de cotação de origem do item da linha de cotação clonado, se houver.</help>
+    <label></label>
+    <name>SBQQ__Source__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

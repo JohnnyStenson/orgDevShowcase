@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Rahmenstil für Textfelder (Klicken Sie auf das Symbol, um weitere Informationen anzuzeigen)</help>
+    <label></label>
+    <name>SBQQ__TextboxBorderStyle__c</name>
+    <picklistValues>
+        <masterLabel>dashed</masterLabel>
+        <translation>Gestrichelt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>dotted</masterLabel>
+        <translation>Gepunktet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>double</masterLabel>
+        <translation>Doppelt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>grove</masterLabel>
+        <translation>3D-Effekt (Rahmen eingekerbt)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>hidden</masterLabel>
+        <translation>Ausgeblendet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>inset</masterLabel>
+        <translation>3D-Effekt (Inhalt eingetieft)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>none</masterLabel>
+        <translation>Keine</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>outset</masterLabel>
+        <translation>3D-Effekt (Inhalt hervorspringend)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ridge</masterLabel>
+        <translation>3D-Effekt (Rahmen hervorspringend)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>solid</masterLabel>
+        <translation>Durchgezogen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

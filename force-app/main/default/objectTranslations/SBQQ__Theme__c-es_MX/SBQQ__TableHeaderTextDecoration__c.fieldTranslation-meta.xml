@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Decoración agregada al texto en el encabezado de las tablas</help>
+    <label></label>
+    <name>SBQQ__TableHeaderTextDecoration__c</name>
+    <picklistValues>
+        <masterLabel>line-through</masterLabel>
+        <translation>tachado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>none</masterLabel>
+        <translation>ninguno</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>overline</masterLabel>
+        <translation>suprarrayado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>underline</masterLabel>
+        <translation>subrayado</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez « Toujours » pour afficher le sous-total, les remises et le total général, quels que soient les autres paramètres. Sélectionnez « Jamais » pour ne jamais afficher, quels que soient les autres paramètres. Laissez ce champ vide pour afficher le résumé tel que défini dans les champs du modèle.</help>
+    <label></label>
+    <name>SBQQ__SummaryDisplay__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Toujours</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>Jamais</translation>
+    </picklistValues>
+</CustomFieldTranslation>

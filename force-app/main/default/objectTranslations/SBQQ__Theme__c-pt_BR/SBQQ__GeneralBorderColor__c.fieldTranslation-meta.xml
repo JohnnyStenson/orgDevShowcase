@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cor de borda de página do CPQ não administrativa</help>
+    <label></label>
+    <name>SBQQ__GeneralBorderColor__c</name>
+</CustomFieldTranslation>

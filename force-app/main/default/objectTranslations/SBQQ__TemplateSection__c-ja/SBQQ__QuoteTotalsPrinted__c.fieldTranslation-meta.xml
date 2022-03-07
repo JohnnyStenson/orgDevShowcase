@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このセクションの後に見積合計を出力する場合は、チェックボックスをオンにします。[品目] セクションにのみ適用されます。</help>
+    <label></label>
+    <name>SBQQ__QuoteTotalsPrinted__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>機能名の下に表示する追加説明のフォントの色</help>
+    <label></label>
+    <name>SBQQ__FeatureInstructionsColor__c</name>
+</CustomFieldTranslation>

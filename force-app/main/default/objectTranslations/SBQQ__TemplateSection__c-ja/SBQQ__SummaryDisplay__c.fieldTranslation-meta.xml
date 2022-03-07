@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>他の設定に関係なく小計、割引および総計を表示する場合は、[常に] を選択します。他の設定に関係なく表示しない場合は、[表示しない] を選択します。この項目を空白のままにすると、テンプレート項目で定義されたようにサマリーが表示されます。</help>
+    <label></label>
+    <name>SBQQ__SummaryDisplay__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>常に</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>表示しない</translation>
+    </picklistValues>
+</CustomFieldTranslation>

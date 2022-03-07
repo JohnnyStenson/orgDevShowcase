@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pour les éléments qui ont des quantités calculées, ce champ contient la quantité d&apos;origine saisie par l&apos;utilisateur.</help>
+    <label></label>
+    <name>SBQQ__BundledQuantity__c</name>
+</CustomFieldTranslation>

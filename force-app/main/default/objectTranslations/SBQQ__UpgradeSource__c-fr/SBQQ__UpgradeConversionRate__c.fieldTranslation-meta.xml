@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez un ratio pour la conversion de la quantité depuis la Source de mise à niveau vers Produit de mise à niveau. Par exemple, « 5:1 » indique que cinq unités de source de mise à niveau sont converties en une unité de produit de mise à niveau. Si ce champ est vide, aucun taux de conversion de mise à niveau n&apos;est appliqué.</help>
+    <label></label>
+    <name>SBQQ__UpgradeConversionRate__c</name>
+</CustomFieldTranslation>

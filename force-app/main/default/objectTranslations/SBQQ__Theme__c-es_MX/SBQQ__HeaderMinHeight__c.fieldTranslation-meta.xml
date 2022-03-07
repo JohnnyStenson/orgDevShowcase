@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Altura mínima del encabezado de páginas</help>
+    <label></label>
+    <name>SBQQ__HeaderMinHeight__c</name>
+</CustomFieldTranslation>

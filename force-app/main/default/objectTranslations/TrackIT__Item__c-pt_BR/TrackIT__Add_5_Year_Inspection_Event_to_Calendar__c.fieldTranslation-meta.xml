@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque esta caixa para adicionar evento ao calendário do inspetor atribuído para a próxima inspeção de 5 anos.</help>
+    <label></label>
+    <name>TrackIT__Add_5_Year_Inspection_Event_to_Calendar__c</name>
+</CustomFieldTranslation>

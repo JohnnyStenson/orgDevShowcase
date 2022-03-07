@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このコンテンツの前、後または前後に改ページを挿入するかどうかを指定します。</help>
+    <label></label>
+    <name>SBQQ__PageBreak__c</name>
+    <picklistValues>
+        <masterLabel>After</masterLabel>
+        <translation>後</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Before</masterLabel>
+        <translation>前</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Both</masterLabel>
+        <translation>両方</translation>
+    </picklistValues>
+</CustomFieldTranslation>

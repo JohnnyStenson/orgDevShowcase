@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifie si le saut de page doit être inséré avant, après ou avant et après le contenu.</help>
+    <label></label>
+    <name>SBQQ__PageBreak__c</name>
+    <picklistValues>
+        <masterLabel>After</masterLabel>
+        <translation>Après</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Before</masterLabel>
+        <translation>Avant</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Both</masterLabel>
+        <translation>Les deux</translation>
+    </picklistValues>
+</CustomFieldTranslation>

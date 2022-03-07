@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積が価格表のある商談に関連付けられていない場合、見積の価格表 ID が保存されます。</help>
+    <label></label>
+    <name>SBQQ__PricebookId__c</name>
+</CustomFieldTranslation>

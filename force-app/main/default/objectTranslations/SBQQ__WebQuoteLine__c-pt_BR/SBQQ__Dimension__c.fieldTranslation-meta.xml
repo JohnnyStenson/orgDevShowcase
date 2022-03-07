@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Para produtos MDQ, cada segmento será precificado de modo independente.</help>
+    <label></label>
+    <name>SBQQ__Dimension__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

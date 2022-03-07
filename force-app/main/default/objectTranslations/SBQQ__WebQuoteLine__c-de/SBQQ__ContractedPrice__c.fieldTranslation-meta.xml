@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Vertragspreis, wenn für das Produkt die für den Opportunity-Account ausgehandelten Preise gelten sollen.</help>
+    <label></label>
+    <name>SBQQ__ContractedPrice__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

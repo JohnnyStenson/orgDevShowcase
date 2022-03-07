@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この機器のメンテナンスに必要なおおよその所要時間を分単位で入力します。 このフィールドは、割り当てられた技術者のカレンダーの予定として次のメンテナンス期日を追加する場合に必要です。</help>
+    <label></label>
+    <name>TrackIT__Maintenance_Duration_Time__c</name>
+</CustomFieldTranslation>

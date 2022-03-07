@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, um anzugeben, dass der Preis dieses Belegpostens geändert werden kann.</help>
+    <label></label>
+    <name>SBQQ__PriceEditable__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Type de tarification étendue spéciale.</help>
+    <label></label>
+    <name>SBQQ__SpecialPriceType__c</name>
+    <picklistValues>
+        <masterLabel>Contracted Price</masterLabel>
+        <translation>Prix contracté</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation>Personnalisé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renewal</masterLabel>
+        <translation>Renouvellement</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Volume Discount</masterLabel>
+        <translation>Remise sur volume</translation>
+    </picklistValues>
+</CustomFieldTranslation>

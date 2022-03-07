@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cor do ícone exibido ao lado de um campo editado/cor da fonte de campos editados</help>
+    <label></label>
+    <name>SBQQ__FieldEditedColor__c</name>
+</CustomFieldTranslation>

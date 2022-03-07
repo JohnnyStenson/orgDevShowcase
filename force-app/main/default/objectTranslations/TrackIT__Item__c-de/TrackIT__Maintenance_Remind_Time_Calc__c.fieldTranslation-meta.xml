@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wird verwendet, um den Erinnerungszeit-Auswahllistenwert für die Berechnung der Erinnerungszeit in einen numerischen Wert zu konvertieren.</help>
+    <label></label>
+    <name>TrackIT__Maintenance_Remind_Time_Calc__c</name>
+</CustomFieldTranslation>

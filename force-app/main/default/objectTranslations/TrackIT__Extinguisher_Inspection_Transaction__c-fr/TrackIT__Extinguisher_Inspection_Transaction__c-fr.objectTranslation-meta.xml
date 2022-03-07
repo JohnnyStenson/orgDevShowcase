@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction d&apos;inspection d&apos;extincteur</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transactions d&apos;inspection d&apos;extincteur</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Identification d&apos;enregistrement</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

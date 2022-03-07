@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ID de localização onde o item é armazenado nas local remota</help>
+    <label></label>
+    <name>TrackIT__Archive_Location__c</name>
+</CustomFieldTranslation>

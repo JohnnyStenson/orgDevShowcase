@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Abteilungsname. Geben Sie in den Auswahllisteneinstellungen für das Feld im Setup zusätzliche Werte ein.</help>
+    <label></label>
+    <name>TrackIT__Department__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品に商談の取引先用の交渉済み価格設定がある場合の契約価格。</help>
+    <label></label>
+    <name>SBQQ__ContractedPrice__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ID de mise à niveau du produit de crédit de cet abonnement.</help>
+    <label></label>
+    <name>SBQQ__CreditProductId__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Remplace le prix calculé par défaut pour cet abonnement dans un devis de renouvellement. Si la méthode de tarification de renouvellement de votre compte est Augmentation, l&apos;augmentation s&apos;applique à ce prix de renouvellement.</help>
+    <label></label>
+    <name>SBQQ__RenewalPrice__c</name>
+</CustomFieldTranslation>

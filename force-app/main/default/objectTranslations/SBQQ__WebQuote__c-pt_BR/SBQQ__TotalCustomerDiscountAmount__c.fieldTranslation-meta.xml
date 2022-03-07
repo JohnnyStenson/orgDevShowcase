@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Valor total do desconto do cliente. Essa opção inclui quaisquer descontos contratados, por volume, de taxa composta e adicionais.</help>
+    <label></label>
+    <name>SBQQ__TotalCustomerDiscountAmount__c</name>
+</CustomFieldTranslation>

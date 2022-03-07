@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Pour des produits MDQ, l&apos;augmentation de la ligne de devis du segment d&apos;origine.</help>
+    <label></label>
+    <name>SBQQ__SegmentUplift__c</name>
+</CustomFieldTranslation>

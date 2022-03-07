@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Étendue Pourcentage du total définie au niveau du composant. Ce champ remplace l’Étendue Pourcentage du total copiée dans l&apos;option produit.</help>
+    <label></label>
+    <name>SBQQ__ComponentSubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Components</masterLabel>
+        <translation>Composants</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entire Hierarchy</masterLabel>
+        <translation>Hiérarchie complète</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package</masterLabel>
+        <translation>Package</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Package &amp; Components</masterLabel>
+        <translation>Package et composants</translation>
+    </picklistValues>
+</CustomFieldTranslation>

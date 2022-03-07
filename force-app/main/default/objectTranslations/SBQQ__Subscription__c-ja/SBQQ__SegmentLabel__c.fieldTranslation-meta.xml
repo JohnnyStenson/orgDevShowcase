@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>複数セグメント商品で、この品目に関連付けられている列ヘッダーの表示ラベル (「1 年目」など) です。</help>
+    <label></label>
+    <name>SBQQ__SegmentLabel__c</name>
+</CustomFieldTranslation>

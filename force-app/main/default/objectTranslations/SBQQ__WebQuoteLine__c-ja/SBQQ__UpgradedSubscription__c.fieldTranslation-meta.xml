@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積品目でアップグレードされるサブスクリプション。見積が契約されると、このサブスクリプションの [解除日] 項目が入力されます。</help>
+    <label></label>
+    <name>SBQQ__UpgradedSubscription__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

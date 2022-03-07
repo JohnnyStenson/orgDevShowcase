@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Precio después de un descuento de socios pero anterior a un descuento de distribuidor.</help>
+    <label></label>
+    <name>SBQQ__PartnerPrice__c</name>
+</CustomFieldTranslation>

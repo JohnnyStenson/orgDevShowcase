@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>TrackIT__Extinguisher_Inspection_Date_Types__c</name>
+    <picklistValues>
+        <masterLabel>Inspection - Fire Extinguisher 10 Year</masterLabel>
+        <translation>Inspektion - Feuerlöscher 10 Jahre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inspection - Fire Extinguisher 12 Year</masterLabel>
+        <translation>Inspektion - Feuerlöscher 12 Jahre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inspection - Fire Extinguisher 5 Year</masterLabel>
+        <translation>Inspektion - Feuerlöscher 5 Jahre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inspection - Fire Extinguisher 6 Year</masterLabel>
+        <translation>Inspektion - Feuerlöscher 6 Jahre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inspection - Fire Extinguisher Annual</masterLabel>
+        <translation>Inspektion - Feuerlöscher jährlich</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inspection - Fire Extinguisher Monthly</masterLabel>
+        <translation>Inspektion - Feuerlöscher monatlich</translation>
+    </picklistValues>
+</CustomFieldTranslation>

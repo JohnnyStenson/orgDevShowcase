@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie die Erinnerungszeit ein. Dieses Feld ist erforderlich, wenn Sie im Kalender des zugewiesenen Inspektors eine Erinnerungszeit für das nächste Inspektionsdatum als Ereignis hinzufügen.</help>
+    <label></label>
+    <name>TrackIT__Five_Year_Inspection_Reminder_Time__c</name>
+</CustomFieldTranslation>

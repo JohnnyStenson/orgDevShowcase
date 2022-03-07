@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Espaciado inferior de los botones estándar</help>
+    <label></label>
+    <name>SBQQ__StandardButtonPaddingBottom__c</name>
+</CustomFieldTranslation>

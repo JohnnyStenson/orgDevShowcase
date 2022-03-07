@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この機器を検査するときに必要な概算所要時間を分単位で入力します。 次の検査日を検査官のカレンダーの予定として追加する場合、このフィールドは必須です。</help>
+    <label></label>
+    <name>TrackIT__Six_Year_Inspection_Duration_Time__c</name>
+</CustomFieldTranslation>

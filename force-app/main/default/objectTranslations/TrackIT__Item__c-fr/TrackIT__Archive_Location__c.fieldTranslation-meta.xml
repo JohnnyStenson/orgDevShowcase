@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identification de l&apos;emplacement où l&apos;article est stocké à l&apos;extérieur du site</help>
+    <label></label>
+    <name>TrackIT__Archive_Location__c</name>
+</CustomFieldTranslation>

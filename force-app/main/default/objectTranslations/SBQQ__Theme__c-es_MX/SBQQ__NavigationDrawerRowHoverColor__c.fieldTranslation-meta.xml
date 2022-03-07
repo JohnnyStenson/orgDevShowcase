@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Color de fondo de las filas sobre las que se pasa el ratón en los paneles laterales de navegación</help>
+    <label></label>
+    <name>SBQQ__NavigationDrawerRowHoverColor__c</name>
+</CustomFieldTranslation>

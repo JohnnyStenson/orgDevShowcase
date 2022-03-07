@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Licencia asignada</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Licencias asignadas</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>ID de licencia asignada</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__Item_Assignee_Both_Cannot_Have_Data</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__Qty_field_one_or_greater</name>
+    </validationRules>
+</CustomObjectTranslation>

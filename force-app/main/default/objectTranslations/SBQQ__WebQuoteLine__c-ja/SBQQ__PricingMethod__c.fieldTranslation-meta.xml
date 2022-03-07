@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この品目の価格の計算方法 (リスト価格から割引金額を差し引く [リスト] またはコストにマークアップを追加する [コスト]) を示します。</help>
+    <label></label>
+    <name>SBQQ__PricingMethod__c</name>
+    <picklistValues>
+        <masterLabel>Block</masterLabel>
+        <translation>ブロック</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost</masterLabel>
+        <translation>コスト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation>カスタム</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List</masterLabel>
+        <translation>リスト</translation>
+    </picklistValues>
+</CustomFieldTranslation>

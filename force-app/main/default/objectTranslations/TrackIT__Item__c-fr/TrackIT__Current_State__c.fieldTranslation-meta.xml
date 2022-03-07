@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Affiche l&apos;état actuel de l&apos;élément, qu&apos;il soit dans son emplacement actuel ou qu&apos;il soit assigné hors de l&apos;emplacement.</help>
+    <label></label>
+    <name>TrackIT__Current_State__c</name>
+    <picklistValues>
+        <masterLabel>In</masterLabel>
+        <translation>Dans</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Out</masterLabel>
+        <translation>Out</translation>
+    </picklistValues>
+</CustomFieldTranslation>

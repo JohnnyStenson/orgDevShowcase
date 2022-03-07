@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Espaciado superior de las filas contraíbles en una tabla</help>
+    <label></label>
+    <name>SBQQ__TableGroupedRowPaddingTop__c</name>
+</CustomFieldTranslation>

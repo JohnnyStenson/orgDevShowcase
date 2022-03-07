@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Fecha de término de la suscripción. Se rellena automáticamente cuando se mejora el activo cubierto.</help>
+    <label></label>
+    <name>SBQQ__TerminatedDate__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, um ein Ereignis zum zugewiesenen Techniker für die nächste Wartung hinzuzufügen, die für diesen Ausrüstungsgegenstand fällig ist.</help>
+    <label></label>
+    <name>TrackIT__Add_maintenance_event_to_calendar__c</name>
+</CustomFieldTranslation>

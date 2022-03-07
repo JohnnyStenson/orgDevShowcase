@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>TrackIT__Inv_Transaction_Type__c</name>
+    <picklistValues>
+        <masterLabel>Adjust (+)</masterLabel>
+        <translation>Ajustar (+)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adjust (-)</masterLabel>
+        <translation>Ajustar (-)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Issue</masterLabel>
+        <translation>Expedir</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Move</masterLabel>
+        <translation>Mover</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purchase</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Receive</masterLabel>
+        <translation>Recibir</translation>
+    </picklistValues>
+</CustomFieldTranslation>

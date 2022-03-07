@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Détermine la méthode de calcul du prix de l&apos;abonnement. Si ce champ est vide, les éléments de ligne ne correspondent pas à un produit d&apos;abonnement.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionPricing__c</name>
+    <picklistValues>
+        <masterLabel>Fixed Price</masterLabel>
+        <translation>Prix fixe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percent Of Total</masterLabel>
+        <translation>Pourcentage du total</translation>
+    </picklistValues>
+</CustomFieldTranslation>

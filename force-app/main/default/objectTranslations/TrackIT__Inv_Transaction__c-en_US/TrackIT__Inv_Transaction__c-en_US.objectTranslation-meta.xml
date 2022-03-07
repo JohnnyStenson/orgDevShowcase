@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__Inv_Trans_ID_Change_After_Creation_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

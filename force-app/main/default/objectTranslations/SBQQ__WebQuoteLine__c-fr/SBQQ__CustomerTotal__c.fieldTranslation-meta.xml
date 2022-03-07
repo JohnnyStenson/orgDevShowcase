@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le prix total client de cet élément de ligne de devis. Correspond au prix total net sans aucune remise partenaire.</help>
+    <label></label>
+    <name>SBQQ__CustomerTotal__c</name>
+</CustomFieldTranslation>

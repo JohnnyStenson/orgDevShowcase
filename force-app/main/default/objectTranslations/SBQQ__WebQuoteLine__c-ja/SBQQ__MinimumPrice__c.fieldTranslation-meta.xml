@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この商品の最低単価。価格が動的に計算される場合に価格の下限を適用するために使用されます。</help>
+    <label></label>
+    <name>SBQQ__MinimumPrice__c</name>
+</CustomFieldTranslation>

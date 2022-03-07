@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Compte propriétaire de cet abonnement. Cette relation est utilisée pour les calculs de remise sur volume.</help>
+    <label></label>
+    <name>SBQQ__Account__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Verzierung für den Text der Seitenkopfzeile (Klicken Sie auf das Symbol, um weitere Informationen anzuzeigen)</help>
+    <label></label>
+    <name>SBQQ__HeaderTextDecoration__c</name>
+    <picklistValues>
+        <masterLabel>line-through</masterLabel>
+        <translation>Durchgestrichen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>none</masterLabel>
+        <translation>Keine</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>overline</masterLabel>
+        <translation>Überstrichen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>underline</masterLabel>
+        <translation>Unterstrichen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wählen Sie &quot;Immer&quot;, um unabhängig von anderen Einstellungen die Zwischensumme, Rabatte und die Gesamtsumme anzuzeigen. Bei Auswahl von &quot;Nie&quot; werden diese Werte nie unabhängig von anderen Einstellungen angezeigt. Wenn Sie dieses Feld leer lassen, richtet sich die Anzeige von Summen nach der Festlegung für Vorlagenfelder.</help>
+    <label></label>
+    <name>SBQQ__SummaryDisplay__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Immer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation>Nie</translation>
+    </picklistValues>
+</CustomFieldTranslation>

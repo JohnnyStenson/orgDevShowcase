@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ressource mise à niveau par cette ligne de devis. Lorsque le devis est contracté, la Date de fin d&apos;utilisation de cette ressource est renseignée pour indiquer sa date de retrait.</help>
+    <label></label>
+    <name>SBQQ__UpgradedAsset__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

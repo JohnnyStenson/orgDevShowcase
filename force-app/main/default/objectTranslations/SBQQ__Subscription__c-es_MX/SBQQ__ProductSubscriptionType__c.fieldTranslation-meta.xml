@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Establece el tipo de suscripción de producto de suscripción.</help>
+    <label></label>
+    <name>SBQQ__ProductSubscriptionType__c</name>
+</CustomFieldTranslation>

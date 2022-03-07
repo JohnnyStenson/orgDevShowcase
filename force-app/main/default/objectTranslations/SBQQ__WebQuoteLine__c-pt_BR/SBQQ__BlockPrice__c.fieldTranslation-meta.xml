@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Registro do Preço de bloco usado para precificar esse item de linha.</help>
+    <label></label>
+    <name>SBQQ__BlockPrice__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

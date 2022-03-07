@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この場所の次回の検査のために検査官のカレンダーにイベントを追加するには、このボックスをオンにします。</help>
+    <label></label>
+    <name>TrackIT__Add_Inspection_Event_to_Calendar__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>電子署名の状況。</help>
+    <label></label>
+    <name>SBQQ__SignatureStatus__c</name>
+    <picklistValues>
+        <masterLabel>Expired</masterLabel>
+        <translation>終了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>待機中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revoked</masterLabel>
+        <translation>取り消し済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent</masterLabel>
+        <translation>送信済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signed</masterLabel>
+        <translation>署名済み</translation>
+    </picklistValues>
+</CustomFieldTranslation>

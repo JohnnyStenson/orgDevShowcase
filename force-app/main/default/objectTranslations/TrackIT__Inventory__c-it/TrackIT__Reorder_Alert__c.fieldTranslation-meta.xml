@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Avviso generato quando il livello di inventario scende al di sotto del punto di riordinamento</help>
+    <label></label>
+    <name>TrackIT__Reorder_Alert__c</name>
+</CustomFieldTranslation>

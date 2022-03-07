@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifier la fonctionnalité et l&apos;option dynamique de cette ligne.</help>
+    <label></label>
+    <name>SBQQ__DynamicOptionId__c</name>
+</CustomFieldTranslation>

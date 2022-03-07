@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si vous souhaitez limiter davantage les enregistrements en fonction d&apos;un champ de devis, sélectionnez le champ que vous souhaitez comparer au champ équivalent dans le devis.</help>
+    <label></label>
+    <name>SBQQ__ConstraintField__c</name>
+    <picklistValues>
+        <masterLabel>Status</masterLabel>
+        <translation>Statut</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type</masterLabel>
+        <translation>Type</translation>
+    </picklistValues>
+</CustomFieldTranslation>

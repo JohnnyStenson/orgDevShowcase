@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>合計の計算に使用される有効な数量。商品のブロック価格が設定されていたり、商品が [スラブ] 割引率表でカバーされていたりする場合を除き、[数量] と同じです。</help>
+    <label></label>
+    <name>SBQQ__EffectiveQuantity__c</name>
+</CustomFieldTranslation>

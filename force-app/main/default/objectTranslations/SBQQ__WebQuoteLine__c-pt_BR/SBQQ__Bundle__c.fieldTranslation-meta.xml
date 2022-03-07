@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica que esse item de linha representa um pacote, ou seja, inclui outros itens de linha nessa cotação.</help>
+    <label></label>
+    <name>SBQQ__Bundle__c</name>
+</CustomFieldTranslation>

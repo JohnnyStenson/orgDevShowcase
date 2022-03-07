@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>テーブルセルの左側パディング</help>
+    <label></label>
+    <name>SBQQ__TableCellPaddingLeft__c</name>
+</CustomFieldTranslation>

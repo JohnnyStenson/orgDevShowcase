@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この消火器の次回の検査のために割り当てられた検査員のカレンダーに予定の通知を追加するには、このボックスをオンにします。</help>
+    <label></label>
+    <name>TrackIT__Add_Annual_Inspect_Reminder_to_Calendar__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Le téléphone est mis à jour à partir du tableau des cessionnaires lorsqu&apos;un élément est affecté.</help>
+    <label></label>
+    <name>TrackIT__Assignee_Phone__c</name>
+</CustomFieldTranslation>

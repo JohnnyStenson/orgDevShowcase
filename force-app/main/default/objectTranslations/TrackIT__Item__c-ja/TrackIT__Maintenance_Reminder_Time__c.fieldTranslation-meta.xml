@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>リマインダーの時間を入力します。 このフィールドは、割り当てられた技術者のカレンダ上のイベントとして、次回のメンテナンス期日のリマインダ時間を追加する場合に必要です。</help>
+    <label></label>
+    <name>TrackIT__Maintenance_Reminder_Time__c</name>
+</CustomFieldTranslation>

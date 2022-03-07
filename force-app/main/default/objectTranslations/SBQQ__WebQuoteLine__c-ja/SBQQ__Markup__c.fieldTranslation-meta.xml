@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この項目のマークアップ金額。この値は、マークアップ率またはマークアップ金額 (いずれか指定した方) を適用することで自動的に計算されます。</help>
+    <label></label>
+    <name>SBQQ__Markup__c</name>
+</CustomFieldTranslation>

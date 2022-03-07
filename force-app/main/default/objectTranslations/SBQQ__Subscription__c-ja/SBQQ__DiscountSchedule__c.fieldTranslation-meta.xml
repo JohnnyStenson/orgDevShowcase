@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>購入した数量または期間を使用して商品の価格から割引される割引率または割引金額を指定します。異なる割引率の段階の数量/期間の範囲を設定します。割引は [リスト価格] に適用され、結果の合計は [定価] に保存されます</help>
+    <label></label>
+    <name>SBQQ__DiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

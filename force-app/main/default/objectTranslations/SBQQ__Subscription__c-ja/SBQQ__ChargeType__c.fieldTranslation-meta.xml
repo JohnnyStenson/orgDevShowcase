@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>商品課金の種別。これは関連付けられている商品から派生するシステム項目です。</help>
+    <label></label>
+    <name>SBQQ__ChargeType__c</name>
+</CustomFieldTranslation>

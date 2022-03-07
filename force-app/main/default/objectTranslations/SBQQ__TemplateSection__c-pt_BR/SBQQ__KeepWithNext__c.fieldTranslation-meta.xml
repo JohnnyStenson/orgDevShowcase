@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifica se uma tentativa deve ser feita para manter os conteúdos juntos na mesma página com o próximo bloco de conteúdo.</help>
+    <label></label>
+    <name>SBQQ__KeepWithNext__c</name>
+    <picklistValues>
+        <masterLabel>Always</masterLabel>
+        <translation>Sempre</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Auto</masterLabel>
+        <translation>Automático</translation>
+    </picklistValues>
+</CustomFieldTranslation>

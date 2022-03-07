@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Coincide con la fecha de inicio de la partida de presupuesto de forma predeterminada. Si está en blanco, coincidirá con la fecha de inicio del contrato.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionStartDate__c</name>
+</CustomFieldTranslation>

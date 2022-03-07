@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selecione a caixa de seleção se o cliente já possuir esse produto. Isso costuma ser usado para produtos com opções durante cotação de complemento. O produto está na cotação unicamente para conduzir o Configurador.</help>
+    <label></label>
+    <name>SBQQ__Existing__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Color del icono que se muestra junto a un campo que se modificó / Color del tipo de letra de campos modificados</help>
+    <label></label>
+    <name>SBQQ__FieldEditedColor__c</name>
+</CustomFieldTranslation>

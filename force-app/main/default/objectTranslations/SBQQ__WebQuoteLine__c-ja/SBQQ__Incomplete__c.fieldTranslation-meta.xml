@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>入力規則などのルールをトリガするタイミングを制御する内部アプリケーションロジックを適用する場合は、チェックボックスをオンにします。ページレイアウトに追加するなど、その他の変更は行わないでください。</help>
+    <label></label>
+    <name>SBQQ__Incomplete__c</name>
+</CustomFieldTranslation>

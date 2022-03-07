@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se utiliza para convertir el valor de la lista de selección de tiempo de recordatorio en numérico para el cálculo del tiempo de recordatorio.</help>
+    <label></label>
+    <name>TrackIT__Maintenance_Remind_Time_Calc__c</name>
+</CustomFieldTranslation>

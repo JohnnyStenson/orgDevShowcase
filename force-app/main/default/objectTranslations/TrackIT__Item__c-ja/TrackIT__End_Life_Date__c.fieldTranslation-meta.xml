@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>人生日の終わり。自動的に計算。</help>
+    <label></label>
+    <name>TrackIT__End_Life_Date__c</name>
+</CustomFieldTranslation>

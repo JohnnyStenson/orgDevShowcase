@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>次のメンテナンスによるイベントのために割り当てられた技術者のカレンダーにリマインダーを追加するには、このボックスにチェックを入れます。</help>
+    <label></label>
+    <name>TrackIT__Add_Maintenance_Reminder_to_Calendar__c</name>
+</CustomFieldTranslation>

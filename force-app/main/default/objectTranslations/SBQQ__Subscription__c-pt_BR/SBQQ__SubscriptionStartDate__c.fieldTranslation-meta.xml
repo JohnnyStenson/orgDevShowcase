@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Corresponde à data inicial da linha de cotação por padrão. Se estiver em branco, corresponderá à data inicial do contrato.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionStartDate__c</name>
+</CustomFieldTranslation>

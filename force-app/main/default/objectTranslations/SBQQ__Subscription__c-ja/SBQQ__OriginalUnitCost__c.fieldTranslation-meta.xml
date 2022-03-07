@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コスト表が適用される前の購入時におけるサブスクリプションの元の単位コスト。</help>
+    <label></label>
+    <name>SBQQ__OriginalUnitCost__c</name>
+</CustomFieldTranslation>

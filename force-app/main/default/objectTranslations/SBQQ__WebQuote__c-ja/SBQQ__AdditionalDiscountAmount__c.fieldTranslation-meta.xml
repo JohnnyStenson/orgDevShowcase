@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積に対して手動で追加割引された金額。</help>
+    <label></label>
+    <name>SBQQ__AdditionalDiscountAmount__c</name>
+</CustomFieldTranslation>

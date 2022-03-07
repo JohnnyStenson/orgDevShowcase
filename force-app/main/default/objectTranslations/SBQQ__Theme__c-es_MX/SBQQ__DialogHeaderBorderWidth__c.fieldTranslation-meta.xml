@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Anchura del borde del encabezado de los cuadros de diálogo modales emergentes</help>
+    <label></label>
+    <name>SBQQ__DialogHeaderBorderWidth__c</name>
+</CustomFieldTranslation>

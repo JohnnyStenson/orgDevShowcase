@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cor da borda dos menus suspensos</help>
+    <label></label>
+    <name>SBQQ__SelectBorderColor__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Función agregada empleada para calcular esta variable.</help>
+    <label></label>
+    <name>SBQQ__AggregateFunction__c</name>
+    <picklistValues>
+        <masterLabel>Average</masterLabel>
+        <translation>Media</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Count</masterLabel>
+        <translation>Conteo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Max</masterLabel>
+        <translation>Máximo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Min</masterLabel>
+        <translation>Mínimo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sum</masterLabel>
+        <translation>Suma</translation>
+    </picklistValues>
+</CustomFieldTranslation>

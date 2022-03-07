@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Conta do cliente para essa cotação. A conta será assumida como padrão para a oportunidade ao criar uma cotação.</help>
+    <label></label>
+    <name>SBQQ__Account__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

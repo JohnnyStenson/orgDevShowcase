@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica el nivel de anidación de esta opción (solo se aplica a partidas que están generadas a partir de opciones)</help>
+    <label></label>
+    <name>SBQQ__OptionLevel__c</name>
+</CustomFieldTranslation>

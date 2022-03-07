@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Partida de presupuesto web</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Partidas de presupuestos web</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>SBQQ__LineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>SBQQ__SegmentedLineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>SBQQ__SegmentedLineEditorSummary</name>
+    </fieldSets>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº de partida de presupuesto</nameFieldLabel>
+</CustomObjectTranslation>

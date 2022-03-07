@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積品目でアップグレードされる納入商品。見積が契約されると、この納入商品の [使用終了日] が入力されて期限が切れていることが示されます。</help>
+    <label></label>
+    <name>SBQQ__UpgradedAsset__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

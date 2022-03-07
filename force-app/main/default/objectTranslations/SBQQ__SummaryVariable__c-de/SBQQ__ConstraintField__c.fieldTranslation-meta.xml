@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn Sie Datensätze auf der Grundlage eines Angebotsfelds weiter eingrenzen möchten, wählen Sie das Feld aus, das mit dem gleichen Feld im Angebot verglichen werden soll.</help>
+    <label></label>
+    <name>SBQQ__ConstraintField__c</name>
+    <picklistValues>
+        <masterLabel>Status</masterLabel>
+        <translation>Status</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type</masterLabel>
+        <translation>Typ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

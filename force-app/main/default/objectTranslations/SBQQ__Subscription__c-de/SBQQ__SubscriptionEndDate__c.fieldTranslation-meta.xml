@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Entspricht standardmäßig dem Enddatum des Angebotbelegpostens. Ist das Feld leer, wird das Enddatum des Vertrags verwendet.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionEndDate__c</name>
+</CustomFieldTranslation>

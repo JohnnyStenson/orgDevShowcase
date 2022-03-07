@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ページヘッダーの境界線のスタイル (詳細はアイコンをクリック)</help>
+    <label></label>
+    <name>SBQQ__HeaderBorderStyle__c</name>
+    <picklistValues>
+        <masterLabel>dashed</masterLabel>
+        <translation>破線</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>dotted</masterLabel>
+        <translation>点線</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>double</masterLabel>
+        <translation>二重線</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>grove</masterLabel>
+        <translation>溝線</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>hidden</masterLabel>
+        <translation>非表示</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>inset</masterLabel>
+        <translation>内線</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>none</masterLabel>
+        <translation>なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>outset</masterLabel>
+        <translation>外線</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ridge</masterLabel>
+        <translation>稜線</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>solid</masterLabel>
+        <translation>実線</translation>
+    </picklistValues>
+</CustomFieldTranslation>

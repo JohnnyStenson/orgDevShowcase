@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique un índice para la conversión de cantidad desde Origen de mejora para Producto de mejora. Por ej. &quot;5:1&quot; indica que 5 unidades de Origen de mejora se convierten en 1 unidad de Producto de mejora. Si se deja en blanco no se aplica ningún Índice de conversión de mejoras.</help>
+    <label></label>
+    <name>SBQQ__UpgradeConversionRate__c</name>
+</CustomFieldTranslation>

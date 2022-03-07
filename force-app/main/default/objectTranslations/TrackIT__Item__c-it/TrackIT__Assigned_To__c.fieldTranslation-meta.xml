@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Selezionare un assegnatario per modificare lo stato dell&apos;elemento. Eliminare il campo quando viene restituito un elemento.</help>
+    <label></label>
+    <name>TrackIT__Assigned_To__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

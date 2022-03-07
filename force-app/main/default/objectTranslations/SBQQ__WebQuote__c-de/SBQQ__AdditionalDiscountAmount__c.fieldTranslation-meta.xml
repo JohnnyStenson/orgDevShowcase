@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Betrag, der bei diesem Angebot zusätzlich manuell als Rabatt gewährt wird.</help>
+    <label></label>
+    <name>SBQQ__AdditionalDiscountAmount__c</name>
+</CustomFieldTranslation>

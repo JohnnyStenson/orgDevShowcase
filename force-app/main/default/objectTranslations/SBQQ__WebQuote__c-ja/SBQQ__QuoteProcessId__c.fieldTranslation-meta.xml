@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積と共に使用するガイド付き販売プロセス ID (存在する場合)。</help>
+    <label></label>
+    <name>SBQQ__QuoteProcessId__c</name>
+</CustomFieldTranslation>

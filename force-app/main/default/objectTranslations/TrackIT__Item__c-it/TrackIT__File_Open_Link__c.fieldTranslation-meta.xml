@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Inserisci l&apos;URL del file web per creare un collegamento alla versione online del file.</help>
+    <label></label>
+    <name>TrackIT__File_Open_Link__c</name>
+</CustomFieldTranslation>

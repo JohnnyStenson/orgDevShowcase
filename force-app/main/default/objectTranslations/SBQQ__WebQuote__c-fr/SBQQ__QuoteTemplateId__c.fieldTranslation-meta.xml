@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stocke un ID de modèle de devis, si un ID doit être spécifié lors de la génération de documents PDF de devis.</help>
+    <label></label>
+    <name>SBQQ__QuoteTemplateId__c</name>
+</CustomFieldTranslation>

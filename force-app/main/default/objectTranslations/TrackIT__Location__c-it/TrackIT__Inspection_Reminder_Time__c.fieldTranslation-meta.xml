@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Inserire l&apos;ora del promemoria. Questo campo è necessario se si aggiunge un tempo promemoria per la successiva data dell&apos;ispezione come un evento nel calendario dell&apos;ispettore.</help>
+    <label></label>
+    <name>TrackIT__Inspection_Reminder_Time__c</name>
+</CustomFieldTranslation>

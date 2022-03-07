@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Preenchimento à direita das instruções adicionais exibidas sob o nome do recurso</help>
+    <label></label>
+    <name>SBQQ__FeatureInstructionsPaddingRight__c</name>
+</CustomFieldTranslation>

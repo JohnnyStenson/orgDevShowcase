@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Color del icono que se muestra junto a un campo indicando si es modificable o no</help>
+    <label></label>
+    <name>SBQQ__FieldEditableIconColor__c</name>
+</CustomFieldTranslation>

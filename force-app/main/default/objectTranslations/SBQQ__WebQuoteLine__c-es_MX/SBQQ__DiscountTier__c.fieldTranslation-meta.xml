@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nivel de descuentos empleado por esta partida. Este campo solo se rellena si se aplicó un descuento por volumen y la programación de descuentos es del tipo &quot;Intervalo&quot;.</help>
+    <label></label>
+    <name>SBQQ__DiscountTier__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

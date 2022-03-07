@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>サブスクリプション価格の計算方法を決定します。これが空白の場合、品目はサブスクリプション商品ではありません。</help>
+    <label></label>
+    <name>SBQQ__SubscriptionPricing__c</name>
+    <picklistValues>
+        <masterLabel>Fixed Price</masterLabel>
+        <translation>固定価格:</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Percent Of Total</masterLabel>
+        <translation>全体に対する割合</translation>
+    </picklistValues>
+</CustomFieldTranslation>

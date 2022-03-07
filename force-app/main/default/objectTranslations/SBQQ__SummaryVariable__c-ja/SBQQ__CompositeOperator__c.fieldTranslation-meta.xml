@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この変数が変数要素または値要素でどのように構成されるのかを指定します。</help>
+    <label></label>
+    <name>SBQQ__CompositeOperator__c</name>
+    <picklistValues>
+        <masterLabel>Add</masterLabel>
+        <translation>加算</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Divide</masterLabel>
+        <translation>除算</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multiply</masterLabel>
+        <translation>乗算</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subtract</masterLabel>
+        <translation>減算</translation>
+    </picklistValues>
+</CustomFieldTranslation>

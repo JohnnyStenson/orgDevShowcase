@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Estilo del tipo de letra de las filas de los productos por separado en el editor de partidas de presupuesto. (Haga clic en el icono para obtener información adicional.)</help>
+    <label></label>
+    <name>SBQQ__StandaloneProductRowFontStyle__c</name>
+    <picklistValues>
+        <masterLabel>italic</masterLabel>
+        <translation>cursiva</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>normal</masterLabel>
+        <translation>normal</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>oblique</masterLabel>
+        <translation>oblicuo</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Substitui o preço calculado padrão dessa assinatura em uma cotação de renovação. Se o método de precificação de renovação de sua conta é Aumento, o aumento se aplica a esse preço de renovação.</help>
+    <label></label>
+    <name>SBQQ__RenewalPrice__c</name>
+</CustomFieldTranslation>

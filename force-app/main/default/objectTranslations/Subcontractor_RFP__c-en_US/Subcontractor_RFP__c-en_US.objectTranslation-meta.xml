@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Subcontractor RFP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Subcontractor RFPs</value>
+    </caseValues>
+    <layouts>
+        <layout>Subcontractor RFP Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>RFP to Send to Subcontractor</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Usado para converter o valor da lista de opções de horário do lembrete em numérico para o cálculo do horário do lembrete.</help>
+    <label></label>
+    <name>TrackIT__Maintenance_Remind_Time_Calc__c</name>
+</CustomFieldTranslation>

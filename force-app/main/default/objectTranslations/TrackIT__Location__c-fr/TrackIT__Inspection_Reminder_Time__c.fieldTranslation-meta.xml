@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Entrez l&apos;heure de rappel. Ce champ est nécessaire si l&apos;ajout d&apos;un temps de rappel pour la prochaine date d&apos;inspection comme un événement sur le calendrier de l&apos;inspecteur.</help>
+    <label></label>
+    <name>TrackIT__Inspection_Reminder_Time__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>モデル番号または名前。セットアップでのフィールドの選択リストの設定に追加の値を入力します。</help>
+    <label></label>
+    <name>TrackIT__Model_Number__c</name>
+</CustomFieldTranslation>

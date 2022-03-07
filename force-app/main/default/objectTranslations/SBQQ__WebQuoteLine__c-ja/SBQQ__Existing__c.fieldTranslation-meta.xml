@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>顧客がすでにこの商品を所有している場合は、チェックボックスをオンにします。通常、これは、アドオン見積でオプションがある商品に使用されます。商品は、コンフィグレータを実行するためにのみ見積に含まれています。</help>
+    <label></label>
+    <name>SBQQ__Existing__c</name>
+</CustomFieldTranslation>

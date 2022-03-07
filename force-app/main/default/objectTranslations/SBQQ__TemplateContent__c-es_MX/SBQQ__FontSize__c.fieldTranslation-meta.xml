@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tamaño del tipo de letra que se utiliza cuando se representa este contenido en el documento de presupuesto PDF generado.</help>
+    <label></label>
+    <name>SBQQ__FontSize__c</name>
+</CustomFieldTranslation>

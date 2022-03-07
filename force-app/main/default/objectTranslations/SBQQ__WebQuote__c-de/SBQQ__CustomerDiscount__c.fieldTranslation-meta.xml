@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Zusätzlicher Rabatt, der dem Kunden bei diesem Angebot gewährt wird. Sie können diesen Wert für einzelne Belegposten überschreiben. Belegposten, für die nicht explizit ein zusätzlicher Rabatt angegeben wird, verwenden standardmäßig diesen Wert.</help>
+    <label></label>
+    <name>SBQQ__CustomerDiscount__c</name>
+</CustomFieldTranslation>

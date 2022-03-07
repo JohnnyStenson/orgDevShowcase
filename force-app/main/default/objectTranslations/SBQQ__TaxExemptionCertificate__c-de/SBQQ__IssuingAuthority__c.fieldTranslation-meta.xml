@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Die Behörde, beispielsweise eine Regierungsbehörde oder ein Land (für europäische Organisationen), die das Zertifikat ausgestellt hat</help>
+    <label></label>
+    <name>SBQQ__IssuingAuthority__c</name>
+</CustomFieldTranslation>

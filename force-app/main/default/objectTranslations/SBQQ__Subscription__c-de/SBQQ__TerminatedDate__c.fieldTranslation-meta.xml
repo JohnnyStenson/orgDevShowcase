@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Datum, an dem das Abonnement endet. Wird bei einem Upgrade des zugehörigen Vermögenswerts automatisch ausgefüllt.</help>
+    <label></label>
+    <name>SBQQ__TerminatedDate__c</name>
+</CustomFieldTranslation>

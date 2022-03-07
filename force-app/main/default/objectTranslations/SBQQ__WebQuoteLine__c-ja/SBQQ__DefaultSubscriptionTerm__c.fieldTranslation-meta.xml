@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>サブスクリプションの期間。商品がサブスクリプションの場合にのみ適用されます。これは、品目が最初に生成されるときに関連商品のサブスクリプション期間からコピーされます。</help>
+    <label></label>
+    <name>SBQQ__DefaultSubscriptionTerm__c</name>
+</CustomFieldTranslation>

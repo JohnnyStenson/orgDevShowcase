@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Espaciado izquierdo de las instrucciones adicionales que se muestran bajo el nombre de la función</help>
+    <label></label>
+    <name>SBQQ__FeatureInstructionsPaddingLeft__c</name>
+</CustomFieldTranslation>

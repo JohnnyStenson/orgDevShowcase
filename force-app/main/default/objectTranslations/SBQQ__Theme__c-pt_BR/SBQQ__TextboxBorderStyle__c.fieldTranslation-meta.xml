@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Estilo da borda das caixas de texto (clique no ícone para informações adicionais)</help>
+    <label></label>
+    <name>SBQQ__TextboxBorderStyle__c</name>
+    <picklistValues>
+        <masterLabel>dashed</masterLabel>
+        <translation>tracejado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>dotted</masterLabel>
+        <translation>pontilhado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>double</masterLabel>
+        <translation>duplo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>grove</masterLabel>
+        <translation>ranhura</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>hidden</masterLabel>
+        <translation>oculto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>inset</masterLabel>
+        <translation>baixo-relevo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>none</masterLabel>
+        <translation>nenhum</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>outset</masterLabel>
+        <translation>alto-relevo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ridge</masterLabel>
+        <translation>sulco</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>solid</masterLabel>
+        <translation>sólido</translation>
+    </picklistValues>
+</CustomFieldTranslation>

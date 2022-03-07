@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Hintergrundfarbe für das &quot;Löschen&quot;-Symbol auf Mobilgeräten</help>
+    <label></label>
+    <name>SBQQ__IconMobileDeleteBackgroundColor__c</name>
+</CustomFieldTranslation>

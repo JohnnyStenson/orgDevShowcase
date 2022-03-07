@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tamaño del tipo de letra del encabezado de las tablas</help>
+    <label></label>
+    <name>SBQQ__TableHeaderFontSize__c</name>
+</CustomFieldTranslation>

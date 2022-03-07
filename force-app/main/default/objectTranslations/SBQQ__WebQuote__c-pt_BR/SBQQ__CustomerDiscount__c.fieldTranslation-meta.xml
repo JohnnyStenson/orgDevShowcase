@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Desconto adicional oferecido ao cliente nessa cotação. Você poderá substituir esse valor no nível do item de linha individual. Quaisquer itens de linha que não tenham desconto adicional especificado de modo explícito assumirão esse valor como padrão.</help>
+    <label></label>
+    <name>SBQQ__CustomerDiscount__c</name>
+</CustomFieldTranslation>

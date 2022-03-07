@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>アイテムの状態を変更するための譲受人を選択します。アイテムが返されたときに、フィールドをクリアします。</help>
+    <label></label>
+    <name>TrackIT__Assigned_To__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

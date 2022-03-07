@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si este registro Presupuesto representa una acción Corrección: Presupuesto repetido, utilice este campo para vincular con el presupuesto original.</help>
+    <label></label>
+    <name>SBQQ__OriginalQuote__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

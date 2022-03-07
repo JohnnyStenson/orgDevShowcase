@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Total des remises supplémentaires étendues à cet élément de ligne. Une remise supplémentaire est définie en tant que remise étendue en plus de la remise sur volume ou des prix négociés.</help>
+    <label></label>
+    <name>SBQQ__AdditionalDiscount__c</name>
+</CustomFieldTranslation>

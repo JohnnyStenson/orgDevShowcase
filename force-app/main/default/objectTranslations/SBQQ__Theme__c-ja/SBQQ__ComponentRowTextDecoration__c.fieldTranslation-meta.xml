@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積品目エディタのコンポーネント行のテキストに追加する飾り (詳細はアイコンをクリック)</help>
+    <label></label>
+    <name>SBQQ__ComponentRowTextDecoration__c</name>
+    <picklistValues>
+        <masterLabel>line-through</masterLabel>
+        <translation>取り消し線</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>none</masterLabel>
+        <translation>なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>overline</masterLabel>
+        <translation>上線</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>underline</masterLabel>
+        <translation>下線</translation>
+    </picklistValues>
+</CustomFieldTranslation>

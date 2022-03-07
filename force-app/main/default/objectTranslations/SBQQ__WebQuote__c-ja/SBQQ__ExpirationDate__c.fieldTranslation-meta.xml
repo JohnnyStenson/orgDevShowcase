@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この翌日以降は見積が無効になります。</help>
+    <label></label>
+    <name>SBQQ__ExpirationDate__c</name>
+</CustomFieldTranslation>

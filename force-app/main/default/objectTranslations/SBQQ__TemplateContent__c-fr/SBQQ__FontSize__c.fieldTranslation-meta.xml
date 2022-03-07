@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Taille de police à utiliser lors de la restitution de ce contenu dans le document de devis PDF généré.</help>
+    <label></label>
+    <name>SBQQ__FontSize__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica que o produto nesse item de linha é empacotado (incluído) por outro produto nessa cotação. Itens de linhas empacotados têm um preço zero e não permitem a edição de preço ou quantidade.</help>
+    <label></label>
+    <name>SBQQ__Bundled__c</name>
+</CustomFieldTranslation>

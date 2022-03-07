@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Falls dieses Angebot nicht an eine Opportunity mit einem Preisbuch gebunden ist, speichert dieses Feld die Preisbuch-ID für das Angebot.</help>
+    <label></label>
+    <name>SBQQ__PricebookId__c</name>
+</CustomFieldTranslation>

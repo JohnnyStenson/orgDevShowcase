@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie ein Verhältnis für die Mengenkonvertierung von &quot;Upgrade-Quelle&quot; zu &quot;Upgrade-Produkt&quot; an. Beispiel: ein Verhältnis von &quot;5:1&quot; gibt an, dass 5 Einheiten der Upgrade-Quelle in 1 Einheit des Upgrade-Produkts konvertiert werden. Wenn dieses Feld leer ist, wird keine Upgrade-Konvertierungsrate umgesetzt.</help>
+    <label></label>
+    <name>SBQQ__UpgradeConversionRate__c</name>
+</CustomFieldTranslation>

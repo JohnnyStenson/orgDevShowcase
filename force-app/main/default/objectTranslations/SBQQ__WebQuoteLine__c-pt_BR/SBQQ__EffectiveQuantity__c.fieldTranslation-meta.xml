@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quantidade efetiva usada no cálculo dos totais. Mesmo que quantidade, a menos que o produto seja precificado em bloco ou coberto por um cronograma de descontos em &quot;Placa&quot;.</help>
+    <label></label>
+    <name>SBQQ__EffectiveQuantity__c</name>
+</CustomFieldTranslation>

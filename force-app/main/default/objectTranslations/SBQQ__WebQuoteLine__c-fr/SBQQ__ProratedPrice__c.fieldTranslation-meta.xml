@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prix au prorata du produit généré dans le devis par cet élément de ligne. Ce prix diffère du prix spécial uniquement si le produit est un abonnement et si l&apos;élément de ligne est calculé au prorata.</help>
+    <label></label>
+    <name>SBQQ__ProratedPrice__c</name>
+</CustomFieldTranslation>

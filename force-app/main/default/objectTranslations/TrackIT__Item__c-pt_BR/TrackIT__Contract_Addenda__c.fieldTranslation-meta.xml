@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Digite o número de adendas contratuais. Use a seção de itens secundários para adicionar mais informações sobre cada adendo.</help>
+    <label></label>
+    <name>TrackIT__Contract_Addenda__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Se marcada, ocultará o botão Ignorar ação na página do seletor de contrato para fluxo de trabalho de alteração</help>
+    <label></label>
+    <name>SBQQ__SelectContractHideSkipActionOnAmend__c</name>
+</CustomFieldTranslation>

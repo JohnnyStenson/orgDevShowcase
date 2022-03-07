@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie die ungefähre Dauer in Minuten ein, die für die Wartung dieses Geräts erforderlich ist. Dieses Feld ist erforderlich, wenn das nächste Wartungsfälligkeitsdatum als Ereignis im Kalender des zugewiesenen Technikers hinzugefügt wird.</help>
+    <label></label>
+    <name>TrackIT__Maintenance_Duration_Time__c</name>
+</CustomFieldTranslation>

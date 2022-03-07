@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>顧客割引の総額。契約割引、ボリューム割引、複利割引、および追加割引をすべて含みます。</help>
+    <label></label>
+    <name>SBQQ__TotalCustomerDiscountAmount__c</name>
+</CustomFieldTranslation>

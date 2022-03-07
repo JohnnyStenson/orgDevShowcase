@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dies ist die Bezeichnung der Spaltenüberschrift, die mit diesem Posten verknüpft ist.</help>
+    <label></label>
+    <name>SBQQ__SegmentLabel__c</name>
+</CustomFieldTranslation>

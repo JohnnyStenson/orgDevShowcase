@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Typ dieses Inhalts.</help>
+    <label></label>
+    <name>SBQQ__Type__c</name>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation>Benutzerdefiniert</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HTML</masterLabel>
+        <translation>HTML</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Line Items</masterLabel>
+        <translation>Belegposten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote Terms</masterLabel>
+        <translation>Angebotsklauseln</translation>
+    </picklistValues>
+</CustomFieldTranslation>

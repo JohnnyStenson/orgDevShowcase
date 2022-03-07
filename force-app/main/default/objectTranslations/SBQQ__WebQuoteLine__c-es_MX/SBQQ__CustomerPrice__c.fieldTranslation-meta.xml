@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Precio unitario de cliente para el producto presupuestado por esta partida. Esta opción es el Precio unitario neto excluyendo cualquier descuento de socios.</help>
+    <label></label>
+    <name>SBQQ__CustomerPrice__c</name>
+</CustomFieldTranslation>

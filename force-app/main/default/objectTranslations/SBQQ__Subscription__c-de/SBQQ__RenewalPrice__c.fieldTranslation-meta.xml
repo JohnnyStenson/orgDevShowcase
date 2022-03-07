@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Überschreiben Sie den standardmäßigen berechneten Preis dieses Abonnements in einem Verlängerungsangebot. Wenn die Preisfestlegungsmethode für die Verlängerung Ihres Accounts &quot;Aufschlag&quot; lautet, gilt der Aufschlag für diesen Verlängerungspreis.</help>
+    <label></label>
+    <name>SBQQ__RenewalPrice__c</name>
+</CustomFieldTranslation>

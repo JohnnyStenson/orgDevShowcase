@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>URL vers une page VisualForce qui génère un contenu lorsque le type défini sur « Personnalisé ».</help>
+    <label></label>
+    <name>SBQQ__CustomSource__c</name>
+</CustomFieldTranslation>

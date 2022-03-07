@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique os descontos em termos de % ou o Valor a ser descontado do preço do produto usando a quantidade comprada ou o termo. Defina faixas de quantidade/termo em níveis de diferentes % de desconto. O desconto é aplicado ao Preço de lista e o total resultante é armazenado no Preço regular</help>
+    <label></label>
+    <name>SBQQ__DiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

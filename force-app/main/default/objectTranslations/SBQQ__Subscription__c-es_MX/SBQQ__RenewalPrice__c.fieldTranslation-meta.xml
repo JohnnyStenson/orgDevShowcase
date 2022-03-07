@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sustituye el precio calculado predeterminado de esta suscripción en un presupuesto de renovación. Si el método de precios de renovación de su cuenta es Incremento, el incremento se aplica a este precio de renovación.</help>
+    <label></label>
+    <name>SBQQ__RenewalPrice__c</name>
+</CustomFieldTranslation>

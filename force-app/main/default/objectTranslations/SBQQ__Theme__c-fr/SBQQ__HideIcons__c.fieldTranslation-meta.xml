@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si cette case est cochée, l&apos;icône du carré située à gauche des en-têtes de page est masquée</help>
+    <label></label>
+    <name>SBQQ__HideIcons__c</name>
+</CustomFieldTranslation>

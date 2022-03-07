@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>編集された項目の横に表示されるアイコンの色/編集された項目のフォントの色</help>
+    <label></label>
+    <name>SBQQ__FieldEditedColor__c</name>
+</CustomFieldTranslation>

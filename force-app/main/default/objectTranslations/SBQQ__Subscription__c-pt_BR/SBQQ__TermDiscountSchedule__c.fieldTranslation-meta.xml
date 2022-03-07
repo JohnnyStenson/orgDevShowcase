@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cronograma para descontos com base no termo de assinatura. Configurar isso como &quot;Grupo&quot; aplicará a taxa de desconto ao termo do grupo, enquanto configurar como &quot;Cotação&quot; aplicará a taxa de desconto a todo o termo da cotação, independentemente dos diferentes termos nos seus grupos.</help>
+    <label></label>
+    <name>SBQQ__TermDiscountSchedule__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

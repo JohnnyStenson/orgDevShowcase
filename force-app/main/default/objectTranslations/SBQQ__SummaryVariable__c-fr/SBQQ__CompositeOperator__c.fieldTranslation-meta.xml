@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Spécifiez comment cette variable doit être composée avec l&apos;Élément de variable ou l&apos;Élément de valeur.</help>
+    <label></label>
+    <name>SBQQ__CompositeOperator__c</name>
+    <picklistValues>
+        <masterLabel>Add</masterLabel>
+        <translation>Ajouter</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Divide</masterLabel>
+        <translation>Diviser</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multiply</masterLabel>
+        <translation>Multiplier</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subtract</masterLabel>
+        <translation>Soustraire</translation>
+    </picklistValues>
+</CustomFieldTranslation>

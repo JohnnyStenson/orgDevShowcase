@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si esta línea es para una SKU opcional, este campo captura cualquier descuento asignado al paquete y se amplía a la opción.</help>
+    <label></label>
+    <name>SBQQ__OptionDiscount__c</name>
+</CustomFieldTranslation>

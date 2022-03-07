@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Couleur d’arrière-plan des en-têtes des panneaux latéraux de navigation</help>
+    <label></label>
+    <name>SBQQ__NavigationDrawerHeaderColor__c</name>
+</CustomFieldTranslation>

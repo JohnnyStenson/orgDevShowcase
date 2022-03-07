@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque esta caixa para adicionar evento ao calendário do técnico atribuído para a próxima manutenção devido a este item de equipamento.</help>
+    <label></label>
+    <name>TrackIT__Add_maintenance_event_to_calendar__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Speicherort des Inventars</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Speicherort des Inventars</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Speicherort des Inventars</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Speicherort des Inventars</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Speicherort des Inventars</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Speicherort des Inventars</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Speicherort des Inventars</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Speicherort des Inventars</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>custom</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Inventar Standort Datensatz</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>QTY_cannot_be_less_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__INV_LOC_ID_Change_After_Creation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__QTY_cannot_be_less_than_zero</name>
+    </validationRules>
+</CustomObjectTranslation>

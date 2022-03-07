@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Sélectionnez cette case pour rendre cette ligne facultative. Les éléments de ligne facultatifs ne contribuent pas au total du devis et ne sont pas transférés vers l&apos;opportunité.</help>
+    <label></label>
+    <name>SBQQ__Optional__c</name>
+</CustomFieldTranslation>

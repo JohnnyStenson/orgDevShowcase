@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このコンポーネントの上昇を親パッケージの上昇に固定します。上昇は、複数セグメントの商品にのみ適用されます。</help>
+    <label></label>
+    <name>SBQQ__ComponentUpliftedByPackage__c</name>
+</CustomFieldTranslation>

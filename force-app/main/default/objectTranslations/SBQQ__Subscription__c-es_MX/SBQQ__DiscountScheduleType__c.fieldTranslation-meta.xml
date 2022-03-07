@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tipo de programación de descuentos. Se copia desde el campo Tipo en una programación de descuentos asociada.</help>
+    <label></label>
+    <name>SBQQ__DiscountScheduleType__c</name>
+    <picklistValues>
+        <masterLabel>Range</masterLabel>
+        <translation>Intervalo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slab</masterLabel>
+        <translation>Porción</translation>
+    </picklistValues>
+</CustomFieldTranslation>

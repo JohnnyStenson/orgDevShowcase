@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Tamanho da fonte dos cabeçalhos de grupo e recurso da linha de cotação</help>
+    <label></label>
+    <name>SBQQ__GroupHeaderFontSize__c</name>
+</CustomFieldTranslation>

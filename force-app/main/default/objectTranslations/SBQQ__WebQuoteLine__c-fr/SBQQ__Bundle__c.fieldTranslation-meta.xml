@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique si cet élément de ligne représente un package, ce qui signifie qu&apos;il inclut d&apos;autres éléments de ligne dans ce devis.</help>
+    <label></label>
+    <name>SBQQ__Bundle__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Montant catalogue total des composants dans cette configuration. Ce champ est renseigné uniquement si l&apos;élément de ligne référence un produit configurable.</help>
+    <label></label>
+    <name>SBQQ__ComponentListTotal__c</name>
+</CustomFieldTranslation>

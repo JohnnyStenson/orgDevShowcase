@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このセクションで表示されるグルーピング品目で使用される項目を指定します。[品目] セクションにのみ適用されます。</help>
+    <label></label>
+    <name>SBQQ__GroupField__c</name>
+    <picklistValues>
+        <masterLabel>Product Family</masterLabel>
+        <translation>商品ファミリ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subscription Category</masterLabel>
+        <translation>サブスクリプションカテゴリ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

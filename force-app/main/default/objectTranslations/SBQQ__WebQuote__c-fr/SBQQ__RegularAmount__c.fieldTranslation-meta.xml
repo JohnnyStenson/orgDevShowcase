@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Montant total des éléments de ligne non facultatifs avant l&apos;application de remises supplémentaires.</help>
+    <label></label>
+    <name>SBQQ__RegularAmount__c</name>
+</CustomFieldTranslation>

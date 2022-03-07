@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo de Linha de cotação com relação ao qual a função agregada atua.</help>
+    <label></label>
+    <name>SBQQ__AggregateField__c</name>
+    <picklistValues>
+        <masterLabel>Quantity</masterLabel>
+        <translation>Quantidade</translation>
+    </picklistValues>
+</CustomFieldTranslation>

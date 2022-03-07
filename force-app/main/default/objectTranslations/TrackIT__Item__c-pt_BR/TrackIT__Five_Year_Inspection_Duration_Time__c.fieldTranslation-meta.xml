@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Digite o tempo de duração aproximado em minutos necessários ao inspecionar este equipamento. Este campo é necessário se você adicionar a próxima data de inspeção como um evento no calendário do inspetor.</help>
+    <label></label>
+    <name>TrackIT__Five_Year_Inspection_Duration_Time__c</name>
+</CustomFieldTranslation>

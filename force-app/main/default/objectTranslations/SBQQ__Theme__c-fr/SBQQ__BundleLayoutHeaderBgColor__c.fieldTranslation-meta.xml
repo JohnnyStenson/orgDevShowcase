@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Couleur d&apos;arrière-plan de l&apos;en-tête qui affiche le nom du paquet</help>
+    <label></label>
+    <name>SBQQ__BundleLayoutHeaderBgColor__c</name>
+</CustomFieldTranslation>

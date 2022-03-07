@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Introduzca la hora de recordatorio. Este campo es necesario si agrega un tiempo de recordatorio para la próxima fecha de vencimiento de mantenimiento como un evento en el calendario del técnico asignado.</help>
+    <label></label>
+    <name>TrackIT__Maintenance_Reminder_Time__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>証明書を発行した機関 (政府機関や国 (欧州の組織) など)</help>
+    <label></label>
+    <name>SBQQ__IssuingAuthority__c</name>
+</CustomFieldTranslation>

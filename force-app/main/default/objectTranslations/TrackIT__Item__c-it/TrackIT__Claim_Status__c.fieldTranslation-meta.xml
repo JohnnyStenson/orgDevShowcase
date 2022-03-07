@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Stato di rivendicazione nome. Immettere valori aggiuntivi nelle impostazioni dell&apos;elenco di selezione per il campo nella configurazione.</help>
+    <label></label>
+    <name>TrackIT__Claim_Status__c</name>
+</CustomFieldTranslation>

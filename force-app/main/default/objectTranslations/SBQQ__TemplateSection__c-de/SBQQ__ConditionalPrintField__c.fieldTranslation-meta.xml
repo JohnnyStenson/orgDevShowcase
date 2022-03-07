@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Feld im Angebotsobjekt, das steuert, ob dieser Abschnitt in generierten PDF-Dokumenten gedruckt wird.</help>
+    <label></label>
+    <name>SBQQ__ConditionalPrintField__c</name>
+    <picklistValues>
+        <masterLabel>Group Line Items</masterLabel>
+        <translation>Belegposten gruppieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary</masterLabel>
+        <translation>Primär</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Utilisé pour convertir la valeur de liste de choix de l&apos;heure de rappel en numérique pour le calcul de l&apos;heure de rappel.</help>
+    <label></label>
+    <name>TrackIT__Maintenance_Remind_Time_Calc__c</name>
+</CustomFieldTranslation>

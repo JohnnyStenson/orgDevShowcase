@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Dipartimento aggiornato dall&apos;assegnatario oggetto quando un elemento è assegnato.</help>
+    <label></label>
+    <name>TrackIT__Assignee_Dept__c</name>
+</CustomFieldTranslation>

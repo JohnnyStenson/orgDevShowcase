@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inscrição</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inscrições</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>SBQQ__SubscriptionSearchFilters</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>SBQQ__SubscriptionSearchResults</name>
+    </fieldSets>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nº da assinatura</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Renewal_Quantity_cannot_be_editable</name>
+    </validationRules>
+</CustomObjectTranslation>

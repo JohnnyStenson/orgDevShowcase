@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ingrese el tiempo aproximado de duración en minutos necesarios para el mantenimiento de este equipo. Este campo es necesario si se agrega la próxima fecha de vencimiento de mantenimiento como un evento en el calendario de los técnicos asignados.</help>
+    <label></label>
+    <name>TrackIT__Maintenance_Duration_Time__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>見積項目に基づいてレコードをさらに制限する場合、見積の同じ項目に対して照合する項目を選択します。</help>
+    <label></label>
+    <name>SBQQ__ConstraintField__c</name>
+    <picklistValues>
+        <masterLabel>Status</masterLabel>
+        <translation>状況</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type</masterLabel>
+        <translation>種別</translation>
+    </picklistValues>
+</CustomFieldTranslation>

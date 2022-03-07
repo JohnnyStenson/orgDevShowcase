@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Especifique uma proporção para a conversão de quantidade da Origem de atualização para o Produto da atualização. Por exemplo, &quot;5:1&quot; indica que cinco unidades da Origem de atualização convertem-se em uma unidade do Produto da atualização. Se deixado em branco, nenhuma Taxa de conversão de atualização será aplicada.</help>
+    <label></label>
+    <name>SBQQ__UpgradeConversionRate__c</name>
+</CustomFieldTranslation>

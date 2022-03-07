@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>リンクのフロート表示の色</help>
+    <label></label>
+    <name>SBQQ__HyperlinkHoverColor__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>サブスクリプションの価格設定で使用する価格 (リスト価格、顧客価格、または正価) を示します。</help>
+    <label></label>
+    <name>SBQQ__SubscriptionBase__c</name>
+</CustomFieldTranslation>

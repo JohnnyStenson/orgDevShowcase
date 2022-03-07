@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn dieser Angebotsdatensatz eine Änderung für ein erneutes Angebot darstellt, stellen Sie mit diesem Feld die Verknüpfung zum ursprünglichen Angebot her.</help>
+    <label></label>
+    <name>SBQQ__OriginalQuote__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

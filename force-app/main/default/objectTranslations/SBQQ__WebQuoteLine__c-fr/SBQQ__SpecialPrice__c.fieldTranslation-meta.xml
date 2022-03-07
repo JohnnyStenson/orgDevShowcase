@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prix unitaire spécial de cet élément de ligne, par exemple remise sur volume ou prix contracté.</help>
+    <label></label>
+    <name>SBQQ__SpecialPrice__c</name>
+</CustomFieldTranslation>

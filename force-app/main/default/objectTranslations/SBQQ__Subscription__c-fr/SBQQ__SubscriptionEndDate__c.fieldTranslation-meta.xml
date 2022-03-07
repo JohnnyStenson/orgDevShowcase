@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Correspond à la date de fin de la ligne de devis par défaut. Si ce champ est vide, elle correspond à la date de fin du contrat.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionEndDate__c</name>
+</CustomFieldTranslation>

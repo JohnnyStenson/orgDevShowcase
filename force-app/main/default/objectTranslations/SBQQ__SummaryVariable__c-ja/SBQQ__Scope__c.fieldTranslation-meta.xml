@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>サマリー変数の範囲を入力します。</help>
+    <label></label>
+    <name>SBQQ__Scope__c</name>
+    <picklistValues>
+        <masterLabel>Assets</masterLabel>
+        <translation>納入商品</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>見積</translation>
+    </picklistValues>
+</CustomFieldTranslation>

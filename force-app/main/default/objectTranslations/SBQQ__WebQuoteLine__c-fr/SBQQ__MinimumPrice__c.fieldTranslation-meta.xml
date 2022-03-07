@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prix unitaire minimal de ce produit. Utilisé pour appliquer un prix plancher aux produits avec des prix calculés dynamiquement.</help>
+    <label></label>
+    <name>SBQQ__MinimumPrice__c</name>
+</CustomFieldTranslation>

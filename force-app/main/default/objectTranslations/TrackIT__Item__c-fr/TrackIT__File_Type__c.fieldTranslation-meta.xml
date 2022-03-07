@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nom du type de fichier. Entrez des valeurs supplémentaires dans les paramètres de la liste de sélection pour le champ dans l&apos;installation.</help>
+    <label></label>
+    <name>TrackIT__File_Type__c</name>
+</CustomFieldTranslation>

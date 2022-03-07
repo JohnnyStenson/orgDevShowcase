@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo no objeto de cotação que controla se essa seção é impressa nos documentos PDF gerados.</help>
+    <label></label>
+    <name>SBQQ__ConditionalPrintField__c</name>
+    <picklistValues>
+        <masterLabel>Group Line Items</masterLabel>
+        <translation>Itens da linha do grupo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Primary</masterLabel>
+        <translation>Primário</translation>
+    </picklistValues>
+</CustomFieldTranslation>

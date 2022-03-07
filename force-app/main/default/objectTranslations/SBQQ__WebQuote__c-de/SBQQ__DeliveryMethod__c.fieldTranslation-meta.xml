@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Methode, mit der die Produkte in diesem Angebot geliefert werden.</help>
+    <label></label>
+    <name>SBQQ__DeliveryMethod__c</name>
+    <picklistValues>
+        <masterLabel>Download</masterLabel>
+        <translation>Download</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ship</masterLabel>
+        <translation>Versand</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>A duração da assinatura, que se aplica apenas se o produto for uma assinatura. É copiado do Termo da assinatura do produto relacionado quando o item de linha é gerado pela primeira vez.</help>
+    <label></label>
+    <name>SBQQ__DefaultSubscriptionTerm__c</name>
+</CustomFieldTranslation>

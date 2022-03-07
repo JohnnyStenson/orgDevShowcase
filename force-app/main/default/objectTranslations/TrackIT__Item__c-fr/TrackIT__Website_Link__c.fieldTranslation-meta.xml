@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ouvrir le site Web dans une nouvelle fenêtre pour des informations connexes sur cet article.</help>
+    <label></label>
+    <name>TrackIT__Website_Link__c</name>
+</CustomFieldTranslation>

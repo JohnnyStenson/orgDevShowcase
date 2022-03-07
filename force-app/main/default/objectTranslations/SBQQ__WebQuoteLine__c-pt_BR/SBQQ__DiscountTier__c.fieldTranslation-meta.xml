@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nível de desconto usado por esse item de linha. Esse campo é preenchido somente se um volume com desconto tiver sido aplicado e o cronograma de descontos for do tipo &quot;Intervalo&quot;.</help>
+    <label></label>
+    <name>SBQQ__DiscountTier__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

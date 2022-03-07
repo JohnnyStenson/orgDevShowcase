@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積から生成してメール送信するドキュメントに使用する特定のメールテンプレートがある場合は、メールテンプレート ID をここに入力します。</help>
+    <label></label>
+    <name>SBQQ__EmailTemplateId__c</name>
+</CustomFieldTranslation>

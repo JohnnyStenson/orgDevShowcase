@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seleziona questa casella per aggiungere il promemoria dell&apos;evento al calendario dell&apos;ispettore per la prossima ispezione per questa localizzazione.</help>
+    <label></label>
+    <name>TrackIT__Add_Inspection_Reminder_to_Calendar__c</name>
+</CustomFieldTranslation>

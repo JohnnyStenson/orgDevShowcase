@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>証明書に関連付けられている会社名または DBA 名</help>
+    <label></label>
+    <name>SBQQ__ExemptCompanyName__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kundenstückpreis für das Produkt, das mit diesem Belegposten angeboten wird. Dies ist der Nettostückpreis ohne Partnerrabatte.</help>
+    <label></label>
+    <name>SBQQ__CustomerPrice__c</name>
+</CustomFieldTranslation>

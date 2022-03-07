@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Si desea limitar más los registros en base a un campo de presupuesto, seleccione el campo con el que desea hacer coincidir el mismo campo en el presupuesto.</help>
+    <label></label>
+    <name>SBQQ__ConstraintField__c</name>
+    <picklistValues>
+        <masterLabel>Status</masterLabel>
+        <translation>Estado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type</masterLabel>
+        <translation>Tipo</translation>
+    </picklistValues>
+</CustomFieldTranslation>

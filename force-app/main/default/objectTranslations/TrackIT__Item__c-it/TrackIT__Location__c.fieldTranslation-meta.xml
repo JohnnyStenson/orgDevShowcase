@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Localizzazione di un elemente dall&apos;oggetto di ubicazione correlato. Il campo è necessaria al fine di salvare il record.</help>
+    <label></label>
+    <name>TrackIT__Location__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

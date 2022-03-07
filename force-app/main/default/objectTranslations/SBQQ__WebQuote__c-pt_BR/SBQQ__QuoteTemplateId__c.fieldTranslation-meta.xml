@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Armazena um ID de modelo de cotação se um tiver sido especificado ao gerar documentos PDF de cotação.</help>
+    <label></label>
+    <name>SBQQ__QuoteTemplateId__c</name>
+</CustomFieldTranslation>

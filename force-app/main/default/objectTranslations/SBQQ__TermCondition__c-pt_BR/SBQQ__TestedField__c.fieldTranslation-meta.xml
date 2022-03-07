@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Campo no objeto de cotação usado ao testar essa condição.</help>
+    <label></label>
+    <name>SBQQ__TestedField__c</name>
+    <picklistValues>
+        <masterLabel>Customer Amount</masterLabel>
+        <translation>Valor do cliente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List Amount</masterLabel>
+        <translation>Valor de lista</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net Amount</masterLabel>
+        <translation>Valor líquido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular Amount</masterLabel>
+        <translation>Valor regular</translation>
+    </picklistValues>
+</CustomFieldTranslation>

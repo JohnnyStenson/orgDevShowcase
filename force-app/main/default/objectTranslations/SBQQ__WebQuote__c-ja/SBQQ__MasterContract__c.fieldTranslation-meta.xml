@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この見積内のサブスクリプション商品を期間調整する主契約。</help>
+    <label></label>
+    <name>SBQQ__MasterContract__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

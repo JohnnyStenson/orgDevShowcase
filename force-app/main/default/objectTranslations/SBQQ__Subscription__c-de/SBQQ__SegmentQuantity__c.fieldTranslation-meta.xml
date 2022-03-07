@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bei Produkten, bei denen Angebote für mehrere Dimensionen gelten, ist dies die Menge, die dem ursprünglichen Belegposten des Segments entspricht.</help>
+    <label></label>
+    <name>SBQQ__SegmentQuantity__c</name>
+</CustomFieldTranslation>

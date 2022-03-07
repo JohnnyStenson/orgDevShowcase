@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque esta casilla para agregar un recordatorio del evento al calendario del inspector asignado para la próxima inspección de este extintor de incendios.</help>
+    <label></label>
+    <name>TrackIT__Add_12_Year_Inspect_Reminder_to_Calendar__c</name>
+</CustomFieldTranslation>

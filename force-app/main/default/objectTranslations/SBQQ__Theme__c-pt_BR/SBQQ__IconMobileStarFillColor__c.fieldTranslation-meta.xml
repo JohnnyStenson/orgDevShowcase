@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cor de preenchimento do ícone móvel de estrela</help>
+    <label></label>
+    <name>SBQQ__IconMobileStarFillColor__c</name>
+</CustomFieldTranslation>

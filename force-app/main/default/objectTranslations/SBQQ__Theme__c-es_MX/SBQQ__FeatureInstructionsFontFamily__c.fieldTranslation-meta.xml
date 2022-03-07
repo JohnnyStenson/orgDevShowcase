@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Familia de tipos de letra de las instrucciones adicionales que se muestran bajo el nombre de la función</help>
+    <label></label>
+    <name>SBQQ__FeatureInstructionsFontFamily__c</name>
+    <picklistValues>
+        <masterLabel>Courier</masterLabel>
+        <translation>Courier</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dosis</masterLabel>
+        <translation>Dosis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Droid Sans</masterLabel>
+        <translation>Droid Sans</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Droid Serif</masterLabel>
+        <translation>Droid Serif</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Helvetica</masterLabel>
+        <translation>Helvetica</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Merriweather</masterLabel>
+        <translation>Merriweather</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Montserrat</masterLabel>
+        <translation>Montserrat</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Myriad Pro</masterLabel>
+        <translation>Myriad Pro</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Noto Sans JP</masterLabel>
+        <translation>Noto Sans JP</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Noto Sans KR</masterLabel>
+        <translation>Noto Sans KR</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Noto Sans SC</masterLabel>
+        <translation>Noto Sans SC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open Sans</masterLabel>
+        <translation>Open Sans</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PT Sans</masterLabel>
+        <translation>PT Sans</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PT Serif</masterLabel>
+        <translation>PT Serif</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roboto</masterLabel>
+        <translation>Roboto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roboto Light</masterLabel>
+        <translation>Roboto Light</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesforce Sans</masterLabel>
+        <translation>Salesforce Sans</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soto Sans TC</masterLabel>
+        <translation>Soto Sans TC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Times</masterLabel>
+        <translation>Times</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Titillium Web</masterLabel>
+        <translation>Titillium Web</translation>
+    </picklistValues>
+</CustomFieldTranslation>

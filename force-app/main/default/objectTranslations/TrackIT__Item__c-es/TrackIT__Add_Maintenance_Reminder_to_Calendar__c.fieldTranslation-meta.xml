@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marque esta casilla para agregar un recordatorio al calendario del técnico asignado para el próximo evento de mantenimiento pendiente.</help>
+    <label></label>
+    <name>TrackIT__Add_Maintenance_Reminder_to_Calendar__c</name>
+</CustomFieldTranslation>

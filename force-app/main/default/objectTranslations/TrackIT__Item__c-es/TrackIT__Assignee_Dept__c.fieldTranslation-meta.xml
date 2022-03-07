@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Departamento actualiza desde el objeto cesionario cuando un elemento se le asigna a cabo.</help>
+    <label></label>
+    <name>TrackIT__Assignee_Dept__c</name>
+</CustomFieldTranslation>

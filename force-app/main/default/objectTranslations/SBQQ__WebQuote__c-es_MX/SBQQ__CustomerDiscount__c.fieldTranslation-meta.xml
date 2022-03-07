@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Descuento de cliente adicional ampliado al cliente en este presupuesto. Podrá invalidar este valor en el nivel de partida individual. Cualquier partida que no tenga descuentos adicionales especificados explícitamente tomarán este valor como predeterminado.</help>
+    <label></label>
+    <name>SBQQ__CustomerDiscount__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt den Optionstyp an, der aus der zugehörigen Produktoption kopiert wurde. Bestimmt, wie die Menge berechnet wird.</help>
+    <label></label>
+    <name>SBQQ__OptionType__c</name>
+    <picklistValues>
+        <masterLabel>Accessory</masterLabel>
+        <translation>Zubehör</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Component</masterLabel>
+        <translation>Komponente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Related Product</masterLabel>
+        <translation>Zugehöriges Produkt</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Style de la bordure de l&apos;en-tête des boîtes de dialogue contextuelles (pour plus d&apos;informations, cliquez sur l&apos;icône)</help>
+    <label></label>
+    <name>SBQQ__DialogHeaderBorderStyle__c</name>
+    <picklistValues>
+        <masterLabel>dashed</masterLabel>
+        <translation>tirets</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>dotted</masterLabel>
+        <translation>pointillés</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>double</masterLabel>
+        <translation>double</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>grove</masterLabel>
+        <translation>rainure</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>hidden</masterLabel>
+        <translation>masqué</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>inset</masterLabel>
+        <translation>relief intérieur</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>none</masterLabel>
+        <translation>aucun</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>outset</masterLabel>
+        <translation>relief extérieur</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ridge</masterLabel>
+        <translation>relief</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>solid</masterLabel>
+        <translation>solide</translation>
+    </picklistValues>
+</CustomFieldTranslation>

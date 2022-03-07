@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inventario Localizzazione</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inventario Localizzazioni</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>custom</layout>
+        <sections>
+            <label>Collegamenti personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Record Localizzazione Inventario</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>QTY_cannot_be_less_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__INV_LOC_ID_Change_After_Creation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TrackIT__QTY_cannot_be_less_than_zero</name>
+    </validationRules>
+</CustomObjectTranslation>

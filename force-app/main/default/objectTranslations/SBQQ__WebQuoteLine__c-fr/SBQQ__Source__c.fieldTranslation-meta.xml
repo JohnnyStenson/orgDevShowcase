@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Élément de ligne du devis source de l&apos;élément de lignes du devis cloné, le cas échéant.</help>
+    <label></label>
+    <name>SBQQ__Source__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

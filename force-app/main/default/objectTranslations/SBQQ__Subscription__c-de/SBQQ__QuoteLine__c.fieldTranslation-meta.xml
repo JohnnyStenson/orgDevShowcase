@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Angebotsbelegposten, der dieses Abonnement generiert hat.</help>
+    <label></label>
+    <name>SBQQ__QuoteLine__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

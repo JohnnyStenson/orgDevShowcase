@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この品目に適用される追加割引の合計。追加割引は、ボリューム割引または交渉済み価格に加えて適用される割引として定義されます。</help>
+    <label></label>
+    <name>SBQQ__AdditionalDiscount__c</name>
+</CustomFieldTranslation>

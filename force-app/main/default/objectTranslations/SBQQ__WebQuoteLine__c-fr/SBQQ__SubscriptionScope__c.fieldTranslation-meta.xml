@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Détermine la méthode de calcul du prix des abonnements dynamiques : « Devis » utilise tous les produits sans abonnement de l&apos;ensemble du devis, alors que « Groupe » utilise uniquement les produits sans abonnement dans le même groupe.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionScope__c</name>
+    <picklistValues>
+        <masterLabel>Group</masterLabel>
+        <translation>Groupe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quote</masterLabel>
+        <translation>Devis</translation>
+    </picklistValues>
+</CustomFieldTranslation>

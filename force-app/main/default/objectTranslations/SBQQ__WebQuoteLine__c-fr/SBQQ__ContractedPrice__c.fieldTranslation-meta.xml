@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prix contracté le produit a une tarification négociée pour le compte de l&apos;opportunité.</help>
+    <label></label>
+    <name>SBQQ__ContractedPrice__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

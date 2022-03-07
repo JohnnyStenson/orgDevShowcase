@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Datum, an dem dieses Abonnement verlängert wurde. Ist dieses Feld leer, wurde es nicht verlängert.</help>
+    <label></label>
+    <name>SBQQ__RenewedDate__c</name>
+</CustomFieldTranslation>

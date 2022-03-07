@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Breite des unteren Rahmens von Kopfzeilen für Gruppen von Angebotsbelegposten und Funktionen</help>
+    <label></label>
+    <name>SBQQ__GroupHeaderBorderBottomWidth__c</name>
+</CustomFieldTranslation>

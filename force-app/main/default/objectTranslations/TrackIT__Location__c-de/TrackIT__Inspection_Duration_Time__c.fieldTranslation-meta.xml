@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Geben Sie die ungefähre Dauer in Minuten benötigt, wenn diese Standorts inspizieren. Dieses Feld wird benötigt, wenn das nächste Inspektionsdatum als Ereignis im Kalender des Inspektors hinzugefügt wird.</help>
+    <label></label>
+    <name>TrackIT__Inspection_Duration_Time__c</name>
+</CustomFieldTranslation>

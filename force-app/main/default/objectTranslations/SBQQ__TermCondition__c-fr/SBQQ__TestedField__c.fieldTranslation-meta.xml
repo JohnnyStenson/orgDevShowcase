@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Champ dans l&apos;objet de devis utilisé pour tester cette condition.</help>
+    <label></label>
+    <name>SBQQ__TestedField__c</name>
+    <picklistValues>
+        <masterLabel>Customer Amount</masterLabel>
+        <translation>Montant du client</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>List Amount</masterLabel>
+        <translation>Montant catalogue</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Net Amount</masterLabel>
+        <translation>Montant net</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regular Amount</masterLabel>
+        <translation>Montant normal</translation>
+    </picklistValues>
+</CustomFieldTranslation>

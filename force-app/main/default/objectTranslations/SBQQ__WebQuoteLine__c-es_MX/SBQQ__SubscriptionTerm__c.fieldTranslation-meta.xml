@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Plazo para el producto de suscripción de esta partida. Si el producto no es una suscripción, este valor no tiene efecto.</help>
+    <label></label>
+    <name>SBQQ__SubscriptionTerm__c</name>
+</CustomFieldTranslation>

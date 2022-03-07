@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>El activo mejorado por esta partida de presupuesto. Cuando el presupuesto se contrata, la Fecha de finalización de uso de este activo se rellenará para indicar que está retirado.</help>
+    <label></label>
+    <name>SBQQ__UpgradedAsset__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Variable de resumen empleada en la prueba de esta condición.</help>
+    <label></label>
+    <name>SBQQ__TestedVariable__c</name>
+    <relationshipLabel></relationshipLabel>
+</CustomFieldTranslation>

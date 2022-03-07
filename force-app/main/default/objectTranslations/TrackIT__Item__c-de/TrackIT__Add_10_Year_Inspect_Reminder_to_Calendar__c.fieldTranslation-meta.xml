@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Aktivieren Sie dieses Kontrollkästchen, um dem Kalender des zugewiesenen Inspektors eine Ereigniserinnerung für die nächste Inspektion dieses Feuerlöschers hinzuzufügen.</help>
+    <label></label>
+    <name>TrackIT__Add_10_Year_Inspect_Reminder_to_Calendar__c</name>
+</CustomFieldTranslation>

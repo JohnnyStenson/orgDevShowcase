@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cor de destaque (ao passar o cursor do mouse sobre) dos ícones</help>
+    <label></label>
+    <name>SBQQ__IconHoverColor__c</name>
+</CustomFieldTranslation>

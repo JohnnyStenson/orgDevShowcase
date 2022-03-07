@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Prix catalogue total de ce package, qui inclut les composants.</help>
+    <label></label>
+    <name>SBQQ__PackageListTotal__c</name>
+</CustomFieldTranslation>
